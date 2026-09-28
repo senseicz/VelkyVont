@@ -1,0 +1,465 @@
+{
+  "nodes": {
+    "rozcestnik-start": {
+      "text": "Je sobota odpoledne a do tmy je čtyři hodiny. Do tmy je v pátek dvě a v neděli celý den, a to je jediný důvod, proč to tě vůbec napadlo.\n\nMáš čtyři věci, kterými se to dá začít. Přesně čtyři: jak se pustit dolů, kde to sestupuje, čím se tam svítí a čím se vrátíš, až tě někdo zavře. Zbytek se musíš zeptat ve čtvrti, kterou vidíš z okna.\n\nPodle toho, co si vyberou, se to bude vyhnát, nebo bude stát za to, že si o tom řekneš.",
+      "options": [
+        {
+          "text": "Vyřídit provaz, křídu a baterii, a teprve pak do cizího dvora",
+          "next": "k0-1"
+        },
+        {
+          "text": "Vlézt do cizího dvora, protože svítilna už doma je",
+          "next": "k1-1",
+          "requires": [
+            "lampa",
+            "baterie",
+            "provaz",
+            "kreda"
+          ]
+        },
+        {
+          "text": "V noci zadním dvorem, potichu, bez vybavení",
+          "next": "vstup-po-temu"
+        },
+        {
+          "text": "Nechat to být. Ať je voda, kde je",
+          "next": "nic-1"
+        }
+      ],
+      "grant": [
+        "lampa",
+        "mapa"
+      ]
+    },
+    "nic-1": {
+      "text": "Necháš to být, ale ne tak, jak jsi to myslel.\n\nMyslel jsi to jako „dneska ne“, ne jako „nikdy“. A v tom je rozdíl, o kterém se za celou věčer nezmíníš, ale který ti pořád piluje tu větu o dveřích, kterou jsi neřekl: že bys to chtěl, kdybys měl k tomu co říct.\n\nVoda v dvoře je pořád slyšet. Není hlučnější, než když jsi včera poslouchal. Je stejná. To znamená, že si tě nevšimla.",
+      "options": [
+        {
+          "text": "Jít přece jen vyřídit provaz a podívat se dolů",
+          "next": "k0-1"
+        },
+        {
+          "text": "Zítra po vyučování, ať to není v sobotu",
+          "next": "k0-1"
+        },
+        {
+          "text": "Zůstat doma a spát. Voda neuteče",
+          "next": "nic-2"
+        }
+      ]
+    },
+    "nic-2": {
+      "text": "V neděli je všechno jinak, i když nevypadá.\n\nVe městě je v neděli méně lidí, a v tu chvíli, kdy je nejméně lidí, je to nejlepší čas jít se nikam. To ví každý od malička. A ono to nevypadá jako odvaha, ono to vypadá jako rozhodnutí, které nemusíš nikomu vysvětlovat.\n\nKolo od Nováků stojí ve dvůře s prázdnou pneumatikou, protože je někdo vždycky nemá napumpované. Kdybys ho chtěl, nemusel bys nic říkat, jen odvézt, a to je v neděli celýProgram.\n\nKdybys chtěl. Tam to celé visí.",
+      "options": [
+        {
+          "text": "Vydat se, než se roztodouhne",
+          "next": "k0-1"
+        },
+        {
+          "text": "Rozmyslet si to ještě do pondělí",
+          "next": "rozcestnik-start"
+        },
+        {
+          "text": "Nechat to být. Kdybys chtěl, umíš to",
+          "next": "nic-3"
+        }
+      ]
+    },
+    "nic-3": {
+      "text": "Kino je na druhé straně Rozdělovací třídy a v neděli se tam promítá od čtvrté. Přesně ve chvíli, kdy už je rozhodnuto.\n\nUž se nerozhoduješ. To je ta poslední a nejlepší část: neřekneš si „ne“, řekneš si „a co když to nemá spěch“ a v tom je celý krok, který dělají dospělí, když říkají, že to počká.\n\nSáčka je v kapse. Kapesní nůž je v druhé kapse. Sluchátka necháš doma, v kine je zakázáno kouřit a o hlasu v kine se neříká, ale v hale vždycky někdo mlčí.\n\nKino má dvě sály a v tom menším je volno.",
+      "options": [
+        {
+          "text": "Ještě si to rozmyslet do zítřka",
+          "next": "rozcestnik-start"
+        },
+        {
+          "text": "Koupit si sáčku a jít",
+          "next": "kino"
+        }
+      ]
+    },
+    "kino": {
+      "text": "Promítá se něco o vlacích. Lidé z filmu také nevědí, kam jedou — jedou, protože se jede. Když zhasne, neřešíš to.\n\nNejdeš domů nejkratší cestou, ale kolem nábřeží, protože je hezčí. U místa, kde voda vystupuje z kamene a vrací se zpátky do řeky, zastavíš se na dvě minuty. Nemusíš nic. To je v neděli jisté.\n\nDomů dojdeš za tmy. V okně naproti je zhasnuté světlo, ale když jsi vycházel, svítilo. Někdo v tom dvoře byl dřív než ty. Někdo tam bude i zítra, a v pondělí ráno, a vy nebudete vědět, kdo to je, ani nikdy, protože vám to nikdo neřekne.\n\nV pokoji leží na stole mapa s jednou rovnou čárou. Můžeš ji založit do šuplíku pod postel, kde spí svítilna, a můžeš ji nechat ležet.\n\nNecháváš ji ležet. To je celé rozhodnutí, které jsi tento týden udělal: ne dnes, ne tady.\n\nOheň z kina je v okolních zdech cítit celou cestou domů. U Stínadel zhasne.\n\nA pak chodíš do kina. Chodíš tam v pátek, v sobotu, s kamarádem ze třídy, kde se mluví o jiných věcech než o vodě pod domem. Občas, když je zima a ulice prázdná, slyšíš zvuk z hluboka, z úplně jiného směru, než jsi čekal, a řekneš si „to asi teče“ a jdeš dál.\n\nDo Stínadel se vracíš. A voda pod domem má pořád stejnou hladinu, stejnou šířku a stejný směr, a nikdo v celé čtvrti neví, že by se někdo byl ptát.\n\n**Konec — Běžný chlapec.**",
+      "ending": true
+    },
+    "vstup-po-temu": {
+      "text": "Vcházíš zadním dvorem, když je dvůr prázdný, a bez ničeho.\n\nBez vybavení je to jiné slovo, než jsi si myslel — je to to samé slovo, jen ve tmě, a bez provazu má v noci jinou délku.\n\nVoda dojde po pas za dvacet kroků. Pak se ozve zvuk, který jsi za dveřmi neslyšel: voda, která teče, ale ne aby tekla, protože v ní něco klape a škrábe, a na chvíli se zastaví, jako by si něco poslouchalo.\n\nZa sebou nemáš nic, čím by ses držel. Před sebou nemáš nic, čím bys viděl. Přehradit to nejde, protože voda teče a nejde zastavit. Vrátit se nejde, protože bys nevěděl, kde přesně jsi. Za třicet sekund to pochopíš takhle: stojíš ve vodě, v noci, a tma se sem nevejde.\n\nVylezl jsi zpátky tak, jak jsi přišel, a u zadního dvora v teplém, což je ve dvaceti hodinách jediné místo, kde bylo teplo, ti teprve došlo, proč to píšu. Ve tmě a ve vodě je všechno stejně velké, a vůbec nevíš, kam jdeš.\n\nZítra bude pondělí. A v pondělí má tvoje třída spadnout všechno, co bys o sobě potřeboval vědět.",
+      "options": [
+        {
+          "text": "Jít domů. Zítra si o tom promyslet",
+          "next": "rozcestnik-start"
+        }
+      ]
+    },
+    "rozcestnik": {
+      "text": "Večer je v pokoji cítit, že jsi byl venku: vlasy po sobě, ruce voní vodou, v kapse provaz a křída. A mapa má novou čáru, která je rovná, kterou bys nikdy nevymyslel, a která vede z cizího dvora do něčeho, co nemá jméno.\n\nNa papíře je teď tohle: okno, dvůr, voda a směr. Chybí na něm všechno ostatní, co jsi doma slíbil, že nevymyslíš. Pod čarou jsou poznámky, které bys vyslovil nahlas jen přátelům: někdo tady chodí po břehu. Někdo tady nechal značky pod vodou. Někdo tu byl, když to ještě fungovalo.\n\nPříští den je pondělí. Škola začíná v sedm, a v sedm budeš vědět, že voda v cizím dvoře pořád teče, ať tě v pondělí bolí, co chce.\n\nJakmile se zotavíš, jde se dál. Nejdřív dolů, protože to už umíš.",
+      "options": [
+        {
+          "text": "Do cizího dvora, dolů pod sebe",
+          "next": "k1-1"
+        },
+        {
+          "text": "Ke splavu, dolů po ulici nad kanalem",
+          "next": "k2-1",
+          "requires": [
+            "lampa"
+          ]
+        },
+        {
+          "text": "Na nábřeží, k tomu, kde voda vstupuje",
+          "next": "k9-1"
+        },
+        {
+          "text": "Vzhůru, k hornímu zdymadlu",
+          "next": "k8-1",
+          "requires": [
+            "lampa"
+          ]
+        },
+        {
+          "text": "Do teplárny, kde skončila plavba",
+          "next": "k6-1",
+          "requires": [
+            "vetechnik-balicek"
+          ]
+        },
+        {
+          "text": "Pod mlýny, k dolnímu zdymadlu",
+          "next": "k5-1",
+          "requires": [
+            "lampa"
+          ]
+        },
+        {
+          "text": "Do Stínadel, k tomu propadlému dvoru",
+          "next": "start"
+        },
+        {
+          "text": "Do Lampářské, kde nakupují věci, které nikdo nepotřebuje",
+          "next": "k4-1"
+        },
+        {
+          "text": "Do školy, za Lukášem",
+          "next": "k3-1"
+        }
+      ]
+    },
+    "k0-1": {
+      "text": "Čtyři věci. Žádnou z nich nemáš v kapse a každá je jinde.\n\nProvaz musí být dlouhý aspoň čtyři metry a tenký, jaký šlehá provazník v Provaznické. Křída musí být modrá, protože modrá je značka, kterou poznáš i potom, když je na šedém kameni a ve tmě — a v Kotlách jí leží na hromádě pro každého, kdo přijde. Baterii nikdo neprodává a nikdo nevydává, ale ve školním skladu jich bývá v krabici víc, než kolik jich tam kdy kdo potřeboval.\n\nTo je celý seznam. Není dlouhý ani náročný. Je jen rozdělený na čtyři místa, která jsou od sebe dvě ulice, půl města a jedna kotelna s vytopenou pecí.\n\nKaždou z nich znáš. Na dvou z nich už někoho znáš.",
+      "options": [
+        {
+          "text": "Do Provaznické pro provaz",
+          "next": "k0-provaz"
+        },
+        {
+          "text": "Do Kotelů pro křídu",
+          "next": "k0-kreda"
+        },
+        {
+          "text": "Do školy pro baterii",
+          "next": "k0-baterie"
+        },
+        {
+          "text": "Mám všechno čtyři",
+          "next": "k0-hotovo",
+          "requires": [
+            "lampa",
+            "baterie",
+            "provaz",
+            "kreda"
+          ]
+        },
+        {
+          "text": "Zatím ne. Radši domů, ať se na to neptají",
+          "next": "rozcestnik-start"
+        }
+      ]
+    },
+    "k0-provaz": {
+      "text": "Provaznická je dvě ulice od tvého domu a vypadá stejně jako všechny ostatní čtvrti Stínadel: úzké průchody, sušení prádla, pavlače. Jen tu visí na každém druhém okně provazy, šňůry a kusy lana, které nikdo neukládá, protože se to tady dělá.\n\nU paní Havlíčkových visí na plotě sto metrů starý tenký provaz, který vypadá, jako by čekal. Říkáš si, že se zeptáš, a pak si říkneš, že se nezeptáš, protože jsi sem přišel sám a v sobotu, a kamarádi se posílají ve dvou.\n\nZvoníš. Někdo za zvonek říká „Jo“ a neotvírá.\n\n„Paní Havlíčková,“ řekneš. „Potřeboval bych provaz.“\n\n„Otec měl dva, ale jeden se spálil na plotě,“ řekne paní Havlíčková a nechá chvíli ticho, které je slyšet i tady, kde voda stejně hučí za zadní zdí.\n\nPak řekne, že má čtyři metry, že je to vlasec, a že z toho má taky ruku na zádech. Vystřihne to závěsou, u kterého jí visí kabáty, a zabalí to do hadru, aby se to nespletlo.\n\nKdyž se ptáš, proč, začne mluvit o provaze, ale ne o tvé otázce. Pak řekne něco, co si zapamatuješ: „Ten u plotu se nesmí brát, ten drží dvě kabáty.“ A nepohneš se. Kdybys sáhl na to, co drží, nebyla by to špatná věc. Bylo by to jen jiné.\n\nA pak řekne poslední věc, která je vlastně celou nabídkou: „Ať se ti to hodí zpátky.“ To je ta část, kterou neříká otec, a která je víc, než bys dostal doma.",
+      "options": [
+        {
+          "text": "Říct to rovnou: „Potřeboval bych provaz“",
+          "next": "k0-1",
+          "grant": [
+            "provaz"
+          ]
+        },
+        {
+          "text": "Nabídnout, že jí v sobotu pomůžu s prádlem, když si smím odříznout",
+          "next": "k0-1",
+          "grant": [
+            "provaz"
+          ]
+        },
+        {
+          "text": "Odejít, než se zeptáš",
+          "next": "k0-1"
+        }
+      ]
+    },
+    "k0-kreda": {
+      "text": "Kotly nejsou dvůr, ale kotelna: místnost, kde se topí pro celou čtvrť a kde se nikdo nesnaží být potichu. U vchodu stojí lavice, na níž leží křída — modrá, měkká, rozlámaná na kousky. Vedle ní hrotaté nástroje, které si tu berou všichni, protože se tu nikdo nikoho neptá.\n\nPopel tu vypadá, jako by na něj někdo mluvil.\n\nVětšinou tu je kluk, který má na starosti oheň a který tě už jednou přehlédl, když jsi přišel poslouchat, jak se kotel rozpíná, a řekl „poslouchej, ať neslyšíš“. Dnes se podívá, jestli tu nejsi sám, a neřekne nic, protože sám jsi.\n\nKřída je tam, kdo si ji vezme.\n\nVezme si toho kousku do hrsti a sedí na lavici tak dlouho, až to vypadá, jako bys něco dělal.\n\nModrá křída je na hromádě, protože v tomhle městě se jí používá na značky, které se mají poznat potom. Bílá je na omítku. Modrá je na to, co má vydržet déle než barva: na cestu ve zdi, na okno, na práh, na botu, na římsu, kde se člověk dotýká denně, aby se na to podíval.\n\nKdyž se zvedneš, kluk u ohně řekne: „Až dojde, přijď si pro novou. My tu pořád kreslíme.“\n\nTo je třetí člověk, kterého dneska potkáš a který nechá něco tady, a všechnochno je to náhoda, ať to není náhoda.",
+      "options": [
+        {
+          "text": "Poprosit: „Kouska modré?“",
+          "next": "k0-1",
+          "grant": [
+            "kreda"
+          ]
+        },
+        {
+          "text": "Nabídnout, že odnesu popel, když potřebuješ",
+          "next": "k0-1",
+          "grant": [
+            "kreda"
+          ]
+        },
+        {
+          "text": "Vezmout si kousek z hromádky, kde stejně leží",
+          "next": "k0-1",
+          "grant": [
+            "kreda"
+          ]
+        }
+      ]
+    },
+    "k0-baterie": {
+      "text": "Sklad ve škole je malý pokojík za tělocvikem a je v něm všechno, co se zapomnělo vyřadit: roztřepené sešity, rozbité špalíčky, gumy na tkaničky a krabice, v níž jsou baterie, protože nikdo nepočítá, kolik jich tam je, když už je tam jednou dali.\n\nSem chodíš ve čtyři, když je učitelka pryč a voda v umývárně je teplá.\n\nDnes je u dveří skladu Lukáš a stojí v nich, protože schránku na zápisy nosí vždycky on a vyměňuje ji za to, že se nikdo nezeptá, jak se jmenuje. Když tě vidí, řekne „ty jsi sem ale neměl“ a neodejde.\n\nKrabice s bateriemi je za ním, v pořádí, na lince.\n\nDá ti dvě a nezeptá se, co s nimi, protože Lukáš nepozná u nás nikoho, kdo by je vzal.\n\nJen řekne: „Ty máš doma svítilku, že?“ A když přikývneš, řekne: „Tak to si hlídej. Můj otec má doma dvě, ale ty umřou za tři večery a nikdy nevíš, který zrovna umřel.“\n\nA pak řekne věc, kterou nečekáš, protože na ni nebylo třeba se ptát: „A ty lezeš pod sebe?“\n\n„Ne,“ řekneš.\n\n„Ale jo,“ řekne. „A oni to tady nevidí. Takže jednou to musíš začít psát.“ A odmáčkne dveře skladu, jako by tím bylo dořešeno, co se vám oběma vlastně děje.\n\nBaterie máš v kapse dvě a křídou sis odložil ruku, a zítra je pondělí.",
+      "options": [
+        {
+          "text": "Říct mu to narovinu: „Potřebuju dvě baterie“",
+          "next": "k0-1",
+          "grant": [
+            "baterie"
+          ]
+        },
+        {
+          "text": "Nabídnout, že mu do pondělka vrátíš schránku s jeho zápisem",
+          "next": "k0-1",
+          "grant": [
+            "baterie"
+          ]
+        },
+        {
+          "text": "Počkat, až odejde, a vstoupit si sám",
+          "next": "k0-1",
+          "grant": [
+            "baterie"
+          ]
+        }
+      ]
+    },
+    "k0-hotovo": {
+      "text": "Máš to všechno v kapse a v hlavně máš to, že umíš jít.\n\nProvaz bude na zádech, tenký a lehký, ale na mokré stěně lepší než nic, a voda teče. Svítilna svítí, dokud baterie nedojde, a pak je v cizím dvoře tma, kterou jsi nikdy neviděl, protože tma u vody není tma v pokoji. Křída je modrá, protože modré značky nejsou vápno na zdi — modré značky jsou znamení, které někdo zanechal, aby se podle něj dalo jít. Až doposud jsi si myslel, že to znamená „nechoď sem“.\n\nZbývá vysvětlit, proč jsi dnes odešel ze školy o půl hodiny dřív, kde jsi byl, proč zrovna provaz, a proč právě dneska.\n\nTohle je jediná otázka, na kterou nemáš odpověď, a je jediná, kterou budeš potřebovat, až se budeš vracet.",
+      "options": [
+        {
+          "text": "Jít do cizího dvora",
+          "next": "k1-1"
+        },
+        {
+          "text": "Zůstat doma do druhého dne",
+          "next": "rozcestnik"
+        }
+      ]
+    },
+    "k1-1": {
+      "text": "Dveře do dvora jsou otevřené. Jen je to cizí dvůr, a to znamená, že na pračce visí cizí prádlo, v okně cizí světlo, v domě vedle cizí život, který se tě netýká a který tě nechá v klidu právě proto, že neví, že jsi tady.\n\nDřív to tak nebylo. Jenom pod těmi dvěma domy bylo vidět, že tu někdo stál a díval se, a nebylo to tvoje.\n\nZa zábradou je kamenný okraj. Nezřícenina, ne sklep. Rovný. Široký jako dvě paže, vysoký jako malý chlapec, a vede podél zdi do stínu dvou domů, které z obou stran k sobě těsně přiléhají jako jeden. Za ním je zadní trasa, kterou neznáš a kterou nikdo nepopisuje.\n\nU okraje visí v kameni dvě rezavá kruhová oka, ve výšce dospělého člověka. Nejsou tam na nic jiného.\n\nVoda se nepohybuje k Tvé, i když se pohybuje.",
+      "options": [
+        {
+          "text": "Přesklápat zábradu a seskočit rovnou na okraj (hod kostkou)",
+          "next": "k1-2",
+          "dice": {
+            "sides": 6,
+            "outcomes": [
+              {
+                "from": 1,
+                "to": 2,
+                "next": "k1-voda"
+              },
+              {
+                "from": 3,
+                "to": 6,
+                "next": "k1-2b"
+              }
+            ]
+          }
+        },
+        {
+          "text": "Slézt po prknech u plotu, pomalu, bez skoku",
+          "next": "k1-2b"
+        },
+        {
+          "text": "Odejít dřív, než se někdo podívá z okna",
+          "next": "rozcestnik"
+        }
+      ]
+    },
+    "k1-voda": {
+      "text": "Voda je studená. Ne ledová, ale studená v zimě a v šesti ráno, když je v ní ještě nic nekoná.\n\nNeproudí rychle. Jen tlačí dozadu, protože je tu zatáčka, a to je jediné, co tě v té chvíli drží, protože nevíš nic jiného.\n\nPlaveš. Ne tak, jak se plave v bazénu: hlavou dolů, slyšíš, že se tady voda hlasem neozývá jako uvnitř domu — vůbec ne — jen řady, bloky, zvuky, a pak ruka, která zachytí okraj, který jsi si před chvilkou myslel o metr níž.\n\nNohy, pak břicho, pak loky na kameni. Devět škrtlů, desátý tě vyplave na okraj, kde jsi chtěl být.\n\nStojíš a hekáš. Voda v pláci, v botách, v uších. Všimneš si dvou věcí naráz: okraj je nízko — méně, než jsi čekal — a ty o něm nevíš, protože ses na něj nikdy nedíval shora, protože shora voda vypadá jako kaluž.",
+      "options": [
+        {
+          "text": "Vydýchat si a pokračovat",
+          "next": "k1-3"
+        },
+        {
+          "text": "Odejít, než dojde k domovníkovi",
+          "next": "rozcestnik"
+        }
+      ]
+    },
+    "k1-2b": {
+      "text": "Několik sekund stojíš a nevíš, kam se podívat, protože tady je všechno nové.\n\nJe tu chladno, ale jinak než nahoře — chladno, které jde od vody, a zvuk, který se odráží. Zvuk je dvojnásobný: slyšíš tuhle vodu a slyšíš tu druhou, za zdí. Ta druhá je tišší a hlubší, jako by protékalo něco většího pod dvěma domy najednou.\n\nŘada se táhne podél zdi jako čára na pravítku. Nemá se proč zvedat, nemá se proč ponořovat. Stejná výška, stejná šířka, stejná rychlost, bez jediné zatáčky a bez jediné nerovnosti, kterou by na hladině šlo hádat.\n\nTaková voda se neudělá sama.\n\nKruhová oka nad hladinou jsou v očích, tři krody od tebe. Jedno je rozvrtané, jako by z něj někdo dlouho tahal.",
+      "options": [
+        {
+          "text": "Jít podél kanálu dál",
+          "next": "k1-3"
+        },
+        {
+          "text": "Vrátit se, dokud nešlo po tmě",
+          "next": "rozcestnik"
+        }
+      ]
+    },
+    "k1-3": {
+      "text": "Břeh je široký jako bota a suchý jen v místě, kde se o něj opíráš. Za ním je šířka kanálu, kterou bys bez lana nepřešel, a voda v ní teče tak, že se její hladina částečně hrne proti zdi.\n\nTakhle to nevypadá jako voda v komíně. Takhle to vypadá, když voda vytéká z něčeho, co bylo postavené.\n\nRovné břehy. Rovné dno pod vodou, až kam dohlédneš. Pravidelná šířka, pravidelná hloubka, a kruhová oka na protější stěně, právě ve výšce, v jaké by šel člověk s rukama od sebe. Po téhle stěně se chodilo. Vedle vody se táhla stezka, kterou nebylo potřeba stavět tam, kde voda teče sama od sebe, ale kde voda musí být zrovna a v zrovna té výšce.\n\nSáhneš na značky, které jsou v kameni pod hladinou, tam, kde by šlo být jen voda. Nejsou ostré. Nejsou hluboké. Nejsou náhodou: jsou po hraně, ve stejném směru, ve výšce, kde tady musela být hladina, když se to tu stavělo.\n\nVodu sem někdo přivedl. Někdo ji sem dovedl.",
+      "options": [
+        {
+          "text": "Označit modrou křídou, kde jsi dole, a jít dál",
+          "next": "k1-4"
+        },
+        {
+          "text": "Zalízt zpátky po právě vyznačené cestě",
+          "next": "rozcestnik"
+        }
+      ]
+    },
+    "k1-4": {
+      "text": "Vracíš se v duchu a kreslíš z toho, co jsi viděl, protože to je jediný způsob, jak se to neztratí.\n\nNa papír přibude čára. Je rovná. Má dva přiléhající domy, dvě rezavá oka, vyšší linku na zdi, která tam byla, a tři značky pod hladinou, které udělal někdo z vody.\n\nPak si všimneš toho, co je na té čáře zvláštní: voda v ní teče jedním směrem.\n\nZa tebou je voda, která přichází. Před tebou je voda, která odtéká, a ty jsi mezi nimi, v zemi, která se jmenuje Stínadla, jako by to byla jen ulice mezi dvěma domy.\n\nTo je blízko. To je jediné, co si smíš říct: voda, kterou slyšíš z okna, má začátek i konec, a oba jsou jinde než tvoje okno. Aby se tam došlo, musí se jít buď ve směru, kterým voda teče, nebo proti němu. Proti proudu bys bez lana nešel, a to je v pořádku — to si smíš říct nahlas, protože to je pravda, a ne odmlčení.\n\nZačínáš v jednom směru, protože ten druhý ještě neumíš.",
+      "options": [
+        {
+          "text": "Domů, než se zeptají",
+          "next": "rozcestnik"
+        }
+      ]
+    },
+    "k2-1": {
+      "text": "Kanál je tady otevřený. Ne v domě, ne za dvorem — v ulici.\n\nUlica se láme, jako by si někdo kdysi ustavohl počasí a ulice se poslušně krivila dolů. Chodník je starší než domy po obou stranách, z kamene, šedivý a zaoblený, jako něco, co dlouho leželo ve vodě. Pod ním je koryto: dva metry pod chodníkem, mezi vysokými kamennými stěnami, které se k sobě sbíhají. Voda je tmavá a jde rychle — rychleji než v cizím dvoře, jako by si tady musela dohánět všechno, co se jí nahoře nashromáždilo.\n\nNahoře na chodníku jsou železná oka, po obou stranách, a pod nimi visí rezavý řetěz, který nikdo neodpínal.\n\nUlice je tady zvláštní. Tři domy, dva zavřené, u třetího plakát, na kterém se nic nečte. Nikdo tady neparkuje a nikdo tudy nechodí. A pod chodníkem se dá cítit, že voda je blízko — jako by se ulice držela za ruku něčeho, kdo jde jinudy.",
+      "options": [
+        {
+          "text": "Zavřít zábradlí a slézt po stěně, dokud je světlo",
+          "next": "k2-2"
+        },
+        {
+          "text": "Jít zpátky, než se zeptám, proč je tu tak prázdno",
+          "next": "rozcestnik"
+        }
+      ]
+    },
+    "k2-2": {
+      "text": "U vody je jiný zvuk. V cizím dvoře voda šeptala; tady syčí.\n\nProud je rychlý a hladina se láme na něčem, co tu není vidět — vlnky se zvedají v pravidelných vzdálenostech, jako kdyby pod vodou ležela zubatá věc. Koryto je hlubší, než jsi čekal, a stěny jsou mokré až nahoru, takže se po nich nedá.\n\nNad hladinou, právě ve výšce dospělého člověka, jsou ta oka. Tady nejsou zrezavělá: jsou černá, lesklá, a řada se táhne dál od tebe až do stínu. Pod nimi visí řetěz, tenký, napnutý, a na něm nic není.\n\nKdybys šel po těch očích, šel bys jako člověk, který jde po břehu. Kdybys plaval, plaval bys proti něčemu, co teče rychleji než ty, a u břehu bys byl nejpozději.",
+      "options": [
+        {
+          "text": "Jdít po očích, krok za krokem, jako člověk, který jde po břehu",
+          "next": "k2-3"
+        },
+        {
+          "text": "Vplavat a nechat se odnést — je to jen voda",
+          "next": "k2-voda"
+        },
+        {
+          "text": "Vyšplhat zpět, než se voda zvedne",
+          "next": "rozcestnik"
+        }
+      ]
+    },
+    "k2-voda": {
+      "text": "Voda tě unese. Ne prudce — to je to poslední, co o ní můžeš říct — ale jistě, a s nějakou trpělivostí, která je horší než prudkost.\n\nNohy neví, kam se podepřít, a pak přestanou zkoušet. Zvedneš hlavu a uvidíš, že se stěna blíží rychleji, než bys chtěl, a že u ní je tmavý obdélník, a ten má hranu, o kterou se dá zavadit.\n\nZachytíš se. Vyplaveš u kamene, který je z toho otvoru vyražený, a vydýcháš.\n\nVoda tady je studená jinak než v cizím dvoře. Studená do břicha a nohy a pak zase, po chvíli, do zad. Jsou v ní drobnosti, o kterých sis myslel, že nejsou — třepky, listí, kusy lane. Plaval jsi v bazénu, kde je podlaha po kolena. Tohle je jiné a ty to víš.\n\nAle plaveš. Už jsi plaval.",
+      "options": [
+        {
+          "text": "Vylézt na břeh, kde to skončilo",
+          "next": "k2-3"
+        },
+        {
+          "text": "Vyšplhat zpět po stěně, než dojde zima",
+          "next": "rozcestnik"
+        }
+      ]
+    },
+    "k2-3": {
+      "text": "Stěna je z kamene a sahá skoro do střechy domů. V ní je otvor široký jako dvě paže, nízký jako malý chlapec, a z něj jde voda. Ne do výkopu — ven. Do potoka.\n\nZa tím otvorem je jiný svět. Potok je mělký, široký deset kroků a teče po kamenech s vrásami od vody, která tady stéká, i když je sucho. Kolem je tráva, která nesahá do vody, ale zrovna u ústí je vyšlapaná do dvou stop, jako by tu někdo chodil každý den a pak zase odešel.\n\nTo je konec. Ne začátek.\n\nVoda, kterou slyšíš pod podlahou, tady odtéká. A to znamená jednu věc, kterou jsi nechtěl slyšet ani při stéře, ani ve vaně, ani v noci: tady se voda nebere. Tady se jen končí.",
+      "options": [
+        {
+          "text": "Jít ven z otvoru, k potoku",
+          "next": "k2-4"
+        },
+        {
+          "text": "Otočit se a jít proti proudu, tam, kde voda teče dál",
+          "next": "rozcestnik"
+        }
+      ]
+    },
+    "k2-4": {
+      "text": "Za druhým břehem potoka není žádný dům. Není tam ani plochý kus místa — je tam pole, nízké křoví, několik vrb a dál nic, až k horizontu.\n\nKraj Stínadel tady nekončí plotem ani znakem. Končí se tím, že tu někdo něco postavil a pak už nic. Mezi vrbami stojí zbytek toho místa: betonová rampa s řadou kovových háků na stěně a dvěma lávkami, které vedou do vody, ale končí ve vodě. Nad ní je cedule a z vody je z ní vidět půl písmene.\n\nKdybys nebyl u vody, řekl bys, že je to molo. Když jsi u vody, víš, že je to místo, kde se něco nakládalo a něco tady přistávalo, a někdo do koryta pouštěl prázdné čluny, když je nemusel tahat zpátky.\n\nProud tady táhne zleva doprava. Zleva je Stínadla.",
+      "options": [
+        {
+          "text": "Přejít potok a jít po proudu, až kam vede",
+          "next": "k2-5"
+        },
+        {
+          "text": "Vrátit se do koryta, než zhasne světlo",
+          "next": "rozcestnik"
+        }
+      ]
+    },
+    "k2-5": {
+      "text": "Cesta zpátky je jiná než cesta tam. Tam jsi šel po břehu. Teď jdeš proti proudu potoka, který se do potoka sbíhá ze strany, a voda je přesně v tom místě, kde se dá přejít jen po kamenech, které někdo položil, když se tady ještě dalo do vody.\n\nSvětlo ve svítilně je na půl cesty. Baterie, kterou jsi vzal, nebyla nová, a je čas, kdy je to na sobě vidět: paprsek už nesahá na břeh, jen na vodu před tebou.\n\nZa rampaou, mezi těmi dvěma lávkami, je jediný přechod. Kdyby tě voda vzala, vzala by tě dolů, ne nahoru. Nad rampaou stoupá pole, kde světlo vůbec nesahá, a za ním je až večer ulice.",
+      "options": [
+        {
+          "text": "Přejít po kamenech a vyjít na druhý břeh (hod kostkou)",
+          "next": "k2-6",
+          "dice": {
+            "sides": 6,
+            "outcomes": [
+              {
+                "from": 1,
+                "to": 2,
+                "next": "k2-vytopeny"
+              },
+              {
+                "from": 3,
+                "to": 6,
+                "next": "k2-6"
+              }
+            ]
+          }
+        },
+        {
+          "text": "Nechat kameny být a vyjít nahoru přes pole, kde světlo nesahá",
+          "next": "k2-6"
+        }
+      ]
+    },
+    "k2-vytopeny": {
+      "text": "Voda tě bere v pohodu, a to je to poslední, co o ní můžeš říct. Jen směr. Kopec dolů a ven.\n\nPlaveš, ale neplaveš dlouho: hází tě to zpět k těm kamenným zvýhodněním, u kterých se zvedají dva kameny a zbytek je mokrý. Dostaneš se na břeh a ležíš na něm a nejdeš, protože kdybys šel, začal bys znovu.\n\nPak vstaneš. Mokrý až po prsa, s pískem v plicích a s prázdnýma kapsama, protože jsi z kapes nic nevytáhl a voda je vzala všechno, co v nich bylo.\n\nSvětlo v kapse svítí dál, protože svítilna je v kapse a suchá je.\n\nZvládneš to zpátky stejně. Jen pomalu, a už bez chyb.",
+      "options": [
+        {
+          "text": "Jít zpátky. Pomalu.",
+          "next": "k2-6"
+        }
+      ]
+    },
+    "k2-6": {
+      "grant": [
+        "splav"
+      ],
+      "text": "Kolem půl deváté jsi doma. Mokrý, s pískem v botách a s vlasy, které by se daly žít jinak.\n\nMapa má dnes největší přírůstek za celý týden. Dolní konec. Čára, která někde končí, místo kamene ve zdi, potok, který odtéká do trávy, křoví za ním, kde už nejsou domy, a rampa s lávkami, které vedou do vody a končí ve vodě.\n\nA jedna věc, kterou jsi tam nečekal a která je důležitější než všechno ostatní dohromady: voda u tebe nezačíná. Voda u tebe končí.\n\nKdybys chtěl říct, odkud přichází, musíš jít opačně. Přehrada, která zastavila plavbu, je proti proudu, ne po proudu. Zdymadlo, které tě pustí dál do koryta, je proti proudu. Všechno, co ještě nevíš, leží za zády.\n\nNa mapě to teď není čára. Na mapě je to šipka, která míří zpět do vlastního města, a to je zvláštní pocit: že odpověď na otázku, kterou jsi si tři dny nosil s sebou, je ve městě, kde jsi byl celou dobu.",
+      "options": [
+        {
+          "text": "Domů, než se zeptají",
+          "next": "rozcestnik"
+        }
+      ]
+    }
+  }
+}

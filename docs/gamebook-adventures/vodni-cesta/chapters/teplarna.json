@@ -1,0 +1,300 @@
+{
+  "nodes": {
+    "k6-1": {
+      "text": "Klíč od vrat teplárny je plochý, těžký a má zuby na straně, jako by se někdo dlouho snažil dostat dovnitř a pak to vzdal. Otvírá se snadno. Je to zámka, která se má používat, ne zámka, která má bránit.\n\nZa vraty je dvůr, který nepotřebuje stráž, protože je příliš velký na to, aby se někdo chodil ptát, co je uvnitř. Dlažba je z tvrdé břidlice a v ní jsou koleje, které vedou dozadu a kterým sem kdysi někdo něco vozil. Mezi kolejemi leží uhlí.\n\nJe tu ticho, jaké bývá v těžbě. Ne ticho, když se nic neděje. Ticho, když se něco děje daleko a vy to slyšíte jen jako podlahu.\n\nBudova stojí na konci dvora a je vyšší než všechno v okolí dohromady. Patrová okna, některá vypadlá, železné mosty mezi nimi jako chodby mezi domy, a nad tím všechným střecha, která je ze skla a je potlučená tak, že dovnitř leží světlo po kousku. Jedna z půl kmene leží na chodníku a leží tam tak dlouho, že kolem něj vyrostla tráva.\n\nTady skončila plavba. Tady se to uhlí nakládalo.\n\nKlíč v ruce je najteplejší věc, kterou u sebe máš.",
+      "options": [
+        {
+          "text": "Po koleji dozadu, k tomu, co nakládali",
+          "next": "k6-2"
+        },
+        {
+          "text": "Dřív než dovnitř, obejít budovu zvenku",
+          "next": "k6-1b"
+        }
+      ]
+    },
+    "k6-1b": {
+      "text": "Budova má tři strany jako zeď a jednu jako zeď, která má v sobě dveře. Kolem zadní strany je vysoký plot z plechu, který kdysi někdo vzal, protože tu nikdo nebyl.\n\nNa východní straně, v patře, které je nejníž, je okno, které nebylo rozbité, ale **bylo zavřené**. Uvnitř je vidět, že na něm visí závěs, a závěs je prázdný. Kdybys vylezl dovnitř zvenčí, nebyl by to průzkum. Byl by to vloupání, i když jsi vlezl oknem, které nebylo rozbité.\n\nU dveří, u nichž klíč od Vetešníka sedí, je na zdivu připejněna cedule. Je na ní psáno číslo, které nesouhlasí s číslem na železných vratech, a je napsáno jinou rukou.\n\nDveře jsou otevřené. Kolem nich je sníh, ale za nimi ne. **Někdo tady chodí v zimě a nechává za sebou sníh venku, ne uvnitř.** To je znamení, které se nedá zamluvit.",
+      "options": [
+        {
+          "text": "Projít těmi dveřmi, protože jsou otevřené",
+          "next": "k6-2"
+        }
+      ]
+    },
+    "k6-2": {
+      "text": "První patro je hala. Podlaha je betonová s mřížemi, pod kterými je voda, a mříže jsou na dvou místech vyražené dovnitř tak, že voda se sem hromadí, protože jí sem steče ze střechy.\n\nKolem stojí stojanové, do kterých se uhlí sypalo, a každý má vypsané číslo, a čísla nejsou po sobě. Stojan 14 stojí před stojanem 9, stojan 3 za stojanem 11. Někdo je přemisťoval a nevrátil je.\n\nVe zdi je otvor široký jako dvě paže a nízký jako malý chlapec. To je vykládka: uhlí se ze čela lodí vykládalo rovnou dovnitř, a voda sem sahala, a proto se tu udržela voda, protože sem nikdo nepřišel vysušit.\n\nU otvoru je na zdi lavička. Je na ní hrnek, obrácený dnem vzhůru, a ten je suchý. **Ten je suchý loni.** To znamená, že tady někdo byl v zimě, seděl na lavičce, dal hrnek dnem vzhůru a pak odsel.\n\nNad lavičkou je na zdi kousek modré křídy. Ne rovná čára, ale značka, jakou kreslí člověk, který chce, aby ho někdo našel.",
+      "options": [
+        {
+          "text": "Sednout si na lavičku, kde někdo seděl loni",
+          "next": "k6-3"
+        },
+        {
+          "text": "Nejdřív najít, kam vede ta značka",
+          "next": "k6-4"
+        }
+      ]
+    },
+    "k6-3": {
+      "text": "Lavička je studená a je vidět, že kdosomething na ní sedíval často, protože je uprostřed vyhlazená, a ne na konci, kde by seděl někdo, kdo přišel poprvé.\n\nNa zdi za hlavou je připínáč, na který někdo pověsil kalendář. Kalendář je z města, které neznáš, a visí tam dole, a nad ním je druhý, a nad tím třetí. Poslední je z letošního roku, z března, a je na něm jeden den zakreslený tužkou.\n\nJe zakreslený každý pondělí.\n\nNejsou tam poznámky. Je tam jen značka v pondělí, na jednom místě, po celou dobu, jako by někdo přicházel v pondělí a jen si odškrtl, že byl. To je způsob, jak se zaznamenává přítomnost, když se nepočítají dny.\n\nKalendář visí v těžárně, která je zavřená, u zdi, za kterou je voda, a ve které se nikdo nezdržuje. Někdo z toho má radost.\n\nTady někdo chodí. Tady někdo přichází v pondělí, sedí si na lavičce a dává hrnek dnem vzhůru, aby se do něj nenalilo.\n\nStopy po mělčím člověku jsou tu ve dvou, a obě vedou od dveří ke dveřím, a neodbočují do haly. Nikdo nešel do haly. **On ví, že v hale je voda.**",
+      "options": [
+        {
+          "text": "Následovat stopy, které neodbočují",
+          "next": "k6-4"
+        },
+        {
+          "text": "Zůstat v hale a podívat se pod mříže",
+          "next": "k6-3b"
+        }
+      ]
+    },
+    "k6-3b": {
+      "text": "Mříž je rezavá, ale stojí, takže se na ni dá slezit, když sešel závěsem, což je věc, kterou by otec schválil, protože je o ní přesvědčený, že to je těžké a nebezpečné, a otec je v tomhle světě nejpřesvědčenější člověk, jaký existuje.\n\nPod mříží je voda po kolena a je hluboká, a v ní je ležet něco. Ne uhlí. Kolečko. Malé, dřevěné, s opotřebovaným dnem, z něhož byly všechy řídké zuby vylámané.\n\nA vedle kolečka je kus papíru, který plave. Je na něm psáno, a nabízí se ti, protože plave blízko, protože se ti hodí:\n\n**DOPRAVIT. UTOM.**\n\nKotouč. Kotouč se tu válel ve vodě, z nějakého důvodu nahoře, a nikdo ho neodložil. Nebo byl odložen, a voda ho vzala zpět.\n\nTohle je úplně jiný svět, než hledat poslední věc v podzemí. Tady někdo ztratil nástroj, někdo něco koupil, někdo něco opravuje, a nikdo neví, kdo. Tohle je město, které nebylo postavené najednou, ale které bylo sto let živé, a je teprve patnáctý rok mrtvé.\n\nKdybys vylezl, bylo by v hale slyšet, že jsi tam byl. Výtah v domě U Tří komínů vám řekl, že tam nikdo nebyl.\n\nNasedáš zpátky na mříž, a je ti nevolno, jako kdybys udělal něco, co bys sám o sobě neřekl.",
+      "options": [
+        {
+          "text": "Následovat stupy, které neodbočují",
+          "next": "k6-4"
+        }
+      ]
+    },
+    "k6-4": {
+      "grant": [
+        "denik-zavesnika"
+      ],
+      "text": "Kolem patra je osm dveří a všechny vedou do kanceláří, které jsou stejné, až na to, co v nich je. Tři jsou prázdné, dvě mají židličku. Jedna má na stole papíry a na papírech je psáno: **HYDR. 7–9**.\n\nTato má dřevěný stůl, stůl má skřípe, a na stole leží sešit, tlustý, s tvrdými deskami.\n\nA na skřípe stolu je rodný list. Děti z okolí sem chodily, když byla plavba, a některé tady zůstaly — je to jediný důvod, proč tady jsou rodáci a zemřelí, o kterých jsi slyšel a neznáš je. Šest jmen. Poslední z nich je **Jos. Podsedník**.\n\nSešit otevřeš.\n\nNení to deník závěsníka, který si psal pro sebe, a není to zápisník, který si vedl o kolik vozů projelo. Je to **provozní kniha**. Datum, stav vody, počet lodí, jméno. A na každý druhý řádek někdo jiný připsal kousek něčeho úplně jiného.\n\nTohle nebylo psané na objednávku. **Tohle si někdo dělal pro sebe, bokem, do knihy, která patřila úřadu.** Na každé stránce je něco jiného. Tři čtvrtiny stránky patří úřadu, poslední čtvrtina patří někomu, kdo tam chodil dál a psal si o něčem jiném.\n\nKdybys to odnesl, nikdo by nevěděl, že jsi to měl. A kdybys to neodnesl, už to neodneseš.",
+      "options": [
+        {
+          "text": "Odnést to",
+          "next": "k6-4b"
+        },
+        {
+          "text": "Nechat to ležet a jít dál",
+          "next": "k6-5"
+        }
+      ]
+    },
+    "k6-4b": {
+      "text": "Zavíráš dvířka za sebou a jsi na schodišti, když se zastavíš.\n\nProtože tě někdo viděl.\n\nNení tady nikdo. Jen zvuk: z jedné z těch kanceláří, z dvířek, co nejsou zavřená, slyšíš, jak někdo listuje. Ne rychle. Pomalu, jako člověk, který čte, ne jako člověk, který hledá.\n\nPodíval by ses zpátky. Nevrátíš se.\n\nNa schodišti, v patře pod teplárnou, leží na podlaze hrnek. Obrácený dnem vzhůru.\n\nOdložil ho někdo, kdo byl právě tady. A neviděl tě. A možná slyšel.\n\nKdyby tě slyšel, šel by za tebou, a to by byl velký problém. Kdyby neslyšel, byl jsi zrovna v patře pod kancelářemi, kde jsou židličky, a to je jen dobré místo, kde se dá schovat.\n\nA ono je to právě to, co tě může zabít. Tady není čas na to, abys byl chytrý, protože chytrý jsi byl vždycky, a rychlý jsi nikdy nebyl.",
+      "options": [
+        {
+          "text": "Projít kolem těch dvířek, jako bys tam šel",
+          "next": "k6-5"
+        },
+        {
+          "text": "Zůstat v hale",
+          "next": "k6-5"
+        }
+      ]
+    },
+    "k6-5": {
+      "text": "Ta značka na zdi, co je modrá, není značka z Katalogu, ale není ani náhoda.\n\nJe dlouhá, jako vlnovka, ale ne úplně. Je na ní jeden zlom, a ten zlom je na místě, kde by byl, kdyby někdo kreslil vlnovky a chtěl ukázat, **že umí i jinou značku**. Je na ní rok, protože tam není nic, co by se dalo opsat, jen ten zlom, ale je tam proto, aby se dalo poznat, že je to psané stejnou rukou.\n\nPod značkou je druhá, menší, čerstvější, a ta říká: **SEM**.\n\nJe na zdi v patře, kde voda dosahuje po pas. Někdo tam lezl, a to lezl za zimy, do ledu, a na poslední, co je tady — zimu, do tmy, do hladiny, o kterou by se člověk potopil.\n\nA někdo, kdo tady lezl, nepotřebuje mít mapu. On jde sem podle značky. **A značka je tady jenom proto, aby se sem nemuselo jít naslepo.**\n\nOdvádí tě k jedné z těch osmi kanceláří. Před poslední z nich stojí na zemi kus cíny a na ní — škrtl. A za dvířky je slyšet člověka, který nehovoří, ale dech.\n\nStýkneš se dvířek. Těžká nejsou. Z druhé strany nejsou zavřená. Kdybys je otevřel, nebylo by v tom nic nebezpečného.\n\nJen bys musel vysvětlit, proč jsi tady.",
+      "options": [
+        {
+          "text": "Otevřít",
+          "next": "k6-6"
+        },
+        {
+          "text": "Neotvírat. Zatím ne",
+          "next": "k6-7b"
+        }
+      ]
+    },
+    "k6-6": {
+      "text": "Dvířka se otevřou do zad, kde není voda, ale je tam led.\n\nJe vysoký, čtyřicet centimetrů, a široký tak, že se v něm nešlo, ale šlo se v něm plavat, což je jednoznačně hlubší voda. Pod jeho hladinou je tma, která je úplná, protože není co svítit.\n\nTam uvnitř leží člověk v tmavém kabátě, který leží na boku ve vodě, a když tě slyší, zvedne hlavu.\n\n„Tys mě neslyšel. Z Ostružnického dvora jsi mi neslyšel, a z krysa, a z barvérie, a jsi neslyšel.“ Mluví, ale nevíš k čemu. Pak řekne: „To znamená, že jsi tady poprvé, a ne že jsi tady pozdě.“\n\n„Tady je voda po hlavu,“ řekne, „a dál je tam kopec, který se musí vyšplhat, a tady se proti proudu plavat nedá, tady je to jako stát ve stoje. Takže buď odplaveš, nebo přitáhneš za mě.“\n\n„Já odplavat nemůžu,“ řekne, „a ty umíš plavat?“\n\nTy umíš plavat.",
+      "options": [
+        {
+          "text": "Přitáhnout ho za ruku",
+          "next": "k6-7"
+        },
+        {
+          "text": "Říct, že ne, a odejít",
+          "next": "k6-7b"
+        }
+      ]
+    },
+    "k6-7": {
+      "text": "Přitáhneš ho za ruku, proti proudu, sám. Tvůj kabát je pak mokrý po kolena a jeho je mokrý úplně, a v ledu a ve tmě se to dělá špatně, protože nevidíš, kam plaveš, a on neplave vůbec — on se jen drží.\n\nOn se drží jako člověk, který to umí. Umí plavat, ale ne umí **tady**. To je rozdíl, o kterém se ve škole neříká, ale který se dozvíš jen tady.\n\nU konce tunýlu je voda hluboká a on se opět nohama nedotýká, a pak je pryč, a ty jsi na druhé straně a svítíš do něj, a on si lehne a neřeče nic, jako člověk, který dáš zlato.\n\n„Takže umíš plavat,“ řekne pak.\n\n„Školní hodiny，“ řekneš.\n\n„Školní hodiny,“ zopakuje on, a to je jedno z jeho přivádění věcí. Pak se podívá na tebe a řekne:\n\n„Mám v tomhle domě věc, kterou potřebuju, a nesám ji neodtáhnu, a ne proto, že bych nemohl. Protože by mě o tom někdo řekl. A mně tu o říkali už dost.“",
+      "options": [
+        {
+          "text": "„Co je to?“",
+          "next": "k6-8"
+        },
+        {
+          "text": "„Nejdřív mi řekni, kdo jsi“",
+          "next": "k6-7c"
+        }
+      ]
+    },
+    "k6-7b": {
+      "text": "Neotevíráš dvířka. Postojíš chvíli, řekneš si, že je to podobné jako u Vetešníka — někdo ví, že tam jsi, a nechce se ukázat — a odejdeš.\n\nPodlažce do ředů u patra, kde je zima, a u ledu v tunýlu nevíš.\n\nCesta, kterou bys udělal s pomocí, je pryč. Kdyby tam ten člověk otevřel dvířka, uslyšel by tě, a nebylo by tě kde vzít, protože bys byl na cestě ven.\n\nA to je věta, která se vrací. Kdybychom šli spolučně, nebyl bych tady sám.\n\nOdejdeš. U dvířek zůstane kus cíny, na kterém je škrtl. V dvířkách je zima, kterou nevidíš.\n\nVracíš se cestou, kudy jsi přišel, a u schodiště najdeš hrnek, který tu ležel, a ten je tam pořád, obrácený dnem vzhůru.\n\nNikdo tedy nikde nebyl. Nebo byl, a šel.",
+      "options": [
+        {
+          "text": "Vyjít ven, než se zeptají",
+          "next": "k6-5c"
+        }
+      ]
+    },
+    "k6-7c": {
+      "text": "Na to neodpovídá.\n\nNeodpovídá dlouho — dost dlouho, abys pochopil, že neodpovídá záměrně, a ne proto, že by neslyšel, a ne proto, že by se chtěl vyptat. On se nechce vyptat na jméno. On na jméno neodpovídá, jako by na něj nebyl.\n\nPak řekne: „To je jediná otázka, na kterou neodpovídám. A to je proto, že kdybys mě tu měl spát, nemusel bys vědět, kdo mě tu spát dal.“ A pak: „Ostatní otázky spát může.“ A nepodá ti ruku.\n\nOdejdeš s tím, co jsi měl.\n\nA za týden, až budeš ležet v pokoji a nebudeš moct spát, tak si vzpomeneš, že ti řekl, že spát může, a to je jediná věta, kterou z toho dne poneseš pořád s sebou.",
+      "options": [
+        {
+          "text": "„Co je to?“",
+          "next": "k6-8"
+        }
+      ]
+    },
+    "k6-5c": {
+      "text": "Ven je studený, a stopy, které neodbočují, vedou ven, ne dovnitř. To je jediné, co tě drží, když vycházíš z budovy, kde jsi nikoho nepotkal.\n\nZastavíš se na koleji, u které ležel uhlí, a všimneš si, že ta kolej vede k bráně, ne k budově.\n\nA že na bráně je zavřený zámek, který se dá projet závorem, a ten visí na hřebíku vedle, kde by ho nic nehledalo. A že za bránou je ulice, která vede do města, kde nikdo neví, že tady něco je, ale která je rovná, dlouhá a bez aut. Což by u třetího mlýna neplatilo.\n\nPřítelné stopy od teplárny vedou ven. Někdo odtud chodí do města, a jde po vlastní trase, protože nechce, aby se jeho cesta dala přečíst.",
+      "options": [
+        {
+          "text": "Nechat to být a jít po své stopě",
+          "next": "rozcestnik"
+        },
+        {
+          "text": "Jít z druhé strany, ne po jeho stopě",
+          "next": "rozcestnik"
+        }
+      ]
+    },
+    "k6-8": {
+      "text": "„Rezervace, “ řekne. „Přístaviště u břehu, rezervace pro korb. Bylo to tu vždycky a není to tu nikdy, protože to zaplavuje a voda je tady, kde být nemá. A teď to voda vyplavila, a je v tom písek, a v písku jsou raky, a raky nepotřebují rezervaci. Potřebují zimu. “\n\n„A to?“ zeptáš se.\n\n„To, že to musí vynést ven. “\n\nVyjdeš ven. Není to daleko — vchod do vykládky, z něhož lezl loni, teď vede do ledu, a pod ledem je voda, kterou znáš od minulé noci, a u ledu je dvanáct dlažebních kostek opřených o sebe. Dvacet centimetrů tlusté.\n\n„Ty neunes,“ řekne on. „Ale ten druhý ano. Ten, co je vyražený do zdi, ten neunes, ten máme na to, aby se nám nerozbila zima.“ ",
+      "options": [
+        {
+          "text": "Zkusit dát led pryč, kdybys měl všechny kameny",
+          "next": "k6-8b"
+        },
+        {
+          "text": "Zkusit vyvalit ty dva, a jestli to nepůjde, tak vysvětlíš proč",
+          "next": "k6-8b"
+        }
+      ]
+    },
+    "k6-8b": {
+      "text": "Led je tvrdší, než se člověk domýslí, a kluššší, než se člověk domýslí, a to první zjistíš hned, to druhé později, když už je pozdě.\n\nDvanáct kostek, dvacet centimetrů, a ty jsi jeden člověk. Do dvou hodin se z toho stane tohle: většina je venku, v řadě na koleji, a čtyři zbývají, protože ty čtyři drží ty ostatní, a ty ostatní drží zeď.\n\nKdybys věděl, že to nepůjde, řekl bys to za hodinu. Kdybys nevěděl, nebyl bys tady skoro dvě hodiny.\n\nAle on má dvě hodiny, protože on nikdy neřeší jednu věc. On řeší všechny najednou, a to je věc, kterou od dospělých učíš jen tak, že na ni narazíš.\n\nNakonec zavolá. Přijde člověk, kterého neznáš, mlčelivý, silný, a vytáhne ty čtyři za patnáct minut, a neptá se.\n\nA když to udělá, on ti řekne, co by ti neřekl nikdy, kdybys to byl sám: **„Taky jsem to zkusil. Třikrát. Nejdřív, když jsem byl starý, a potom dvakrát, když jsem byl větší, než když jsem byl malý.“** A jde dál.\n\nUž jsi slyšel starý muž říkat, že v jedné větě věk, v druhé odvahu a v třetí omluvu. Tohle jsou všechny tři.",
+      "options": [
+        {
+          "text": "„A teď?“",
+          "next": "k6-9"
+        }
+      ]
+    },
+    "k6-9": {
+      "text": "Teď odchází, a nechává tě na lavičce, kde seděl on. Chvíli si myslíš, že spí. Pak se ale zeptáš, jestli nevíš, kdo to tu sedí, a on řekne, že ne.\n\n„Ty budeš vědět, až to budeš vědět, a to přijde najpozději. “ A jde.\n\nA pak řekne: „A já tu sedím taky. Dvakrát do týdne. Od toho, co jsem tě potkal. “\n\nTohle už je těžké, protože je to skoro lhářství — ne lhářství, ale přiznání, že před tebou něco skryl, a to přiznání je větší než ta otázka. Ty bys na to nevěřil. A on ví, že bys nevěřil.\n\nNeodpovíš na to. Řekneš jen, že to je za tři dny, a on řekne: „To je správně. To je správně, že to je za tři dny.“ A nevíš, proč to opakuje dvakrát.\n\nPak řekne: „Můžeš mě nechat spát?“",
+      "options": [
+        {
+          "text": "Nechat spát",
+          "next": "k6-9b"
+        },
+        {
+          "text": "„Ne.“",
+          "next": "k6-9c"
+        }
+      ]
+    },
+    "k6-9b": {
+      "text": "Řekneš, že spát může. Pak řekne: „Ale nespi, až budeš vědět, kde je řeka. To je poslední věc, kterou mi chybí.“ A jde. A za patnáct minut je pryč, ale tady je pořád hrnek, a ten hrnek je obrácený dnem vzhůru.\n\nTeď se musíš podívat na hodinky. Tři čtvrtě. A venku je večer, a tvoje baterie má za sebou tři čtvrtiny, a ty stojíš na místě, kde nikdo není, a voda je po patách, a ty jsi tady chtěl být zítra, a ta věta o hodinách je taky odpověď.\n\nZítra o půl osmé na chodníku ležet kůly, kterým se zavírá vrata, a v tom tmy sešlápneš něco, co není sníh. Taky o půl osmé. Jenže proti proudu je to ještě hodina chůze, a ta hodina je ve tmě, a ve tmě jsou hroby, které poznáš jen podle toho, že neslyšíš vlastní kroky.",
+      "options": [
+        {
+          "text": "Než odejdeš: jedna otázka, kterou mu položíš",
+          "next": "k6-otazky"
+        },
+        {
+          "text": "Nezeptat se. Odejít",
+          "next": "k6-9d"
+        }
+      ]
+    },
+    "k6-9c": {
+      "text": "„Ne,“ řekneš, a on řekne: „Tak spát nemůžu. A jdi domů, protože venku je potem, a ty nevíš, kde jsou vrata, a nevíš, kudy se jde, a to je věc, kterou učíš dlouho.“\n\nA jde, jako by ti to řekl kvůli sobě.\n\nA ty jdeš domů s tím, že jsi řekl ne, a s tím, že se neptal, proč. A v noci, když budeš ležet a nebudeš moct spát, tak si vzpomeneš, že ti řekl poslední věc, a nebudeš vědět, proč ti ji řekl.\n\nProtože spát, když nevíš, kde je, je jako spát s tím, že tě někdo hledá. A to je věta, kterou si odneseš.",
+      "options": [
+        {
+          "text": "Než odejdeš: jedna otázka, kterou mu položíš",
+          "next": "k6-otazky"
+        },
+        {
+          "text": "Nezeptat se. Odejít",
+          "next": "k6-9d"
+        }
+      ]
+    },
+    "k6-9d": {
+      "text": "Odejdeš. Kdybys šel po jeho stopě, ujdeš sto metrů, ale nepoznáš to, že jdeš po jeho stopě, protože on je má na hraně, kde voda stojí, a ty nepoznáš, kudy jdeš, protože tvoje stopy jsou na dlažbě, která je mokrá od dnešního deště.\n\nOn nešel po svých stopách. On šel vůbec po nějakých.\n\nNa konci, u té podlážce, kterou vidíš z Ostružnického dvora, stojí značka — **značka, kterou bys nevšiml**. O jednu dlaždici výš, než jiné, a je tam škrtl, a není to kalendář, co on dělal, ale škrtl na zdi, u které nemá co být, a ten škrtl je **obrácený**.\n\nObrácený škrtl. To není poznámka. To je znamení, že někdo jde zpátky, a že ví, že někdo jiný jde vpřed.\n\nOtočíš se. Nikdo. Jen večer, a světlo z tvého okna.\n\nKdybys šel ven tady, tak bys měl smlouvu. Kdybys šel tady, tak bys byl v městě, kde se o tebe nikdo nepodívá.\n\nA to je poslední věta dne, kterou si odnášíš: **v tomhle městě jsou místa, kde se o tebe nedívají, a ta se poznají podle toho, že tam je klid.**",
+      "options": [
+        {
+          "text": "Domů, než se zeptají",
+          "next": "rozcestnik"
+        }
+      ]
+    },
+    "k6-otazky": {
+      "text": "U dvířek stojí a nechává to na tobe, a to je ten nejpodivnější kousek toho večera: on nečeká odpověď, on čeká otázku.\n\nStojí tam s rukama v kapsách, a ty máš v hlavě pět věcí, které bys chtěl vědět, a všechny se týkají někoho jiného než tebe. Tohle je poprvé, co tě v téhle čtvrti napadlo: že existují otázky, na které se **ptají dospělí**. Děti se ptají, kudy se jde. Dospělí se ptají, kdo byl.\n\nVybereš si jednu. On ti odpoví na jednu.\n\nA pak už ne.",
+      "options": [
+        {
+          "text": "„Kdo byl poslední Velký Vont?“",
+          "next": "k6-odp-1"
+        },
+        {
+          "text": "„Otevře nově vypilovaný odznak zámek Kronik?“",
+          "next": "k6-odp-2"
+        },
+        {
+          "text": "„Co přesně znamená značka na té zdi?“",
+          "next": "k6-odp-3"
+        },
+        {
+          "text": "„Byl závěsník toho zdymadla členem Vontů?“",
+          "next": "k6-odp-4"
+        },
+        {
+          "text": "„Kdo držel plavební řád, když ještě platil?“",
+          "next": "k6-odp-5"
+        }
+      ]
+    },
+    "k6-odp-1": {
+      "text": "„Mohl bych ti říct jméno,“ řekne. „A ono by bylo pravdivé. A nebylo by to ono.“\n\nPak řekne: „To je víc, než dostaneš od nikoho jiného, a méně, než potřebuješ. Napiš si to, že jsi dostal jméno, které nebylo ono, a nech to být, protože to je jediná odpověď, která tě nezradí.“\n\nNeřekneš nic. On nečekal.\n\nPak už stojí u dvířek a nepohne se, a ty stojíš na druhé straně, a mezi vámi je voda, kterou jsi přeplynul, když jsi neřekl, kdo jsi.\n\nKdybys ho teď znovu zeptal na jméno, neřekne ti je. Kdybys ho znovu zeptal na Velkého Vonta, řekne ti: „Jednou jsem řekl, co jsem věděl.“\n\nZůstane ti to, co řekl, a to je: **jméno pravdivé, ale ne ono.** To je polovina, která se dá vyprávět dál, a druhá polovina, která se nedá.",
+      "options": [
+        {
+          "text": "Odejít, než se zeptá znovu",
+          "next": "k6-9d"
+        }
+      ]
+    },
+    "k6-odp-2": {
+      "text": "„Kroniky nesoudí odznakem,“ řekne. „Kroniky soudí tím, kdo u nich tenkrát stál.“\n\nNeřekne, kdo u nich stál, a ty se neptáš, protože bys dostal stejnou větu.\n\nPak řekne, a to už je odpověď na jinou otázku, než kterou jsi položil: „Zámek má dvě západky. Jedna je stará, a ta se otevírá klíčem, který si vyměňuješ u starého. Ta druhá je zlá, protože aby se otevřela, musel bys z její zdi vyříznout kus vlastního. A to už není klíč. To je kus sebe.“\n\nPak dodal: „Zda se ta druhá dá použít, o tom bych ti řekl, kdybys mě ptal na to správně. Aha.“\n\nNezměníš na tom nic. Ale víš, že existují dvě západky, a že ta nová je zlá, a to je věc, kterou sis před pěti minutami netušil, a kterou si teď umíš představit celou, až do konce, včetně toho, co by to znamenalo, kdybys to udělal.",
+      "options": [
+        {
+          "text": "Odejít, než se zeptá znovu",
+          "next": "k6-9d"
+        }
+      ]
+    },
+    "k6-odp-3": {
+      "text": "Podíval by se na dvířka, kdyby byly zavřená. Protože nejsou, řekne to rovnou, do prázdného prostoru, a ty jsi zrovna v půli cesty ven.\n\n„Znamená to dvě věci,“ řekne. „Za prvé: tudy voda přichází. Za druhé: tudy někdo chodí. Stejnou barvou, stejným zlomem, stejnou rukou. Kdo to učí, učí obojí najednou, a to je šetrnější než učit to zvlášť.“\n\nA pak doda větu, která je skoro omluva, ale není omluvou:\n\n„Naučil jsem to v patře, kde je sedm schodů a dveře, které nejde zavřít. To je celá škola. A trvalo mi to sedmnáct let, protože to nešlo jinak.“\n\n**Tři věci z jedné značky.** A všechny tři jsou pravdivé, a všechny tři se dají vyprávět dál, a ani jedna z nich nevyzradí, kdo to kreslil.",
+      "options": [
+        {
+          "text": "Odejít, než se zeptá znovu",
+          "next": "k6-9d"
+        }
+      ]
+    },
+    "k6-odp-4": {
+      "text": "„Závěsník byl chlapec, který držel vrat,“ řekne. „A to je všechno, co o něm vím.“\n\nNeřekne to pohrdlivě. Řekne to stejně, jako když říkal o hrnku a o dlaždici, a to je způsob, jakým v tomhle městě mluví o lidech, kteří něco dělali a odešli.\n\nPak dodal: „Věděl, že voda se pustí zespodu, ne shora. A věděl, že se nesmí tahat. A když přišel čas, kdy se nesmělo, tak nešel. To je celý jeho život, a je v něm víc než většině u těch lidí, co mají jméno na cedule.“\n\n**Závěsník byl chlapec, který držel vrat.** A tobě řekl, že o něm neví víc, a ty si řekneš, že to není pravda, protože o něm víš zrovna to nejdůležitější: uměl to. Ty to umíš taky, a umíš to tři dny.\n\nZůstane ti z toho jméno na papíře, které neznáš, a poznámka o jednom člověku, kterému to umělo.",
+      "options": [
+        {
+          "text": "Odejít, než se zeptá znovu",
+          "next": "k6-9d"
+        }
+      ]
+    },
+    "k6-odp-5": {
+      "text": "„Řád držel někdo, kdo uměl říct, kam voda teče,“ řekne, „a nikdo ho neposlouchal. To je celý plavební řád. Kdo umí, mluví, a kdo neposlouchá, jede, a za dvacet let si nikdo nevzpomene, kam voda teče.“\n\nPodívá se na led, který vám tady stéká do podlahy, a tyto slova řekne spolu s tím ledem, jako by tím chtěl říct, že je to tady pořád stejné, jen se to šíří.\n\nPak dodal věc, kterou si odnášíš, i když nevíš proč: „Každý, kdo umí říct kam voda teče, je závěsník. A každý, kdo umí říct kam voda teče, je také závěsník. A rozdíl mezi nimi je, že jeden má klíč, co potřebuje k vratům, a druhý má jen to, co k vratům potřebovat nemusí.“\n\n**A rozdíl mezi nimi je, že jeden má klíč, co potřebuje k vratům, a druhý má jen to, co k vratům potřebovat nemusí.**\n\nTo je odpověď, kterou si odnášíš, a nepoznáš, proč ti připadá důležitá. Je důležitá, protože ses celý den díval na vrat, a nikdo ti neřekl, že jsi jimi prošel.",
+      "options": [
+        {
+          "text": "Odejít, než se zeptá znovu",
+          "next": "k6-9d"
+        }
+      ]
+    }
+  }
+}

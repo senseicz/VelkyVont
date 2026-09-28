@@ -1,0 +1,72 @@
+{
+  "nodes": {
+    "bilance": {
+      "text": "Mapa leží na stole a má na sobě šest míst a dvě šipky, a obě šipky míří do města.\n\nPod ní, na druhém listu, jsou tři otázky. Ty, na které neznáš odpověď. A vedle nich, na okraji, jsou čtyři jména a jedna věc, kterou sis o jednom z nich myslel, a kterou jsi nevyslovil.\n\nOtevřeš dveře do kuchyně. Uvnitř je světlo a je slyšet, že tam někdo je, a je slyšet, že je tam někdo dlouho.\n\nA ty jsi doma. A mapa je hotová. A je pondělí ráno, a v pondělí ráno se nečlověk rozhoduje, jestli bude něco dělat, nebo ne.\n\nTady končí to, co šlo tě dny dělat, a tady začíná to, co uděláš s tím.",
+      "options": [
+        {
+          "text": "Celá trasa: vtok, komory, i to, co je mezi tím",
+          "next": "konec-cela-trasa",
+          "requires": [
+            "mapa",
+            "vpust",
+            "splav"
+          ]
+        },
+        {
+          "text": "Mapa po stínadelsku, pro ty, kdo znají stínadelské cesty",
+          "next": "konec-ema",
+          "requires": [
+            "mapa",
+            "svědctvi-emy"
+          ]
+        },
+        {
+          "text": "Mapa přes Rozdělovací, pro ty, kdo stínadla neznají",
+          "next": "konec-lukas",
+          "requires": [
+            "mapa",
+            "svědctvi-lukase"
+          ]
+        },
+        {
+          "text": "Mapa podzemní vody, všechno, co je dostupné",
+          "next": "konec-mapa",
+          "requires": [
+            "mapa"
+          ]
+        },
+        {
+          "text": "Jen ta část, kterou sis prohlédl sám",
+          "next": "konec-castecny",
+          "requires": [
+            "doklady"
+          ]
+        },
+        {
+          "text": "Nechat to ležet. Není to tvoje",
+          "next": "rozcestnik"
+        }
+      ]
+    },
+    "konec-cela-trasa": {
+      "text": "Mapa má obě šipky a obě míří do města, ale to není důležité. Důležité je, že obě jsou v městě, a to znamená, že jsi obešel to celé, aniž bys někde překročil hranici mimo tu, kterou město samo stanovilo.\n\nKdybys někomu v tomhle městě řekl, že jsi našel, kde voda vstupuje do města, a že odtéká na opačné straně, a že mezi tím je jedenáct věcí, které nejsou v žádné katalogové knize, tak by ti řekl, že si vymýšlíš. Kdybys jim řekl, že jsi to zjistil podle toho, jak vypadá voda, tak by řekli, že jsi blázen.\n\nA oni by měli pravdu v obou případech. **Není to mapa kanálu. Je to mapa toho, kdo ten kanál postavil, a kdo ho pak nechal být, a to se nedá přepsat do papíru, aby to nebylo osobní.**\n\nKdybys chtěl, abys to někdo převzal, musel bys to pověsit. Ne na zeď, ale do sklepa, kde by se k tomu chodilo. A ne aby to někdo pochopil, ale aby tam někdo byl, až se znovu zeptá, kdo to postavil.\n\nA pak už to není tvoje. To je ta věta, na kterou tohle všechno mířilo, a nejdeš k ní cestou, kterou bys šel, kdyby ti někdo řekl, kam jít. Jdeš k ní tím, že to necháš být.\n\nA za měsíc budeš vědět, že někdo se podíval. Ani ty nevíš, kdo. A to je jediný způsob, jak se to pozná.\n\n**Konec — Celá trasa.**",
+      "ending": true
+    },
+    "konec-ema": {
+      "text": "Pověsíš kopii ve sklepě u domu U Sedmi klik, kde se uchovávají věci, které se nesmějí vyhodit. Je to jedno místo ve Stínadlech, kam chodí ti, kdo mají doma něco, co by doma nebylo bezpečné.\n\nEma přijde a podívá se na ni, dlouho, a neřekne nic, a pak řekne: „To je správně.“ A pak řekne: „Ale ne tady. Tady se to dá ukrást.“ A poradí ti místo, které je lepší, a to místo je dvě ulice odsud, a to místo je u něj.\n\nA ty to tam zavěsíš, a Ema řekne ještě jednu věc, a tu neřekneš nikomu:\n\n„Napiš dole, kdo to byl. Až tě tu nebude, tak to musí být napsané, jinak to bude jen stará mapa a nový kluk, co si myslí, že všechno ví.“\n\nTak to uděláš. A pak víš, že až odsud odejdeš, zůstane tady jeden řádek, který jsi psal ty, a ten řádek bude tvoje.\n\n**Konec — Mapa po stínadelsku.**",
+      "ending": true
+    },
+    "konec-lukas": {
+      "text": "Nepověsíš to ve sklepě. Pověsíš to na nábřeží, kde chodí lidi z venku, a kde je zeď, která je dlouhá a prázdná, a kde by nikdo nečetl něco, co je psané v písmu, kterému nerozumí.\n\nAle ono není psané v písmu, kterému by nerozuměli. Je to mapa, a mapa se čte všude stejně. Čára a šipka a dvě značky, a to je všechno, co je na ní potřeba vědět.\n\nLukáš přijde se podívat, a ne z好奇心, ale protože řekl, že půjde s tebou, a ty jsi ho pozval jenom půlročně, a on přijde. Podívá se na mapu a neřekne nic dlouho.\n\nPak řekne: „To je dvě šipky do města.“ A ty řekneš: „Protože voda jde zvenku. Vždycky jde zvenku, a nikdo o tom neví.“ A on řekne: „Takže to není mapa podzemí. To je mapa města. A podzemí je jen to, kde se to právě teď kreslí šipka.“ A to je věc, kterou by ti nikdo ve Stínadlech neřekl, protože ve Stínadlech se kreslí od konce.\n\nA za měsíc bude na té zdi mapa, a pod ní bude stát cizí chlapec, a nebude vědět, kdo ji tam dal, a bude si myslet, že je na něčí stopě.\n\n**Konec — Mapa přes Rozdělovací.**",
+      "ending": true
+    },
+    "konec-mapa": {
+      "text": "Nepověsíš ji. Půjdeš do sklepa a schováš, protože to je jediné místo, kde voda není a kde je sucho, a protože mapa je ze všeho, co máš, nejzranější.\n\nPak vysvětlíš, co na ní je. Rodičům, protože ti to musíš říct, když jsi do ní lezl, a oni poslouchají, protože na konci poslouchají vždycky, a protože to je to jediné místo, kde to umí.\n\nA řekneš jim dvě věci. První: voda jde od řeky, a to je věc, kterou věděli. Druhou: jsi našel, kde. A to je věc, kterou nevěděli, a kterou bys jim řekl stejně, kdybys na to nebyl.\n\nA otec neřekne „výborně“. Řekne: „To je jiná otázka než ta, kterou jsi měl.“ A matka řekne: „Ale je to lepší.“ A to je všechno, co se stane, a je to dost.\n\nPak měsíc necháš mapu ležet. A pak zjistíš, že na ni chodíš koukat sám, a že to už není mapa, ale zápisník. A to je věc, kterou ti nikdo nepověděl a kterou musíš vymyslet sám: **že mapa není odpověď, je záznam toho, že jsi hledal.**\n\n**Konec — Mapa podzemní vody.**",
+      "ending": true
+    },
+    "konec-castecny": {
+      "text": "Mapa má šest míst a dvě šipky, ale šipky nevedou k sobě. Vede jedna od řeky a druhá k řece, ale mezi nimi je prázdno, a to prázdno je ta část, kterou jsi nešel.\n\nTo je šest míst. A to je necelá trať. A to není nic, protože bys to nedokázal vysvětlit nikomu, kromě sebe.\n\nKdybys to uložil do sklepa, tak by to tam leželo jako kámen, co se nedá použít. Kdybys to pověsil na zeď, tak by to nikdo nečetl, protože by tam chyběla polovina.\n\nTak to necháš. Ne v kapse. Ve sklepě, kde je sucho.\n\nA za měsíc budeš vědět, že šest míst v tomhle městě je šest míst, kde se dá dojít k vodě, která tam nemá být, a že někdo jiný, kdo tam šel před tebou, jich měl víc. A to je věta, kterou můžeš říct komukoli, kdo tě bude zvát, a to je jediná věc, kterou z toho máš, a ona se dá vyprávět dál.\n\nA za rok v tomhle městě budeš jediný, kdo to ví, a to je způsob, jak se z toho stane tradice. Nebo zvyk. **Nebo způsob, jak se staneš člověkem, o kterém se říká, že to zjistil, aniž by o tom nikdo věděl.** To je ta forma, kterou to v tomhle světě mívá.\n\n**Konec — Část trasy.**",
+      "ending": true
+    }
+  }
+}

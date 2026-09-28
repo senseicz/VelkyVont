@@ -1,0 +1,210 @@
+{
+  "nodes": {
+    "k8-1": {
+      "text": "Tady je voda, která jde do města, a je to vidět.\n\nKoryto je široké jako loď, která by se tady nevešla, a jeho dno je rovné, a voda v něm stojí do výšky prstu a neproudí. To je znamení, protože voda, která neproudí, je voda, která byla zadržena. Někdo ji tady zastavil.\n\nNa pravé stěně jsou vrata. Ne dvě, ale jedno, a je velké jako garáž, a horní polovina je rezavá až na dno a dolní je natřená modře, jen od vody. Vrata jsou zavřená, a nad nimi je železná lávka, a na lávce stojí voda, protože tam prší.\n\nTy vrata se neotevírají do strany. Otáčejí se — a otáčejí se **do vody**, což znamená, že tady neotevíráš nic, tady něco zavíráš. Tenhle mechanismus je jiný než dole pod mlýnem.\n\nPodél lávky stojí sloupek s číslem. Osm.\n\nKdybys tady byl před rokem, nepoznals bys, co je to sloupek, protože bys neviděl, že se dá přečíst.\n\nKdybys tady byl před deseti lety, nepoznals bys, že je to voda, která někdy stála výš. Vidíš to teď, protože stojíš v místě, kam voda sahala.",
+      "options": [
+        {
+          "text": "Lézt na lávku a podívat se na vrata zevnitř",
+          "next": "k8-2"
+        },
+        {
+          "text": "Jít dál po korytu, než se zeptáš, co ta vrata drží",
+          "next": "k8-1b"
+        }
+      ]
+    },
+    "k8-1b": {
+      "text": "Koryto je tady jako vyříznuté z jednoho kusu kamene a nikdo do něj nesahal. Boční stěny jsou hladké, bez kapes, bez vystupujících kostek, bez stop po kotevách, bez čehokoli, co by znamenalo, že se tu někdy něco přistavovalo.\n\nJen u pravé stěny, tři sta metrů od těch vrat, je v dutině ve skále skála, která je jiná. Je světlejší, je strmá, a na ní je něco co tu nemá být, protože to tu nemá být, jako celý zbytek.\n\nJe tam střep.\n\nNe střep z domu. Střep, který patřil k nádobě, a nádoba měla ucho, a ucho mělo hrdlo. Je tam střep od džbánu, a džbán byl z modrého glazu, a modrý glaz je v téhle čtvrti věc, kterou nikdo nemá rád, protože modrá je značka, a značka se nemá vysypávat do vody.\n\nLeží tam jeden. Čtyři, možná pět, leží na suchu v dutině, kde voda stojí po prsa.\n\nKdo tady házel nádoby, když voda stála výš? Ten, kdo nemohl použít jinou cestu, nebo ten, kdo chtěl, aby někdo přišel a našel je. **Oboje je možné a obojí je v této čtvrti stejně pravděpodobné.**\n\nA ty střepy jsou mokré. Voda sem doletí, když je vysoká. Kdybys přišel v září, nebyly by tady, protože by je odnesla. Kdo je sem dával, musel přicházet brzo po jarních deštích, nebo na podzim.",
+      "options": [
+        {
+          "text": "Vrátit se k vratům, které držíš na paměť",
+          "next": "k8-2"
+        }
+      ]
+    },
+    "k8-2": {
+      "text": "Vrata jsou zavřená a nikdo u nich není. Voda za nimi je tichá, což znamená, že je tam klid, což znamená, že je ta druhá strana zavřená také.\n\nKdybys se podíval z lávky dolů, uviděl bys, že spodní hrana vrat je asi metr nad hladinou, a u spodní hrany je zrezavělý otvor, přes který voda přitéká do komory za nimi, kterou nevidíš. A z otvoru vychází zvuk, který není zvuk vody, ale zvuk něčeho, co se opakuje: **soustruh**, který se točí bez konce, protože je připojený na vodu.\n\nVrata se zavírají sama, když je voda vysoká. To je ta celá konstrukce, a nepotřebuješ na to žádné lidi, jen správnou výšku vody.\n\nAby se ta správná výška vody vytvořila, musí se něco otevřít. V komoře je otvor, ale je malý, a je zanesený, a na okraji leží tyč, dlouhá, s hákem na konci. Kdybys jí sáhl na ten otvor, a kdybys ho vytáhl, a kdybys vytáhl z něj zátku, pustila by se do komory voda z horního úseku, vrata by se nadzvedla, a ty bys vylezl ven. **Ale voda by tě v komoře uvěznila do té doby, než budeš vědět, co s tím.**\n\nTři kroky. Otevřít zátku. Vytáhnout zátku. Zjistit, co dál.\n\nA tyč je tu, protože o ní někdo ví, ale neví, že ji tady má.",
+      "options": [
+        {
+          "text": "Vytáhnout tyčí zátku, a uvidět",
+          "next": "k8-3"
+        },
+        {
+          "text": "Nedělat nic. Nejdřív si zapamatovat, jak vypadá ten otvor",
+          "next": "k8-3"
+        }
+      ]
+    },
+    "k8-3": {
+      "text": "Tyč je přesně tak dlouhá, jako by byla vyrobena pro ten otvor, a to znamená, že někdo ji sem donosi, nebo tu byla, když se tu stavělo, a pak tu zůstala.\n\nVytáhneš ji. Na konci je zátka, kovová, a je na ní značka, modrá, a ta značka má jeden zlom.\n\nTy znáš ten zlom. Z něj.\n\nKdybys tu zátku nechal vytáhnout a vrátil tyč, nikdo by si toho nevšiml. Kdybys ji vytáhl a nechal ležet, zůstala by tam, kde byla, a voda by do komory tekla dál.\n\n**A kdybys ji vytáhl a odložil, tak bys právě řekl někomu, kdo přijde později, že tu někdo byl, a že uměl poznat, co ta značka znamená.** A to je věta, kterou bys o sobě nikdy nevěděl, kdybys na to nepřišel sám.\n\nAle nebylo by to poprvé. Už jednou sis tady něco nechal. Jen jsi nevěděl, že to byl znak.",
+      "options": [
+        {
+          "text": "Vratit zátku na místo a nechat ji, kde byla",
+          "next": "k8-4"
+        },
+        {
+          "text": "Vytáhnout ji ven a odložit na suché místo",
+          "next": "k8-4"
+        }
+      ]
+    },
+    "k8-4": {
+      "text": "Voda do komory nepřichází najednou. Přichází ve vlnách, a to znamená, že v horním úseku někdo nebo něco... ne. V horním úseku nepracuje nikdo. V horním úseku voda jen teče, a voda se v komoře sdruží, protože komora je užší.\n\nKdybys stál dole, tak bys slyšel, jak voda zvedá něco těžkého, a pak bys slyšel řetěz.\n\nTy stojíš nahoře na lávce a voda za tebou, v komoře, dělá přesně to, co měla. Vrata se zvedají. Nejdřív o pět centimetrů, pak o deset, a pak se zvednou celá, a zvednou se i s tím kusem lávky, na kterém stojíš, a ty se posuneš o půl metru dozadu, aby tě nezvedla do výšky.\n\nA to je celé. Žádné velké otevření, žádný triumf, žádná páka. Jen **správná výška vody a zátka, která má být vytažená**.\n\nKdybys to vylezl dole pod mlýnem, tak bys říkal: „Voda musí vytlačit to, co se nedá táhnout.“ A tady bys říkal: „Vrata se zavírají sama, když je vysoko.“ Dole jsi musel udělat pořadí, tady jsi musel umět poznat, co je voda a co je závora.\n\n**To jsou dva různé závěsníkové.** Nebo jeden, co uměl obojí, a umřel dřív, než si to někdo poznamenal.",
+      "options": [
+        {
+          "text": "Projít nad vraty, než se voda zvedne",
+          "next": "k8-5"
+        }
+      ]
+    },
+    "k8-5": {
+      "text": "Za vraty se koryto zužuje a voda se zrychluje, a to je poslední věc, kterou ses naučil tady: voda v kanále je jako chodba, která vede do domu. Nahoře je široká a klidná, dole je úzká a jde, protože tady je tlačná.\n\nStěny už nejsou cihlové. Jsou z kamene, hrubého, staršího než cihly, a ve výšce, kam až sahá, jsou zkrocené, aby nepřetékaly. To je práce, která stojí peníze, a ta se dělala podle zákona, ne podle rozumu.\n\nVzduch je jiný. Je tu chladněji, ale ne mokrý, a voní to tu zvláštně: sladce, zeleně, a silně, jako když někdo hodí do vody trsát trávy. A když sešel jsi v K7, říkal jsi, že voda je jako když tam někdo hodí trsát trávy. Tady je to pravda, kterou jsi slyšel potom — a to je zase jeden z těch případů, když jsi něco potkal v neděli a v pondělí sis to potvrdil.\n\nA na pravé stěně, v dutině ve skále, kde by měla být tma, je **průchod**.\n\nNení velký. Je starý a suchý a z něj nejde cítit voda, jen vzduch, a ten je teplý, což je divné, protože tady je chladno. Teplý vzduch vychází z místa, kde je voda, která je někde blízko a která je velká. Tam, kde je voda velká, je vzduch jiný.\n\nZ toho průchodu vede chodba, která stoupá, a z ní je slyšet zvuk, který jsi znal od prvního dne. **Tichý, mělký, pravidelný.**\n\nZatím se ho neptáš.",
+      "options": [
+        {
+          "text": "Zatím ne. Napsat si to a jít domů",
+          "next": "k8-6"
+        },
+        {
+          "text": "Vstoupit",
+          "next": "k8-6b"
+        }
+      ]
+    },
+    "k8-6": {
+      "text": "Zapíšeš si do sešitu dvě věci.\n\nPrvní: průchod, který vede vzhůru, a to, že z něj jde teplý vzduch, což znamená velkou vodu blízko. Druhou: písmeno na zátce. Slovo „SEM“ jsi na zdi našel na jiném místě, v patře, kde je led, a je na něm zlom, a ten zlom znamená, že umíš dvě značky, a ne jednu.\n\nPak zavřeš sešit.\n\nA v tu chvíli — to je ta část, kterou neřekneš nikomu, ani sobě — v tu chvíli si uvědomíš, že ta druhá věc, ta písmena, ta patří **někomu, kdo byl tady před tebou a uměl to**. A že ty umíš taky, takže až tě někdo najde, bude si myslet, že jsi tam byl ty.\n\nTo je první věc, kterou ses v tomhle světě začal bát. Ne tmy, ne vody, ne zákazu. **Že tvoje vlastní znamení bude mluvit za tebe, až tu nebudeš.**",
+      "options": [
+        {
+          "text": "Jít zpátky, než se zeptají",
+          "next": "k8-7"
+        }
+      ]
+    },
+    "k8-6b": {
+      "text": "Chodba stoupá čtyři sta metrů a na konci je kamenný portál, který se původně zazdil a potom zase vyzul, a v tomhle městě to udělají všichni, když potřebují, aby tady něco bylo.\n\nZa portálem je schodiště, dvacet čtyř schodů, a z něj ven.\n\nVen je nábřeží, a nábřeží je jiný svět. Není zde cítit uhlí. Není zde cítit ani zimu ze Stínadel, ale je cítit **něco, co je blízko a velké a živé**. Voda je blízko. Ne v potoku, ne v korytě. Něco, co teče široko, co nemá stěny a co nepotřebuje stěny.\n\nKdybys tady stál, tak bys věděl, co je za těmi vraty. Bez mapy, bez měření, bez návratu.\n\nKdybys tady stál, tak bys věděl, že tvoje otázka má odpověď, a odpověď je tady, na těch čtyřech stech metrech, které jsi vylezl.\n\nAle jsi ve čtyři hodiny odpoledne, baterie máš na dvě třetiny, a doma se ptají, kde jsi byl včera, a ne včera, ale dnes, a to je totéž.\n\nNávrat, který jsi v tomhle světě vymyslel, se jmenuje po ránu, ne po odvaze. A ráno je to nejlepší způsob, jak jít z místa, kam ses dostal, zpátky.",
+      "options": [
+        {
+          "text": "Otočit se a jít zpátky. Dnes ne",
+          "next": "k8-7"
+        },
+        {
+          "text": "Zůstat na schodech ještě chvíli",
+          "next": "k8-6b2"
+        }
+      ]
+    },
+    "k8-6b2": {
+      "text": "Stojíš na schodech ještě minutu, a to je dost.\n\nDobře, že nevíš, jestli za těmi vraty je řeka. A to je dobře, protože kdybys věděl, nešel bys tam, a to bys byl ten, kdo nešel.\n\nTy nevíš, a to je jediný důvod, proč tam půjdeš.\n\nZapíšeš si dvě věci. První: průchod, který vede vzhůru, a to, že z něj jde teplý vzduch, což znamená velkou vodu blízko. Druhou: písmeno na zátce, se zlomem, který znáš z jiného místa.\n\nPak zavřeš sešit a řekneš tomu prázdnému schodišti, že tady ještě nejsi, a že tady budeš chtít být, až budeš vědět, kdo s tebou půjde.\n\nA to je odpověď, kterou jsi na schodech našel, a nečekals, že ji najdeš zrovna tady, a nečekals, že bude takhle jednoduchá.",
+      "options": [
+        {
+          "text": "Jít zpátky, než se zeptají",
+          "next": "k8-7"
+        }
+      ]
+    },
+    "k8-7": {
+      "text": "Zpátky jdeš rychle, protože tě doma nečekají, ale tě doma čeká mapa.\n\nMapa má dnes poprvve to, co jsi na ni tři dny nemohl zakreslit: směr, kam voda jde, když ji nikdo nezastaví. Šipka ven ze Stínadel, přes hranici, přes podstínadlí, mimo teplárnu, mimo mlýny, až nahoru, kde už není město.\n\nA nad tou šipkou, kde se na mapě končí místo, jsi napsal jedno slovo. Ne „řeka“. Řeka je na každé mapě, i na té, kterou koupíš v obchodě.\n\nNapsal jsi: **veliké**.\n\nTo je slovo, které jsi použil, protože jsi slyšel, že je to velké. A to je ještě horší, než kdybys tam došel a než bys tam nedošel. Protože teď na te mapě je místo, které neznáš, a je na něm něco, co neznáš, a je to veliké.\n\nA pak se podíval na mapu na to, co je na ní dole, pod šipkou. A tam je všechno, co jsi našel — pumpa, schody, stoka, štola, rampa, hranice, kameny, tři vlnovky — a to všechno dohromady má jednu vlastnost.\n\nJe to **šest** věcí. Šest míst, kde jsi byl, a pět z nich je voda pod domem. A ty šest míst leží na jedné přímce, která nemá zlom.\n\nA ta přímka teď nemá začátek. Má jen dva konce, a oba jsou blízko tebe, a oba jsi viděl.",
+      "options": [
+        {
+          "text": "Založit mapu a jít spát",
+          "next": "rozcestnik"
+        }
+      ]
+    },
+    "k9-1": {
+      "text": "Nábřeží je z kamene, a ten kámen je starý a šedý, a je na něm voda, která se neodpařuje, protože je tady vždycky mokrý.\n\nKoryto vede podél břehu, úzké, a na jednom konci se zvedá do zdi, která vede dovnitř, a v té zdi je otvor. A z toho otvoru jde voda.\n\nTo je ono.\n\nNe začátek toho, co jsi hledal. To je poslední díl. Ale je to ten, který byl celou dobu poslední.\n\nKdybys sem došel v pátek večer, tak bys to našel za hodinu, protože bys šel po břehu a hledal, kde voda do kanálu vstupuje, a ona vstupuje tady, a je to vidět. Kdybys sem došel v sobotu ráno, tak bys našel nic, protože voda v kanále stojí nízko a otvor je zaplavený, a z břehu nepoznáš, že je tam otvor, protože otvory v kameni vypadají stejně jako všechno ostatní v kameni.\n\nA kdybys sem došel o půl jedenácté, tak bys nic neviděl a neuslyšel a nepoznal. Protože břeh je vysoký čtyři metry, pod ním je voda, která do otvoru teče zleva zprava, a z břehu nepoznáš, že tam něco je.\n\nNade dveřmi je nápis, který je zadřený a polovina chybí, ale jde to číst: **POD NÁDRŽÍ**.\n\nPod nádrží. Pod ním. Těžký, starý, dobře skrytý znak, na místě, kde stojí voda, a kde za dvacet let nikdo nehodil ani šišku.\n\nZadřený, a nevidět, a nikdo nepřijde. A to je přesně to, jak vypadají věci, které někdo zanechal, protože chtěl, aby je někdo našel, a nikdo nepřišel.",
+      "options": [
+        {
+          "text": "Zůstat. Sednout si na zeď a být v tom místě, až budeš vědět, kdo přijde",
+          "next": "k9-1b"
+        },
+        {
+          "text": "Jít domů, než dojde baterie",
+          "next": "k9-2"
+        }
+      ]
+    },
+    "k9-1b": {
+      "text": "Být v tom místě, až budeš vědět, kdo přijde, znamená čekat.\n\nA čekání na nábřeží je jiné než čekání v domě. V domě čekáš na to, až se něco stane. Na nábřeží čekáš na to, až něco **nepřijde** — vlak, člověk, autobus, voda, která by měla něco odnést. A ono nepřichází, a to je klid, a ten klid je nejhlasitější věc, jakou tam slyšíš.\n\nPod čtyřmi metry kamene je voda, která do otvoru teče a neodtéká, protože v otvoru je jiné voda, která odtéká. A mezi nimi je stěna, kterou nevidíš, ale která tam je, a ta stěna je z cihel, a ty cihly jsou starší než otvor.\n\nTo je to poslední, co ti v té chvíli napadne: **že voda přichází pod stěnou, která je starší než brána, kterou jsi našel.** A to znamená, že někdo přivedl vodu sem, a pak někdo další udělal bránu, a to je dvě různé práce, dvě různé doby, dvě různé ceny.\n\nA pak na lavičku vedle tebe někdo sedne. Nemluví. Sedí a kouká na vodu, jako kdyby čekal, že něco přinese.\n\nJe osm let starý a má na sobě svetr a v ruce drží tři kamínky a dává je po řadě do vody a kouká, kam se odvalí.\n\nNeříká ti nic. Kdyby říkal, byl by zajímavější, ale on je zajímavý takhle — protože dělá přesně to, co ty bys dělal na jeho místě, kdybys měl tři kamínky a věděl, že tudy voda neodtéká.",
+      "options": [
+        {
+          "text": "Sednout si. Dát do vody svůj kámen",
+          "next": "k9-3"
+        },
+        {
+          "text": "Jít domů, než dojde baterie",
+          "next": "k9-3"
+        }
+      ]
+    },
+    "k9-2": {
+      "text": "Kdybys tady chtěl být sám, tak bys nemohl. Není to místo, kde se dá být sám, protože je tu vidět břeh na oba směry, a břeh je veřejný, a kolem jsou lavičky, na kterých v neděli sedí lidi a kteří nejsou z tohohle města.\n\nA zítra je neděle.\n\nA tak se stane, že nejsi sám, ale nejsi ani s nikým, koho jsi čekal. Stojíš na lavičce, čtyři metry nad otvorem, a voda dole je tichá, a to je zvuk, který jsi v kuchyni poslouchal půl roku, a jehož jsi se vůbec nezbavil.\n\nKdybys tady chtěl být sám, tak bys musel přijít ve čtyři ráno, a to je čas, kdy je nábřeží prázdné, a to je čas, kdy se na nábřeží chodí z druhých důvodů, než aby se dívalo na otvory v kameni.\n\nKdybys tedy přišel ve čtyři ráno, tak bys tady byl sám. A kdybys tady byl sám, tak bys o tom musel někomu říct, protože o tom musíš někomu říct, aby to nebylo jen to, co se ti zdálo.\n\nA nikomu to neřekneš. Tak zůstane jen to, co se ti zdálo.",
+      "options": [
+        {
+          "text": "Říct to nahlas. Aby to bylo skutečné",
+          "next": "k9-2b"
+        },
+        {
+          "text": "Jít domů",
+          "next": "k9-3"
+        }
+      ]
+    },
+    "k9-2b": {
+      "text": "Řekneš to nahlas a zjistíš, že se to dá. Že to jde říct hlasem, i když je tam nikdo, kromě člověka, který říká. A to je divné, a to je taky věc, kterou v tomhle městě neřeší nikdo, protože je to vidět jen zevnitř.\n\nŘekneš: „Voda jde od řeky. Vede tady. A nikdo neví.“\n\nA pak řekneš: „A nikdo se nezeptal, a to je druhá věta, kterou je potřeba říct, protože ta první je zajímavá, ale ta druhá je ta, o kterou jde.“\n\nA řekneš: „To je dvě vět. A obě jsou o tomhle městě, ne o vodě.“\n\nA to je to, co jsi chtěl, když ses tohoto dne první ráno díval z okna. A neřekl jsi to tenkrát, protože v tom okně nebylo koho. Jen bylo okno.\n\nA teď je tady břeh, a břeh je veřejný, a na břeh je i to, co jsi právě řekl, a to, co se řekne na veřejném místě, se dá vzít zpět jen tím, že to někdo řekne jinak.\n\n**Nikdo to zatím neřekl.**",
+      "options": [
+        {
+          "text": "Jít domů",
+          "next": "k9-3"
+        }
+      ]
+    },
+    "k9-3": {
+      "text": "Kámen je těžký a hladký, protože byl v řece dlouho. Otevřeš ruku a on spadne a plave.\n\nKdybys plaval, tak bys ho viděl. Kdybys plaval, tak bys viděl, že se zastavil u otvoru, a ne u břehu, a že se otáčí, jako by ho něco drželo.\n\nKdybys ležel na břehu, tak bys ho jen viděl plavat, a to je špatně. **Na břehu voda vypadá jako voda, která plave. Ve vodě vypadá jako voda, která něco drží.** To je věta, kterou v žádném zápise z Katalogu nebylo, a je to věta, kterou bys na papíře nikdy nenapísal, protože bys nevěděl, proč to píšeš.\n\nAle to jsi právě viděl. A kdyby ti někdo řekl, že to nepoznáš, protože to není důležité, tak bys musel říct, proč to není důležité. A na to bys neměl odpověď.\n\nKámen se otáčí u otvoru. Osm let starý chlapec kýbne, jako kdyby se ptal, jestli jsi viděl. A ty řekneš: „Vidím.“ A on řekne: „Jo. Tak to pěkně.“ A ví, že jsi viděl, a nevíš, co z toho plyne.\n\nA to je tenhle den.",
+      "options": [
+        {
+          "text": "Dát do vody poslední kámen",
+          "next": "k9-4"
+        },
+        {
+          "text": "Vstát. Je pozdě",
+          "next": "k9-4"
+        }
+      ]
+    },
+    "k9-4": {
+      "text": "Kámen plave, až k otvoru, a neza chvíli se zastaví, a ty vstáváš, a ten chlapec ti říká:\n\n„To je voda z velký řeky. Kdybys chtěl vědět, kam teče, tak to je tamhle.“ A ukáže na koryto ven ze zdi, které vede po nábřeží dolů, a které je prázdné, a které vede k ústí, kde se to vrací do řeky.\n\n**Teplota vody.** Voda z velké řeky je jiná než voda z potoka. Chlapec to ví, a ví to tak, jak to vědí děti, které si myslí, že to je jen nějaká voda.\n\nA ty v tu chvíli víš, že to je způsob, jak se dá poznat velká voda. Protože voda z velké řeky má jinou teplotu, a má jiný pohyb, a do kanálu se vrací, a vrací se dlouho, a na kratším úseku se voda nevrátí, protože jí to tam nedá.\n\nTo znamená, že **tahle voda je stará**. Ne zítra, ne včera, ne loni. Stará, jako ta zeď, která je pod otvorem.\n\nTo je poslední kousek. A už máš všechno.",
+      "options": [
+        {
+          "text": "Zůstat do tmy a nechat si to projít hlavou",
+          "next": "k9-5"
+        },
+        {
+          "text": "Jít domů",
+          "next": "k9-5"
+        }
+      ]
+    },
+    "k9-5": {
+      "text": "Vracíš se po nábřeží, a je večer, a je neděle, a kino je ve dvou blocích odsud, a na bloku se hraje něco, kde je voda, protože hrají o vodě, když je neděle.\n\nA ty stojíš na nábřeží, a v kapse máš mapu, na které je šest míst a dvě šipky, a obě šipky míří do města.\n\nA víš, že voda v tom kanálu je stará. A víš, že do něj vchází voda z velké řeky, která se pak vrací. A víš, že někdo ji tam přivedl a někdo další udělal bránu. A víš, že pod městem jsou dvě zdymadla, a v jednom umíš tyč, a v druhém zátku, a obě umíš, protože jsi je vylezl sám.\n\nA nevíš, kdo to držel. A nevíš, kdo řekl „nechoď sem“ a proč. A nevíš, kdo tam dělal ten zlom.\n\nA to jsou tři věci, které nejsou odpovědí. A to jsou přesně ty tři věci, které dělají z tohohle dne ne konec, ale **otázku, kterou teď můžeš položit jiným lidem, a oni na ni nebudou umět odpovědět.**",
+      "options": [
+        {
+          "text": "Jít do kina",
+          "next": "k9-6"
+        },
+        {
+          "text": "Jít domů a pověsit mapu ve sklepě",
+          "next": "k9-6"
+        }
+      ]
+    },
+    "k9-6": {
+      "text": "Kino je ve dvou blocích odsud, na nábřeží, kde se dá koupit sáčka, kde se sedí na podlaze, když je pondělí, a kde hrají filmy, o kterých se nedá říct, že by tě vychovaly.\n\nU hrádka stojí chlapec, co prodává, a mluví jako každý chlapec, co prodává, a říká: „Bráníme koleno, prsa, záda.“ A ty říkáš: „Tak jo.“ A on říká: „Dva vstupný, jeden, když koupíš popcorn.“ A ty říkáš: „Jeden.“ A on říká: „To má být čtyři.“\n\nA v tom je to celé. **Nabízejí ti dva vstupný, aby koupil jeden, a on ví, že si koupíš jeden, a ty víš, že koupíš jeden, a on to věděl, než jsi přišel, a ty to víš taky, a nikdo to neřekl.**\n\nA jdeš dovnitř, a sedíš, a film běží, a je voda na obrazu, a ty se nedíváš, protože se koukáš na svou mapu v hlavě, která má šest míst a dvě šipky a tři otázky.\n\nA pak se film přestane a rozsvítí se, a ty jdeš ven, a je půlnoc, a jdeš domů, a jsi normální chlapec, který chodí do kina.\n\nA za tři dny budeš vědět, že pod tvým domem je kanál, který tam někdo nakopali, aby vozil uhlí, a který nikdo nezabil, protože na to nikdo neměl čas.\n\nA to je celá tvoje odpověď. Není to odpověď, kterou člověk dostává. Je to odpověď, kterou si musíš nechat říct sám.",
+      "options": [
+        {
+          "text": "Zítra ráno. A otevřít dveře do kuchyně",
+          "next": "bilance"
+        }
+      ]
+    }
+  }
+}
