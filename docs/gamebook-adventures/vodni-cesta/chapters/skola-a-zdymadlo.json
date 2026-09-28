@@ -1,293 +1,296 @@
 {
   "nodes": {
     "k3-1": {
-      "text": "V pondělí je všechno jinak, protože v pondělí většina lidí vstává stejně a většina lidí nemá v hlavě vodu.\n\nTřída je třída. Děti z Bílých domů se mezi sebou znají, vědí, kdo bydlí kde, kdo má starší sourozence a kdo má v Bílých domech dvě matky a garáž pro dva vozy. Ty všechno znáš ze Stínadel: kdo má klíč od sklepa, kdo má psa, kdo chodí do kostela, kdo chodí na hřiště, kam se nesmí.\n\nJsi mezi nimi třetí rok a pořád nevíš, jestli ses přestěhoval, nebo jen dlouho díval.\n\nKdybys měl říct spolužákům, co jsi našel, řekl bys to jako zajímavost. Protože to je zajímavost: nějaký kanál pod městem, starý, zapomenutý, s prstenem v kameni, kam nikdo nechodí.\n\nJenže nikdo z nich by neřekl „to jsem já chtěl slyšet“. A to zjistíš až ve chvíli, kdy si všimneš, že jsi to neřekl.",
       "options": [
         {
-          "text": "Jít na přestávku za Lukáše",
-          "next": "k3-2"
+          "next": "k3-2",
+          "text": "O přestávce zajít za Lukášem"
         },
         {
-          "text": "Zůstat v třídě a nechat to být",
-          "next": "rozcestnik"
+          "next": "rozcestnik",
+          "text": "Zůstat v lavici a nechat to být"
         }
-      ]
+      ],
+      "text": "V pondělí je všechno jiné. Většina lidí vstává se stejnými starostmi a nikdo z nich nemá v hlavě hučící podzemní vodu.\n\nTřída je plná hluku. Spolužáci z Bílých domů se znají mezi sebou: vědí, kdo kde bydlí, kdo má starší sourozence, čí rodiče mají dvě auta a garáž. Ty znáš zase Stínadla: víš, kdo má klíč od půdy, kdo drží psa, kdo se schází u kostela a na který dvůr je nebezpečné vkročit.\n\nChodíš mezi ně třetím rokem a pořád si nejsi jistý, jestli k nim patříš, nebo ses do jejich světa jen na chvíli přistěhoval.\n\nKdybys jim vyprávěl, co jsi našel, vzali by to nanejvýš jako zajímavost. Nic víc než klukovskou historku o starém kanále pod dlažbou, s uvazovacími kruhy v kameni, kam nikdo nechodí.\n\nNikdo z nich by nepochopil, co to pro tebe znamená. A tak raději mlčíš."
     },
     "k3-2": {
-      "text": "Lukáš má schránku na zápisy a nikdo ji nechce hlídat, takže ji hlídá on.\n\n„Kanál,“ řekne, když řekneš. „Tady se tomu říká staré rameno. Nikdo neví, jestli to bylo potok, nebo strouha. Můj dědeček říkal, že se to vysušilo a pak se zase naplnilo, a voda se vracela. To je celé, co o tom víme.“\n\nPak řekne věc, kterou ty nevíš: „Pod tím je ještě něco. Byli jsme tam jednou na stavbě, když se dělala kanalizace na nábřeží. Byly tam cihly a voda a nikdo neřekl, co to je. Dělník říkal, že se to nikdo neodvažuje pojmenovat.“\n\n„Takže to máte doma pod dvorem a nevíte, co to je,“ řekne.\n\n„Máme to doma pod dvorem,“ řekneš.\n\n„A chodíš do toho?“ zeptá se, a poprvé za tři roky se neptá jako na něco zajímavého, ale jako na něco, s čím by chtěl jít.\n\n„Nepotřebuju,“ řekneš.\n\n„Vím,“ řekne on. „Tak já potřebuju.“",
       "options": [
         {
-          "text": "Neříct nic a jít zpátky do třídy",
-          "next": "rozcestnik"
+          "next": "rozcestnik",
+          "text": "Neříct nic dalšího a vrátit se do třídy"
         },
         {
-          "text": "Sednout si a říct mu, jak to je",
-          "next": "k3-3"
+          "next": "k3-3",
+          "text": "Sednout si s ním a domluvit se"
         }
-      ]
+      ],
+      "text": "Lukáš má službu na chodbě a v ruce třímá desky se zápisy ze třídy. Nikdo jiný to hlídat nechtěl, a tak to zbylo na něj.\n\n„Ten kanál,“ začneš opatrně.\n\n„Tady u nás se tomu říká staré rameno,“ kývne Lukáš. „Nikdo přesně neví, jestli to byl potok, nebo vykopaná strouha. Děda říkal, že se kdysi vyčerpal, ale pak se zase naplnil a voda se vrátila. To je všechno, co se o tom ví.“\n\nPak se rozhlédne a ztiší hlas: „Ale pod tím je ještě něco dalšího. Byli jsme se tam jednou podívat, když se na nábřeží kopala nová kanalizace. Viděli jsme staré cihlové klenby a proud vody. Dělníci o tom nechtěli mluvit. Jeden chlap povídal, že se to nikdo ani neodvažuje pojmenovat.“\n\nPodívá se na tebe: „Takže to máte ve Stínadlech pod dvory a ani nevíte, co to je?“\n\n„Máme to přímo pod naším domem,“ přiznáš.\n\n„A lezeš tam?“ zeptá se. Poprvé za tři roky se neptá ze zvědavosti, ale tónem kluka, který by do toho šel s tebou.\n\n„Nepotřebuju parťáka,“ odvětíš váhavě.\n\n„Já vím,“ opáčí Lukáš. „Ale já bych potřeboval jít s tebou.“"
     },
     "k3-3": {
-      "text": "Ve třídě řekneš: „Kdybys šel, šel bys proto, že umíš přejít z druhé strany. Aby se někdo díval, kam jdu. Abych se nezdržel v pátek večer sám.“\n\nLukáš se na to podívá jako na úlohu, kterou dostal, a ne jako na nabídku. To je zvláštní. Ve škole se věty berou jinak než tady, a on je z té školy.\n\nPak řekne: „Tak to musíme naplánovat. Nemůžeš jít večer. A nejdřív půjdeš v pátek, protože o víkendu tě nehledají.“ A vytáhne z kapsy blok a začne kreslit, a ty kreslíš taky, protože to je to jediné, co umíte oba.\n\nNa jeho papíře je obdélník města, řeka dole, a mezi tím všechno, kde jsi byl. Na tvém je čára, která začíná u cizího dvora, končí u kamene ve zdi, a mezi tím teprve nic. Oba papíry se k sobě nevejdou, ale oba dávají smysl.\n\nDneska v pondělí řekneš jméno věci, kterou jsi tři dny nenavštívil: „Kanál.“\n\nLukáš řekne: „Tak jdi. Kdybys šel sám, stejně bys tam nešel.“",
       "options": [
         {
-          "text": "Vést si jeho papír, až půjde ven",
-          "next": "rozcestnik"
+          "grant": [
+            "svědctvi-lukase"
+          ],
+          "next": "rozcestnik",
+          "text": "Vzít si jeho plánek a po vyučování vyrazit"
         }
-      ]
+      ],
+      "text": "Sednete si do prázdné lavice. „Kdybys šel se mnou,“ řekneš tiše, „potřeboval bych, abys hlídal druhou stranu za Rozdělovací. Aby někdo věděl, kam lezu. Abych v tom v pátek večer nezůstal viset sám.“\n\nLukáš se zatváří soustředěně, jako by dostal důležitý úkol. Ne jako na hru – bere to se vší vážností.\n\n„Musíme to naplánovat,“ kývne. „Za tmy tam nepůjdeš. A nejlepší bude vyrazit v pátek odpoledne, protože o víkendu tě ve škole nikdo nepostrádá.“ Vytáhne z kapsy notes a začne kreslit. Ty vytáhneš svůj papír.\n\nNa jeho náčrtku je pravoúhlý plán nových čtvrtí, dole řeka a mezi tím vyznačená místa zvenčí. Na tvém je křivolaká linie začínající v cizím dvoře a končící u hraničního kamene. Ty dva plány do sebe zatím nezapadají, ale každý zachycuje kus pravdy.\n\nPoprvé nahlas vyslovíš to slovo před někým zvenčí: „Je to plavební kanál.“\n\nLukáš přikývne a pevně ti stiskne ruku: „Počítej se mnou. Kdybys na to byl sám, nikam by ses nedostal.“"
     },
     "k4-1": {
-      "text": "Lampářská je ulice, kde se prodávají věci, o kterých se ve Stínadlech říká, že byly někdy všechny. Zvoní, že za roh je půlce stodoly. Za půlcí stodoly je kaplan. Za kaplanem jsou dveře dozadu, nad kterými je malá tabulka, a na tabulce je napsáno jen „zavřeno“.\n\nDveře jsou otevřené. Uvnitř je úzká chodba s řadami polic a všechno je na policích takhle: nic, co by nebylo nějakou náhodou už použité.\n\nVetešník stojí za pultem a neřívá nic. To je celý jeho způsob, jak dělá obchod — nezačíná tím, že se zeptá, co chceš, protože kdyby se zeptal, musel by ti říct, že to prodává.\n\nKdyž stojíš před pultem, on ukazuje. Ukáže na police, na dveře, na okno, a u každého z toho něco řekne, a všechno, co řekne, je pravda. U dveří řekne: „To si nikdo neodnáší. To si sem dávali lidi, kteří chtěli, aby se na to zapomnělo.“ U okna řekne: „Odtud je vidět, kam se chodí dovnitř. Kdybys tam šel, šel bys zrovna.“\n\nPak řekne: „Tak co potřebuješ?“ a začne se ptát, jako by to byla otázka na cestu.",
       "options": [
         {
-          "text": "Říct: „Potřebuju vědět, kde je voda pod městem“",
-          "next": "k4-2"
+          "next": "k4-2",
+          "text": "Říct rovnou: „Potřebuju vědět, kudy vede ta voda pod městem.“"
         },
         {
-          "text": "Procházet se a nic neříct",
-          "next": "k4-1b"
+          "next": "k4-1b",
+          "text": "Neříkat nic a nejdřív si prohlédnout krám"
         }
-      ]
+      ],
+      "text": "Lampářská je ulice plná krámků, kde se prodávají věci, které kdysi patřily někomu ve Stínadlech. Za rohem stojí polorozpadlá kůlna, vedle ní stará kaple a za kaplí nízké dřevěné dveře s plechovou tabulkou „Zavřeno“.\n\nDveře jsou přesto pootevřené. Uvnitř se táhne úzký krám s policemi od podlahy ke stropu. Všechno, co tu leží, má už svůj věk a svou historii.\n\nVetešník stojí za pultem a mlčí. To je jeho zvyk – nikdy se neptá, co sháníš. Kdyby se zeptal, vypadalo by to, že ti chce něco vnutit.\n\nPostavíš se k pultu. Vetešník pomalu ukáže rukou: na police, ke dveřím, k zamřížovanému oknu. O každém koutu prohodí pár slov a v každém je kus pravdy. U dveří utrousí: „Tyhle věci si nikdo neodnáší. Ty sem nanosili lidi, kteří chtěli zapomenout.“ U okna dodá: „Odsud je vidět dolů ke korytové zdi. Kdybys tam šel, musíš vědět kudy.“\n\nPak se na tebe pronikavě zadívá: „Tak co potřebuješ vědět?“"
     },
     "k4-1b": {
-      "text": "Procházíš se. Je to pomalejší, ale Vetešník to schvaluje — čeká, a v čekání je čas.\n\nZa dvě hodiny se dozvíš, že v policích jsou: třináct kusů zámků, které nikdo neodemyká, dvě stříbrné lžičky, dvanáct knih, z nichž devět nemá titul, a jeden plášť, který bys na sobě nechtěl nosit, protože je z něj cítit, že ho někdo nosil dlouho bez toho, aby ho přepal.\n\nZjistíš také, že prodává hlavně odpovědi. Kolem pultu stojí dva chlapci, kteří nejsou z Bílých domů a nejsou odsud, a poslouchají, co říká, a jeden z nich zapisuje si to do sešitu. Vetešník jim nebrání. On jim vlastně půjčuje zadarmo, aby si zvykli chodit.\n\nKdyž se zeptáš, co prodává nejdražší, řekne: „To, co nevymiznu.“",
       "options": [
         {
-          "text": "Říct mu to, co jsi právě poslyšel",
-          "next": "k4-2"
+          "next": "k4-2",
+          "text": "Zeptat se na vodu pod městem"
         }
-      ]
+      ],
+      "text": "Pomalu procházíš mezi regály. Je to zdlouhavé, ale Vetešníkovi to nevadí – klidně čeká, času má dost.\n\nV policích leží neuvěřitelné harampádí: třináct masivních visacích zámků bez klíčů, dvě stříbrné lžičky, tucet starých knih s potrhanými hřbety a těžký soukenný kabát, který pamatuje lepší časy.\n\nBrzy pochopíš, že Vetešník neprodává jen veteš, ale hlavně informace. K pultu přijdou dva cizí kluci, kteří nevypadají ani ze Stínadel, ani z Bílých domů. Hltají každé jeho slovo a jeden z nich si píše poznámky do bloku. Vetešník jim nebrání. Nechává je nahlédnout do svých tajemství, aby se sem vraceli.\n\nKdyž se ho zeptáš, co je v jeho krámě nejdražší, ušklíbne se: „To, co se nedá koupit za peníze.“"
     },
     "k4-2": {
-      "text": "„Pod městem voda,“ řekneš. On přikývne, jako by to věděl dřív, a řekne: „Ta je nejstarší věc v tomhle městě. Ta se stavěla, když tu ještě nebyly domy, jen ulice mezi poli, a plulo se to sem uhlí do teplárny. Pak se to zavřelo. Ne kvůli vodě. Kvůli uhlí, a pak kvůli tomu, že se za uhlí už neplatilo.“\n\n„Kde to je?“ zeptáš se.\n\n„Všude,“ řekne Vetešník. To je odpověď, za kterou bys mu nic nedal, a on to ví. „Ale to, co potřebuješ, je, jestli se do toho dá dostat a jestli se z toho dá vyjít. To se dá. Jen to chce vědět, u které vrat se má co otevřít.“\n\nA pak řekne cenu, protože neplácá:\n\n„Dneska odpoledne musím dostat bednu odtud na zadní dvůr za Rozdělovací. Musím ji dostat sám a nesmím ji nést sám. Kdyby mě někdo vidět, jak něco nesu, byl bych vypadal jako někdo, kdo kupuje. A já kupuju věci, které už tu jsou.“\n\nBedna je zěktovaná, plná na horní plochu a má na sobě prázdný štítek.",
       "options": [
         {
-          "text": "Vzít ji. Neptát se, co je v ní",
-          "next": "k4-3"
+          "next": "k4-3",
+          "text": "Vzít bednu a na nic se nevyptávat"
         },
         {
-          "text": "Nejít pro sebe. Zeptat se, jestli můžeš místo toho",
-          "next": "k4-2b"
+          "next": "k4-2b",
+          "text": "Odmítnout donášku a zkusit se zeptat na jinou protislužbu"
         }
-      ]
+      ],
+      "text": "„Ta voda pod městem,“ vyhrkneš.\n\nVetešník přikývne, jako by to čekal: „To je nejstarší stavba široko daleko. Budovala se v době, kdy kolem stály jen louky a pole, a vozilo se tudy uhlí na pramicích přímo do teplárny. Pak se plavba zastavila. Ne proto, že by došla voda – přestalo se vozit uhlí a nikdo už nechtěl platit údržbu.“\n\n„Kudy ten kanál vede?“ zeptáš se.\n\n„Všude,“ odvětí Vetešník vyhýbavě. To je odpověď, za kterou by nikdo nezaplatil ani pětník, a on to dobře ví. „Důležité je vědět, kudy se do něj dostat a jak z něj vyjít. A hlavně: u kterých vrat a stavidel musíš vzít za správnou páku.“\n\nPotom nasadí věcný tón:\n\n„Dneska odpoledne potřebuju doručit jednu bednu na zadní dvůr za Rozdělovací třídu. Nesmím ji tam nést sám – kdyby mě s ní někdo viděl, vypadalo by to, že něco vykupuju načerno. A já kupuju jen věci, které už jsou dávno na světle.“\n\nUkáže na dřevěnou bedýnku okovanou plechem, převázanou provazem a opatřenou prázdným štítkem."
     },
     "k4-2b": {
-      "text": "Nejde to. Řekne to laskavě, bez určení, jako by vám oběma nabízel něco jiného.\n\n„Mohl bys mi říct, kdo to chce?“ zeptá se. To je ta otázka, na kterou jsi nepřipravený, protože jsi na ni ani nemyslel. On na ni myslel za tebe.\n\n„Můžeš přijít zítra,“ řekne, „a já můžu říct, že ne. Ale to zítra bude zítra a to dnešní bude dneska, a bedna se do tmy neodnese.“\n\nTakže ji odneseš. Nebo nepůjdeš.\n\nV obou případech něco platíš. V tom prvním je to tvá tvář, kterou uvidí devět lidí cestou přes Rozdělovací třídu, a může se stát, že někdo z nich zajde domů a řekne to domů.",
       "options": [
         {
-          "text": "Vzít bednu a jít",
-          "next": "k4-3"
+          "next": "k4-3",
+          "text": "Přikývnout, vzít bednu a vyrazit"
         },
         {
-          "text": "Nejít a říct, že ne",
-          "next": "k4-2c"
+          "next": "k4-2c",
+          "text": "Odmítnout a odejít bez bedny"
         }
-      ]
+      ],
+      "text": "„Jinak to nepůjde,“ řekne Vetešník klidně, bez hněvu.\n\n„Mohl bys mi aspoň říct, komu to neseš?“ zeptáš se. To je otázka, na kterou nejsi připravený, ale napadla tě v pravou chvíli.\n\n„Můžeš přijít zítra,“ pokrčí rameny. „A já ti můžu říct, že už nic nevím. Zítra bude zítra a bedna musí být na druhé straně ještě před setměním.“\n\nBuď ji odneseš, nebo odejdeš s prázdnou.\n\nV obou případech za to něco zaplatíš: když ji poneseš přes Rozdělovací třídu za bílého dne, uvidí tě spousta lidí, a ve Stínadlech se každá taková věc rychle rozkřikne."
     },
     "k4-2c": {
-      "text": "Nejdeš. Řekneš ne, on řekne, že to je rozumné, a nechá bednu stát.\n\nPak ale stejně něco řekne, protože on neodmítá obchod, jen ho nezačíná:\n\n„Pod třetím mlýnem je komora. Vrata nejsou v dveřích, jsou v dlažbě. Kdybys hledal dveře, nenašel bys je, a kdybys hledal kanalizaci, tak tady žádná není. Je to plavební závora, a stavěli ji na lodičku, ne na město.“\n\nZa lodičku na město se v téhle čtvrti nikdo nikdy neptal. To je ta cena, kterou si bere, když odejdeš bez bedny: pustí tě s jednou věcí, kterou bys bez něj nenašel.\n\n„Klíč si udělej sám,“ řekne. „A soustruh se otáčí takhle.“ A ukáže rukou, zleva doprava, pomalu, dvakrát. Jednou ukáže takhle a podruhé takhle, a už nevysloví, co znamená, že máš v hlavě dvě různé možnosti, a on u tebe nečeká, až si vybereš.",
       "options": [
         {
-          "text": "Zapamatovat si, co řekl, a odejít",
-          "next": "k4-4"
+          "next": "k4-4",
+          "text": "Zapamatovat si jeho slova a odejít"
         }
-      ]
+      ],
+      "text": "Odmítneš. Řekneš ne. Vetešník jen suše kývne, že to chápe, a nechá bednu stát na pultě.\n\nPřesto tě nenechá odejít s prázdnou – kšeft je pro něj kšeft, a i odmítnutí má svou cenu:\n\n„Pod třetím mlýnem je plavební komora. Vstup do ní nehledej ve zdi, je přímo v dlažbě dvora. Žádná stoka, ale poctivá plavební závora stavěná pro nákladní čluny.“\n\nNa staré čluny se v téhle čtvrti už nikdo nepamatuje. To je informace, kterou bys bez něj nezískal.\n\n„Klíč si sežeň sám,“ dodá Vetešník. „A mechanismus stavidla se točí po směru hodinových ručiček.“ Pomalým gestem ruky naznačí otáčení. Pak se otočí zády, jako bys už v krámě nebyl."
     },
     "k4-3": {
-      "text": "Bedna je těžká asi jako dva pytle mouky a je suchá, a to je nejhorší, protože suchá bedna se neslušně dobře nese. Kdyby byla mokrá, nesl bys ji jako něco, co právě omylo. Takto ji neseš jako něco, co někdo ukradl.\n\nZa Rozdělovací třídou je zadní dvůr s bránou, u které stojí žena, která neřekne dobré den. Bednu dostaneš přes nízkou zeď, usadíš ji na tvrdý povrch a hned se ptáš, jestli nepotřebuješ ještě jednu.\n\n„Děkuju,“ řekne žena, a to je celý dík.\n\nCestou zpátky si všimneš, že jsi šel jinudy, než jsi šel sem, a že jsi šel rychleji, a to jsou dvě věci, které tě dostaly do stejné situace jako pod čtyřmi koly doma.",
       "options": [
         {
-          "text": "Zatímco jsi nesl bednu, všimnout si, kdo šel stejnou cestou",
-          "next": "k4-3b"
+          "next": "k4-3b",
+          "text": "Cestou zpátky si všimnout, kdo šel celou dobu za tebou"
         },
         {
-          "text": "Jít rovnou domů a už o tom neříct",
-          "next": "k4-4"
+          "next": "k4-4",
+          "text": "Zamířit rovnou domů a nikde se nezastavovat"
         }
-      ]
+      ],
+      "text": "Bedna je těžká jako dva pytle cementu, ale je suchá a čistá – a v tom je ten háček. Kdyby byla špinavá a mokrá, vypadala by jako obyčejný náklad ze stavby. Takhle to vypadá, jako bys z krámu odnášel něco kradeného.\n\nZa Rozdělovací třídou najdeš podle popisu dvůr s vysokou bránou. Čeká tam žena v šátku, která ani neodpoví na pozdrav. Převezme bednu přes nízkou zídku a položí ji na dlažbu.\n\n„Díky,“ utrousí suše a víc ani slovo.\n\nPři zpáteční cestě si uvědomíš, že jsi šel oklikou a mnohem rychleji, než bylo nutné. Srdce ti buší v krku. Přenášet věci přes Rozdělovací je nebezpečná hra."
     },
     "k4-3b": {
-      "text": "Zastavíš se na konci ulice, protože tě něco napadlo, a když se otočíš, ujdeš deset kroků zpátky po svých stopách, jako by tě někdo sledoval.\n\nNesleduje tě nikdo. Jen jde v pátek večer chlapec z protější strany, kterému je patnáct, v tmavém kabátě, a jde stejnou stranou ulice, protože tak se jde u nás po pravé, a on jde taky. Na křižovatce se na vás oba podíváte a vyhnete o se, oba současně, jako kdybyste byli domluvení.\n\nTy ale nepodáš ruku. On také ne. Jen si všimneš, že má u boku něco malého a těžkého, a že to nepoužívá na chůzi.\n\nPak už jde, a je za dvě ulice, a pak za čtyři, a pak se otočíš, protože je pozdě.\n\nK večeru to máš tak, že sis to zapamatoval a nevíš proč. Některé věci se pamatují dřív, než je pochopíš.",
       "options": [
         {
-          "text": "Jít domů a už o tom neříct",
-          "next": "k4-4"
+          "next": "k4-4",
+          "text": "Jít domů a nikomu o tom neříkat"
         }
-      ]
+      ],
+      "text": "Na rohu ulice se prudce zastavíš a ohlédneš. Máš neodbytný pocit, že tě někdo sleduje.\n\nUlice je téměř prázdná. Jen po protějším chodníku kráčí asi patnáctiletý kluk v dlouhém tmavém kabátě. Drží se pravé strany, přesně jak velí zvyk, a nikam nespěchá. Na křižovatce se vaše pohledy na vteřinu střetnou – ani jeden z vás neuhne očima, ale oba bez jediného slova odbočíte opačným směrem.\n\nNeznáte se a ruku byste si nepodali. Všimneš si však, že mu u pasu pod kabátem visí jakýsi těžký kovový předmět na řemínku.\n\nKluk zmizí za rohem v uličkách směrem k řece.\n\nZůstane v tobě divný pocit. Některé tváře a setkání si člověk zapamatuje dřív, než pochopí jejich pravý význam."
     },
     "k4-4": {
       "grant": [
         "vetechnik-balicek"
       ],
-      "text": "V kapse u vchodu do domu leží, protože ti to tam strčil ještě než jsi odešel, stočena do novin: velký klíč s plochou hlavou, lístek velikosti dlaň, na kterém je pět řádků, a třídmetrová železná tyč s okem na konci. Noviny jsou z dubna.\n\nNa lístku je psáno:\n\n*Dolní vrata zavřít. Napustit. Teprve potom otáčet. Kdybys začal otáčením, voda tě vyplave a komora zůstane prázdná do rána.*\n\nDole, jiným písmem, je připsáno: *Klíč je od vrat teplárny. Tyč je závěsníkova, visela v kanceláři. Já neplatím. Já prodávám.*\n\nA úplně dole, skoro rozluzlý: *Nech to ležet, až budeš vědět, kdo to poslední koupil dřív než ty.*\n\nRozcestník v kapse ti připomíná, že v tomhle světě se věci nekupují jen v penězích. Toto stálo tvůj obličej, a to je u tebe dražší.",
       "options": [
         {
-          "text": "Jít k Vetešníkovi naproti, že poslední řádek neplatí",
-          "next": "k4-4b"
+          "next": "k4-4b",
+          "text": "Vrátit se za Vetešníkem a vyptat se na ten poslední řádek"
         },
         {
-          "text": "Nechat to doma, než otec najde noviny",
-          "next": "rozcestnik"
+          "next": "rozcestnik",
+          "text": "Schovat balíček doma, než ho objeví táta"
         }
-      ]
+      ],
+      "text": "U domovních dveří sáhneš do kapsy kabátu. Vetešník ti tam před odchodem nepozorovaně vstrčil balíček zabalený do starých dubnových novin: velký mosazný klíč s plochou hlavou, úzký lístek popsaný pěti řádky a těžkou železnou tyč se závažím a okem na konci.\n\nNa lístku stojí naškrábáno:\n\n*Dolní vrata zavřít. Napustit vodu. Teprve potom otáčet horní závorou. Kdybys začal otáčením nasucho, proud tě strhne a komora zůstane prázdná až do rána.*\n\nPod tím je jinou rukou připsáno: *Klíč je od vrat teplárny. Tyč patřila závěsníkovi ze zdymadla. Já dluhy neplatím penězi. Já obchoduju.*\n\nA docela vespod téměř nečitelně: *Vrať to na místo, až zjistíš, kdo to měl v ruce před tebou.*\n\nVetešníkův balíček tě tíží v kapse. Ve Stínadlech se za informace neplatí mincemi, ale službou a vlastní kůží."
     },
     "k4-4b": {
-      "text": "Krámeň je zavřená a v okně je světlo, a to znamená, že uvnitř někdo je. Kopeš na sklo.\n\nVetešník se nepodivá, že jsi přišel podruhé. Řekne: „Poslední řádek je můj. A platí z toho, že to nevím, kdo to koupil dřív než ty. Kdybys to věděl, neplatil bych, protože bys měl všechno, co chceš vědět, a nebylo by co prodávat.“\n\n„A když přijdu zase?“ zeptáš se.\n\n„Tak přijdeš zase,“ řekne, „a budu vědět víc, protože za tu dobu se pod městem něco nezmění. Jen se ty nezměníš. To je jediná věc, o kterou se vám dospělí nejhůř, že vám v tom nic nebrání.“\n\nZavírá. Venku je pátek a devět lidí na téhle ulici vidělo, jak jsi nesl bednu přes Rozdělovací, a jeden z nich bydlí o dvě ulice dál, než ty.",
       "options": [
         {
-          "text": "Domů. Klíč, lístek a tyč do kufříku pod postelí",
-          "next": "rozcestnik"
+          "next": "rozcestnik",
+          "text": "Jít domů a schovat klíč, lístek i tyč pod postel"
         }
-      ]
+      ],
+      "text": "Vetešnictví je už zamčené, ale za výlohou prosvítá slabé světlo petrolejky. Zaklepeš na sklo.\n\nVetešník pootevře dveře na řetízek a ani se nediví, že tě vidí: „Ten poslední řádek jsem připsal já. A platí doslova: sám nevím, kdo ty věci vlastnil před tebou. Kdybys to věděl ty, nepotřeboval bys mě a já bych neměl co nabídnout.“\n\n„A když přijdu příště?“ zeptáš se.\n\n„Tak přijdeš,“ pokrčí rameny. „Za tu dobu se voda pod městem nezmění. Změníš se leda ty. To je na vás klucích to nejnebezpečnější – nikdo vám v tom nedokáže zabránit.“\n\nDveře zaklapnou. Je pátek večer a pár lidí tě vidělo nést bednu přes Rozdělovací. Teď už není cesty zpátky."
     },
     "k5-1": {
-      "text": "Pod třetím mlýnem je dvůr, v kterém se nikdy nic neděje. Mlýnská zeď je vysoká, zadní vrata zavřená, a uprostřed dvora stojí na dlažbě obdélník kamene, který je jiné barvy než dlažba kolem.\n\nNemá to nic společného se dveřmi. Kdyby hledal dveře, nenašel bys je. Kdybys hledal kanalizační šachtu, tak tady žádná není. Je to vrata, která byla vložena do země, když se stavěla komora pod nimi.\n\nZ obdélníku táhne. Ne hlučně jako z kanálu. Spíš jako z místa, kde je vzduch studenější než má být, a to je jiný zvuk než zvuk vody.\n\nUž se dotýkáš kamene, když se nad dvorem ozve: „Kdo to tam šahal?“\n\nChlapec sedí na zdi, sklepních oknem proti tobě, a nedívá se na tebe, ale na ruku, kterou tam položil. Je jedenadvacet, možná. Měl by patřit do Kotelů, když ne pracuje, a ne sedět na zdi u mlýna.",
       "options": [
         {
-          "text": "Neříct nic, zvednout kámen a podívej se dolů",
-          "next": "k5-2"
+          "next": "k5-2",
+          "text": "Neříkat nic, nadzvednout kámen a nahlédnout dolů"
         },
         {
-          "text": "Odpovědět: „Nikdo. Bylo to jen, že je tady chladno“",
-          "next": "k5-1b"
+          "next": "k5-1b",
+          "text": "Klidně odpovědět: „Nikdo. Jen mě zajímá, odkud táhne ten chlad.“"
         }
-      ]
+      ],
+      "text": "Pod třetím mlýnem leží opuštěný dvůr, kde se zdánlivě nikdy nic neděje. Vysoká mlýnská zeď vrhá dlouhý stín, zadní vrata jsou na petlici a uprostřed kamenné dlažby leží velký obdélníkový poklop z tmavého pískovce.\n\nNevypadá jako vchod do sklepa ani jako běžná kanálová mříž. Je to masivní kamenný kryt osazený přímo v úrovni dlažby nad plavební komorou.\n\nZpod spár stoupá zvláštní chlad – ne zatuchlina z kanálu, ale ledový dech hluboké tekoucí vody.\n\nUž natahuješ ruku k otvoru pro páčidlo, když se shora ozve hlas: „Kdo ti dovolil na to sahat?“\n\nNa zídce naproti sedí starší kluk v montérkách od uhelného prachu. Nedívá se na tebe, ale na tvou ruku na kameni. Mohlo by mu být tak osmnáct – měl by touhle dobou makat na šachtě nebo v Kotlech, a ne vysedávat u mlýna."
     },
     "k5-1b": {
-      "text": "„Je tu chladno,“ řekne, „protože je tu zima. Dvakrát?“\n\nPak vstane ze zdi, což je zdvořilé, protože tím neříká, že jsi bezpečný, ale že u zdi se stojí lépe než na zemi.\n\n„Neznám se,“ řekne a neřekne nic jiného. „Ale nečetl jsem o komoře.“ A to je věta, kterou v tomhle městě říká člověk, který o komoře slyšel a nečetl, a podle níž se to dá poznat, protože jinak by řekl „nevím“.\n\nPak řekne: „Je v ní voda. Až po okno. Nevstupuj, dokud nevíš, kterými vraty máš jít.“\n\nOdejde za roh a už se neobjeví. Otázka, kterou u tebe nechává, je jednoduchá a je na tebe celou dobu, kdyby ses na ni uměl podívat: **kterými vraty máš jít**.",
       "options": [
         {
-          "text": "Zvednout kámen a podívej se dolů",
-          "next": "k5-2"
+          "next": "k5-2",
+          "text": "Odsunout kamenný poklop a nahlédnout do šachty"
         }
-      ]
+      ],
+      "text": "„Chlad tu táhne, protože je dole ledárna,“ odsekne kluk. „Už jsi tam někdy byl?“\n\nSeskočí ze zídky na dlažbu. Nesnaží se tě zastrašit, spíš si tě měří se zvědavostí staršího vonta:\n\n„Já tam nelezu,“ řekne po chvíli. „Ale o té komoře jsem slyšel dost.“ Ve Stínadlech tohle říká ten, kdo ví víc, než dává najevo.\n\nPotom dodá: „Je v ní vody po kolena. Až k hornímu rámu. Nelez tam, dokud nevíš, která vrata se otvírají první.“\n\nOtočí se a beze spěchu zmizí v průjezdu. V hlavě ti zanechal přesně to varování, které jsi potřeboval slyšet: **musíš vědět, která vrata otevřít dřív**."
     },
     "k5-2": {
-      "text": "Kámen nejde vyvalit. Kámen jde nadzvednout na jednom rohu, obrátit a odložit, a pod ním je díra, přes kterou se dá sklonit hlava a vidět.\n\nKomora je asi čtyři metry dlouhá a dva široká. Stěny jsou cihlové a vlhké. Jedny dveře jsou dole, těsně u dna, z kovových prkenn, zavřené. Druhé jsou nahoře, nad hladinou, ze stejného materiálu, a visí na kladce.\n\nHladina v komoře je asi metr pod horními vraty a nad dolními. Kladka se nehýbe, ale nahoře na stropě je vidět zubatý věnec, do kterého se zasekává něco, co tam kdysi bylo zavěšené. Zub je zatupený a mastný.\n\nU břehu stojí vzpřímený sloupek s rýhou ve výšce ohně.\n\nVoda se nepohybuje. Stojí. To je to, co tady čekáš a co tady není: voda v kanálu za tebou teče, ale tady je klid, a klid znamená, že toto místo má vlastní pravidla.",
       "options": [
         {
-          "text": "Najít, co je zubatý věnec v zaděrném",
-          "next": "k5-3"
+          "next": "k5-3",
+          "text": "Prozkoumat mechanismus ozubeného kola u stropu"
         },
         {
-          "text": "Zkusit dolní vrata, jsou menší než ty",
-          "next": "k5-3b"
+          "next": "k5-3b",
+          "text": "Zkusit otevřít spodní vrata u dna"
         }
-      ]
+      ],
+      "text": "Kámen nejde jen tak odvalit. Musíš ho nejprve zapáčit na rohu, pootočit a posunout stranou. Pod ním se otevře temná šachta, ze které vane pach mokrých cihel a starého železa.\n\nDole se rozkládá komora: asi čtyři metry dlouhá a dva široká. Cihlové stěny jsou pokryté vlhkým mechem. U dna jsou masivní dvoukřídlá dřevěná vrata okovaná železem – zavřená. Nahoře u stropu visí druhá vrata zavěšená na silných řetězech s protizávažím.\n\nHladina vody v komoře stojí zhruba metr pod horní hranou. U stropu se rýsuje ozubené kolo se západkou – zarážka je zanesená starým mazem a rzí.\n\nPoblíž stěny trčí ze dna kamenný sloupek s vyrytými ryskami.\n\nVoda se nehýbe. Zdejší hladina stojí v naprostém klidu, zatímco v kanálu venku proudí. Tohle místo funguje podle vlastních technických pravidel."
     },
     "k5-3": {
-      "text": "Kancelář závěsníka je v koutě komory, nad vodou, na dřevěné podlaze, kterou bys neunesl. Stačí na ni stoupnout po žebříku. Je tu stůl, na němž leží hodiny, které nikdo nenastavil za dvacet let, a sešit, který se k té podlaze nikdy neuchytil, protože sem nikdo nechodí.\n\nA tyč tu je. Zavěšená na hřebíku nad stolem, s okem na konci, a je na ní psáno jméno, které jsi už slyšel, ale nedokážeš si ho spojit s obličejem.\n\nKdybys tu chtěl zůstat, nešlo by to. Podlaha se láme na štěrku a stůl je jediné, co tě tu drží.\n\nMáš tyč, máš řetězy, a víš, že voda tady stojí, i když za tebou teče. Otázka zní, co udělat dřív.",
       "options": [
         {
-          "text": "Zavřít dolní vrata, které jsou za tebou",
-          "next": "k5-4"
+          "next": "k5-4",
+          "text": "Zkontrolovat, zda jsou dolní vrata pevně zavřená"
         },
         {
-          "text": "Otevřít dolní vrata, aby se voda dostala dovnitř",
-          "next": "k5-zbytek"
+          "next": "k5-zbytek",
+          "text": "Otevřít dolní stavidlo a vpustit vodu dovnitř"
         },
         {
-          "text": "Zatáhnout tyčí za horní řetěz rovnou",
-          "next": "k5-zbytek-tyc"
+          "next": "k5-zbytek-tyc",
+          "text": "Zatáhnout tyčí rovnou za horní řetěz"
         },
         {
-          "text": "Udělat to podle lístku, který ti dal Vetešník",
           "next": "k5-4",
           "requires": [
             "vetechnik-balicek"
-          ]
+          ],
+          "text": "Postupovat přesně podle lístku od Vetešníka"
         }
-      ]
+      ],
+      "text": "V rohu komory těsně nad hladinou visí dřevěná lávka – bývalé stanoviště závěsníka. Vede k ní zrezivělý železný žebřík zapuštěný do zdi. Na lávce stojí starý dřevěný pult, na něm hodiny, které se zastavily před desítkami let, a promočený úřední sešit.\n\nNa zdi nad pultem visí na skobě ovládací tyč s hákem a okem na konci. Je na ní vyražené číslo stanoviště.\n\nPrkna lávky pod nohama nebezpečně vržou a prohýbají se. Dlouho se tu zdržovat nemůžeš.\n\nMáš v ruce tyč, vidíš řetězy a víš, že hladina v komoře stojí. Teď jde o to, co udělat jako první."
     },
     "k5-3b": {
-      "text": "Dolní vrata jsou těsně u dna, a to znamená, že jsou mezi tebou a vodou, která je za nimi. Kopneš do nich. Nic.\n\nPak zkusíš to, co by zkusil každý: strčit do nich, aby se otevřely. Tím je dostaneš jen to, že jsou mokré a těžké a ty směřuješ špatně. Za dveřmi je tichý, hluboký zvuk, který se nepodobá ničemu, co by udělal náraz do zdi. Je to zvuk prostoru, který je dlouhý.\n\nKonečně si všimneš, že obě vrata, ta dole i ta nahoře, jsou spojená s řetězy, a řetězy nevedou dozadu. Vedou **vzhůru, k zubu na stropě** — jako by někdo ty vrátka zvedal.\n\nA v tom je celá komora: ne dveře, ale dva páky, a ta, která je potřebná, je ta, u které stojíš.",
       "options": [
         {
-          "text": "Vztáhnout tyč z kanceláře a zkusit, jestli s ní něco uděláš",
-          "next": "k5-3"
+          "next": "k5-3",
+          "text": "Vylézt na plošinu pro závěsníkovu tyč"
         }
-      ]
+      ],
+      "text": "Spodní vrata jsou ponořená u dna a drží nápor vody za komorou. Zkusíš do nich zatlačit nohou, ale ani se nehnou.\n\nOpřeš se do nich celou vahou těla. Nic. Dřevo je nasáklé a tlak vody z druhé strany je obrovský. Za vraty slyšíš jen temné, hluboké dunění, které svědčí o dlouhém vodním sloupci.\n\nVšimneš si, že obě stavidla jsou propojena systémem řetězů přes kladky u stropu. Řetězy nevedou vodorovně, ale směřují přímo k ozubenému kolu se západkou.\n\nTakhle to funguje: vrata se neotvírají silou paží, ale pomocí převodu a pák. A správná ovládací tyč musí být nahoře na plošině."
     },
     "k5-zbytek": {
-      "text": "Voda tě překvapí.\n\nNe tím, že je studená — ta je studená od začátku. Překvapí tě tím, že **přijde**. Za dvě sekundy je v komoře o patnáct centimetrů víc, a za dvacet je voda u dna dveří, a ty stojíš na podlaze, která začíná být mokrá.\n\nA pak se zastaví. Protože ty dveře dole, ty malé, které jsi zkusil kopnout — to jsou jediná vrata, která se dají otevřít zvenčí, a oni jsou zavřená, a voda nemá kam. Kde se nemá kam, přestane se hromadit.\n\nTak stojíš v komoře, voda ti sahá po lýtka, podlaha se láme, a ty nevíš, co dělat dřív.\n\nA pak zjistíš, že víš. Voda se zastavila. Voda se nemůže zastavit sama. **Zastavilo to to, že sis zavřel ty dveře dole, aniž jsi si to uvědomil** — řetězy, o kterých si myslel, že vedou nahoru, vedou dolů, a dolní vrata jsi právě přivřel, když voda do komory přitekla.\n\nTo je celá komora. Je tu jeden pohyb a jeden směr, a jde o to, aby byly ve správném pořadí.\n\nKdybys teď zkusil druhou věc, kterou jsi zkoušel, tak by se voda dostala ven dolními vraty a komora by se vyprázdnila dole, kam by voda patřila.",
       "options": [
         {
-          "text": "Vzpomenout si, že do komory se voda pustí dolními vraty, ne horními",
-          "next": "k5-3"
+          "next": "k5-3",
+          "text": "Vzpomenout si na správné pořadí kroků a začít znovu"
         }
-      ]
+      ],
+      "text": "Voda tě zaskočí svou silou.\n\nNe tím, jak je ledová – s tím jsi počítal. Ale tou rychlostí! Během pár vteřin stoupne hladina v komoře o patnáct centimetrů. Než stačíš uskočit na žebřík, valí se ti proud přes boty a zaplavuje podlahu lávky.\n\nPak se naštěstí zarazí. Spodní záklopka, do které jsi předtím strčil, zapadla do drážky a další vodu nepustí.\n\nStojíš na žebříku s vodou po kolena a srdce ti tluče až v krku.\n\nTeprve teď ti svitne: voda se nezastavila náhodou. Zastavila ji spodní klapka, která funguje jako jednosměrný ventil. Celý mechanismus má přísnou logiku: voda se do komory musí napouštět postupně a řízeně, jinak hrozí zatopení celého prostoru."
     },
     "k5-zbytek-tyc": {
-      "text": "Tyč jde do zubu, točí se, řetěz se napne a zvedne. O dva palce. A pak se zastaví, protože zadření nedá.\n\nSedneš si na paty a začneš znovu. Je to těžké, je to hlučné, a nedá se to dostat dál, a po třetím pokusu ti dojdou ruce.\n\nPak ale uvidíš, proč to nejde.\n\nŘetěz jde z vrat, ne do vrat. To znamená, že vrata nejsou samostatná vrata, ale **dvě dvířka na jednom konci**, a druhé nejsou tady, ale za těmi stěnami, v druhé komoře, o níž nevíš. A to, co jsi právě zvedl, nejsou vrata. To je protiváha.\n\nAby se vrata zvedla, musí je něco **vytlačit zespodu**.\n\nPodíval by ses do vody, kdybys měl čas. Voda v téhle komoře stojí níž, než jsou vrata. Dokud ji nenapustíš, vrata tady leží na suchu, a suchá vrata se nehýbou.\n\nUž tedy víš, co je potřeba. Ještě nevíš, v jakém pořadí.",
       "options": [
         {
-          "text": "Rozhlédnout se, kde jsou ta druhá dvířka",
-          "next": "k5-3"
+          "next": "k5-3",
+          "text": "Rozhlédnout se a napustit komoru správným stavidlem"
         }
-      ]
+      ],
+      "text": "Nasadíš hák tyče do oka řetězu a zabereš. Řetěz se napne a ozubené kolo poskočí o dva zuby. Pak se ale se skřípotem zasekne.\n\nZabereš znovu vší silou. Je to marné – váha vrat je příliš velká a tyč tě táhne dolů k hladině.\n\nPak pochopíš, kde je chyba:\n\nTenhle řetěz nevede přímo k vratům, ale k masivnímu litinovému protizávaží. Aby se horní vrata vůbec dala zvednout, musí je voda zespodu nadlehčit! Dokud komoru nenapustíš až po vyznačenou rysku, vrata sedí na suchu a jejich váhu žádný člověk sám nepřemůže.\n\nUž víš, co je špatně. Teď to musíš provést ve správném pořadí."
     },
     "k5-4": {
-      "text": "Voda v komoře stoupá a ty to slyšíš dřív, než uvidíš. Ne zvukem — zvuk je tady zvláštní, takový dutý — ale tím, že se ti změní zvuk pod botami, když hladina dojde k podlaze.\n\nPak to uvidíš. Hladina jde po zdi vzhůru, z tmavší stopy na světlejší, a na každé světlejší stoce je něco vyškrábaného: 0, 1, 2, 3. Ne výšky. Počty. Někdo značil, kolik se toho má napustit.\n\nTyč se zasekává do zubu na stropě a zabírá, a ty se v té chvíli celý zkroutíš, protože proti proudu se těžko leze. Ale voda stoupá a horní vrata leží na hladině, a ta leží na jejich vlastní tíze, a ty to jen posouváš, ne zvedáš.\n\nKdyž voda dosáhne poslední čárky, vrata se nadzvednou o pět centimetrů. A pak, když voda dosáhne horní, odejdou celá.\n\nJenže ty v komoře jsi pořád ty, a voda ti sahá k pasu, a podlaha se láme, a tyč je ve tvé ruce, a ven je všechno do štičky.",
       "options": [
         {
-          "text": "Přestat táhnout a dostat se ven (hod kostkou)",
-          "next": "k5-5",
           "dice": {
-            "sides": 6,
             "outcomes": [
               {
                 "from": 1,
-                "to": 2,
-                "next": "k5-voda"
+                "next": "k5-voda",
+                "to": 2
               },
               {
                 "from": 3,
-                "to": 6,
-                "next": "k5-5"
+                "next": "k5-5",
+                "to": 6
               }
-            ]
-          }
+            ],
+            "sides": 6
+          },
+          "next": "k5-5",
+          "text": "Pustit tyč a rychle vyšplhat na bezpečný břeh (hod kostkou)"
         }
-      ]
+      ],
+      "text": "Voda v komoře začne plynule stoupat. Slyšíš to dřív, než to uvidíš – dutý hukot se odráží od klenby a zvuk dopadajících kapek se mění s tím, jak se hladina zvedá k dřevěné lávce.\n\nRysky na kamenném sloupku mizí pod vodou jedna po druhé: 0, 1, 2, 3. Nejsou to rozměry v metrech, ale značky pro jednotlivé polohy hladiny.\n\nNasadíš tyč do oka horního řetězu. Teď, když jsou vrata zespodu nadlehčována stoupající vodou, jde kolo otáčet mnohem snáz. Se skřípěním západky přeskakují jednotlivé zuby.\n\nKdyž hladina dosáhne horní rysky, horní vrata s tichým šplouchnutím povolí a otevřou se do horního úseku kanálu.\n\nProud se však začne nebezpečně vířit a lávka pod tvýma nohama se povážlivě kymácí."
     },
     "k5-voda": {
-      "text": "Podlaha se láme, jak jsi věděl, že se láme. Tyč ti zůstane v ruce, ale vzadu v komoře, a ty jsi na žebříku, a žebřík je tři metry nad hladinou, která teď sahá po prsa.\n\nVoda tě v tomhle místě nenechá. Voda tě vytlačí ven, ale ne tě odtud ven — **tlačí tě dozadu**, do vrat, která se právě otevřela. Nejsi v bezpečí. Jsi v místě, kam nikdo nechodí.\n\nOno se to jmenuje vyplavení a ono znamená, že přestaneš být v místě, kde se dá sedět.\n\nAle tady je něco, co ve Stínadlech taky neplatí: **voda tady není nepřítel.** Je voda, která tě vyplavila ze dveří, a těch dveří je deset, a jsou otevřená, a ven je vzduch.\n\nProplaveš. Vyplaveš ven jako kus, který sem nepatří, zvedne tě proud a odloží tě v komoře nad nimi, na té suché podlaze, kde leží tyč a leží sešit, kde jsi už byl.\n\nA pak se dozvíš, že ta podlaha, na kterou jsi vyplaval, není podlaha. Je to vratní plošina, a kdybys na ní zůstal ležet, voda by tě znova odnesla, protože tady se voda neukládá. Tady se přelévá.",
       "options": [
         {
-          "text": "Vstát, než tě voda odnese znovu",
-          "next": "k5-5"
+          "next": "k5-5",
+          "text": "Rychle vstát a ustoupit do bezpečí horního kanálu"
         }
-      ]
+      ],
+      "text": "Lávka pod tebou povolí a ztrouchnivělé prkno praskne! Závěsníkova tyč ti vyklouzne z ruky a ty zahučíš po pás do ledové vody.\n\nProud tě neúprosně táhne k otevřeným vratům. V panice hrábneš rukama kolem sebe, nohy ti plandají v hloubce a studená voda ti vyráží dech.\n\nV podzemním kanálu však proud nefunguje jako v horské řece: voda tě nenaráží na kamení, ale nese tě plynule do horní komory.\n\nZabereš vší silou, vykopneš nohama a podaří se ti zachytit za kamennou obrubu horního břehu. Vytáhneš se na suchou dlažbu vedle pultu, kde leží starý sešit.\n\nLapáš po dechu na kamenné plošině. Dlouho tu však ležet nemůžeš – voda se přelévá přes přepad a hladina stále kolísá."
     },
     "k5-5": {
-      "text": "Horní vrata jsou otevřená a za nimi je jiný kus kanálu, který nejde v žádném smyslu připojit k tomu, kde jsi byl.\n\nKoryto je tady širší a stěny jsou starší. Cihly nejsou z té doby jako ty u komory — ty byly vytaženy z něčeho, co tu bylo dřív. Nad stěnou je řada dřevěných bab, do kterých se opíraly čluny, když se tu stavělo, a mezi nimi je jedna vyražená, čerstvě, jako by tam byla vyražena loni.\n\nA z vody teče c něco, co tu nemá být. Stojíš a čekáš, až to uvidíš, protože v tomhle městě se pozná všechno jen podle toho, co **nepatří**.\n\nPísek. světlý písek, a mezi ním vrbový list. A pak kus lastury, malý, bílý, se zuby.\n\nTo nepřipadá v úvahu. **To nepřipadá v úvahu ze Stínadel.** To znamená, že proti proudu je někde řeka, protože jen v řece se dá najít lastura, a ve městě se nenajde.",
       "options": [
         {
-          "text": "Jít dál proti proudu",
-          "next": "k5-6"
+          "next": "k5-6",
+          "text": "Pokračovat korytem dál proti proudu"
         }
-      ]
+      ],
+      "text": "Horní vrata jsou otevřená dokořán a před tebou se otevírá další úsek kanálu, který se od spodní části zásadně liší.\n\nKoryto je tu širší a stěny jsou z mohutných tesaných kvádrů. Zdivo je mnohem starší než u komory. Podél břehu jsou v pravidelných rozestupech zapuštěné dřevěné kůly, o které se kdysi opíraly nákladní šífy.\n\nA na hladině plave něco, co sem na první pohled vůbec nepatří:\n\nJemný světlý říční písek, žluté vrbové listí a malý, bílý úlomek sladkovodní škeble se zubatým okrajem.\n\nTo není stínadelské smetí z ulic! To znamená jediné: voda nahoře přitéká přímo z velké řeky. Žádná městská stoka, ale živý říční přítok."
     },
     "k5-6": {
-      "text": "Kdybys chtěl vědět, kolik je, tak nevíš. Hodiny v kanceláři nejdou a nikdo je nenastavil, a tak máš jedinou hodinu, kterou znáš, a to je světlo v baterii, a ta už má kousek za sebou.\n\nZa sebou máš taky jednu jistotu, kterou jsi v komoře neměl. Voda tady teče **proti** proudu. Kdybys chtěl zpět, nemusel bys nic otevírat. Koryto tě samo odnese dolů, tam, kde jsi přišel, a dolů je to, kde je splav a potok, který protéká krajem čtvrti.\n\nV tomhle místě je to poprvé od začátku vidět celé najednou: to, co jsi hledal, je tady. Není to stoka, není to slepé rameno, není to zvuk pod podlahou. Je to **kanál**, který někdo vykopal, aby jím sem pustil loď, a pak se zastavil, a pak se zapomnělo, že byl.\n\nDole v kapse máš papír, a na papíře je místo, kam to patří.\n\nA v tom tě bolí jedna věc, kterou jsi těchto pár dní neřešil: jestli to máš říct těm dole, kde voda pod domem, těm, kdo vám to zakázali.",
       "options": [
         {
-          "text": "Ještě chvíli stát a poslouchat, jak voda zní, když teče",
-          "next": "k5-6b"
+          "next": "k5-6b",
+          "text": "Ještě chvíli postát a zaposlouchat se do proudící vody"
         },
         {
-          "text": "Domů, než dojde baterie",
-          "next": "rozcestnik"
+          "next": "rozcestnik",
+          "text": "Vydat se k domovu, než úplně dojde baterie"
         }
-      ]
+      ],
+      "text": "Těžko říct, kolik je vlastně hodin. Staré hodiny v kanceláři stojí už desítky let a tvým jediným měřítkem času je slábnoucí svit baterky.\n\nMáš však jednu zásadní jistotu: voda tady teče přímo od řeky. Kdyby ses potřeboval rychle vrátit, proud tě sám ponese dolů ke splavu na kraji města.\n\nTeprve tady ti celý obraz zapadne do sebe: to, co jsi hledal, je skutečný **plavební kanál**. Někdo ho kdysi s obrovským úsilím vybudoval, aby propojil řeku s městem, a když ztratil svůj hospodářský význam, všichni na něj zapomněli.\n\nV kapse nahmatáš svou rozkreslenou mapu a zaznamenáš novou polohu komory.\n\nHlavou ti vrtá jediná otázka: proč dospělí tenhle objev tak úzkostlivě tají?"
     },
     "k5-6b": {
-      "text": "Stojíš a posloucháš. Voda zde, proti proudu, necváčí. Nešumí, neodkapává, neprská.\n\nPřepadla. Kdybys položil ruku na stěnu, necítil bys nic, protože tu se neslyší hluk, ale tlak, a ten je jinde.\n\nPoděkáš se třem věcem, o kterých jsi nevěděl, že je znáš: kamene, který je studený i když je vzduch teplý, a řady křídových značek na pravé stěně, která mizí za zatáčkou, a vůně — sladké, zelené, silné jako voda, když do ní někdo hodí trsát trávy.\n\nTo jsou znaky. To je způsob, jak někdo kdysi označil cestu, o které se dá říct, že o ní věděla celá čtvrť.\n\nTeď o ní neví nikdo. Až na tebe. A ty si ji teď zapíšeš, i s barvou vody a s tím, jak voní, protože za měsíc budeš chtít vysvětlit, proč jsi šel zrovna sem, a nebudeš si moct vzpomenout, jak to vonělo.\n\nNa papíře se to vejde. Kdybys tam šel dneska, nevejde se to.",
       "options": [
         {
-          "text": "Domů, než dojde baterie",
-          "next": "rozcestnik"
+          "next": "rozcestnik",
+          "text": "Vrátit se domů dřív, než baterie definitivně zhasne"
         }
-      ]
+      ],
+      "text": "Stojíš v šeru a nasloucháš. Tady nahoře voda necáká ani nebublá. Proudí hlubokým, tichým tahem.\n\nPřiložíš dlaň na vlhkou kamennou stěnu – necítíš chvění, ale stálý tlak vodní masy.\n\nV kuželu světla si všimneš tří věcí: kamenné kvádry jsou ledové i v teplém vzduchu, na pravé stěně se táhne řada starých křídových značek mizejících za ohybem a vzduch voní svěžestí, chladem a říční trávou.\n\nTo jsou neklamné stopy staré vontské stezky. Někdo tudy v minulosti procházel a označil celou trasu.\n\nDnes o ní neví téměř nikdo. Až na tebe. Zakreslíš si do sešitu směr i značky – za pár týdnů bys mohl na tyhle podrobnosti zapomenout.\n\nNa mapě už zbývá jen pár bílých míst."
     }
   }
 }

@@ -17,11 +17,11 @@ kus trasy.
 | Otázka příběhu | Ne *odkud*, ale **kudy a kam**. Odkud je jasné — z hlavní řeky. |
 | Plavání | Jarek **umí plavat**. Spadnutí do vody není konec hry, ale ztráta času, mokré šaty, výčitka, někdy odvedení dospělými. |
 | Konec „běžný kluk“ | **Úplně na začátku** — jako volba „nezačít“ a tři uzly rozmyšlení. |
-| Tajemná postava | **Krátká vedlejší cesta v uhelném dvoři**, bez vlivu na výsledek, s jednou odpovědí navíc. |
+| Tajemná postava | **Krátká vedlejší cesta v uhelném dvoře**, bez vlivu na výsledek, s jednou odpovědí navíc. |
 | Inventář | **15 položek**, část věcí a znalostí sloučena do jedné položky. |
 | Výbava | **Není jedna položka.** Lampa, baterie, provaz a křída se shánějí zvlášť; kompletní výbava je podmínkou prvního vstupu do tunelu. |
 | Světlo | **Bateriová svítilna**, ne svíčka. Svíčka je do podzemí nevhodná. |
-| Muž v tmavém kabátě | **Ta samá osoba** jako neoznačený pomocník v uhelném dvoři. |
+| Muž v tmavém kabátě | **Ta samá osoba** jako neoznačený pomocník v uhelném dvoře. |
 | Smůla dne | Volitelná kapitola se dá přeskočit. Jádrová kapitola má opakovatelný rozhodující úsek. |
 | Název dobrodružství | **Vodní cesta** (`velky-vont-vodni-cesta`) — neprozradí předem, co hráč objeví |
 | Hrdina | **Jarek** |
@@ -45,13 +45,13 @@ a dolní konec, ven ze Stínadel, až k zapomenutému vtoku u řeky. Stínadla p
 až poté, co už hráč umí jít po kanálu — současný graf tak přestává být „první kapitolou“,
 ale zůstává použitelný v podstatě beze změny.
 
-## 2. Dusík příběhu
+## 2. Duch příběhu
 
 > Touha **zmapovat věc, na kterou se zapomnělo**.
 
-Odkud voda přichází, se nikdo neroporuje — je to hlavní řeka. Neznámé je to, jakou
+Odkud voda přichází, nikdo nerozporuje — je to hlavní řeka. Neznámé je to, jakou
 cestou prochází pod městem, kde se láme a kam odtéká, a kdo o tom kdysi rozhodl.
-Jarek nemá odznak ani kroniku. Má tužku, čas po vyučování a prázdné Stínadly.
+Jarek nemá odznak ani kroniku. Má tužku, čas po vyučování a prázdná Stínadla.
 
 ## 3. Úvod a volba „nezačít“
 
@@ -163,7 +163,7 @@ dojde. Když dojde, je to ticho, tma a okamžitá volba — ne konec dne.
 
 ## 5. Vedlejší cesta v K6 (poslední Velký Vont)
 
-V uhelném dvoři pracuje na něčem **poslední Velký Vont** — Jarek o tom neví a nesmí
+V uhelném dvoře pracuje na něčem **poslední Velký Vont** — Jarek o tom neví a nesmí
 se to dozvědět. Nejde o spojence, pomocníka ani pomoc. Postava přijde na Jarka dřív,
 než Jarek dojde k ní, a nabídne výměnu: pomůže jí s tím, co umí (voda, úzký prolaz,
 něco, co se dá udělat ve dvou), a ona mu za to odpoví na **jednu otázku**.
