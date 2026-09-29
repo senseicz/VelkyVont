@@ -148,14 +148,23 @@
       "options": [
         {
           "next": "k0-provaz",
+          "lockedIfOwned": [
+            "provaz"
+          ],
           "text": "Zajít na Provaznickou pro kus lana"
         },
         {
           "next": "k0-kreda",
+          "lockedIfOwned": [
+            "kreda"
+          ],
           "text": "Zaběhnout do Kotlů pro křídu"
         },
         {
           "next": "k0-baterie",
+          "lockedIfOwned": [
+            "baterie"
+          ],
           "text": "Stavit se ve škole pro baterie"
         },
         {
