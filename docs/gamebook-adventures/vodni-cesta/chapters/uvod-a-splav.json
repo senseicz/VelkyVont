@@ -360,13 +360,14 @@
               {
                 "from": 3,
                 "next": "k1-2b",
+                "success": true,
                 "to": 6
               }
             ],
             "sides": 6
           },
           "next": "k1-2b",
-          "text": "Přelézt zábradlí a seskočit na kamennou římsu (hod kostkou)"
+          "text": "Přelézt zábradlí a seskočit na kamennou římsu"
         },
         {
           "next": "k1-2b",
@@ -509,13 +510,14 @@
               {
                 "from": 3,
                 "next": "k2-6",
+                "success": true,
                 "to": 6
               }
             ],
             "sides": 6
           },
           "next": "k2-6",
-          "text": "Přejít opatrně po kamenech na druhý břeh (hod kostkou)"
+          "text": "Přejít opatrně po kamenech na druhý břeh"
         },
         {
           "next": "k2-6",

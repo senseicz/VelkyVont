@@ -241,13 +241,14 @@
               {
                 "from": 3,
                 "next": "k5-5",
+                "success": true,
                 "to": 6
               }
             ],
             "sides": 6
           },
           "next": "k5-5",
-          "text": "Pustit tyč a rychle vyšplhat na bezpečný břeh (hod kostkou)"
+          "text": "Pustit tyč a rychle vyšplhat na bezpečný břeh"
         }
       ],
       "text": "Voda v komoře začne plynule stoupat. Slyšíš to dřív, než to uvidíš – dutý hukot se odráží od klenby a zvuk dopadajících kapek se mění s tím, jak se hladina zvedá k dřevěné lávce.\n\nRysky na kamenném sloupku mizí pod vodou jedna po druhé: 0, 1, 2, 3. Nejsou to rozměry v metrech, ale značky pro jednotlivé polohy hladiny.\n\nNasadíš tyč do oka horního řetězu. Teď, když jsou vrata zespodu nadlehčována stoupající vodou, jde kolo otáčet mnohem snáz. Se skřípěním západky přeskakují jednotlivé zuby.\n\nKdyž hladina dosáhne horní rysky, horní vrata s tichým šplouchnutím povolí a otevřou se do horního úseku kanálu.\n\nProud se však začne nebezpečně vířit a lávka pod tvýma nohama se povážlivě kymácí."

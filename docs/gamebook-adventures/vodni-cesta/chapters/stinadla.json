@@ -53,13 +53,14 @@
               {
                 "from": 4,
                 "next": "vodocet",
+                "success": true,
                 "to": 6
               }
             ],
             "sides": 6
           },
           "next": "vodocet",
-          "text": "Risknout přechod po úzké římse (hod kostkou)"
+          "text": "Risknout přechod po úzké římse"
         },
         {
           "next": "vodocet",
@@ -153,13 +154,14 @@
               {
                 "from": 3,
                 "next": "povrchova-mapa",
+                "success": true,
                 "to": 6
               }
             ],
             "sides": 6
           },
           "next": "povrchova-mapa",
-          "text": "Přelézt po mokré pavlači (hod kostkou)"
+          "text": "Přelézt po mokré pavlači"
         },
         {
           "next": "povrchova-mapa",
@@ -247,13 +249,14 @@
               {
                 "from": 3,
                 "next": "soutok-pripraveny",
+                "success": true,
                 "to": 6
               }
             ],
             "sides": 6
           },
           "next": "soutok-pripraveny",
-          "text": "Spustit se starým poklopem (hod kostkou)"
+          "text": "Spustit se starým poklopem"
         }
       ],
       "text": "Emě stačí pár slov a okamžitě pochopí. Sáhne do kapsy pro kousek modré křídy a bez váhání tě odvede do sklepa jejich domu. Klíč od zadních dvířek nosí schovaný u sebe. Mezi policemi s uhlím odvalí těžkou bednu – za ní se ve zdi černá otvor, odkud vane chladný tah a zní tekoucí voda. „Táta tvrdí, že je to větrací šachta,“ zašeptá Ema. „Jenže větrací šachtou voda neteče.“\n\nDo podzemí můžete vstoupit tímto suchým průlezem, nejprve společně zmapovat další povrchové vpusti, nebo slézt starým revizním poklopem přímo nad proudem. Poklop ušetří čas, ale jeho železné příčky jsou prorezavělé. Poprvé za celou dobu neneseš odpovědnost jen sám za sebe."
@@ -271,13 +274,14 @@
               {
                 "from": 4,
                 "next": "hranice-nepripraveny",
+                "success": true,
                 "to": 6
               }
             ],
             "sides": 6
           },
           "next": "hranice-nepripraveny",
-          "text": "Přejít po kluzké římse (hod kostkou)"
+          "text": "Přejít po kluzké římse"
         },
         {
           "next": "suchy-prepad",
@@ -319,6 +323,7 @@
               {
                 "from": 3,
                 "next": "hranice-pripravena",
+                "success": true,
                 "to": 6
               }
             ],
@@ -329,7 +334,7 @@
             "lampa",
             "provaz"
           ],
-          "text": "Vylézt vratkou šachtou (hod kostkou)"
+          "text": "Vylézt vratkou šachtou"
         },
         {
           "next": "mapa-konec",
@@ -440,13 +445,14 @@
               {
                 "from": 3,
                 "next": "ricni-mriz",
+                "success": true,
                 "to": 6
               }
             ],
             "sides": 6
           },
           "next": "ricni-mriz",
-          "text": "Projít zatopeným úsekem (hod kostkou)"
+          "text": "Projít zatopeným úsekem"
         },
         {
           "next": "zamceny-dvur",
@@ -493,6 +499,7 @@
               {
                 "from": 3,
                 "next": "ricni-mriz",
+                "success": true,
                 "to": 6
               }
             ],
@@ -502,7 +509,7 @@
           "requires": [
             "provaz"
           ],
-          "text": "Přelézt mokrou zídku (hod kostkou)"
+          "text": "Přelézt mokrou zídku"
         },
         {
           "next": "castecny-konec",
