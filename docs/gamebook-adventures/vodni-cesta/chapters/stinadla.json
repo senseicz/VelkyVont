@@ -4,614 +4,614 @@
       "grant": [
         "mapa"
       ],
-      "text": "Dlažební kostka ti zmizí pod chodidlem. Uskočíš právě včas a dopadneš zády na mokrou zeď dvora U Tří komínů. Tam, kde jsi stál, zeje po nočním lijáku otvor. Pod rozbitou dlažbou se klene cihlový oblouk a v hloubce šumí kalná voda. Na krajním kameni jsou vytesané tři vlnovky.\n\nU Tří komínů je ta voda, kterou znáš z cizího dvora — a je to stejná voda, protože je to stejný kanál. Tady se ale ptáš na jinou věc. Ne kde začíná: to je za městem, u řeky, a tam dojedeš. Tady — kudy vede pod domy, kde vyvádí a kterou stranou se do něj dostaneš zpátky.\n\nVodu slyšíš pod Stínadly odjakživa: pod pumpami, sklepy i zamčenými dvory. Domovník už nese prkna a bručí, že díru ráno zazdí, a to je poslední den, kdy je ještě otevřená.\n\nZítra je pondělí a otec se ptá, kde jsi byl včera večer.",
       "options": [
         {
-          "text": "Sestoupit do propadliny, dokud je otevřená",
-          "next": "prulom"
+          "next": "prulom",
+          "text": "Sestoupit do propadliny, dokud je otevřená"
         },
         {
-          "text": "Nejprve sledovat vodu na povrchu",
-          "next": "povrch"
+          "next": "povrch",
+          "text": "Nejprve sledovat vodu na povrchu"
         },
         {
-          "text": "Radši domů, než se zeptají",
-          "next": "priprava"
+          "next": "priprava",
+          "text": "Radši domů, než se zeptají"
         }
-      ]
+      ],
+      "text": "Dlažební kostka ti náhle ujede pod nohou. Uskočíš na poslední chvíli a narazíš zády do vlhké zdi dvora U Tří komínů. Přímo tam, kde jsi ještě před vteřinou stál, zeje po nočním lijáku hluboká propadlina. Pod vyvrácenou dlažbou se rýsuje starý cihlový oblouk a z hloubky temně hučí voda. Na krajním pískovcovém kvádru jsou vytesané tři vlnovky.\n\nTady U Tří komínů teče přesně ta voda, kterou jsi sledoval z okna i v cizím dvoře – je to pořád jeden a týž kanál. Tady ale musíš vyřešit jinou záhadu: ne kde voda začíná, ale kudy přesně protéká pod základy domů, kde se větví a jakými průchody se k ní dá bezpečně dostat.\n\nVodu v podzemí slyšíš odjakživa – pod pumpami, ve sklepích i v uzavřených dvorech. Z domovnického bytu už ale spěchá domovník se svazkem prken a brumlá, že díru hned ráno zabetonuje. Dnešek je poslední příležitost, kdy je propadlina ještě otevřená.\n\nZítra je pondělí a doma se budou vyptávat na každý tvůj krok."
     },
     "prulom": {
       "grant": [
         "doklady"
       ],
-      "text": "Domovník odejde pro další prkna. Spustíš se po prasklé rouře a botami nahmatáš cihlovou římsu. Nad hlavou zůstane šedý čtverec dvora; před tebou se táhne tunel, sotva vysoký na narovnání. Voda páchne mokrým kamenem, ne odpadem, a žene po hladině úlomky větviček.\n\nNa levé stěně pokračují tři vytesané vlnovky. Hlavní chodba vede proti proudu do tmy, odkud se ozývá škrábání. Vpravo začíná úzký suchý kanál, příliš pravidelný na díru po vypadlé cihle. Za zády už domovník skládá první prkno přes otvor. Jestli se vrátíš, zbývá ti hledat jiný vstup.",
       "options": [
         {
-          "text": "Pokračovat hlavním tunelem za zvukem vody",
-          "next": "krysy"
+          "next": "krysy",
+          "text": "Pokračovat hlavním tunelem za zvukem vody"
         },
         {
-          "text": "Prozkoumat úzkou suchou štolu",
-          "next": "neznamy"
+          "next": "neznamy",
+          "text": "Prozkoumat úzkou suchou štolu"
         },
         {
-          "text": "Vylézt a hledat stopy na povrchu",
-          "next": "povrch"
+          "next": "povrch",
+          "text": "Vylézt a hledat stopy na povrchu"
         }
-      ]
+      ],
+      "text": "Domovník na chvíli odběhne pro další nářadí. Využiješ příležitosti, spustíš se po staré litinové rouře a nohama nahmatáš cihlovou římsu. Nad hlavou ti zůstane šedivý čtverec dvora; před tebou se táhne nízký klenutý tunel, kde se sotva postavíš. Vzduch páchne mokrým kamenem a proud unáší polámané větvičky.\n\nNa levé stěně pokračuje vytesaná značka tří vlnovek. Hlavní koryto vede proti proudu do temnoty, odkud se ozývá šramot. Vpravo ústí úzká suchá štola – příliš pravidelná a čistá na to, aby šlo o náhodnou díru po vypadlé cihle. Shora už je slyšet domovníkův křik a dopad prvního těžkého prkna. Jestli se teď vrátíš, budeš muset najít jiný vstup."
     },
     "krysy": {
-      "text": "Tunel se sníží a římsa se zúží na šířku boty. Na jediném suchém místě před tebou se tlačí krysy. Neženou se proti tobě; jen zvedají čenichy a chrání hnízdo mezi naplavenými hadry. Pod římsou teče voda rychleji, než vypadala shora.\n\nNad hnízdem vede rezavá trubka, které by ses mohl přidržovat. V kapse máš kus chleba od svačiny. V boční stěně si navíc všimneš otvoru ohlazeného srstí, a táhne z něj studený vzduch — stejný, který táhal ze suché štoly nad hlavou. Krysy znají podzemí lépe než kdokoli nahoře, ale jejich cesta tě může odvést od hlavního proudu.",
       "options": [
         {
-          "text": "Risknout přechod po úzké římse (hod kostkou)",
-          "next": "zakaz-konec",
           "dice": {
-            "sides": 6,
             "outcomes": [
               {
                 "from": 1,
-                "to": 3,
-                "next": "zakaz-mapa"
+                "next": "zakaz-mapa",
+                "to": 3
               },
               {
                 "from": 4,
-                "to": 6,
-                "next": "vodocet"
+                "next": "vodocet",
+                "to": 6
               }
-            ]
-          }
+            ],
+            "sides": 6
+          },
+          "next": "vodocet",
+          "text": "Risknout přechod po úzké římse (hod kostkou)"
         },
         {
-          "text": "Odlákat krysy chlebem",
-          "next": "vodocet"
+          "next": "vodocet",
+          "text": "Odlákat krysy chlebem"
         },
         {
-          "text": "Následovat jejich vyšlapanou cestu",
-          "next": "neznamy"
+          "next": "neznamy",
+          "text": "Následovat jejich vyšlapanou cestu"
         }
-      ]
+      ],
+      "text": "Tunel se povážlivě snižuje a římsa se zužuje na pouhou šířku boty. Na jediném suchém ostrůvku před tebou se tísní hejno krys. Neútočí – jen ostražitě zvedají čenichy a brání pelech mezi naplaveným harampádím. Pod římsou se valí proud mnohem dravěji, než to vypadalo shora.\n\nNad krysím hnízdem vede rezavé potrubí, po kterém by ses mohl přitáhnout. V kapse nahmatáš zbytek chleba od svačiny. V boční stěně si navíc všimneš nízkého průlezu ohlazeného těly zvířat – vane z něj svěží, chladný vzduch, stejný, jaký jsi cítil u suché štoly. Krysy znají podzemní spleť lépe než kdokoli nahoře, ale jejich stezka tě může odvést daleko od hlavního toku."
     },
     "vodocet": {
-      "text": "Za ohybem objevíš kamennou stupnici: sedm schodů, žádný nechybí, žádný není pošlý. Kudy se stavělo — nahoru nebo dolů — už nepoznáš, ale římsa je široká jako malý chlapec a zvedá se do místa, kde se podle ní chodilo.\n\nNa stěně jsou čárky. Začínají hluboko pod dnešní hladinou a končí nad tvou hlavou. Nejsou to značky na vodu, jsou to značky na to, kam voda dosáhne, když se napustí. Někdo tady stál s tužkou v ruce a psal výšky. Někdo jiný pak přišel s hrábí a stěnu přizdělal, a čárky zůstaly za maltou.\n\nCihly kolem stupnice jsou mladší než kámen pod nohama. Koryto bylo vykopané, zanéšené, a pak zanéšené podruhé, když se voda posunula. Stavělo se to dvakrát a pokaždé se někdo snažil vrátit vodě její řád.\n\nKdyž přiložíš dlaň ke stěně, ucítíš za ní další vodu. Kanál je tady všude, protože je to kanál. Proti proudu — tedy směrem k hranici a dál ven, kde voda musí stoupat — se ozývá hlubší dunění. Můžeš pokračovat, nebo nejprve doplnit mapu o tom, co je nahoře.",
       "options": [
         {
-          "text": "Pokračovat proti proudu",
-          "next": "soutok-nepripraveny"
+          "next": "soutok-nepripraveny",
+          "text": "Pokračovat proti proudu"
         },
         {
-          "text": "Vystoupit a porovnat nález s vpustmi nahoře",
-          "next": "povrchova-mapa"
+          "next": "povrchova-mapa",
+          "text": "Vystoupit a porovnat nález s vpustmi nahoře"
         },
         {
-          "text": "Ukončit dnešní pátrání a zapsat, co je na mapě",
-          "next": "mapa-konec"
+          "next": "mapa-konec",
+          "text": "Ukončit dnešní pátrání a zapsat, co je na mapě"
         }
-      ]
+      ],
+      "text": "Za ohybem tunelu narazíš na kamenné schodiště: sedm pravidelných stupňů, žádný nechybí, ani jeden není poškozený. Římsa je tu široká a stoupá k vyvýšené obslužné lávce.\n\nNa stěně jsou vysekané rysky. Začínají hluboko pod současnou hladinou a šplhají až nad tvou hlavu. Jsou to záznamy vodního stavu: někdo tu stával s měřidlem a zaznamenával výšku vzdutí. Později někdo stěnu přizdil a část rysek zůstala ukrytá pod starou maltou.\n\nCihly kolem schodiště jsou mladší než tesaný kámen v základech. Koryto bylo nejprve vykopané ve skále, pak obezděné a později ještě jednou upravené. Celé generace se snažily udržet vodní živel pod kontrolou.\n\nKdyž přitiskneš ucho ke stěně, uslyšíš za ní další proudění. Kanál se tu větví. Proti proudu – směrem k městské hranici – duní hluboký hukot. Můžeš pokračovat dál tunelem, nebo se vrátit na povrch a porovnat nález s uliční sítí."
     },
     "neznamy": {
-      "text": "Boční chodba ústí do komory s klenbou očazenou od staré lampy. U zarezlé mříže klečí člověk v tmavém kabátě a uvolňuje naplovené větve. Když se ohlédne, nelekne se. Jen si prohlédne tvé zabláchané ruce a papír vyčnívající z kapsy, jako by je viděl už jindy.\n\n„Ty první kreslíš, kam voda teče,“ řekne. „Ostatní se ptají, kde začíná.“\n\nNa otázku, zda kanál zná, odpoví: „Znal jsem ho kratší.“ Na jméno neodpovídá vůbec, a neřekne ani to, zda tě už někdy potkal. Mříž přidrží, ale dál tě nezve. Za okamžik může zmizet nízkým průlezem na opačné straně.\n\nOdejde dřív, než se zeptáš, kam jde.",
       "options": [
         {
-          "text": "Projít kolem něj přidrženou mříží",
-          "next": "soutok-nepripraveny"
+          "next": "soutok-nepripraveny",
+          "text": "Projít kolem něj přidrženou mříží"
         },
         {
-          "text": "Nechat ho odejít a následovat suchý průlez",
-          "next": "krysi-stola"
+          "next": "krysi-stola",
+          "text": "Nechat ho odejít a následovat suchý průlez"
         },
         {
-          "text": "Vrátit se, než tě doma začnou hledat",
-          "next": "rozcestnik"
+          "next": "rozcestnik",
+          "text": "Vrátit se, než tě doma začnou hledat"
         }
-      ]
+      ],
+      "text": "Boční chodba ústí do klenuté komory začouzené od starých loučí. U zrezivělé mříže klečí muž v dlouhém tmavém kabátě a uvolňuje naplavené větve a staré harampádí. Když zaslechne kroky, ani se nelekne. Jen si klidně změří tvé zablácené ruce a roh náčrtku vyčnívající z kapsy.\n\n„Ty jsi první, kdo kreslí, kam ta voda vlastně teče,“ poznamená tiše. „Ostatní se vždycky ptali jen na to, kde začíná.“\n\nKdyž se zeptáš, odkud kanál zná, odvětí vyhýbavě: „Znal jsem ho v dobách, kdy byl kratší.“ Na otázku po svém jménu neodpoví vůbec. Přidrží ti těžkou mříž, ale k další cestě tě nevybízí. Za chvíli beze slova zmizí v nízkém průlezu na opačné straně komory."
     },
     "povrch": {
-      "text": "Stínadla po dešti vypadají, jako by je někdo polil inkoustem. Okapy přetékají, dlažba se leskne a za každým rohem je další roh: schůdek do sklepa, slepé dveře, lávka mezi pavlačemi. Přikládáš ucho k mřížím a zakresluješ směr šumění.\n\nV Ostružnickém dvoře klokotá voda pod pumpou. Pod Uhelnými schody mizí stružka opačným směrem, než se svažuje ulice. Dál leží Dvůr Sedmi klik, zamčený z obou stran. Právě pod ním se oba zvuky patrně setkávají. Můžeš zkoumat dvory, poslouchat pod schody, nebo zajít domů, než se zeptají.",
       "options": [
         {
-          "text": "Projít Ostružnickým dvorem",
-          "next": "dvory"
+          "next": "dvory",
+          "text": "Projít Ostružnickým dvorem"
         },
         {
-          "text": "Prozkoumat Uhelné schody a zakreslit vpusti",
-          "next": "povrchova-mapa"
+          "next": "povrchova-mapa",
+          "text": "Prozkoumat Uhelné schody a zakreslit vpusti"
         },
         {
-          "text": "Zajít domů, než se zeptají",
-          "next": "priprava"
+          "next": "priprava",
+          "text": "Zajít domů, než se zeptají"
         }
-      ]
+      ],
+      "text": "Stínadla po prudkém dešti vypadají, jako by je někdo polil černým inkoustem. Okapy přetékají, dlažba se leskne ve světle plynových lamp a za každým rohem čeká další překážka: strmé schůdky, slepá domovní zákoutí, lávky zavěšené mezi protějšími pavlačemi. Přikládáš ucho ke kanálovým mřížím a do mapy si značíš směr podzemního hučení.\n\nV Ostružnickém dvoře voda divoce klokotá přímo pod litinovou pumpou. Pod Uhelnými schody mizí pramínek přesně opačným směrem, než jak se svažuje ulice. A o kousek dál leží Dvůr Sedmi klik, uzamčený z obou stran. Právě pod ním se oba zvuky zjevně slévají do jednoho toku."
     },
     "dvory": {
-      "text": "Ostružnický dvůr je tak úzký, že prádlo visící z protějších pavlačí tvoří nad hlavou střechu. Vlhká zeď studí i přes rukáv. Vede tě k pumpě, pod jejíž základnou je slyšet pravidelný náraz vody o kámen. Pak stopa pokračuje průjezdem do Dvora Sedmi klik.\n\nBrána má opravdu sedm různých klik, ale ani jedna z této strany neotevírá. Nad ní se táhne pavlač s děravým zábradlím. U paty zdi jsou dvířka do uhelného sklepa a za zamřížovaným oknem tě pozoruje mladší dívka. Možná ví, komu patří klíč — nebo zná jinou cestu.",
       "options": [
         {
-          "text": "Pokusit se dostat do Dvora Sedmi klik",
-          "next": "sedm-klik"
+          "next": "sedm-klik",
+          "text": "Pokusit se dostat do Dvora Sedmi klik"
         },
         {
-          "text": "Dál sledovat vlhké zdi a pumpy",
-          "next": "povrchova-mapa"
+          "next": "povrchova-mapa",
+          "text": "Dál sledovat vlhké zdi a pumpy"
         },
         {
-          "text": "Zajít domů, než se zeptají",
-          "next": "priprava"
+          "next": "priprava",
+          "text": "Zajít domů, než se zeptají"
         }
-      ]
+      ],
+      "text": "Ostružnický dvůr je tak stísněný, že prádlo natažené mezi pavlačemi tvoří nad hlavou souvislou stříšku. Vlhká zeď studí i přes rukáv kabátu. Zvuk tě neomylně vede k pumpě, pod jejímž kamenným podstavcem naráží proud do skrytého překladu. Odtud stopa pokračuje klenutým průjezdem do Dvora Sedmi klik.\n\nMasivní dubová brána má na kování skutečně sedm různých klik, ale ani jedna z této strany nezabírá. Nad průjezdem se táhne pavlač s vyviklaným zábradlím. U paty zdi vedou nízká dvířka do uhelného sklepa a za zamřížovaným oknem v přízemí tě zvědavě pozoruje mladší dívka. Možná ví, kdo má od brány klíč – nebo zná jinou cestu dovnitř."
     },
     "sedm-klik": {
-      "text": "Dívka za oknem se jmenuje Ema, ale všichni jí říkají Špunt. Její rodina se sem přistěhovala nedávno. Ukáže na sklepní dvířka a řekne, že za deště pod podlahou hučí voda tak silně, až drnčí hrnky. Dnes prý teče jinak než obvykle.\n\nDo dvora vedou tři cesty. Můžeš přelézt po mokré pavlači, protáhnout se uhelným sklepem, nebo Emě vysvětlit svou mapu a požádat ji, aby otevřela zevnitř. Poslední možnost znamená svěřit tajemství někomu, kdo Stínadla zná kratší dobu než ty.",
       "options": [
         {
-          "text": "Přelézt po mokré pavlači (hod kostkou)",
-          "next": "zakaz-mapa",
           "dice": {
-            "sides": 6,
             "outcomes": [
               {
                 "from": 1,
-                "to": 2,
-                "next": "zakaz-mapa"
+                "next": "zakaz-mapa",
+                "to": 2
               },
               {
                 "from": 3,
-                "to": 6,
-                "next": "povrchova-mapa"
+                "next": "povrchova-mapa",
+                "to": 6
               }
-            ]
-          }
+            ],
+            "sides": 6
+          },
+          "next": "povrchova-mapa",
+          "text": "Přelézt po mokré pavlači (hod kostkou)"
         },
         {
-          "text": "Protáhnout se uhelným sklepem",
-          "next": "povrchova-mapa"
+          "next": "povrchova-mapa",
+          "text": "Protáhnout se uhelným sklepem"
         },
         {
-          "text": "Požádat Emu „Špunt“ o pomoc",
-          "next": "ema"
+          "next": "ema",
+          "text": "Požádat Emu „Špunt“ o pomoc"
         }
-      ]
+      ],
+      "text": "Dívka za oknem se jmenuje Ema, ale v okolních ulicích jí nikdo neřekne jinak než Špunt. Její rodina se do Stínadel přistěhovala teprve nedávno. Ukáže na sklepní okénko a zašeptá, že při každém větším dešti duní pod podlahou voda tak divoce, až v kredenci drnčí hrnky. A dnes prý proud hučí úplně jinak než jindy.\n\nDo dvora se dají najít tři cesty: můžeš přelézt po mokrých prknech pavlače, protáhnout se uhelným shozem, nebo Emě ukázat svůj náčrtek a poprosit ji, aby ti odemkla zevnitř. Poslední možnost znamená svěřit se někomu, kdo ve Stínadlech ještě nemá své pevné místo."
     },
     "povrchova-mapa": {
-      "text": "Na papíře se ti spojí čtyři dosud oddělené zvuky. Čáry od pump, stružek a vlhkých sklepů míří pod Barvířské náměstíčko. Náměstíčko přitom není větší než pokoj: křivá lucerna, zazděná výloha a studna, ze které se voda dávno nečerpá.\n\nPod poklopem u studny však vane chlad. Tudy se dá sestoupit do místa, kde se kanály sbíhají. Tvoje mapa už také stačí k bezpečnému zakreslení většiny známých vstupů pod Stínadly. Můžeš ji dokončit, požádat Emu o spolupráci, nebo otevřít poklop a pokračovat za hlavním proudem.",
       "options": [
         {
-          "text": "Sestoupit pod Barvířské náměstíčko",
-          "next": "soutok-pripraveny"
+          "next": "soutok-pripraveny",
+          "text": "Sestoupit pod Barvířské náměstíčko"
         },
         {
-          "text": "Přizvat k výpravě Emu",
-          "next": "ema"
+          "next": "ema",
+          "text": "Přizvat k výpravě Emu"
         },
         {
-          "text": "Dokončit mapu známých stínadelských vstupů",
-          "next": "mapa-konec"
+          "next": "mapa-konec",
+          "text": "Dokončit mapu známých stínadelských vstupů"
         }
-      ]
+      ],
+      "text": "Na papíře se ti protnou čtyři dosud nesouvisející zvuky. Čáry od pump, dešťových stružek i zatopených sklepů se sbíhají pod Barvířským náměstíčkem. Náměstíčko není větší než obyčejný pokoj: nakloněná plynová lucerna, zazděná výloha starého krámu a kamenná kašna, do které už léta neteče voda.\n\nZpod litinového poklopu vedle kašny však táhne ledový proud vzduchu. Tudy vede přímá cesta do podzemního uzlu, kde se jednotlivé stoky slévají. Tvoje mapa je teď dost podrobná na to, abys bezpečně zakreslil většinu stínadelských vstupů. Můžeš měření uzavřít, přibrat k pátrání Emu, nebo vypáčit poklop a sestoupit přímo k hlavnímu korytu."
     },
     "priprava": {
-      "text": "Doma se ptají hned. Otec stojí v kuchyni a řekne, že bylo slyšet, jak ses vracel po zdi, a matka řekne, že žádné otázky, že je všechno jasné.\n\nZákaz je starý. To je jediné, co se o něm dá říct. Nepoví proč, protože sám neví; tvrdí, že platí už před tebou, a matka přikyvne, jako by to potvrzovala, ačkoli u to nikdo z vás nebyl.\n\nPak řeknou, že uvařují, a nechají tě. Chvíli potom se v kuchyni mluví o ceně uhlí.\n\nV pokoji leží mapa na stole a vypadá jinak, než když jsi za ní ležel ve tmě. Mapa se nikdy nepodobá tomu, co jsi viděl. Mapa vypadá jako důkaz.\n\nMůžeš ji odnést dolů a ukázat. Můžeš ji zavřít do sešitu a jít spát. A můžeš ji vzít s sebou a vyjít ven, aniž tě nikdo neuvidí — protože všichni už vědí, že chodíš spát v tuhle hodinu.",
       "options": [
         {
-          "text": "Ukázat mapu a říct celou pravdu",
-          "next": "druha-vyprava"
+          "next": "druha-vyprava",
+          "text": "Ukázat mapu a říct celou pravdu"
         },
         {
-          "text": "Zapsat všechno do sešitu a jít spát",
-          "next": "rozcestnik"
+          "next": "rozcestnik",
+          "text": "Zapsat všechno do sešitu a jít spát"
         },
         {
-          "text": "Neříct nic a vyjít ven v noci",
-          "next": "pripraven-sam"
+          "next": "pripraven-sam",
+          "text": "Neříct nic a vyjít ven v noci"
         }
-      ]
+      ],
+      "text": "Doma tě čeká výslech hned ve dveřích. Otec stojí v předsíni a odměří tě přísným pohledem – slyšel tvé kroky po pavlači. Matka rázně utne jakékoli vysvětlování s tím, že o zákazech se nediskutuje.\n\nStarý zákaz platí dál. Nikdo ti neřekne, proč vlastně vznikl; tvrdí jen, že tu byl dávno před tebou, a tím je pro ně věc vyřízená. V kuchyni se po chvíli začnou bavit o obyčejných starostech a ceně otopu.\n\nV pokoji rozložíš mapu na stole. Už nevypadá jako pouhý cár papíru – rýsuje se na ní skutečný, nezvratný důkaz o zapomenuté vodní cestě.\n\nMůžeš jít dolů a ukázat rodičům celou pravdu. Můžeš sešit schovat a jít spát. Nebo můžeš počkat, až dům usne, a vyrazit na průzkum pod rouškou noci."
     },
     "pripraven-sam": {
-      "text": "Světlo zakryješ dlaní, i když je v noci a v ulicích nikdo. Jdeš zadními dvory, protože tam nesvítí, a nepočítáš s tím, že by tě nikdo potkal. Počítáš s něčím horším: s tím, že se nepodíváš.\n\nDíra u Tří komínů je zasazená prkny a mezi nimi zůstala mezera, přesně jako večer. Jenže voda zní jinak, než když jsi tam byl. Ne hlasitěji jako blíž k ní, ale hlasitěji jako blíž k odtoku.\n\nNikdo neví, kam jdeš. To je výhoda i účet jedné a té samé věci: nikdo nemůže říct, že tě zadržel, protože tě nikdo neviděl.",
       "options": [
         {
-          "text": "Slézt do hlavního tunelu",
-          "next": "soutok-nepripraveny"
+          "next": "soutok-nepripraveny",
+          "text": "Slézt do hlavního tunelu"
         },
         {
-          "text": "Pokračovat po povrchu podle zvuku",
-          "next": "povrchova-mapa"
+          "next": "povrchova-mapa",
+          "text": "Pokračovat po povrchu podle zvuku"
         },
         {
-          "text": "Vrátit se do postele, než se někdo probudí",
-          "next": "rozcestnik"
+          "next": "rozcestnik",
+          "text": "Vrátit se do postele, než se někdo probudí"
         }
-      ]
+      ],
+      "text": "Svítilnu tlumíš v dlani, i když je hluboká noc a v ulicích nepotkáš živou duši. Proplétáš se zadními dvorky, kde nesvítí lampy, a doufáš, že tě nikdo nezahlédne z oken. V noci má každý krok trojnásobnou ozvěnu.\n\nPropadlina U Tří komínů je nahrubo přikrytá fošnami, ale mezi prkny zůstala dost velká skulina. Voda dole zní jinak než odpoledne – její hukot je táhlejší a temnější, jako by hladina ještě o kousek stoupla.\n\nNikdo neví, kde jsi. V tom je svoboda i obrovské nebezpečí: kdyby se ti dole něco stalo, nikdo nebude vědět, kde tě hledat."
     },
     "ema": {
       "grant": [
         "kreda"
       ],
-      "text": "Emě stačí jediné vysvětlení. Vezme kus modré křídy — na skutečnost, že měla doma svíčku, už nedošlo — a zavede tě do sklepa svého domu. Klíč od dvířek má na kovárně, dnes u sebe. Mezi policemi s uhlím odtáhne bedýnku. Za ní je otvor, ze kterého vane chlad a ozývá se voda. „Rodiče myslí, že je to větrání,“ řekne. „Větrání neplave.“\n\nMůžete vstoupit bezpečným sklepním průlezem, nejprve společně zakreslit další vpusti, nebo použít starý poklop přímo nad proudem. Poklop ušetří čas, ale jeho příčky jsou zetlelé. Poprvé po dlouhé době nezáleží jen na tom, zda se dokážeš vrátit ty; někdo další počítá s tvým rozhodnutím.",
       "options": [
         {
-          "text": "Vstoupit sklepním průlezem",
-          "next": "soutok-pripraveny"
+          "next": "soutok-pripraveny",
+          "text": "Vstoupit sklepním průlezem"
         },
         {
-          "text": "Nejprve společně zmapovat povrchové vpusti",
-          "next": "povrchova-mapa"
+          "next": "povrchova-mapa",
+          "text": "Nejprve společně zmapovat povrchové vpusti"
         },
         {
-          "text": "Spustit se starým poklopem (hod kostkou)",
-          "next": "zakaz-ema",
           "dice": {
-            "sides": 6,
             "outcomes": [
               {
                 "from": 1,
-                "to": 2,
-                "next": "zakaz-ema"
+                "next": "zakaz-ema",
+                "to": 2
               },
               {
                 "from": 3,
-                "to": 6,
-                "next": "soutok-pripraveny"
+                "next": "soutok-pripraveny",
+                "to": 6
               }
-            ]
-          }
+            ],
+            "sides": 6
+          },
+          "next": "soutok-pripraveny",
+          "text": "Spustit se starým poklopem (hod kostkou)"
         }
-      ]
+      ],
+      "text": "Emě stačí pár slov a okamžitě pochopí. Sáhne do kapsy pro kousek modré křídy a bez váhání tě odvede do sklepa jejich domu. Klíč od zadních dvířek nosí schovaný u sebe. Mezi policemi s uhlím odvalí těžkou bednu – za ní se ve zdi černá otvor, odkud vane chladný tah a zní tekoucí voda. „Táta tvrdí, že je to větrací šachta,“ zašeptá Ema. „Jenže větrací šachtou voda neteče.“\n\nDo podzemí můžete vstoupit tímto suchým průlezem, nejprve společně zmapovat další povrchové vpusti, nebo slézt starým revizním poklopem přímo nad proudem. Poklop ušetří čas, ale jeho železné příčky jsou prorezavělé. Poprvé za celou dobu neneseš odpovědnost jen sám za sebe."
     },
     "soutok-nepripraveny": {
-      "text": "Pod Barvířským náměstíčkem se tunel rozevře. Tři cihlové kanály tu ústí do koryta z hrubého kamene, a je to jediné místo ve Stínadlech, kde je vidět, že se voda sbírá: teď teče zprava, zleva a zezadu, a dole se spojuje v jedno.\n\nStěny byly přistavovány v různých dobách a nejstarší dlažba pokračuje pod nimi, jako by domy vyrostly kolem vody. Jenže tady je to obráceně: nejdřív bylo vykopáno, pak zazděno, pak zazděno podruhé, a nakonec se nad tím postavily domy. Voda tady nebyla dřív než cihly. Voda tady byla dřív než všechno.\n\nProti proudu vede kluzká římsa. Nad hladinou zeje suchý přepad, nízký a zaprášený. Ve štěrbině napravo mizí krysí stopy a táhne odtud vzduch. Bez pořádného plánu nevíš, která cesta je nejkratší, ale každá může prozradit, kam staré koryto pokračuje.",
       "options": [
         {
-          "text": "Přejít po kluzké římse (hod kostkou)",
-          "next": "zakaz-mapa",
           "dice": {
-            "sides": 6,
             "outcomes": [
               {
                 "from": 1,
-                "to": 3,
-                "next": "zakaz-mapa"
+                "next": "zakaz-mapa",
+                "to": 3
               },
               {
                 "from": 4,
-                "to": 6,
-                "next": "hranice-nepripraveny"
+                "next": "hranice-nepripraveny",
+                "to": 6
               }
-            ]
-          }
+            ],
+            "sides": 6
+          },
+          "next": "hranice-nepripraveny",
+          "text": "Přejít po kluzké římse (hod kostkou)"
         },
         {
-          "text": "Prolézt suchým přepadem",
-          "next": "suchy-prepad"
+          "next": "suchy-prepad",
+          "text": "Prolézt suchým přepadem"
         },
         {
-          "text": "Následovat krysí stopy",
-          "next": "krysi-stola"
+          "next": "krysi-stola",
+          "text": "Následovat krysí stopy"
         },
         {
-          "text": "Vrátit se a dokončit mapu Stínadel",
-          "next": "mapa-konec"
+          "next": "mapa-konec",
+          "text": "Vrátit se a dokončit mapu Stínadel"
         }
-      ]
+      ],
+      "text": "Pod Barvířským náměstíčkem se podzemí nečekaně rozevírá do mohutné klenuté prostory. Tři zděné stoky tu ústí do širokého kamenného koryta – je to jediné místo ve Stínadlech, kde je na vlastní oči vidět, jak se podzemní vody spojují do jediného dravého toku.\n\nCihlové zdi nesou stopy různých stavebních epoch a nejstarší kamenné kvádry pokračují hluboko pod základy okolních domů. Tady se nestavěla stoka pod městem – tady se kdysi vyhloubilo koryto a domy vyrostly teprve nad ním. Voda tu byla dřív než celá čtvrť.\n\nProti proudu vede kluzká římsa. Nad hladinou zeje suchý odlehčovací přepad, nízký a zaprášený. V boční štěrbině mizí krysí pěšina a táhne odtud svěží průvan. Bez přesného plánu nevíš, která z cest je průchodná, ale každá z nich tě posune blíž k tajemství kanálu."
     },
     "soutok-pripraveny": {
-      "text": "Pod Barvířským náměstíčkem se tři zděné kanály vlévají do širokého kamenného koryta. Podle mapy poznáš, odkud každý přichází, a je to poslední místo, kde je vidět, že ty tři vody jsou jedna. Koryto je z hrubého kamene a je starší než cihly i základy domů: vykopali ho první, než se tady vůbec něco stavělo.\n\nStínadla tedy nestojí nad vybudovanou stokou. Stínadla stojí nad vykopaným kanálem, do kterého se pak stavělo. Když se voda posunula, přistavěli, a přistavěli dvakrát.\n\nProti proudu můžeš postupovat po povrchu podle zakreslených vpustí — to znamená nahoru, k hranici, tam, kde je těch vpustí nejmíň, protože voda musí stoupat. Suchý přepad nabízí cestu přes cizí sklep a boční štola nese krysí stopy i čerstvý vzduch. Nad vámi je navíc vratká šachta. Bez lana a světla je to jen další past, do které bys spadl stejně jako do vody. Déšť stále plní všechny kanály, a ty tři dole vypadají, jako by je někdo právě napouštěl.",
       "options": [
         {
-          "text": "Pokračovat po povrchu podle mapy",
-          "next": "hranice-pripravena"
+          "next": "hranice-pripravena",
+          "text": "Pokračovat po povrchu podle mapy"
         },
         {
-          "text": "Projít suchým přepadem",
-          "next": "suchy-prepad"
+          "next": "suchy-prepad",
+          "text": "Projít suchým přepadem"
         },
         {
-          "text": "Následovat suchou krysí štolu",
-          "next": "krysi-stola"
+          "next": "krysi-stola",
+          "text": "Následovat suchou krysí štolu"
         },
         {
-          "text": "Vylézt vratkou šachtou (hod kostkou)",
+          "dice": {
+            "outcomes": [
+              {
+                "from": 1,
+                "next": "zakaz-mapa",
+                "to": 2
+              },
+              {
+                "from": 3,
+                "next": "hranice-pripravena",
+                "to": 6
+              }
+            ],
+            "sides": 6
+          },
+          "next": "hranice-pripravena",
           "requires": [
             "lampa",
             "provaz"
           ],
-          "next": "zakaz-ema",
-          "dice": {
-            "sides": 6,
-            "outcomes": [
-              {
-                "from": 1,
-                "to": 2,
-                "next": "zakaz-mapa"
-              },
-              {
-                "from": 3,
-                "to": 6,
-                "next": "hranice-pripravena"
-              }
-            ]
-          }
+          "text": "Vylézt vratkou šachtou (hod kostkou)"
         },
         {
-          "text": "Spokojit se s úplnou mapou Stínadel",
-          "next": "mapa-konec"
+          "next": "mapa-konec",
+          "text": "Spokojit se s úplnou mapou Stínadel"
         }
-      ]
+      ],
+      "text": "Pod Barvířským náměstíčkem ústí tři kamenné kanály do velkého centrálního koryta. Díky své mapě přesně víš, odkud která větev přitéká. Tohle koryto je z masivních tesaných kvádrů a je zjevně starší než základy všech stínadelských domů nad vámi.\n\nStínadla tedy nestojí na pouhých městských stokách – celá čtvrť vyrostla nad starým plavebním kanálem, který byl později částečně zaklenut a přizděn.\n\nProti proudu můžeš postupovat buď po povrchu podle zakreslených vpustí směrem k hranici města, nebo podzemím: suchý přepad nabízí průlez do sklepů a boční štola slibuje čerstvý vzduch. Přímo nad vámi je navíc stará větrací šachta, ale bez lana a svítilny by lezení po mokrých kramlích bylo čistým hazardem."
     },
     "suchy-prepad": {
       "grant": [
         "pruchody"
       ],
-      "text": "Přepad je tak nízký, že musíš lézt po loktech. Prach se lepí na mokré rukávy a zvuk vody za tebou slábne. Po několika desítkách kroků narazíš na dřevěnou přepážku. Jedna plaň povolí a za ní se objeví sklep cizího domu: sudy, koš s bramborami a schody k zamčeným dveřím.\n\nPod podlahou stále cítíš chvění proudu. Přes sklep by ses dostal na povrch už za hranicí čtvrti, což je zase jiný svět a zase cizí lidé. Můžeš se také vrátit k vodě, nebo si tento bezpečný obchvat zakreslit — ale jen značkou, kterou poznáš i potom — a další pátrání odložit.",
       "options": [
         {
-          "text": "Projít sklepem cizího domu",
-          "next": "zamceny-dvur"
+          "next": "zamceny-dvur",
+          "text": "Projít sklepem cizího domu"
         },
         {
-          "text": "Vrátit se k hlavnímu proudu",
-          "next": "soutok-nepripraveny"
+          "next": "soutok-nepripraveny",
+          "text": "Vrátit se k hlavnímu proudu"
         },
         {
-          "text": "Zakreslit bezpečný průchod a vrátit se",
+          "next": "mapa-konec",
           "requires": [
             "kreda"
           ],
-          "next": "mapa-konec"
-        }
-      ]
-    },
-    "krysi-stola": {
-      "text": "Štola je suchá jen uprostřed. Po stranách leží naplavený písek, skořápky a útržky listí. Krysy před tebou ustupují a mizí ve spárách; nepotřebují s tebou bojovat, protože mají desítky cest. Studený proud vzduchu sílí. V jednu chvíli zahlédneš mezi cihlami zazděný kámen s písmenem, které nepatří žádnému stínadelskému domu.\n\nŠtola klesá zpět k vodě a zároveň pokračuje za vzduchem. Můžeš sledovat její suchou část, sestoupit k hlavnímu proudu, nebo si ji označit modrou křídou, pokud ji v kapse máš, a vrátit se. Už teď víš o spojnici, kterou nahoře nikdo nepoužívá.",
-      "options": [
-        {
-          "text": "Pokračovat za studeným vzduchem",
-          "next": "hranice-nepripraveny"
-        },
-        {
-          "text": "Sestoupit zpět k vodě",
-          "next": "hranice-nepripraveny"
-        },
-        {
-          "text": "Označit štolu modrou křídou a vrátit se",
-          "requires": [
-            "kreda"
-          ],
-          "next": "mapa-konec"
+          "text": "Zakreslit bezpečný průchod a vrátit se"
         }
       ],
+      "text": "Přepadová štola je tak nízká, že se v ní musíš plazit po loktech. Vlhký prach se lepí na šaty a hučení vody za zády postupně utichá. Po několika desítkách metrů narazíš na dřevěnou laťkovou přepážku. Jedno prkno povolí a před tebou se otevře sklep cizího domu: police se zavařeninami, bedny s bramborami a kamenné schodiště k zamčeným dveřím.\n\nPod podlahou sklepa stále cítíš lehké chvění skrytého toku. Přes tento sklep by ses dostal ven na povrch už na samém okraji čtvrti. Můžeš se vrátit k hlavnímu proudu, nebo si tenhle tajný obchvat zakreslit modrou křídou do mapy a pro dnešek pátrání ukončit."
+    },
+    "krysi-stola": {
       "grant": [
         "pruchody"
-      ]
+      ],
+      "options": [
+        {
+          "next": "hranice-nepripraveny",
+          "text": "Pokračovat za studeným vzduchem"
+        },
+        {
+          "next": "hranice-nepripraveny",
+          "text": "Sestoupit zpět k vodě"
+        },
+        {
+          "next": "mapa-konec",
+          "requires": [
+            "kreda"
+          ],
+          "text": "Označit štolu modrou křídou a vrátit se"
+        }
+      ],
+      "text": "Boční štola je suchá jen uprostřed, po stranách leží nánosy písku a tlejícího listí. Krysy před světlem svítilny tiše ustupují do spár – nesnaží se útočit, mají tu desítky vlastních únikových cest. Proud čerstvého chladného vzduchu sílí. V kuželu světla zahlédneš ve zdi zazděný opracovaný pískovec se znakem, který nepatří žádnému stínadelskému domu.\n\nŠtola mírně klesá a směřuje za vanoucím vzduchem ven ze čtvrti. Můžeš pokračovat dál suchou chodbou, sestoupit zpátky k vodě, nebo štolu označit křídou a vrátit se na povrch. Už teď znáš podzemní spojnici, o které většina lidí nahoře nemá tušení."
     },
     "hranice-nepripraveny": {
       "grant": [
         "doklady"
       ],
-      "text": "Tunel se na okamžik zúží mezi dvěma mohutnými základy. V jednom je zazděný hraniční kámen. Na straně, odkud přicházíš, nese starou značku Stínadel — vlnovky, stejné jako na dlažbě U Tří komínů. Druhá strana je opracovaná jinak, černým kamenem, a její značka míří k ulicím za čtvrtí.\n\nKámen je vytesaný do místa, kde se stavělo. Kdybys ho chtěl přestěhovat, musel bys nejdřív rozlomit zeď, která byla dostavěna po něm. Nikdo ho nepřestěhoval. Někdo jen přestal stavět a začal bydlet.\n\nTvoje domněnka je správná a je horší, než jsi myslel: kanál ve Stínadlech nezačíná. Za kamenem pokračuje, proti proudu, ven z čtvrti, směrem k řece. Podzemní proud sílí a z dálky přináší pach mokrého dřeva. Nad tebou vede šachta na povrch. Bez přesné mapy a výbavy je další cesta riskantní, ale odpověď je blíž, než jsi čekal.",
       "options": [
         {
-          "text": "Pokračovat podzemím proti proudu",
-          "next": "cizi-podzemi"
+          "next": "cizi-podzemi",
+          "text": "Pokračovat podzemím proti proudu"
         },
         {
-          "text": "Vystoupit na povrch cizí čtvrti",
-          "next": "cizi-povrch"
+          "next": "cizi-povrch",
+          "text": "Vystoupit na povrch cizí čtvrti"
         },
         {
-          "text": "Vrátit se s důkazem, že voda přichází odjinud",
-          "next": "castecny-konec"
+          "next": "castecny-konec",
+          "text": "Vrátit se s důkazem, že voda přichází odjinud"
         }
-      ]
+      ],
+      "text": "Klenba se náhle sevře mezi dvěma mohutnými kamennými pilíři. Do jednoho z nich je zapuštěn hraniční mezník. Ze strany, odkud přicházíš, nese staré stínadelské vlnovky – přesně takové, jaké jsi viděl U Tří komínů. Druhá strana kamene je opracovaná odlišně a cizí kamenická značka míří do ulic za hranicí Stínadel.\n\nTen kámen tu stojí od nepaměti. Kdyby ho chtěl někdo odstranit, musel by rozbít celé nosné zdivo. Nikdo ho nepřemístil – jen na něj lidé časem zapomněli.\n\nTvoje domněnka se potvrdila: kanál ve Stínadlech nepramení. Pokračuje proti proudu dál, ven ze čtvrti, směrem k velké řece. Voda je tu hlubší a studenější. Nad tebou vede úzká větrací šachta na povrch cizí čtvrti."
     },
     "hranice-pripravena": {
       "grant": [
         "doklady"
       ],
-      "text": "Zakreslené vpusti tě dovedou až ke kameni zazděnému uvnitř tunelu. Z jedné strany nese značku Stínadel, z druhé černý kámen s cizím písmenem. Voda přitéká zpoza něj. Čára na mapě tedy nemá ve Stínadlech začátek a nesmí v něm ani skončit.\n\nKoryto pokračuje proti proudu ven z čtvrti, k řece. Voda přichází z řeky — to bylo jasné od začátku a ty jsi to věděl dřív, než jsi na to narazil. Jenom teď víš kudy.\n\nLampa, provaz a dosavadní měření ti dovolují pokračovat rozumněji. Můžeš zůstat pod zemí a sledovat kamenné koryto, nebo vylézt šachtou a hledat jeho stopu podle mokrých sklepů ven za čtvrtí. Důkazů k bezpečnému návratu máš dost. Přesné místo, kde se voda bere, ale leží ještě dál — a už je za hranicí.",
       "options": [
         {
-          "text": "Pokračovat podzemím s lampou a mapou",
-          "next": "cizi-podzemi"
+          "next": "cizi-podzemi",
+          "text": "Pokračovat podzemím s lampou a mapou"
         },
         {
-          "text": "Sledovat tok po povrchu",
-          "next": "cizi-povrch"
+          "next": "cizi-povrch",
+          "text": "Sledovat tok po povrchu"
         },
         {
-          "text": "Odnést důkazy domů",
-          "next": "castecny-konec"
+          "next": "castecny-konec",
+          "text": "Odnést důkazy domů"
         }
-      ]
+      ],
+      "text": "Podle zakreslených stop dorazíš přímo k hraničnímu kameni zazděnému v hloubi tunelu. Ze stínadelské strany nese staré vlnovky, ze strany od města cizí písmeno. A voda neúnavně proudí zpoza něj. Čára na tvé mapě ve Stínadlech nezačíná a nesmí v nich ani končit.\n\nKoryto pokračuje přímo proti proudu za Rozdělovací třídu k řece. Voda přichází z velké řeky – to jsi tušil od začátku, ale teď máš v ruce jasný důkaz.\n\nSe svítilnou, provazem a přesnými záznamy můžeš bezpečně pokračovat. Můžeš zůstat v podzemním korytě, nebo vylézt šachtou na povrch a sledovat tok podle vlhkých sklepů. Shromáždil jsi dostatek důkazů pro bezpečný návrat, ale samotný vtok leží ještě o kus dál proti proudu."
     },
     "cizi-podzemi": {
       "grant": [
         "doklady"
       ],
-      "text": "Za hranicí Stínadel jsou cihly světlejší a klenba nižší. Voda ti nejprve sahá po kotníky, pak po lýtka. Na stěnách zůstává jemná hnědá čára — ta je starší než všechno ostatní tady — a mezi kameny leží říční písek, kulatější než stavební drť ve Stínadlech.\n\nTa hnědá čára je bývalá hladina. Někdo zde jednou stál s tužkou a řekl si: tady byla voda, tady bude. Nejsi na konci cesty, jsi na jejím začátku — mezi tebou a místem, kde se voda do kanálu vlastně vezme, je už jen kus města, a leží proti proudu.\n\nProud prochází zatopeným úsekem pod nízkým obloukem. Nad ním začíná suchá servisní chodba, která může vést do některého dvora. Můžeš také nabrat bahno a listí jako důkaz a vrátit se. Odpověď by nebyla úplná, ale nikdo by už nemohl tvrdit, že jde jen o dešťovou stoku.",
       "options": [
         {
-          "text": "Projít zatopeným úsekem (hod kostkou)",
-          "next": "zakaz-mapa",
           "dice": {
-            "sides": 6,
             "outcomes": [
               {
                 "from": 1,
-                "to": 2,
-                "next": "zakaz-mapa"
+                "next": "zakaz-mapa",
+                "to": 2
               },
               {
                 "from": 3,
-                "to": 6,
-                "next": "ricni-mriz"
+                "next": "ricni-mriz",
+                "to": 6
               }
-            ]
-          }
+            ],
+            "sides": 6
+          },
+          "next": "ricni-mriz",
+          "text": "Projít zatopeným úsekem (hod kostkou)"
         },
         {
-          "text": "Hledat cestu suchou servisní chodbou",
-          "next": "zamceny-dvur"
+          "next": "zamceny-dvur",
+          "text": "Hledat cestu suchou servisní chodbou"
         },
         {
-          "text": "Odnést říční bahno jako důkaz",
-          "next": "castecny-konec"
+          "next": "castecny-konec",
+          "text": "Odnést říční bahno jako důkaz"
         }
-      ]
+      ],
+      "text": "Za hranicí Stínadel se cihly mění za světlejší a klenba je znatelně nižší. Voda ti sahá nejprve po kotníky, pak až po lýtka. Na stěnách se rýsuje stará tmavá čára od někdejší vyšší hladiny a na dně leží jemný světlý říční písek, docela jiný než stínadelská stavební suť.\n\nTa ryska na stěně je stopou po dávné plavbě. Někdo tu kdysi pečlivě vyměřil výšku hladiny pro nákladní čluny. Nejsi na konci výpravy, jsi na stopě samotného začátku: mezi tebou a vtokem do řeky leží už jen část sousední čtvrti.\n\nProud protéká nízkým zatopeným obloukem. Nad ním začíná suchá montážní lávka, která ústí kamsi do dvorů za Rozdělovací třídou. Můžeš nabrat do lahvičky vzorek říčního písku jako nezvratný důkaz a vrátit se."
     },
     "cizi-povrch": {
-      "text": "Vylezeš do čtvrti, kterou znáš jen z dálky. Mlýnské dvory jsou širší než stínadelské, ale stejně nepravidelné. Uprostřed jednoho stojí stará pumpa a ze sklepních oken vane chlad. Na dlažbě nenajdeš souvislý potok; voda je pořád ukrytá pod domy. Prozrazuje ji jen vlhkost a tiché dunění — a to dunění je jiné než ve Stínadlech. Je už stále stejné, a to znamená, že jsi blíž k tomu, kde voda vtéká, než k tomu, kde vytéká.\n\nJedna řada mokrých sklepů vede k zamčenému průjezdu. Druhá stopa se dá číst z listí zachyceného v kanálech: proti proudu přibývá vrbových lístků a světlého písku. Můžeš pokračovat podle jedné z nich, nebo se vrátit dřív, než se doma začnou ptát.",
       "options": [
         {
-          "text": "Sledovat mokré sklepy a staré pumpy",
-          "next": "zamceny-dvur"
+          "next": "zamceny-dvur",
+          "text": "Sledovat mokré sklepy a staré pumpy"
         },
         {
-          "text": "Jít proti proudu podle listí a písku",
-          "next": "ricni-mriz"
+          "next": "ricni-mriz",
+          "text": "Jít proti proudu podle listí a písku"
         },
         {
-          "text": "Vrátit se před setměním",
-          "next": "castecny-konec"
+          "next": "castecny-konec",
+          "text": "Vrátit se před setměním"
         }
-      ]
+      ],
+      "text": "Vylezeš poklopem do čtvrti za Rozdělovací třídou, kterou znáš jen z dálky. Zdejší mlýnské dvory jsou prostornější než stínadelské plácky, ale stejně křivolaké. Uprostřed dvora stojí stará litinová pumpa a ze sklepních okének stoupá známý vlhký chlad. Na povrchu žádná voda neteče – proud je stále ukrytý v podzemí. Prozrazuje ho jen dunění v šachtách a vlhké zdivo domů.\n\nŘada vlhkých sklepů směřuje k zamčenému průjezdu. Druhou stopu představuje naplavené listí zachycené v uličních vpustích: proti proudu přibývá vrbového listí a čistého říčního štěrku. Odtud už to k řece nemůže být daleko."
     },
     "zamceny-dvur": {
-      "text": "Stopa končí ve dvoře sevřeném sklady. Na druhé straně mřížové brány slyšíš vzdálený hukot, širší a klidnější než voda v tunelu. Nejde o vodu. Jde o něco, co teče tak, že se to vzdaluje, a neodrazí se.\n\nBrána je zamčená. Za vysokou zídkou se sklánějí větve vrby a v průjezdu občas klapnou kroky obyvatele domu.\n\nMůžeš trpělivě počkat, až někdo otevře průjezd, nebo zkusit přelézt mokrou zídku — pokud máš provaz. Pokud ustoupíš, pořád máš jistotu, kterou jsi na začátku neměl: voda jde z řeky, kudy se dá jít, a proti proudu je k ní blíž. Posledních několik desítek kroků však rozhodne, zda na mapě zůstane šipka, nebo přesný bod.",
       "options": [
         {
-          "text": "Počkat, až někdo otevře průjezd",
-          "next": "ricni-mriz"
+          "next": "ricni-mriz",
+          "text": "Počkat, až někdo otevře průjezd"
         },
         {
-          "text": "Přelézt mokrou zídku (hod kostkou)",
+          "dice": {
+            "outcomes": [
+              {
+                "from": 1,
+                "next": "zakaz-mapa",
+                "to": 2
+              },
+              {
+                "from": 3,
+                "next": "ricni-mriz",
+                "to": 6
+              }
+            ],
+            "sides": 6
+          },
+          "next": "ricni-mriz",
           "requires": [
             "provaz"
           ],
-          "next": "zakaz-mapa",
-          "dice": {
-            "sides": 6,
-            "outcomes": [
-              {
-                "from": 1,
-                "to": 2,
-                "next": "zakaz-mapa"
-              },
-              {
-                "from": 3,
-                "to": 6,
-                "next": "ricni-mriz"
-              }
-            ]
-          }
+          "text": "Přelézt mokrou zídku (hod kostkou)"
         },
         {
-          "text": "Ustoupit s jistotou, že řeka je blízko",
-          "next": "castecny-konec"
-        }
-      ]
-    },
-    "ricni-mriz": {
-      "text": "Za dvorem se pod starou zdí rozdělují dva kanály. První je hlasitý, kalný a páchne po ulicích — to je ten, který tě přivedl zpátky do města. Druhý proudí tišeji, ale je chladnější. Na jeho dně leží světlý písek, vrbové listí a kousek říční lastury.\n\nOba mizí za mřížemi a oba vedou k vodě. Tady se to poprvé láme na dvě, a poprvé je na tom, kterou jsi zvolil.\n\nVzpomeneš si na všechna místa, kde jsi přikládal dlaň ke studeným zdím. Hlasitost nemusí znamenat správný směr; hlasitý kanál tě přivedl domů, kde tě čekal zákaz. Můžeš sledovat chladný proud, vydat se za tím, co je hlasitější, nebo se vrátit pro pomoc a slovo, které se dá doma vyjednat. Teď už nejde o odvahu, ale o to, zda jsi cestou opravdu pozoroval.",
-      "options": [
-        {
-          "text": "Sledovat chladný proud, písek a vrbové listí",
-          "next": "slepe-rameno"
-        },
-        {
-          "text": "Jít za hlasitějším kalným kanálem",
-          "next": "castecny-konec"
-        },
-        {
-          "text": "Vrátit se pro pomoc a povolení",
-          "next": "druha-vyprava"
-        }
-      ]
-    },
-    "zakaz-mapa": {
-      "text": "Výprava skončí studenou vodou, rozbitou lampou nebo cizím hlasem za zády. Domů dorazíš promočený a mnohem později, než jsi slíbil.\n\nZákaz tu byl dřív. Teď má jméno a datum a řekli ti ho nahlas, a to je jediná věc, která se dnes změnila. Ne zákaz, ale to, že se o něm ví.\n\nOtec neřekne, kam lezl. Zeptá se jen, kdo to věděl. Když řekneš, že nikdo, řekne: „Tak to byl jen ty.“ A matka řekne, že mapa zůstane na stole, až to bude po tvojí, a že v sobotu půjdeš do kina jako vždycky, protože v sobotu je všechno dovolené.\n\nMapa zůstala v kapse. Je rozmazaná na okrajích, ale jsou na ní vpusti, směr proudu a cesta k místu, kam ses dostal. Můžeš říct celou pravdu a požádat o druhou výpravu. Můžeš zákaz přijmout a mapu uchovat jako výsledek. A můžeš vyjít ještě téže noci, což by znamenalo zahodit poslední zbytek jejich důvěry.",
-      "options": [
-        {
-          "text": "Ukázat rodičům mapu a říct celou pravdu",
-          "next": "druha-vyprava"
-        },
-        {
-          "text": "Přijmout zákaz a uchovat dosavadní mapu",
-          "next": "mapa-konec"
-        },
-        {
-          "text": "Tajně zákaz porušit ještě téže noci",
-          "next": "zakaz-konec"
-        }
-      ]
-    },
-    "zakaz-ema": {
-      "text": "Zpráchnivělá příčka povolí a rachot přivolá dospělé dřív, než stačíte zmizet. Nikomu se nic vážného nestane, ale domů vás přivedou zablábané a pozdě.\n\nOtec se ptá, kdo to věděl. Ema řekne: „Já.“ A pak řekne, že jsi nešel prolézat sklepem, ale zjišťoval, kam voda pod domem teče, a že jste šli ve dvou, a ne v pátek v noci. Když řekne „ve dvou“, otec se podívá na ni, na tebe a na sebe v zrcadle a řekne, že o tom jednou mluví, ale ne dnes.\n\nPoklop se dá zakrýt prkny, a ráno bude řádně zazděný. Ve vztahu k dospělým se nezměnilo nic, kromě toho, že teď víš, jak vypadá, když někdo řekne, že to nedělal sám.\n\nJejí svědectví může změnit zákaz v podmíněné svolení. Můžete také odevzdat dosavadní mapu a skončit. Kdybyste oba znovu utekli ještě této noci, potvrdili byste pouze všechny obavy dospělých a otvor by ráno uzavřeli důkladněji.",
-      "options": [
-        {
-          "text": "Požádat Emu, aby dosvědčila smysl výpravy",
-          "next": "druha-vyprava"
-        },
-        {
-          "text": "Odevzdat společnou mapu a přijmout konec pátrání",
-          "next": "mapa-konec"
-        },
-        {
-          "text": "Pokračovat tajně ještě téže noci",
-          "next": "zakaz-konec"
+          "next": "castecny-konec",
+          "text": "Ustoupit s jistotou, že řeka je blízko"
         }
       ],
+      "text": "Stopa tě dovede do tichého dvora sevřeného starými sklady. Za masivní kovanou mříží v ohradní zdi slyšíš mohutný, hluboký hukot – širší, klidnější a mnohem mocnější než proud v podzemním tunelu. To není uzavřená stoka: to je velká řeka!\n\nBrána je zamčená na těžký visací zámek. Za vysokou zdí šumí koruny starých vrb a z ulice doléhají kroky chodců.\n\nMůžeš počkat, až někdo otevře průjezd do nábřežní ulice, nebo přelézt vlhkou zídku pomocí provazu. Máš naprostou jistotu, že řeka je na dosah ruky. Posledních několik desítek kroků rozhodne, zda tvá mapa získá svůj konečný a nejdůležitější bod."
+    },
+    "ricni-mriz": {
+      "options": [
+        {
+          "next": "slepe-rameno",
+          "text": "Sledovat chladný proud, písek a vrbové listí"
+        },
+        {
+          "next": "castecny-konec",
+          "text": "Jít za hlasitějším kalným kanálem"
+        },
+        {
+          "next": "druha-vyprava",
+          "text": "Vrátit se pro pomoc a povolení"
+        }
+      ],
+      "text": "Za dvorem se pod patou staré nábřežní zdi kanál dělí do dvou ramen. První větev je kalná, zapáchá splašky a míří zpátky do městské stokové sítě. Druhé rameno proudí tiše a čistě – na jeho písčitém dně leží říční oblázky, vrbové proutí a úlomky sladkovodních mušlí.\n\nObě ramena mizí za česlemi pod kamennou klenbou nábřeží. Tady se rozhoduje o všem.\n\nVzpomeneš si na všechny dosud prozkoumané úseky. Hluk nemusí znamenat správnou cestu – městská stoka tě dovede leda k domovnímu zákazu. Čistý proud s pískem vede přímo k řece. Teď už nejde o zběsilou odvahu, ale o rozvahu a pozorovací talent."
+    },
+    "zakaz-mapa": {
+      "options": [
+        {
+          "next": "druha-vyprava",
+          "text": "Ukázat rodičům mapu a říct celou pravdu"
+        },
+        {
+          "next": "mapa-konec",
+          "text": "Přijmout zákaz a uchovat dosavadní mapu"
+        },
+        {
+          "next": "zakaz-konec",
+          "text": "Tajně zákaz porušit ještě téže noci"
+        }
+      ],
+      "text": "Výprava tentokrát skončí nezdarem: uklouznutím do ledové vody, zhasnutím lampy nebo přísným hlasem domovníka za zády. Domů dorazíš promočený, zablácený a mnohem později, než jsi slíbil.\n\nZákaz rodičů už není jen neurčitým varováním – teď padla konkrétní slova a výčitky. Otec se nevyptává, kudy jsi chodil. Zeptá se jen, kdo tě k tomu navedl. Když odpovíš, že nikdo, jen zavrtí hlavou: „Takže v tom lítáš sám.“\n\nNáčrtek mapy ti zůstal v kapse. Je na okrajích rozpípitý vodou, ale linie koryt a směr proudu jsou stále čitelné. Můžeš říct rodičům celou pravdu a pokusit se získat svolení pro další průzkum. Můžeš zákaz přijmout a mapu schovat. Nebo můžeš riskovat a vyrazit znovu v noci."
+    },
+    "zakaz-ema": {
       "grant": [
         "svědctvi-emy"
-      ]
+      ],
+      "options": [
+        {
+          "next": "druha-vyprava",
+          "text": "Požádat Emu, aby dosvědčila smysl výpravy"
+        },
+        {
+          "next": "mapa-konec",
+          "text": "Odevzdat společnou mapu a přijmout konec pátrání"
+        },
+        {
+          "next": "zakaz-konec",
+          "text": "Pokračovat tajně ještě téže noci"
+        }
+      ],
+      "text": "Ztrouchnivělá příčka žebříku s praskotem povolí a hluk přivolá domovníka dřív, než stačíte zmizet do tmy. Nikomu se nic nestane, ale domů vás přivedou zablácené a se zpožděním.\n\nOtec se přísně zeptá, kdo v tom má prsty. Ema vystoupí dopředu: „Já. Nešli jsme nic ničit – zjišťovali jsme, kudy teče ta voda pod naším sklepem. A šli jsme spolu.“ Když otec slyší, že jste byli dva a postupovali rozumně, jeho tón znatelně změkne.\n\nPoklop do kanálu sice z preventivních důvodů zatlučou prkny, ale Emino pevné svědectví dokázalo obměkčit dospělé víc než jakékoli zapírání.\n\nJejí zastání může proměnit přísný zákaz v podmíněné svolení pokračovat za denního světla."
     },
     "druha-vyprava": {
-      "text": "Mapa a poctivá výpověď dokážou to, co vzdor nedokázal. Dalšího dne smíš pokračovat, ale ne v rozvodněných tunelech a ne v pátek v noci.\n\nDostaneš suché šaty, provaz místo provázané kuličky a jednu věc, která se u vás doma říká slovo: vrátíš se před setměním. Otec to vysloví jednou a neopakuje to, a ty na to nemusíš nic odpovídat, protože slovo tady neplatí podle pravidla, ale podle toho, kdo ho slyšel.\n\nDruhý den se dá jít tudy: nahoře, k hranici, tam, kde je nejmíň vpustí, protože voda musí stoupat. A dá se taky jít zpět, kdybys chtěl, jen k hraničnímu kameni, aby potvrdil směr, nebo vyřídit mapu, která je už hodně přesná.\n\nTentokrát to není nejodvážnější cesta ani nejbezpečnější. Je to cesta, na kterou se dá vrátit.",
       "options": [
         {
-          "text": "Vyjít do podzemí, proti proudu, k hranici",
-          "next": "hranice-pripravena"
+          "next": "hranice-pripravena",
+          "text": "Vyjít do podzemí, proti proudu, k hranici"
         },
         {
-          "text": "Vrátit se pouze k hraničnímu kameni",
-          "next": "castecny-konec"
+          "next": "castecny-konec",
+          "text": "Vrátit se pouze k hraničnímu kameni"
         },
         {
-          "text": "Dokončit bezpečnou mapu stínadelských vstupů",
-          "next": "mapa-konec"
+          "next": "mapa-konec",
+          "text": "Dokončit bezpečnou mapu stínadelských vstupů"
         }
-      ]
+      ],
+      "text": "Přesná mapa a poctivé vysvětlení dokážou to, co by vzdorem nikdy neprošlo. Dalšího dne smíš v průzkumu pokračovat – ovšem za jasných podmínek: žádné lezení do rozvodněných stok v noci a návrat domů přesně před setměním.\n\nDostaneš suché oblečení, pořádný pevný provaz a především to, čemu se ve Stínadlech říká dané slovo: slíbíš, že se vrátíš včas. Otec to řekne jednou a bez zbytečného kázání. Chlapské slovo tady platí víc než tisíc zákazů.\n\nMůžeš vyrazit po horní trase podél hranice čtvrti, vrátit se k hraničnímu kameni a ověřit směr toku, nebo dokončit stínadelskou část mapy bez zbytečného rizika."
     },
     "slepe-rameno": {
-      "text": "Za mřížemi není slepé rameno. Je tam kamenné ústí, starý práh a nad ním řada kovových háků na betonové stěně, která se láme do mělkého potoka. Lávky vedou do vody a končí ve vodě, protože se stavěly pro čluny, které se tady otáčely, ne pro ty, které by čekaly.\n\nTady voda ze Stínadel končí. Aby se sem dostala, musela se nadto dostat z řeky — a to je kus cesty proti proudu, který jsi ještě nešel.\n\nZakreslíš na mapu poslední znamení dne: kamenné ústí, potok, rampa s lávkami. A hlavně šipku, která míří zpět, proti proudu, ven z čtvrti, směrem k řece — protože jen tam se voda může do kanálu vzít.\n\nNejsi u konce. Jsi u začátku otázky, a otázka má teď směr.",
       "options": [
         {
-          "text": "Zapsat to do mapy a domů, než zhasne světlo",
-          "next": "rozcestnik"
+          "next": "rozcestnik",
+          "text": "Zapsat to do mapy a domů, než zhasne světlo"
         }
-      ]
+      ],
+      "text": "Za mřížemi nezeje žádné slepé rameno. Objeví se kamenné vyústění, starý přepadový práh a nad ním řada kovaných ok na betonové navigaci, která přechází v koryto mělkého potoka. Dřevěné lávky vedou do vody a končí pod hladinou – sloužily k vyvazování pramic, které se tu otáčely před cestou zpět.\n\nTady stínadelský úsek kanálu definitivně ústí do volné vody. Aby se sem voda dostala, musela nejprve přitéci z velké řeky na opačném konci města.\n\nZakreslíš do mapy poslední klíčové body: kamenné vyústění, potok, přístavní lávky i šipku toku. Tvá mapa získala pevný směr a řád."
     },
     "castecny-konec": {
-      "text": "Domů přijdeš dřív, než jsi chtěl, a tak to skončilo.\n\nNa stole leží mapa a vedle ní, na kousku papíru, to, co se dalo opsat: hraniční kámen, jeho dvě strany, a směr, kterým voda přichází. Řádek, kterým to pokračuje, je prázdný, a je prázdný schválně, protože jsi tam nebyl.\n\nPřesto už víš podstatnou věc. Voda nevzniká pod žádným stínadelským dvorem a kanály pod domy nejsou oddělené stoky. Všechny patří jednomu starému kanálu, který přichází z řeky, proti proudu, a pokračuje za hranici čtvrti.\n\nPrázdné místo na mapě není prohra. Je to část odpovědi, kterou je potřeba doplnit, a na to se musíš dostat tam, kde jsi nebyl.",
       "options": [
         {
-          "text": "Nechat to tak a jít spát",
-          "next": "rozcestnik"
+          "next": "rozcestnik",
+          "text": "Nechat to tak a jít spát"
         }
-      ]
+      ],
+      "text": "Vrátíš se domů dřív, než jsi původně plánoval, ale s prázdnou neodcházíš.\n\nNa stole leží rozkreslená mapa a vedle ní přesný náčrtek hraničního kamene s oběma znaky i vzorek říčního štěrku. Záznamy hovoří jasnou řečí: voda nevzniká náhodně pod stínadelskými dvorky a podzemní koryta nejsou oddělené stoky. Jde o jedno souvislé vodní dílo, které přichází z velké řeky za hranicí čtvrti.\n\nPrázdné místo na mapě není prohrou. Je to výzva k dalšímu pátrání, které tě brzy zavede až k samotnému počátku toku."
     },
     "mapa-konec": {
-      "text": "Nedojdeš k začátku vody. Spojíš ale to, co bylo dosud roztroušené v cizích vzpomínkách: pumpu v Ostružnickém dvoře, Uhelné schody, poklop pod Barvířským náměstíčkem, suchou štolu i bezpečné vstupy.\n\nTvoje čára se vine celými Stínadly a nikde si nevymýšlíš pokračování, které jsi neviděl. To je ta část práce, kterou nevidí nikdo jiný: ne nakreslit mapu, ale říct, kde na ní nic není.\n\nKopii necháš ležet. Ještě ne. Kdybys ji pověsil do sklepa, kde se schovají ostatní děti, musel bys umět vysvětlit, co v ní je — a na to potřebuješ ještě jednu kapitolu.",
       "options": [
         {
-          "text": "Zalám to a jít spát",
-          "next": "rozcestnik"
+          "next": "rozcestnik",
+          "text": "Založit mapu a jít spát"
         }
-      ]
+      ],
+      "text": "Nedosáhl jsi sice až k samotnému vtoku z řeky, ale dokázal jsi spojit v jeden celek to, co bylo dosud roztříštěné v mlhavých vzpomínkách: pumpu v Ostružnickém dvoře, Uhelné schody, poklop na Barvířském náměstíčku i tajnou krysí štolu.\n\nTvá mapa věrně zachycuje podzemí Stínadel. Nikde sis nevymyslel ani čárku, kterou bys sám neprozkoumal. To je ta nejcennější hodnota: poctivě zaznamenat skutečnost.\n\nZaložíš mapu do sešitu. Až nastane správný čas, stane se klíčem pro ty, kdo budou chtít Stínadlům vrátit jejich starou slávu."
     },
     "zakaz-konec": {
-      "text": "Vrátíš se promočený, bez lampy a bez čitelné mapy. Domovník nebo cizí obyvatel tě přivede až ke dveřím a dospělí tentokrát nemusí nic domýšlet.\n\nRáno je otvor U Tří komínů zakrytý prkny a potom zazděný. Zazdí ho muž, který na to má právo, a ty u toho stojíš, protože tě otec poslal, a protože je to poslední věc, kterou ti dovolí. Uvidíš, jak se zavírá poslední vchod do koryta, které mělo jméno a které se po něm chodilo, když bylo otevřené.\n\nOtec přiloží ruku na maltu a řekne, že se tam už nikdo nepodívá. Matka řekne, že v sobotu půjdeš do kina, ať je z něj pokoj, protože to už není hra, ale něco, co dospělí dělají, aby se děti neopakovaly.\n\nV noci stále slyšíš pod podlahou vodu. Víš, jak se to jmenuje, a víš, že to nikdo nevykopal jen tak. Nemáš ale jedinou čáru, kterou bys mohl ukázat, ani nikoho, kdo by dosvědčil, že to nebyla legrace.\n\nKanál zůstane pod Stínadly. Někdo přišel později.\n\n**Konec — Zatopená chodba.**",
-      "ending": true
+      "ending": true,
+      "text": "Vrátíš se promrzlý na kost, bez svítilny a s rozmočeným papírem, ze kterého už nikdo nic nevyčte. Domovník tě přivede za límec až k vašim dveřím a dospělí tentokrát neztrácejí čas vyptáváním.\n\nHned ráno je otvor U Tří komínů zakryt silnými fošnami a zedník díru definitivně zabetonuje. Stojíš na dvoře a sleduješ, jak zednická lžíce zahlazuje poslední stopu po vchodu do podzemí.\n\nOtec položí ruku na čerstvou maltu a řekne tiše: „Tady se už nikdo z vás prohánět nebude.“ V jeho hlase není hněv, jen neoblomná jistota dospělých, kteří chtějí mít klid.\n\nV noci pod podlahou stále slyšíš temné dunění vody. Víš, co se tam dole skrývá, a víš, že to není obyčejná stoka. Nemáš ale v ruce jediný důkaz, který bys mohl ukázat ostatním.\n\nKanál zůstane pohřben pod dlažbou Stínadel. Možná jeho tajemství jednou odhalí někdo jiný.\n\n**Konec — Zatopená chodba.**"
     }
   }
 }
