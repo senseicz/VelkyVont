@@ -309,7 +309,7 @@ se ukáže, že některý potřebuje místo navíc.
 | `rozcestnik-start` | čtyři volby, z toho gate do tunelu s `requires` a volba „nezačít“ |
 | `nic-1`, `nic-2`, `nic-3`, `kino` | větev „běžný chlapec“ — tři uzly rozmyšlení a konec |
 | `vstup-po-temu` | jeden uzel, povinná volba zpět, nic neuděluje |
-| `k0-1` + tři uzly poběhů | K0 výbava — provaz, křída, baterie (každý má 3 varianty, odměna je na volbě) |
+| `k0-1`, `k0-hotovo` + 3x4 uzly poběhů | K0 výbava (14 uzlů) — provaz, křída, baterie (každý má výchozí uzel + čistý úspěch, úspěch s prací/závazkem a neúspěch s nutností opakovat) |
 | `k0-hotovo` | kompletace a první rozhodnutí |
 | `k1-1`, `k1-voda`, `k1-2b`, `k1-3`, `k1-4` | K1 — první vstup, první hod, první zjištění |
 | `rozcestnik` | denní rozcestník (zatím jen dvě volby) |
@@ -319,8 +319,9 @@ se ukáže, že některý potřebuje místo navíc.
 1. **`rozcestnik` má dvě volby.** Ostatní kapitoly se přidají, až budou napsané; do té
    doby je hra hratelná jen přes K7.
 2. ~~**Uzly K7 nejsou přepsané.**~~ Hotovo — viz §13.
-4. **Odměny K0 jsou na volbách** (`option.grant`), ne na uzlech — běží na novém schématu
-   runtime (viz níže). Text odměny je přilepený za text uzlu, takže K0 má 4 uzly.
+4. **K0 rozpadnuto na podkroky (14 uzlů)**: každý ze tří poběhů má výchozí uzel
+   s volbou přístupu a tři samostatné vyúsťující uzly (čistý úspěch, úspěch s prací/závazkem
+   a neúspěch s nutností opakovat). Tím volby nejsou jen kosmetické a hráč může selhat.
 5. **`rozcestnik` má čtyři volby** (K1, K2, K3, K7); další přibydou s kapitolami.
 6. **Soubor nerozdělený na kapitoly.** Rozdělení do `chapters/` je mechanická úloha na
    závěr; dělat ho teď by zbytečně zvětšilo každou další dávku.
@@ -332,8 +333,8 @@ se ukáže, že některý potřebuje místo navíc.
 Runtime má `grant` i na volbách, `remove` na uzlech i volbách a `requiresAny` (OR).
 V tomto dobrodružství se použije hned:
 
-- K0: odměna (provaz / křída / baterie) je na volbě, která ji vynáší — tři uzly `*-hot`
-  zanikly, K0 má 4 uzly místo 6.
+- K0: původně zredukováno na 4 uzly, následně rozepsáno do plnohodnotných 14 uzlů
+  s podkroky (každá varianta má vlastní text i důsledky) a možností selhání.
 - Vedlejší cesta v K6: pět voleb v jednom uzlu, každá dá jinou znalost a všechny vedou
   do téhož uzlu loučení. Bez `option.grant` by to vyžadovalo pět sourozenců.
 - Ztráty: baterie, která dojde, je `node.remove`; provaz, který zůstane u zámku, je
@@ -412,7 +413,7 @@ Graf K7 zůstal stejný (29 uzlů), změnil se text, hrany a to, kam vedou selh�
 |---|---|---|
 | Úvod | `intro` (titulní stránka, 903 slov) | hotovo |
 | Rozcestník startu + „nezačít“ | 1 + 3 + `kino` | hotovo |
-| K0 Výbava | 4 | hotovo |
+| K0 Výbava | 14 | hotovo — rozpadnuto na podkroky (3 poběhy po 4 uzlech + `k0-1` + `k0-hotovo`) |
 | K1 Za cizím dvorem | 5 | hotovo |
 | K2 Splav a hraniční potok | 7 | hotovo |
 | K3 Třída a Lukáš | 3 | hotovo |
@@ -423,7 +424,7 @@ Graf K7 zůstal stejný (29 uzlů), změnil se text, hrany a to, kam vedou selh�
 | K8 Horní zdymadlo | 10 | hotovo — jiné vrata (zavírají se samy) + zátka a propust |
 | K9 Vpusť | 8 | hotovo — poslední díl, kámen v otvoru, chlapec s kamínky |
 | Bilance + konce | 6 | hotovo — 5 konců podle `requires` |
-| **Celkem** | **127 uzlů, ~19 000 slov, 7 konců** | |
+| **Celkem** | **136 uzlů, ~20 500 slov, 7 konců** | |
 
 ### Co se při psaní rozhodlo samo
 

@@ -187,77 +187,152 @@
     "k0-provaz": {
       "options": [
         {
-          "grant": [
-            "provaz"
-          ],
-          "next": "k0-1",
-          "text": "Poděkovat za provaz a schovat ho do kapsy"
+          "next": "k0-provaz-rovina",
+          "text": "Slušně pozdravit a říct na rovinu: „Paní Havlíčková, potřeboval bych čtyři metry pevné šňůry.“"
         },
         {
-          "grant": [
-            "provaz"
-          ],
-          "next": "k0-1",
-          "text": "Nabídnout paní Havlíčkové pomoc s prádlem a vzít provaz"
+          "next": "k0-provaz-pomoc",
+          "text": "Nabídnout pomoc: „Kdybyste měla kousek provazu, pomůžu vám nanosit uhlí na neděli.“"
         },
         {
-          "next": "k0-1",
-          "text": "Raději poděkovat a rychle odejít"
+          "next": "k0-provaz-plot",
+          "text": "Zkusit provaz z plotu rychle strhnout a vzít nohy na ramena"
         }
       ],
-      "text": "Provaznická ulice leží dvě křižovatky od vašeho domu a vypadá stejně jako zbytek Stínadel: úzké průchody, sušící se prádlo, temné pavlače. Jen tu na každém druhém zábradlí visí provazy, motouzy a zbytky lan, která nikdo neschovává, protože se tu odjakživa pletou.\n\nU paní Havlíčkové visí na plotě klubko starého, tenkého provazu. Vypadá, jako by tam čekalo přímo na tebe. Chvíli váháš, jestli zazvonit – přišel jsi sám v sobotu odpoledne a na takové výpravy se obvykle chodí ve dvou.\n\nZatáhneš za zvonek. Zpoza dveří se ozve: „Kdo je tam?“ ale nikdo neotvírá.\n\n„Paní Havlíčková,“ ozveš se. „Potřeboval bych kousek provazu.“\n\n„Muž míval dva, ale jeden shořel na dvoře,“ řekne stará žena a na chvíli se odmlčí. V tom tichu jasně slyšíš, jak za zadní zdí temně hučí voda.\n\nPak vyjde ven, v ruce čtyři metry tenké, pevné šňůry. Ustřihne ji krejčovskými nůžkami a smotá do klubka: „Tenhle ti postačí. Ale ten na plotě neber, na tom visí kabáty.“\n\nNehýbeš se. Sáhnout na cizí věc by ve Stínadlech byla osudová chyba.\n\nPaní Havlíčková se na tebe upřeně podívá a dodá větu, jakou bys doma od táty neuslyšel: „A hlavně se mi vrať celý.“"
+      "text": "Provaznická ulice leží dvě křižovatky od vašeho domu a vypadá stejně jako zbytek Stínadel: úzké průchody, sušící se prádlo, temné pavlače. Jen tu na každém druhém zábradlí visí provazy, motouzy a zbytky lan, která nikdo neschovává, protože se tu odjakživa pletou.\n\nU domku paní Havlíčkové visí na dřevěném plotě klubko starého, tenkého provazu a za plaňkami je slyšet tiché šustění.\n\nPřijdeš k brance a zatáhneš za starý drátěný zvonek. Za dveřmi na pavlači zašoupou pantofle, klapne petlice a ve škvíře se objeví vrásčitá tvář staré ženy.\n\n„Kdo je tam a co tu chceš?“ změří si tě podezíravým pohledem."
+    },
+    "k0-provaz-plot": {
+      "options": [
+        {
+          "next": "k0-1",
+          "text": "Vrátit se s nepořízenou zpět"
+        }
+      ],
+      "text": "Než stačí otevřít víc, natáhneš ruku k plotu a pokusíš se klubko provazu prostě strhnout z hřebíku a zmizet.\n\nJenže provaz je pevně zaklesnutý a zatáhnutí za plot rozcinká zavěšené plechovky.\n\n„Koukej ty spratku mazat!“ vyrazí stará žena nečekaně zvonivým hlasem a z protějšího okna v přízemí okamžitě vykoukne soused v zástěře: „Kdo to tam sahá na cizí plot?!“\n\nV tu ránu ti dojde, jakou hloupost jsi udělal. Na cizí se ve Stínadlech nesahá – tady o tobě všichni vědí dřív, než stačíš zahnout za roh.\n\nPustíš provaz a vezmeš nohy na ramena. Do Provaznické se teď hodnou chvíli nemůžeš vrátit, dokud se vzduch neuklidní."
+    },
+    "k0-provaz-pomoc": {
+      "options": [
+        {
+          "grant": [
+            "provaz"
+          ],
+          "next": "k0-1",
+          "text": "Vzít provaz a spěchat zpět"
+        }
+      ],
+      "text": "Paní Havlíčková se chytí za kříž a v očích jí blýskne: „Nanosit uhlí? To by se mi věru hodilo, chlapče. Ty strmé schody do sklepa už mi dávno nedělají dobře.“\n\nUkáže ti na těžké dřevěné uhláky u kůlny. Než stačíš cokoliv namítnout, strávíš dvacet minut taháním černého mouru ze sklepa až nahoru na pavlač. Prsty máš černé a paže tě bolí, ale práce je hotová.\n\nStará žena ti podá hrnek vody a pak ze skříně vytáhne poctivý kus pevného tenkého lana: „Tady máš. Odvedl jsi kus práce, tak si ho zasloužíš. Ale pamatuj – příští neděli večer mi přijdeš pomoct ještě se dřevem, platí?“\n\nPřikývneš. Slovo ve Stínadlech platí, ať se děje cokoliv."
+    },
+    "k0-provaz-rovina": {
+      "options": [
+        {
+          "grant": [
+            "provaz"
+          ],
+          "next": "k0-1",
+          "text": "Schovat provaz do kapsy a jít"
+        }
+      ],
+      "text": "Paní Havlíčková se na tebe upřeně zadívá. Chvíli tě zkoumá, jako by v tvém obličeji hledala známé rysy, pak její pohled trochu změkne.\n\n„Ty jsi přece od sousedů,“ pokývne hlavou. „Můj muž míval v dílně celá klubka. Většina sice shořela při požáru na dvoře, ale v truhle ještě něco zbylo.“\n\nNa chvíli zmizí v chodbě a v tom tichu jasně zaslechneš, jak za zadní zdí domu temně a neúnavně hučí voda.\n\nKdyž se vrátí, drží v ruce čtyři metry tenké, neobyčejně pevné pletené šňůry. Ustřihne ji těžkými krejčovskými nůžkami: „Tenhle ti postačí. Ale ten na plotě nikdy neber, na tom suším těžké kabáty.“\n\nPak se na tebe upřeně podívá a dodá přísným tónem: „A ať se s ním nedostaneš do žádné šlamastyky.“"
     },
     "k0-kreda": {
       "options": [
         {
-          "grant": [
-            "kreda"
-          ],
-          "next": "k0-1",
-          "text": "Slušně poprosit o kousek modré křídy"
+          "next": "k0-kreda-rovina",
+          "text": "Říct na rovinu: „Hledám kousek modré křídy z ponku.“"
         },
         {
-          "grant": [
-            "kreda"
-          ],
-          "next": "k0-1",
-          "text": "Nabídnout pomoc s popelem a vzít křídu"
+          "next": "k0-kreda-pomoc",
+          "text": "Nabídnout okamžitou pomoc: „Potřebuju křídu – pomůžu ti zatím přihodit uhlí.“"
         },
         {
-          "grant": [
-            "kreda"
-          ],
-          "next": "k0-1",
-          "text": "Vzít kousek křídy z hromádky a schovat ho"
+          "next": "k0-kreda-tajne",
+          "text": "Zkusit se nepozorovaně protáhnout k ponku a vzít křídu bez ptaní"
         }
       ],
-      "text": "Kotly nejsou obyčejný dvůr, ale stará kotelna – místo, odkud se vyhřívá polovina čtvrti, a kde se nikdo nemusí plížit po špičkách. Hukot pecí a syčení páry spolehlivě přehluší každý krok. U vchodu stojí hrubá lavice a na ní leží hromádka křídy: modrá, měkká, nalámaná na špalíčky. Vedle se povalují rýsovací jehly a nářadí, na které se nikdo nevyptává.\n\nU pecí postává starší kluk v zaprášené vestě, který má na starosti přikládání. Už tě tu jednou viděl, když ses přišel dívat na rozžhavená dvířka, a tehdy jen prohodil: „Koukej, ať ti nechytne kabát.“ Dnes se jen zběžně podívá tvým směrem.\n\nKřída je volně k rozebrání.\n\nVezmeš si dva modré kousky do dlaně a chvíli posedíš na lavici, aby to nevypadalo, že spěcháš.\n\nModrá křída tu leží proto, že se ve Stínadlech používá na trvalejší značky. Bílá je na omítku a rychle oprší. Modrá drží na kameni, na prahu, na botě i na vlhké římse pod zemí, kde se jí člověk dotýká po hmatu.\n\nKdyž vstaneš, kluk od pecí houkne: „Až ji vypíšeš, přijď si pro další. Tady je jí dost.“"
+      "text": "Kotly nejsou obyčejný dvůr, ale stará kotelna – mohutná cihlová budova s vysokým kouřícím komínem, která zásobuje vroucí vodou a párou velkou stínadelskou prádelnu a sousední dílny v bloku. Hukot pecí a syčení ventilů spolehlivě přehluší každý krok. U vchodu stojí hrubá ponková lavice a na ní leží hromádka modré křídy nalámané na špalíčky, vedle rýsovacích jehel a montážních klíčů.\n\nU otevřených dvířek jedné z pecí stojí v zaprášené vestě starší kluk a opírá se o velkou uhelnou lopatu. Tátu tu nevidíš – ten má dneska noční směnu.\n\nKluk si tě změří pohledem přes sálající žár: „Co se tu motáš? Jestli hledáš tátu, ten přijde až na desátou.“"
+    },
+    "k0-kreda-pomoc": {
+      "options": [
+        {
+          "grant": [
+            "kreda"
+          ],
+          "next": "k0-1",
+          "text": "Vzít křídu a vyrazit zpět"
+        }
+      ],
+      "text": "Kluk se zazubí: „To beru. Zrovna mi dohořívá rošt a záda mám jak z ocele.“\n\nPodá ti menší plechovou lopatu a ukáže na hromadu černého mouru. Deset minut se oháníš před sálajícím jícnem pece, až tě pálí tváře a po zádech ti stéká pot. Vházíš dovnitř půl vozíku, než kluk zkontroluje tlakoměr a spokojeně přikývne.\n\n„Dobrý, to udrží tah. Tady máš za odměnu.“ Odběhne k ponku a vybere ti z krabičky dva nejdelší a nejtvrdší kousky modré křídy.\n\n„Zasloužil sis je poctivě. Takhle se na tebe nikdo nemůže křivě podívat.“\n\nOtřeš si černé dlaně do kalhot. Křídu máš poctivě odpracovanou a nikdo ti nemůže vyčíst ani slovo."
+    },
+    "k0-kreda-rovina": {
+      "options": [
+        {
+          "grant": [
+            "kreda"
+          ],
+          "next": "k0-1",
+          "text": "Schovat křídu a vyrazit zpět"
+        }
+      ],
+      "text": "Kluk se ušklíbne, utře si čelo zaprášeným předloktím a kývne k lavici:\n\n„Modrou? To lezeš někde po značkách, co? Bílá je na nic, ta hned oprší, ale modrá na vlhkém kameni drží jako přibitá.“\n\nSáhne na ponk a podá ti dva pevné špalíčky.\n\n„Ber, dokud tu není mistr. A hlavně s tím nečmárej po domovních vratech, ať sem nechodí lidi z ulice nadávat.“\n\nSchováš křídu hluboko do kapsy. Drží na kameni i na vlhké římse a ve tmě se dá nahmatat i prsty. Máš přesně to, pro co jsi přišel."
+    },
+    "k0-kreda-tajne": {
+      "options": [
+        {
+          "next": "k0-1",
+          "text": "Vrátit se s nepořízenou zpět"
+        }
+      ],
+      "text": "Využiješ toho, že se kluk otočil k uhláku, a zkusíš proklouznout kolem stěny přímo k ponku.\n\nUž už natahuješ ruku po modrém špalíčku, když vtom z bočních dveří od dílny vyjde starý směnmistr s plechovým hrnkem v ruce – parťák tvého táty z noční směny.\n\nOkamžitě tě zmerčí: „Hele! Ty jsi přece Jarkův kluk! Co tady šmejdíš kolem nářadí? Mazej odsud na vzduch, než to řeknu tvýmu tátovi! Víš moc dobře, že cizí kluci do kotelny nesmí!“\n\nNež stihne položit hrnek a vyjít k tobě, otočíš se a bleskově vyrazíš otevřenými vraty ven na dvůr.\n\nKapsy máš prázdné a srdce ti tluče až v krku. Takhle to nepůjde – pro křídu se budeš muset vrátit a domluvit se s klukem u pece otevřeně."
     },
     "k0-baterie": {
+      "options": [
+        {
+          "next": "k0-baterie-rovina",
+          "text": "Říct mu na rovinu: „Potřebuju dvě baterie do svítilny.“"
+        },
+        {
+          "next": "k0-baterie-pomoc",
+          "text": "Nabídnout mu za baterie pomoc s výkazem do pondělka"
+        },
+        {
+          "next": "k0-baterie-cekani",
+          "text": "Počkat za rohem, až odejde, a vzít si baterie z police potom"
+        }
+      ],
+      "text": "Kabinet pomůcek ve škole je malá místnost za tělocvičnou. Je v něm naskládáno všechno, co ještě nikdo nevyhodil: vypsané sešity, dřevěné špalíky, švihadla – a také krabice s plochými bateriemi, které tam leží bez užitku.\n\nSem se dá nepozorovaně vklouznout kolem čtvrté, když učitelé odejdou.\n\nU dveří kabinetu však dnes stojí Lukáš – zrovna na něj vyšla řada s odnášením třídní knihy. Když tě spatří, překvapeně povytáhne obočí: „Co tady ještě děláš?“\n\nKrabice s bateriemi leží přímo za ním na polici. Projít kolem něj jen tak nepůjde – budeš s ním muset promluvit, nebo vymyslet něco jiného."
+    },
+    "k0-baterie-cekani": {
+      "options": [
+        {
+          "next": "k0-1",
+          "text": "Vrátit se s nepořízenou zpět"
+        }
+      ],
+      "text": "Ucouvneš za roh chodby a čekáš, až Lukáš zamkne a zmizí. Jenže Lukáš nikam nespěchá – sedne si na dřevěnou lavičku u šaten, otevře desky a začne se pomalu probírat papíry.\n\nO minutu později navíc z přízemí zazní známé zachrastění svazku klíčů a těžké kroky školníka, který zahajuje odpolední obchůzku.\n\nTady už nic nevymyslíš. Než tě školník načapá a bude se vyptávat, co pohledáváš u zamčených kabinetů, musíš rychle vyklouznout bočním vchodem na školní dvůr.\n\nBez baterek a s prázdnýma rukama. Budeš to muset zkusit znovu a tentokrát s Lukášem raději rovnou promluvit."
+    },
+    "k0-baterie-pomoc": {
       "options": [
         {
           "grant": [
             "baterie"
           ],
           "next": "k0-1",
-          "text": "Říct mu na rovinu: „Potřebuju dvě baterie do svítilny.“"
-        },
-        {
-          "grant": [
-            "baterie"
-          ],
-          "next": "k0-1",
-          "text": "Nabídnout mu za baterie pomoc s výkazem do pondělka"
-        },
-        {
-          "grant": [
-            "baterie"
-          ],
-          "next": "k0-1",
-          "text": "Počkat, až odejde, a vzít si baterie z police"
+          "text": "Vrátit se s bateriemi zpět"
         }
       ],
-      "text": "Kabinet pomůcek ve škole je malá místnost za tělocvičnou. Je v něm naskládáno všechno, co ještě nikdo nevyhodil: vypsané sešity, dřevěné špalíky, švihadla – a také krabice s plochými bateriemi, které tam leží bez užitku.\n\nSem se dá nepozorovaně vklouznout kolem čtvrté, když učitelé odejdou.\n\nU dveří kabinetu však dnes stojí Lukáš. Třídní sešit nosí vždycky on – dělá to proto, aby po něm nikdo nechtěl vysvětlovat, odkud pochází. Když tě spatří, povytáhne obočí: „Tady nemáš co dělat.“ Ale neuhne.\n\nKrabice s bateriemi leží přímo za ním na polici.\n\nPodá ti dvě a na nic se nevyptává. Klukům z Bílých domů bývá jedno, k čemu staré věci slouží.\n\nPak se na tebe podívá: „Máš doma baterku, viď?“ Přikývneš. „Tak bacha, tyhle staré články vydrží tak dva večery a zhasnou zrovna ve chvíli, kdy to nejmíň potřebuješ.“\n\nChvíli mlčí a pak tiše dodá: „Ty lezeš do podzemí, že jo?“\n\n„Ne,“ zalžeš.\n\n„Jasně že jo,“ ušklíbne se. „Tady nahoře to nikoho nezajímá. Ale jednou to budeš muset někam nakreslit.“ Přivře dveře kabinetu a tím je celá věc vyřízená.\n\nV kapse tě hřejí dvě nové baterie a v pondělí budeš vědět víc."
+      "text": "Lukáš se podívá na tlustou třídní knihu v podpaží a v obličeji se mu mihne úleva. Počítání zameškaných hodin a přepisování výkazů je ta nejotravnější služba v celém pololetí.\n\n„Platí,“ kývne bez váhání. Otočí se, hrábne do krabice na polici a podá ti dvě těžké ploché baterie. „Ale v pondělí ráno před zvoněním na tebe spoléhám. A bacha – leží tu už dlouho, moc nevydrží.“\n\nRychle je schováš do kapsy kabátu, než by se na chodbě mohl někdo objevit.\n\nDomluveno. Baterie máš v kapse a dluh splatíš až po víkendu."
+    },
+    "k0-baterie-rovina": {
+      "options": [
+        {
+          "grant": [
+            "baterie"
+          ],
+          "next": "k0-1",
+          "text": "Vrátit se s bateriemi zpět"
+        }
+      ],
+      "text": "Lukáš tě chvíli zkoumavě pozoruje, pak bez dlouhých řečí sáhne za sebe do police a vytáhne z krabice dva ploché články.\n\n„Máš doma baterku, viď?“ zeptá se tiše. Přikývneš. „Tak bacha, tyhle staré články vydrží tak dva večery a zhasnou zrovna ve chvíli, kdy to nejmíň potřebuješ.“\n\nChvíli mlčí a pak se zvědavě ušklíbne: „Snad nelezeš do nějakých sklepů?“\n\n„Kdepak,“ zalžeš rychle.\n\n„Jasně,“ mávne rukou, ale v očích mu blýskne. „Tady nahoře to stejně nikoho nezajímá.“ Přivře dveře kabinetu a tím je celá věc vyřízená.\n\nV kapse tě hřejí dvě baterie a můžeš se vrátit k dalším přípravám."
     },
     "k0-hotovo": {
       "options": [
