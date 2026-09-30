@@ -9,6 +9,9 @@
             "vpust",
             "splav"
           ],
+          "showAfterAny": [
+            "k8-7"
+          ],
           "text": "Představit ucelenou trasu: vtok, komory i podzemní řečiště"
         },
         {
@@ -17,6 +20,9 @@
             "mapa",
             "svědctvi-emy"
           ],
+          "showAfterAny": [
+            "zakaz-ema"
+          ],
           "text": "Vydat mapu po stínadelsku – pro ty, kdo znají staré vontské stezky"
         },
         {
@@ -24,6 +30,9 @@
           "requires": [
             "mapa",
             "svědctvi-lukase"
+          ],
+          "showAfterAny": [
+            "k3-3"
           ],
           "text": "Předat mapu přes Rozdělovací třídu – pro kluky z Bílých domů"
         },
@@ -46,27 +55,27 @@
           "text": "Nechat to zatím ležet a vrátit se k mapě později"
         }
       ],
-      "text": "Mapa leží na stole. Je na ní zaznamenáno všech šest klíčových bodů a dvě šipky – obě směřují zvenčí přímo do srdce města.\n\nPod ní, na druhém listu ze sešitu, máš vypsané otázky, které tě provázely celým pátráním. A na okraji papíru jsou poznamenaná čtyři jména a několik postřehů, které jsi zatím nikomu nesvěřil.\n\nV kuchyni je rozsvíceno. Slyšíš cinkání hrnků a tiché hlasy rodičů – vstali už před chvílí.\n\nJe pondělní ráno. Právě teď se rozhoduje o tom, jak naložíš se vším, co jsi během uplynulých dnů vypátral a zažil.\n\nTady končí samotný průzkum. A tady začíná rozhodnutí, jakou cestou se vydáš dál."
+      "text": "Mapa leží na stole. Máš na ní zakreslené všechny úseky, které jsi sám ověřil, a šipky ukazující směr vody. Jestli mezi nimi zatím zůstala bílá místa, nic je nezakrýváš.\n\nPod mapou, na druhém listu ze sešitu, máš vypsané otázky, které tě provázely při pátrání. Na okraji papíru jsou poznamenané stopy a jména těch, s nimiž ses cestou setkal.\n\nV kuchyni je rozsvíceno. Slyšíš cinkání hrnků a tiché hlasy rodičů – vstali už před chvílí.\n\nJe ráno. Můžeš teď rozhodnout, co s objevem uděláš, nebo se nejdřív vrátit na místa, která ještě čekají na odpověď."
     },
     "konec-cela-trasa": {
       "ending": true,
-      "text": "Obě šipky na mapě tvoří dokonalou osu protínající celé město. Dokázal jsi projít a zmapovat celou trasu, aniž bys porušil hranice, které Stínadlům vymezila jejich historie.\n\nKdybys někomu v ulicích vyprávěl, že jsi objevil vtok z velké řeky, prozkoumal obě zdymadla a našel vyústění kanálu za městem, nejspíš by ti nevěřil. Kdybys jim řekl, že tě celou dobu vedla jen barva vody, vůně vzduchu a staré značky na kamenech, poklepali by si na čelo.\n\nA přesto je to pravda. Tohle není jen technický plánek koryta. Je to mapa lidské vůle – svědectví o těch, kdo kanál před lety vybudovali, i o těch, kdo na něj odmítli zapomenout.\n\nKopii mapy uložíš do tajné schránky ve sklepě u kostela, kam mají přístup jen prověření chlapci. Ne proto, aby se z ní stala senzace, ale aby byla po ruce, až se nová generace Vontů začne ptát, kudy tekla voda jejich předků.\n\nUž to není jen tvé osobní tajemství. Vložil jsi novou kapitolu do příběhu celých Stínadel.\n\n**Konec — Celá trasa.**"
+      "text": "Obě šipky na mapě tvoří osu protínající celé město. Dokázal jsi vypátrat hlavní trasu od říčního vtoku až k výtokovému splavu, aniž bys porušil hranice, které Stínadlům vymezila jejich historie.\n\nKdybys někomu v ulicích vyprávěl, že jsi objevil vtok z velké řeky, prozkoumal obě zdymadla a našel vyústění kanálu za městem, nejspíš by ti nevěřil. Kdybys jim řekl, že tě celou dobu vedla jen barva vody, vůně vzduchu a staré značky na kamenech, poklepali by si na čelo.\n\nA přesto je to pravda. Tohle není jen technický plánek koryta. Je to mapa lidské vůle – svědectví o těch, kdo kanál před lety vybudovali, i o těch, kdo na něj odmítli zapomenout.\n\nKopii mapy uložíš do tajné schránky ve sklepě u kostela, kam mají přístup jen prověření chlapci. Ne proto, aby se z ní stala senzace, ale aby byla po ruce, až se nová generace Vontů začne ptát, kudy tekla voda jejich předků.\n\nUž to není jen tvé osobní tajemství. Vložil jsi novou kapitolu do příběhu celých Stínadel.\n\n**Konec — Celá trasa.**"
     },
     "konec-ema": {
       "ending": true,
-      "text": "Kopii mapy pověsíš ve sklepní chodbě domu U Sedmi klik – na místě, kde se odjakživa ukrývaly věci, které nesměly padnout do nepovolaných rukou.\n\nEma se na nákres dlouze a soustředěně dívá. Chvíli mlčí a pak uznale pokývne: „Je to přesné. Přesně takhle to hučí pod naší podlahou.“\n\nPak se k tobě otočí: „Ale nenechávej to přímo tady. Tady chodí moc lidí ze dvora.“ Odvede tě o dvě uličky dál, do skryté komory za starou truhlárnou, kde se scházejí stínadelská děvčata a kluci z okolních pavlačí.\n\nNež mapu připevníte na trám, Ema ti položí ruku na rameno: „Připiš dolů svůj podpis. Ať je jasné, kdo to prozkoumal. Až odsud jednou vyrosteme a odejdeme, musí tu zůstat svědectví, že jsme to nebyli jen my, kdo se bál, ale my, kdo našli cestu.“\n\nPoslechneš ji. Dole pod korytem přibude tvé jméno.\n\nTvá mapa zůstala ve Stínadlech a stala se součástí jejich živé paměti.\n\n**Konec — Mapa po stínadelsku.**"
+      "text": "Kopii mapy přineseš do sklepní chodby domu U Sedmi klik – na místo, kde se odjakživa ukrývaly věci, které nesměly padnout do nepovolaných rukou.\n\nEma se na nákres dlouze a soustředěně dívá. Chvíli mlčí a pak uznale pokývne: „Je to přesné. Tak tudy vede voda pod naší podlahou.“\n\nPak se k tobě otočí: „Ale nenechávej to přímo tady. Tady chodí moc lidí ze dvora.“ Odvede tě o dvě uličky dál, do skryté komory za starou truhlárnou, kde se scházejí stínadelská děvčata a kluci z okolních pavlačí.\n\nNež mapu připevníte na trám, Ema ti položí ruku na rameno: „Připiš dolů svůj podpis. Ať je jasné, kdo to prozkoumal. Až jednou vyrosteme a odejdeme, musí tu zůstat svědectví, že jsme se nebáli hledat cestu.“\n\nPoslechneš ji. Dole pod korytem přibude tvé jméno.\n\nTvá mapa zůstala ve Stínadlech a stala se součástí jejich živé paměti.\n\n**Konec — Mapa po stínadelsku.**"
     },
     "konec-lukas": {
       "ending": true,
-      "text": "Nenecháš mapu zapadnout ve starých sklepích. Vezmeš její opis a přejdeš Rozdělovací třídu.\n\nNa nábřežní zdi u školy, kudy denně procházejí stovky kluků z Bílých domů i z města, najdeš chráněný výklenek krytý převisem střechy. Mapa nepotřebuje žádná tajná hesla – je to srozumitelný technický plán, kterému rozumí každý, kdo má oči a chuť objevovat.\n\nLukáš dorazí přesně v domluvený čas. Ne ze zvědavosti, ale z věrnosti danému slibu. Prohlíží si nákres se zatajeným dechem.\n\n„Dvě šipky propojující řeku s městem,“ řekne pomalu. „Takže voda nepatří jen jedné čtvrti. Protéká všude.“\n\n„Vždycky protékala,“ přikývneš. „Jen na ni lidé zapomněli.“\n\nLukáš se usměje: „Tohle není jen mapa starého podzemí. Tohle je most přes Rozdělovací třídu.“\n\nZa několik týdnů se u nákresu zastavují další a další kluci. Pro mnohé z nich je to první důvod podívat se na stará Stínadla jinýma očima než přes předsudky dospělých.\n\n**Konec — Mapa přes Rozdělovací.**"
+      "text": "Nenecháš mapu zapadnout ve starých sklepích. Vezmeš její opis a přejdeš Rozdělovací třídu.\n\nNa nábřežní zdi u školy, kudy denně procházejí děti ze Stínadel i z Bílých domů, najdeš chráněný výklenek krytý převisem střechy. Mapa nepotřebuje žádná tajná hesla – je to srozumitelný technický plán, kterému rozumí každý, kdo má oči a chuť objevovat.\n\nLukáš dorazí přesně v domluvený čas. Ne ze zvědavosti, ale z věrnosti danému slibu. Prohlíží si nákres se zatajeným dechem.\n\n„Dvě šipky propojující řeku s městem,“ řekne pomalu. „Takže voda nepatří jen jedné čtvrti. Protéká všude.“\n\n„Vždycky protékala,“ přikývneš. „Jen na ni lidé zapomněli.“\n\nLukáš se usměje: „Tohle není jen mapa starého podzemí. Tohle je most přes Rozdělovací třídu.“\n\nZa několik týdnů se u nákresu zastavují další a další kluci. Pro mnohé z nich je to první důvod podívat se na stará Stínadla jinýma očima než přes předsudky dospělých.\n\n**Konec — Mapa přes Rozdělovací.**"
     },
     "konec-mapa": {
       "ending": true,
-      "text": "Nevystavíš mapu na odiv. Zaneseš ji do suchého kouta sklepa pod vaším domem a pečlivě ji uschováš do plechové krabice od čaje. Je to to nejcennější, co máš.\n\nV kuchyni předstoupíš před rodiče. Když vidí tvůj klidný a rozhodný pohled, přestanou se zlobit a pozorně poslouchají.\n\nVyložíš jim všechno: jak voda z řeky napájí podzemní koryto, kde leží stará stavidla i proč zákaz, který léta opakovali, vznikl jen z neznalosti a strachu.\n\nOtec tě chvíli mlčky pozoruje. Neřekne žádná velká slova chvály, ale v jeho očích zahlédneš hluboké uznání: „Ptal ses na věci, na které jsme my neměli odvahu.“\n\nMatka ti položí ruku na rameno a tiše dodá: „Hlavně že ses vrátil v pořádku.“\n\nMapa zůstala tvým osobním tajemstvím. Už to není jen list papíru – stal se z ní deník tvého dospívání a důkaz, že odvaha a rozum dokážou překonat každý zbytečný zákaz.\n\n**Konec — Mapa podzemní vody.**"
+      "text": "Nevystavíš mapu na odiv. Zaneseš ji do suchého kouta sklepa pod vaším domem a pečlivě ji uschováš do plechové krabice od čaje. Je to to nejcennější, co máš.\n\nV kuchyni předstoupíš před rodiče. Když vidí tvůj klidný a rozhodný pohled, přestanou se zlobit a pozorně poslouchají.\n\nVyložíš jim to, co víš jistě: kudy voda z řeky vstupuje do podzemí, které úseky jsi viděl na vlastní oči a kde na mapě ještě zůstávají otázky. Povíš jim také, proč ti jejich zákaz nestačil jako odpověď.\n\nOtec tě chvíli mlčky pozoruje. Neřekne žádná velká slova chvály, ale v jeho očích zahlédneš hluboké uznání: „Ptal ses na věci, na které jsme my neměli odvahu.“\n\nMatka ti položí ruku na rameno a tiše dodá: „Hlavně že ses vrátil v pořádku.“\n\nMapa zůstala tvým osobním tajemstvím. Už to není jen list papíru – stal se z ní deník tvého dospívání a důkaz, že odvaha a rozum dokážou překonat každý zbytečný zákaz.\n\n**Konec — Mapa podzemní vody.**"
     },
     "konec-castecny": {
       "ending": true,
-      "text": "Na mapě máš zakresleno šest důležitých bodů, ale linie mezi nimi zůstávají neúplné. Vede jedna od řeky a druhá od splavu, uprostřed však zeje prázdné místo – úsek, kterým jsi zatím neprošel.\n\nVíš, že takhle neúplný plán zatím nemůžeš ukázat nikomu cizímu. Schováš sešit do zásuvky pod postel.\n\nPřesto v tobě zůstává hluboký klid. Zjistil jsi to nejpodstatnější: podzemní voda není náhodný živel ani nebezpečná stoka, ale pozůstatek velkolepého vodního díla. A ty jsi jedním z mála, kdo znají její směr.\n\nAž přijde vhodnější chvíle a nasbíráš víc zkušeností, vrátíš se k propadlinám a komorám znovu. Tajemství Stínadel na tebe počká.\n\nZatím jsi klukem, který ví víc než ostatní – a to je ve Stínadlech ten nejlepší začátek.\n\n**Konec — Část trasy.**"
+      "text": "Na mapě máš zaznamenané důležité body kanálu a několik cest, kterými ses k nim dostal. Je to poctivý plán toho, co ses dozvěděl, ne soupis všech průchodů a zapomenutých ramen. Tenhle příběh by vydal na mnohem víc stránek.\n\nTeď nechceš své dílčí záznamy ukazovat nikomu cizímu. Schováš sešit do zásuvky pod postel.\n\nPřesto v tobě zůstává hluboký klid. Zjistil jsi to nejpodstatnější: podzemní voda není náhodný živel ani nebezpečná stoka, ale pozůstatek velkolepého vodního díla. A ty jsi jedním z mála, kdo znají její směr.\n\nAž přijde vhodnější chvíle a nasbíráš víc zkušeností, vrátíš se k propadlinám a komorám znovu. Tajemství Stínadel na tebe počká.\n\nZatím jsi klukem, který ví víc než ostatní – a to je ve Stínadlech ten nejlepší začátek.\n\n**Konec — Část trasy.**"
     }
   }
 }

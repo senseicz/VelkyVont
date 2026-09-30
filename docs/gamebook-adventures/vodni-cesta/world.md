@@ -2,15 +2,15 @@
 
 ## Frame
 
-**Žánr:** městské dobrodružství s prvky průzkumu, sociální strategie, stealthu a nesmrtících taktických konfliktů.
+**Žánr:** městské dobrodružství s prvky průzkumu, společenské strategie, tichého pohybu a nesmrtících střetů.
 
-**Prostředí:** časově neurčená stará čtvrť Stínadla, oddělená od zbytku města Rozdělovací třídou. Za ní stojí Bílé domy — nové, rovné a světlé městské domy, kde téměř není stín. Stínadla nezanikají ani nejsou fyzicky ničena; jejich problémem je přerušené předávání vědění mezi generacemi.
+**Prostředí:** časově neurčené město se starou čtvrtí Stínadla, oddělenou od Bílých domů Rozdělovací třídou. Bílé domy jsou novější, rovné a světlé městské domy, kde téměř není stín. Liší se zástavbou a zvyky, nikoli dobou, ve které žijí. Stínadla nezanikají ani nejsou fyzicky ničena; jejich problémem je přerušené předávání vědění mezi generacemi.
 
 **Tón:** věcný, napínavý a atmosférický, nikoli nostalgický nebo pohádkový. Stínadla nejsou pohlednice minulosti, ale živé místo, kde děti berou organizační, společenské a morální problémy vážně. Humor je situační, především prostřednictvím Cvrčka. Důležitými motivy jsou stín a světlo, ticho a hluk, znalost a zapomínání, původ a přijetí.
 
 **Publikum:** přibližně od 12–14 let, s tématy a konflikty přístupnými i starším čtenářům. Neobsahuje smrt ani trvalé zmrzačení. Napětí vzniká ze zajetí, odvedení za hranici okrsku, ostudy, ztráty odznaku, porušení slibu a ztráty důvěry.
 
-**Jazyk:** čeština. Svět nepoužívá konkrétní letopočty ani pevné časové zařazení.
+**Jazyk:** čeština. Současný děj není datován; staré nápisy na stavbách mohou nést letopočet.
 
 **Rozsah:** Svět je určen pro celou kampaň od jara k podzimnímu rejdu, přibližně 45 večerů, s osmi okrsky a Bílými domy. Zároveň je otevřený kratším, lineárnějším dobrodružstvím s jinými hlavními hrdiny. Takový příběh může sledovat jedinou stopu, jeden okrsek nebo osobní konflikt a nemusí rozhodnout osud celých Stínadel.
 
@@ -21,7 +21,7 @@
 ### Co je možné
 
 - Tichý průzkum, ukrývání, odvádění pozornosti a pohyb po střechách, pavlačích, půdách, sklepech, světlících a úzkých průchodech.
-- Nesmrtící šarvátky bez zbraní. Základní tichou technikou je **chytačka**, tedy bezalarmová neutralizace jedné osoby, pokud ji nikdo nevidí.
+- Nesmrtící šarvátky bez zbraní. Základní tichou technikou je **chytačka**: přemoci jediného protivníka, aniž to někdo další spatří nebo uslyší.
 - Použití křídy, provazů, kladek, plachet, dveří, tmy a okolního hluku.
 - Čtení a na nejvyšším stupni také psaní křídových značek.
 - Vyjednávání, klání, nábor, obchod, získávání vlivu a uzavírání závazků.
@@ -31,10 +31,11 @@
 ### Co není možné
 
 - Magie, nadpřirozené schopnosti ani vysvětlení založená na neviditelných silách.
-- Moderní technologie a obrazovky jako nástroj příběhu: nesmějí vyřešit situaci, otevřít závoru, nahradit odvahu ani odpovědět na otázku světa. Konkrétní reálné instituce, značky, ceny a události ve světě nefigurují.
-- Zároveň svět za Rozdělovací třídou svoji každodenní podobu mít může — škola, kino, obchod, tramvaj. Vnější svět je prostředím, kam hrdina může odejít, do kterého se může vrátit, a kde může skončit jako běžný chlapec. Nikdy ale není nástrojem, který by hrdina použil k vyřešení situace.
-- **Běžné věci dnešní doby ve světě jsou.** Bateriová svítilna, kapesní nůž, hodinky, šňůra na boty, taška na knihy, telefonní číslo na papírku. Hrdina je může mít a používat každý den. Slouží ale jen k osvětlení, obraně, orientaci a práci s rukama. Nikdy neotevře závoru, nepřekoná vodu, nenajde cestu ani nevyřeší nic, co by nešlo vyřešit opatrností, znalostí a odvahou. Svítilna je především zdroj světla, který někdy dojde.
-- Smrt a trvalé tělesné následky. Postavy mohou být zahnáné, chycené, odvedené nebo připravené o odznak.
+- Současná digitální technika, mobilní telefony a obrazovky. Nejde jen o zákaz používat je k řešení záhad: do doby příběhu nepatří v žádné městské čtvrti. Konkrétní reálné instituce, značky, ceny a události ve světě nefigurují.
+- Za Rozdělovací třídou jsou škola, kino a obchody, nikoli jiná epocha. Vnější svět je místem, kam hrdina může odejít, kam se může vrátit a kde může skončit jako běžný chlapec. Není však zkratkou k vyřešení záhady.
+- **Dobová doprava platí pro celé město.** Tramvaje jezdí po Rozdělovací třídě; autobusy se objevují jen výjimečně. Osobní automobily existují, ale jsou vzácné: garáž a dvě auta nejsou běžným vybavením rodiny v Bílých domech ani jinde.
+- **Běžné dobové věci zůstávají po ruce.** Bateriová svítilna, kapesní nůž, hodinky, taška na knihy i telefonní číslo napsané na papírku. Hrdina je může používat, ale nenahradí mu opatrnost, znalost místa ani odvahu. Svítilna je především zdroj světla, jehož baterie se může vybít.
+- Smrt a trvalé tělesné následky. Postavy mohou být zahnané, chycené, odvedené nebo připravené o odznak.
 - Přímé přemožení dospělých. Dospělí se obcházejí, využívá se jejich nepozornosti nebo se s nimi jedná.
 - Zničení či zánik Stínadel.
 - Snadná morální odpověď, která by tradicionalisty nebo reformátory označila za jednoznačně dobré či zlé.
@@ -68,18 +69,18 @@ Hod kostkou není pravidlem světa. Je pouze mechanismem konkrétního dobrodru�
 
 ### Plavební kanál a jeho omezení
 
-Kanál je světem dovolený objekt, ne však svobodný prostor:
+Kanál do tohoto světa patří, ale není volným průchodem pod městem:
 
 - **Uzavřený účel.** Řeka, kterou město používalo, je pod městem sevřena přehradou. Loď se přes ni nedostane, a tím kanál ztratil smysl. Od té doby se nikdo neptá, kudy voda teče ani kam odtéká.
-- **Zapomenutý začátek.** Voda do kanálu vtékat nepřestala. Vtok od řeky leží mimo Stínadla, není zavřený a nikdo o něm neví: z nábřeží ho není vidět, schovaný je pod kamenem, v náplavce nebo za starým násypem. Mříž nad ním je jen lapač náplavek a vodě nevadí. Dospělí se o to místo neptají, protože pro ně nic neřeší.
-- **Otázka je kudy a kam, ne odkud.** Odkud voda přichází, je v Stínadlech jasné: z hlavní řeky. Neznámé je to, jakou cestou pod městem prochází, kde se láme, kde vyvádí a kdo o tom kdysi rozhodoval.
-- **Kanál je plný a proudí.** Vodou je naplněn po celé délce. Mezi zdymadly ji drží v klidu, za nimi a v komorách se láme. Hluboká je po kolena, po prsa i po strop; propusti a zatopené chodby jsou pod vodou celé.
+- **Zapomenutý začátek.** Voda do kanálu vtékat nepřestala. Vtok od řeky leží mimo Stínadla, není zavřený a většina lidí o něm neví: z horního nábřeží ho zakrývá kamenný výběžek a vrbové větve. Česle nad ním jen zachycují náplavky a vodě nebrání. Dospělí se o to místo neptají, protože pro ně nic neřeší.
+- **Otázka je kudy a kam, ne odkud.** Odkud voda přichází, je ve Stínadlech jasné: z hlavní řeky. Neznámé je to, jakou cestou pod městem prochází, kde se větví, kudy vytéká a kdo o tom kdysi rozhodoval.
+- **Kanál je plný a voda se sotva pohybuje.** Vodou je naplněn po celé délce. Mezi zdymadly i za nimi působí hladina téměř stojatě; směr prozradí až list nebo jiné drobnosti na hladině. Kanál nehučí ani v něm nejsou peřeje. Slyšet je jen místní kapání a občasné šplouchnutí; hlasitá voda patří výtokovému splavu a krátce napouštěným komorám zdymadel. Podle místa voda sahá ke kolenům, k prsům nebo až ke stropu; propusti a zatopené chodby jsou pod vodou celé.
 - **Dvě zdymadla.** Na trase jsou nejméně dvě. Rozdělují kanál na úseky, mezi kterými se bez otevření vrat nedá přejít. Zdymadlo je technická hádanka: vrata, soustruh, protiváha, výška vody a pořadí kroků. Závěsník u něj měl zvyk, na který se dá spoléhat — a na který se dá i zapomenout.
-- **Plavání ano, voda ne.** Umí plavat, protože chodí na plavecké hodiny. Ve studeném kanálu se nespadne: voda je hluboká, tmavá a plná překážek, ale hrdina v ní vydrží. Co ho voda může, je odnést, uvěznit v komoře nebo přinést pod jezem. Spadnutí do vody není konec příběhu — je to ztráta času, mokré šaty, výčitka a někdy odvedení dospělými.
-- **Zákaz rodičů.** Blízkost kanálu je v jeho domě přísně zakázaná a zákaz platí dřív, než hrdina cokoli objeví. Porušení není hra, ale společenský čin: znamená ztrátu důvěry, důkaz, o který se dá požádat, a občas odvedení dospělými z dálky.
+- **Plavání neznamená bezpečí.** Jarek umí plavat, protože chodí na plavecké hodiny, ale kanál je hluboký, studený, tmavý a plný překážek. Běžný proud ho nikam nestrhne; nebezpečné jsou chlad, kluzké břehy, zatopené průchody a uvíznutí v komoře. Jen u splavu nebo při otevření vrat jej může voda krátce poponést. Pád do vody není konec příběhu — znamená ztrátu času, mokré šaty, výčitky a někdy odvedení dospělými.
+- **Zákaz rodičů.** Hrdina se podle rodičů nesmí ke kanálu přibližovat; zákaz platí dávno před jeho prvním objevem. Porušením riskuje ztrátu jejich důvěry a někdy i to, že ho dospělí odvedou domů.
 - **Vstup do cizího dvora.** Část kanálu je vidět z okna, ale leží na cizím pozemku. Okno dává znalost, nikoli přístup.
-- **Přítoky.** Do kanálu ústí menší přítoky, zpravidla potokem, někde zrezavělou trubkou, výjimečně průchozí štolkou. Po nich lze poznat, kam voda přitéká a odkud.
-- **Strach má adresu.** Výška, tma, proud, uzavřenost místa a hlasitý zvuk působí na každého jinak. Hrdina se může v jednom dni zastavit, říct, že dnes ne, a odejít — a příště stejné místo projde. Strach není chyba ani zbabělost. Je to stav, který se překonává opakováním a zkušeností, ne přesvědčováním ani výzvou. Nikdo v tomhle světě druhého k místu, kde se bojí, netlačí.
+- **Přítoky.** Do kanálu ústí menší potoky; místy voda přitéká zrezavělou trubkou a výjimečně průchozí štolou. Podle těchto přítoků lze poznat, odkud voda přichází.
+- **Strach má adresu.** Výška, tma, hloubka, uzavřenost místa a hluk u splavu či vrat působí na každého jinak. Hrdina se může v jednom dni zastavit, říct, že dnes ne, a odejít — a příště stejné místo projde. Strach není chyba ani zbabělost. Je to stav, který se překonává opakováním a zkušeností, ne přesvědčováním ani výzvou. Nikdo v tomhle světě druhého k místu, kde se bojí, netlačí.
 
 ### Hranice pro jiné hrdiny
 
@@ -133,39 +134,39 @@ Ulice s Vetešníkovým krámem, obchody a častější přítomností dospělý
 
 ### Bílé domy
 
-Nové, rovné a světlé městské domy za Rozdělovací třídou. Téměř neposkytují stín ani krytí, takže zde nefungují běžné stínadelské postupy. Děti odtud nejsou vetřelci ani ničitelé; hledají ve Stínadlech prostor, dobrodružství a možnost někam patřit. Bílé domy nelze obsadit — lze je pouze přijmout, nebo odmítnout.
+Novější, rovné a světlé městské domy za Rozdělovací třídou. Patří do stejné doby jako Stínadla; odlišuje je uspořádání ulic, nikoli hojnost aut či pokročilejší technika. Domy téměř neposkytují stín ani krytí, takže zde nefungují běžné stínadelské postupy. Děti odtud nejsou vetřelci ani ničitelé; hledají ve Stínadlech prostor, dobrodružství a možnost někam patřit. Bílé domy nelze obsadit — jejich děti lze pouze přijmout, nebo odmítnout.
 
 ### Rozdělovací třída
 
-Široká dlážděná hranice mezi Stínadly a Bílými domy. Je přehledná, vystavená pohledům a symbolicky odděluje dvě zkušenosti dětství. Přechod přes ni může být začátkem dobrodružství, testem důvěry nebo okamžikem, kdy se postava musí rozhodnout, kam patří.
+Široká dlážděná hranice mezi Stínadly a Bílými domy, po níž jezdí tramvaje. Je přehledná, vystavená pohledům a symbolicky odděluje dvě zkušenosti dětství. Přechod přes ni může být začátkem dobrodružství, testem důvěry nebo okamžikem, kdy se postava musí rozhodnout, kam patří.
 
 ### Plavební kanál
 
-Nepoužívaný plavební kanál široký právě na jednu loď, který odváděl vodu z řeky do města a vozil uhlí pro teplárnu. Přehrada postavená na řece pod městem ukončila veškerou lodní dopravu, a s ní i smysl kanálu. Voda v něm ale stále teče, a dobře; mezi zdymadly ji drží v klidu, za nimi prudce táhne. Vede z vnějšího břehu pod mostem na Rozdělovací třídě do Stínadly, kde mizí pod domy a dvory, a končí malým splavem do hraničního potoka. Hrdina ho dlouho zná jen jako „stoku“, kterou slyší pod podlahou, a domnívá se, že v ní voda stojí. Na trase jsou dvě zdymadla a několik přítoků.
+Nepoužívaný plavební kanál široký právě na jednu loď, který odváděl vodu z řeky do města a vozil uhlí pro teplárnu. Přehrada postavená na řece pod městem ukončila veškerou lodní dopravu, a s ní i smysl kanálu. Voda v něm ale stále pomalu teče; mezi zdymadly i za nimi se hladina skoro nehýbe. Vede z vnějšího břehu pod mostem na Rozdělovací třídě do Stínadel, kde mizí pod domy a dvory, a končí malým splavem do hraničního potoka. Hrdina ho dlouho zná jen jako „stoku“, jejíž chlad a občasné kapání vnímá pod podlahou, a domnívá se, že v ní voda stojí. Na trase jsou dvě zdymadla a několik přítoků.
 
 ### Kanál za oknem
 
-Cizí dvůr na druhé straně ulice, kam hrdina nemá přístup. Z jeho okna je vidět jen kousek vody, železná zábradlí a zvlněný stín. Zvuk vody sem doletí daleko, ačkoli je tu zvuk i vidět. Místo, ze kterého lze kanál poprvé spatřit, a zároveň důvod, proč se k němu hrdina později vrací.
+Cizí dvůr na druhé straně ulice, kam hrdina nemá přístup. Z jeho okna je vidět jen kousek vody, železná zábradlí a zvlněný stín. Z bezprostřední blízkosti se ozve nanejvýš slabé šplouchnutí o kámen; z okna je patrnější lesk téměř nehybné hladiny než její zvuk. Místo, ze kterého lze kanál poprvé spatřit, a zároveň důvod, proč se k němu hrdina později vrací.
 
 ### Horní zdymadlo
 
-Zdymadlo mezi vnějším úsekem a Stínadly. Komora, dvě vrata, soustruh bez rukojeti a zarážka, kterou někdo vrací nepořádně. K otevření horních vrat je třeba znát pořadí: nejdřív zavřít dolní, potom napustit, a teprve potom otáčet. Hrdina, který pořadí hádá, přijde o vodu, kterou by mohl mít.
+Zdymadlo mezi vnějším úsekem a Stínadly. U horního zdymadla stojí samočinná protipovodňová vrata. Voda pozvolna vtéká obtokem do vyrovnávací komory; uvolněním zátky lze hladinu vyrovnat a vrata zvednout. Hrdina tu musí pochopit, jak pracuje tlak vody, ne páčit vrata silou.
 
 ### Uhelný dvůr a teplárna
 
-Zapomenutý industriální komplex: několik pater, zrezavělé železné mosty mezi nimi a prostor vykládky u samé hladiny, kde se uhlí sypalo z čela lodí a který je dnes zatopený po pas. Je velký, tichý a všechny jeho cesty vedou vzhůru, ne dolů. Hrdina sem může přijít jen s plnou mapou nebo s informací, kterou prodal někdo, kdo v Stínadlech chodí. Místo má být později hlavním prostředím samostatného dobrodružství.
+Zapomenutý průmyslový areál: několik pater, zrezavělé železné mosty mezi nimi a prostor vykládky u samé hladiny, kde se z člunů sypalo uhlí a kde dnes voda sahá po pás. Je velký, tichý a všechny jeho cesty vedou vzhůru, ne dolů. Hrdina sem může přijít s klíčem a znalostmi od Vetešníka. Místo se může později stát hlavním prostředím samostatného dobrodružství.
 
 ### Dolní zdymadlo
 
-Zdymadlo mezi Stínadly a uhelným dvorem. Voda v jeho komoře stoupá po minutách, ne po lidech. Otevření vyžaduje klíč k závorám nebo znalost suché propusti, kterou voda plní a vypouští podle nálady. Zde se dá poprvé zjistit, že zdymadlo má vlastní pravidla.
+Zdymadlo mezi Stínadly a uhelným dvorem. Voda v jeho komoře stoupá pomalu. Nejprve se zavřou dolní vrata, pak se komora napustí a teprve potom se otáčí horní závorou. Vetešníkův lístek s pořadím kroků je možnou nápovědou. Zde se dá poprvé zjistit, že zdymadlo má vlastní pravidla.
 
 ### Vpusť u řeky
 
-Vtok, kterým voda z řeky vtéká do kanálu, a nejposlednější díl celé trasy. Leží mimo Stínadla pod nábřežím a není z něj vidět: schová ho kamenec, starý násyp nebo zavezené schody do vody. Voda jím proudí volně, mříž nad ním jen chytá náplavky. Nápovědy jsou drobné a nevšední — chladný proud vzduchu, voda, která je čistší než v řece, říční písek navinutý do zákolí, značka vyšší voda na kameni, niti na zábradle. Místo vstupu do celého toku, závěrečný bod skládačky.
+Vtok, kterým voda z řeky vtéká do kanálu. Leží mimo Stínadla pod nábřežím; z horní promenády ho zakrývá kamenný výběžek a vrbové větve. Voda jím pomalu vtéká, česle zachycují náplavky. Prozradí ho drobné stopy: listí posouvající se k mříži, říční písek na dně a starý nápis na kameni. Je počátkem vodní cesty, i když jej Jarek nemusí objevit jako poslední.
 
 ### Splav a hraniční potok
 
-Místo, kde kanál končí: kamenné ústí do mělkého potoka, který tvoří část hranice Stínadel a dál teče přes nezastavěnou krajinu. Za hranicí okrsku je jiný svět, do kterého lze dojít, ale který lze také ztratit. Poslední díl skládačky a místo, kde se trasa konečně zavře.
+Místo, kde kanál končí: kamenné ústí do mělkého potoka, který tvoří část hranice Stínadel a dál teče volnou krajinou. Teprve přes práh splavu voda zrychlí a hlučně padá do potoka. Za hranicí okrsku se otevírá krajina, kterou Jarek dosud znal jen z dálky. Splav ukazuje dolní konec trasy, ať jej hráč navštíví kdykoli.
 
 ## Factions
 
@@ -273,23 +274,23 @@ Její skutečná role v příběhu posledního Velkého Vonta zůstává otevře
 
 **Slabina:** nerozumí plně symbolickému významu věcí, které vykupuje, a děti mohou vypátrat, kdo mu co prodal.
 
-V dobrodružství s plavebním kanálem je Vetešník zdrojem ceny, ne překážkou: neprodává klíče, prodává znalosti, které by hrdina našel obtížně — kterým směrem se má stará závora otočit, kde visí závěsníkova závažná tyč, kdo v Stínadlech ještě pamatuje plavbu. Nikdy neodmítne obchod, ale nikdy neřekne, proč ví, co ví. Jeho informace jsou vždy použitelné a vždy něco stojí.
+V dobrodružství s plavebním kanálem Vetešník nenabízí jen staré nářadí a klíče, ale hlavně znalosti, které by hrdina jinak získával obtížně: jak zacházet se starou závorou, kde je závěsníkova tyč se závažím a kdo ve Stínadlech ještě pamatuje plavbu. Nikdy neodmítne obchod, ale také neřekne, proč ví, co ví. Jeho informace jsou použitelné a vždy něco stojí.
 
 ### Ema „Špunt“
 
-**Chce:** patřit do Stínadel tak, aby to bylo její, ne přidělené. Rodina se přistěhovala před rokem, takže dvorce, pavlače a vnitřní průchody si musí pamatovat jako něco, čemu se učí — ne jako něco, v čem vyrostla.
+**Chce:** patřit do Stínadel tak, aby to bylo její vlastní rozhodnutí, ne místo přidělené ostatními. Rodina se sem přistěhovala teprve před rokem, takže dvory, pavlače a průchody nezná od dětství.
 
-**Prostředí:** bydlí v domě U Sedmi klik. Zná vnitřní stínadelské dvor lépe než kdo, kdo v nich vyrůstá, protože do nich musí chodit znovu a znovu. Ví, komu patří klíč od sklepa, kdo nechává otevřené vrátka a kam vede sklep za domem.
+**Prostředí:** bydlí v domě U Sedmi klik. Vnitřní dvory a průchody zná důkladně, protože je sama postupně prošla. Ví, komu patří klíč od sklepa, kdo nechává otevřená vrátka a kam vede chodba za domem.
 
-**Vztah k hrdinovi:** je jedinou osobou v okrsku, které může říct, že tu věc chce taky. Pomáhá mu za to, že ji pustí dál, kam by jiné děti nešly, a stojí mu potom za to u dospělých.
+**Vztah k hrdinovi:** je jedinou osobou v okrsku, které může říct, že chce kanál prozkoumat také. Pomáhá mu, protože ji přizve k průzkumu, a později se za něj postaví před dospělými.
 
-**Hranice příběhu:** kvůli takovému průzkumu nepřijde o své místo v Stínadlech. Může být pomocnicí jedné kapitoly a pak odejít.
+**Hranice příběhu:** kvůli takovému průzkumu nepřijde o své místo ve Stínadlech. Může být pomocnicí jedné kapitoly a pak odejít.
 
 **Ve sporu o pravidlo 12:** její přítomnost je dnešní podobou toho sporu, ne jeho rozsudek. Dobrodružství smí rozhodnout, koho posoudí laskavěji — nesmí rozhodnout, kdo měl původně pravdu.
 
 ### Postava, která přijde na pomoc
 
-**Chce:** prozkoumat prázdný uhelný dvůr pro vlastní cíle, ne proto, že by potřeboval hrdinu. Potřebuje někoho, kdo se drží ve vodě, nevzítá do otázek a nevyptává se na jméno.
+**Chce:** prozkoumat prázdný uhelný dvůr pro vlastní účely. Potřebuje někoho, kdo se udrží ve vodě, nevrtá se v cizích věcech a nevyptává se na jméno.
 
 **Jak se objeví:** přijde na hrdinu dřív, než hrdina dojde k němu. Zmíní se o něčem, co hrdina právě hledal, a nabídne pomoc za podmínku, která se dá splnit bez dalších otázek. Neprozradí se jménem, postavením ani tím, odkud přišel.
 
@@ -297,35 +298,35 @@ V dobrodružství s plavebním kanálem je Vetešník zdrojem ceny, ne překáž
 
 **Jediná odpověď:** při loučení odpoví na jednu otázku hrdinovi, ale jen na jednu. Odpověď musí být pravdivá, konkrétní a nepopiratelná, jinak není odpovědí. Zeptá-li se hrdina podruhé, slyší jen: „Jednou jsem řekl, co jsem věděl.“
 
-**Opakování:** postava se může objevit na více místech a v různých podobách, pokaždé jiného. Zda je to stále ta samá osoba, ve světě nerozhoduje a konkrétní dobrodružství to nesmí potvrdit ani vyvrátit.
+**Opakování:** postava se může objevit na více místech, pokaždé trochu jinak. Zda jde stále o tutéž osobu, svět předem neurčuje a konkrétní dobrodružství to nesmí bez záměru potvrdit ani vyvrátit.
 
 ### Jarek
 
 **Chce:** dokázat, že zvuk, který slyší z okna, něco znamená, a zakreslit kanál, o kterém se ve Stínadlech nikdo neptá.
 
-**Prostředí:** čtrnáctiletý, narodil se i žije ve Stínadlech, ale ve své ulici vyrůstá s málo dětmi, takže chodí do školy za Rozdělovací třídou. Ve třídě má kamarády, jen ti ale neznají stínadelské zvyklosti ani to, co se za Rozdělovací dělá jiného.
+**Prostředí:** je mu čtrnáct let, narodil se a žije ve Stínadlech. Ve své ulici vyrůstá s málo dětmi, proto chodí do školy za Rozdělovací třídou. Ve třídě má kamarády, ti však neznají stínadelské zvyklosti ani jeho domácí svět.
 
-**Překážka:** o vontství téměř neví a nemá od koho se ptát. Neumí pojmenovat to, co hledá, a umí to jen slyšet. Rodiče mají přísný zákaz přibližovat se ke kanálu, který platí dávno předtím, než cokoli objevil. Umí plavat — chodí na plavecké hodiny a do bazénu chodí — ale nikdy neplaval v temné studené vodě, kde je člověk závislý na tom, kam ho strhne.
+**Překážka:** o vontství téměř nic neví a nemá se koho zeptat. Vodu pod domy slyší, ale ještě neumí pojmenovat, co hledá. Rodiče mu přísně zakazují přibližovat se ke kanálu; tento zákaz platil dávno před jeho prvním objevem. Umí plavat, ale nikdy neplaval v temné studené vodě mezi kluzkými břehy.
 
-**Vnitřní tah:** ráz Stínadel je jediné místo, kde se cítí ve své kůži. Objevování není pro něj povolání, ale způsob, jakým v té čtvrti vůbec existuje.
+**Vnitřní tah:** Stínadla jsou jediným místem, kde se cítí ve své kůži. Při průzkumu čtvrti poznává její tajemství i vlastní odvahu.
 
-**Hranice příběhu:** nemusí se stát Vontem ani Stínadla zachránit. Může zůstat obyčejným chlapcem, který objeví všechno a stejně půjde do kina — a to není prohra.
+**Hranice příběhu:** nemusí se stát Vontem ani zachránit Stínadla. Může zůstat obyčejným chlapcem, který se rozhodne do podzemí vůbec nevydat — a ani to nemusí být prohra.
 
 ### Lukáš
 
-**Chce:** být součástí něčeho, co se v jeho škole děje jen přes plot a přes Rozdělovací třídu.
+**Chce:** být součástí výprav za Rozdělovací třídu, o nichž se ve škole jen vypráví.
 
 **Prostředí:** chlapec z Bílých domů, který chodí do stejné třídy jako Jarek. Nemá stínadelské zvyklosti, ale má to, co Jarek nemá: volný přístup k vnějšímu světu, běžné informace o přehradě, o splavu a o tom, co se ve městě říká o kanálu.
 
-**Prostředí:** doplňuje hrdinu, nenahrazuje ho. Umí to, co hrdinovi chybí, a neumí to, co umí on. Do příběhu vstupuje dobrovolně, na jednu kapitolu, a nikdy jako posila na rozkaz.
+**Role:** doplňuje hrdinu, nenahrazuje ho. Zná místa za Rozdělovací třídou, která jsou pro Jarka cizí, a sám se nevyzná ve Stínadlech. Pomáhá z vlastní vůle, ne na rozkaz.
 
 ## Central tension
 
-Stínadla přežívají, ale jejich vědění se přerušilo mezi generacemi. Děti, které dnes ve čtvrti žijí, znají jen útržky pravidel, značek a průchodů. O budoucnost vontství se střetnou dvě legitimní představy: Podkova chce zachovat posloupnost a původní řád, zatímco Vosk chce hnutí otevřít všem dětem, které mu dají své slovo — včetně dětí z Bílých domů. Poslední Velký Vont zanechal Ježka v kleci a zamčené Kroniky, jejichž klíče rozdal po okrscích. Čtvrť se musí do podzimního rejdu sjednotit, jinak se znalosti znovu rozpadnou a Stínadla zůstanou jen soustavou ulic, jejichž význam už nikdo nezná. Menší dobrodružství mohou tento konflikt ukázat z osobní perspektivy: hrdina nemusí zachraňovat celé Stínadla, ale jeho volba může ovlivnit, komu budou věřit jedni lidé v jednom okrsku.
+Stínadla přežívají, ale jejich vědění se přerušilo mezi generacemi. Děti, které dnes ve čtvrti žijí, znají jen útržky pravidel, značek a průchodů. O budoucnost vontství se střetnou dvě legitimní představy: Podkova chce zachovat posloupnost a původní řád, zatímco Vosk chce hnutí otevřít všem dětem, které mu dají své slovo — včetně dětí z Bílých domů. Poslední Velký Vont zanechal Ježka v kleci a zamčené Kroniky, jejichž klíče rozdal po okrscích. Čtvrť se musí do podzimního rejdu sjednotit, jinak se znalosti znovu rozpadnou a Stínadla zůstanou jen soustavou ulic, jejichž význam už nikdo nezná. Menší dobrodružství mohou tento konflikt ukázat z osobní perspektivy: hrdina nemusí zachraňovat celá Stínadla, ale jeho volba může ovlivnit, komu budou věřit lidé v jednom okrsku.
 
-Plavební kanál je tentýž rozpor uložený ve zdech. Je fyzickou podobou vědomí, které se mezi generacami přerušilo: vede městem trubkou, kterou nikdo nezná, jeho smysl zanikl s plavbou a jeho části se dají projít jen podle mapy, kterou si někdo vedl sám. Kanonem o hrdinovi není, že by ho oživoval. Jeho kánonem je touha **zmapovat věc, na kterou se zapomnělo**.
+Plavební kanál ztělesňuje vědění, které se mezi generacemi přerušilo. Vede pod městem, ale jeho někdejší účel zanikl s plavbou a jednotlivé úseky je třeba znovu objevit. Jarkovým cílem není kanál obnovit, nýbrž **zmapovat věc, na kterou se zapomnělo**.
 
-Odkud voda přichází, se ve Stínadlech nikdo nerozporuje: z hlavní řeky. To je jediné, co je jasné. Otázka, kterou kanál skrývá, je jina: kudy voda teče, kde se láme, kudy vyvádí a kam odtéká. A hlavně: kdo o tom kdysi rozhodl a proč se nikdo nezeptal znovu. Jarek nemá odznak, nemá kroniku a nezná jedno pravidlo. Má tužku, čas po vyučování a prázdné Stínadly, v nichž se jeho zvuk vrací ze dvora. Chybí mu přesně to, co v tomhle světě neslo odznak — chodit a kreslit.
+Odkud voda přichází, ve Stínadlech nikdo nerozporuje: z hlavní řeky. Neznámé je něco jiného: kudy voda pod městem teče, kde se větví a kam nakonec odtéká. A hlavně kdo o tom kdysi rozhodl a proč se nikdo nezeptal znovu. Jarek nemá odznak ani kroniku. Má tužku, čas po vyučování a prázdné stínadelské ulice, v nichž pozoruje stopy vody. Chodí a kreslí, dokud se jednotlivé části mapy nespojí.
 
 ## Possible endings
 
@@ -346,11 +347,11 @@ Pokusné dobrodružství nemusí rozhodnout hlavní konflikt. Jeho uzavřením m
 ### Možné lokální konce: plavební kanál
 
 1. **Celá trasa:** hrdina prozkoumá kanál od vstupu u řeky až ke splavu a má mapu, kterou lze předat.
-2. **Bílý klíč:** zjistí, co znamenalo západní znamení na trati, a odmítne je, protože by sám vyraboval mrtvým.
-3. **Zaplavená kuchyně:** dosáhne uvnitř teplárny, ale opustí ji, když pochopí, že voda pod vodou je stále městská voda, a ne zločin.
+2. **Bílý klíč:** zjistí, co znamená západní znamení na trati, ale odmítne vzít si předmět patřící mrtvému.
+3. **Zaplavená kuchyně:** dostane se do zatopené části teplárny, ale odejde, když pochopí, že samotná voda není důkazem zločinu.
 4. **Vyplavený:** voda ho v zatopené štole odnese a vyloží jinam, odkud se musí vrátit s pomocí; zjistí přitom, kudy ta štola protéká.
 5. **Tichá oprava:** místo velkého objevu získá jen záznam, který dokazuje, že tu byla chyba, a rozhodne se ji nahlásit.
-6. **Běžný chlapec:** zjistí vše a přesto se vrátí do běžného života, do kina, do města — a nechá si to uvnitř.
+6. **Běžný chlapec:** místo dalšího pátrání si vybere kino a obyčejný život ve městě.
 
 ## Open questions
 

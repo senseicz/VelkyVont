@@ -88,6 +88,7 @@ Schema:
 - Both can be mirrored with `remove` (node/option): something dropped, given away, seized or used up. When a move both gives and takes, the item leaves the bag first.
 - Options gate progress with `"requires": ["lantern-oil", …]` (all keys must be present) and `"requiresAny": ["a", "b"]` (at least one). A locked option shows a lock and what is missing; dice steps can be gated too.
 - `"lockedIfOwned": ["lantern-oil"]` is the mirror image: the option is **hidden** (not locked) as soon as the reader owns any of those keys. Use it for **hub nodes the reader can leave and return to** — once the oil is in the bag, the "buy a vial of oil" step must not be offered again, or the reader buys a second one. It shortens the hub list as the run progresses. Never let it close every exit of a node, and do not use it to consume an item (that is `remove`).
+- `"showAfterAny": ["first-clue", "river-map"]` **hides** an option until the reader has visited at least one listed node. Use it to reveal new routes only after the reader discovers them; it works without inventory, combines with `requires`/`lockedIfOwned`, and also applies to dice steps. Node keys must exist after all chapters are merged and match exactly (including case); an empty list is invalid. Visited nodes are already in save history, which rewinds when stepping back in debug mode. Keep a usable exit from each hub even before these choices appear.
 - Several options of the same node can grant *different* items and lead to the same next node — that is how you write "he answers exactly one question you ask".
 - The inventory panel is always visible while playing (fixed bar on phones, sidebar on wider screens); undiscovered entries show as `???` when `hideUndiscovered` is true.
 - Every `grant`/`remove`/`requires`/`requiresAny`/`lockedIfOwned` key must exist in `items`, and those fields are only allowed when the inventory is enabled — the runtime validates this at startup and refuses to boot otherwise.
@@ -98,13 +99,14 @@ Schema:
 
 **UI language:** the adventure file also drives the runtime UI (buttons like "Begin", "Save progress", "Roll the dice"). Provide a `"labels"` object keyed by language tag; any key you omit falls back to English. Available keys:
 
-`loading, intro, begin, restart, restartQ, continue, save, savePrompt, saves, load, delete, inventory, undiscovered, needsItems, needsAny, noOptions, back, step, theme, roll, successOn, yourRoll, theEnd, error` (`noOptions` is shown when `lockedIfOwned` happens to close every option of a node; `successOn` prefixes the values a dice step succeeds on; `back` and `step` only appear in the runtime's debug mode, which the *operator* turns on with `DEBUG__ENABLED` — not something the adventure file can enable)
+`loading, intro, begin, restart, restartQ, continue, save, savePrompt, saves, load, delete, inventory, undiscovered, needsItems, needsAny, noOptions, back, step, theme, roll, successOn, yourRoll, theEnd, error` (`noOptions` is shown when all options are hidden by `lockedIfOwned`/`showAfterAny`; `successOn` prefixes the values a dice step succeeds on; `back` and `step` only appear in the runtime's debug mode, which the *operator* turns on with `DEBUG__ENABLED` — not something the adventure file can enable)
 
 Hard requirements (the runtime validates these at startup and refuses to boot otherwise):
 - `id`, `title`, `start` present; `start` exists in `nodes`.
 - Every `next` and every dice outcome points to an existing node.
 - Non-ending nodes have ≥ 1 option; ending nodes set `"ending": true` (options not needed).
 - Dice outcomes cover every value 1..sides with no gaps.
+- Every `showAfterAny` list is nonempty and refers to existing node keys after merging chapters.
 - Every inventory key used in `grant`/`remove`/`requires`/`requiresAny`/`lockedIfOwned` exists in `items` (only when the inventory is enabled).
 - UTF-8 throughout — any language works.
 

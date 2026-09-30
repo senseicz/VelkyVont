@@ -11,7 +11,8 @@ kus trasy.
 
 | Otázka | Rozhodnutí |
 |---|---|
-| Voda v kanále | **Kanál je plný a voda protéká volně.** Mezi zdymadly ji drží v klidu, za nimi prudce táhne. |
+| Voda v kanále | **Kanál je plný a po celé délce pomalu protéká.** Mezi zdymadly i za nimi působí voda téměř stojatě; hučí až výtokový splav, krátce také napouštění komor zdymadel. |
+| Dobové zasazení | **Celé město včetně Bílých domů žije ve stejné neurčené době.** Tramvaje jezdí po Rozdělovací třídě, autobusy jsou výjimečné a osobní auta vzácná. Novější domy neznamenají současnou techniku ani běžné garáže se dvěma auty. |
 | Začátek | **Zapomenutý vtok**, ne zavřený. Mříž nad ním je lapač náplavek, vodě nevadí. |
 | Mříž | Nikdo ji nezavíral a nikoho nezajímá. Hledá se **samotný vtok**, který z nábřeží není vidět. |
 | Otázka příběhu | Ne *odkud*, ale **kudy a kam**. Odkud je jasné — z hlavní řeky. |
@@ -59,7 +60,7 @@ Jarek nemá odznak ani kroniku. Má tužku, čas po vyučování a prázdná St�
 který nabízí čtyři možnosti:
 
 1. vstoupit do cizího dvora,
-2. jít po proudu od splavu,
+2. jít podél kanálu ke splavu,
 3. vyrazit s Lukášem ven za Rozdělovací třídu,
 4. **nezačít** — jen si říct, že je pozdě.
 
@@ -71,15 +72,36 @@ konec dostupný během tří kliknutí, ale není zkrácen — a čtenář si ho
 
 ## 4. Struktura: večerní rozcestník
 
-Dny nejsou seřazené. Jarek si zapisuje do mapy a každý večer vybírá, kam jít zítra.
-Tím vzniká volitelnost kapitol i možnost pátrání ukončit kdykoliv — a žádná kapitola
-nemůže hráče uvěznit.
+Dny nejsou pevně seřazené. Jarek si zapisuje do mapy a při návratu vybírá další
+stopu. Zprvu je dostupný jen cizí dvůr; další výpravy se otevírají podle
+navštívených míst, ne podle umělých předmětů v inventáři. Po nalezení vtoku
+může hráč přejít k bilanci nebo se vrátit pro chybějící části mapy.
 
 ```
 ÚVOD (3 uzly) → ROZCESTNÍK STARTU → ROZCESTNÍK ⇄ K1 … K9
                                             ⇄ denní zápis (8x)
                                             └─> BILANCE → konce
 ```
+
+Rozcestník používá `showAfterAny`: volba je skrytá, dokud nebyl navštíven
+alespoň jeden z uvedených uzlů. Podmínka čte historii průchodu uloženou v
+runtime, takže návrat k rozcestníku nic neresetuje a inventář zůstává na
+15 položkách.
+
+| Volba | Kdy se ukáže |
+|---|---|
+| K1 cizí dvůr | od začátku |
+| K2 splav, K3 Lukáš, K4 Vetešník, K7 Stínadla | po `k1-4` (první zjištění směru vody) |
+| K5 dolní zdymadlo | po `k2-6` **nebo** `k4-4` (splav či Vetešníkův lístek) |
+| K6 teplárna | po `k4-4`; navíc vyžaduje `vetechnik-balicek` |
+| K8 horní zdymadlo | po `k5-6` (zkušenost s dolní komorou) |
+| K9 vpusť | po `k8-7` **nebo** `ricni-mriz` (horní nábřeží či říční stopa ve Stínadlech) |
+| Bilance z rozcestníku | po `k9-4` (nalezený vtok; není třeba opakovat K9) |
+
+K9 tak lze objevit i před horním zdymadlem. Texty K8, K9 a bilance proto
+nepředstírají, že je mapa vždy hotová. „Celá trasa“ se v bilanci nabídne
+teprve po `k8-7` a s již existujícími položkami `mapa`, `vpust` a `splav`.
+Částečné zakončení zůstává dostupné i bez dokončení všech výprav.
 
 ### Kapitoly a uzly
 
@@ -88,7 +110,7 @@ nemůže hráče uvěznit.
 | Úvod | Okno, škola, večer | 3 | — | zvuk, který neodpovídá tomu, co vidí; zákaz rodičů; Lukáš jako zároděk |
 | — | Rozcestník startu + volba „nezačít“ | 1 + 3 | — | konec „Běžný kluk“ je dostupný od první minuty |
 | K0 | **Výbava** | 6 | jádro | provaz v Provaznické, baterie u Lukáše, křída v Kotlách — kompletace výbavy před prvním vstupem |
-| K1 | **Za cizím dvorem** | 5 | jádro | první vstup do kanálu; proud, hloubka, první setkání s vodou |
+| K1 | **Za cizím dvorem** | 5 | jádro | první vstup do kanálu; hloubka, chlad a sotva patrný směr vody |
 | K2 | **Splav a hraniční potok** | 7 | jádro | dolní konec kanálu, výjezd za hranici okrsku, zjištění, že voda u Stínadel *končí*, ne začíná |
 | K3 | **Třída a Lukáš** | 3 | odbočka | co se venku říká o kanálu, a že je někdo, kdo s tebou půjde — pomocník venku |
 | K4 | **Vetešník** | 4 | jádro | kdo plavbu pamatuje, co se dá koupit |
@@ -107,9 +129,10 @@ Prose se přepíše, struktura (graf, dice, inventář) zůstane:
 
 - „stoka“ → **kanál**; zvuk pod podlahou je zpočátku chápán jako voda v zemi, ne jako
   plavební kanál — to je objev, ne předpoklad.
-- Suché římsy a „suchý přepad“ musí respektovat, že **voda proudí**: ledny jsou
-  úzké a nad hladinou, propusti částečně zatopené, hladina po dešti mění hloubku.
-- `vodocet` (vodopád) zůstává — přepad přes práh mezi dvěma hladinami.
+- Suché římsy a „suchý přepad“ musí respektovat, že **voda je hluboká, ale proudí
+  jen nepatrně**: římsy jsou úzké a nad hladinou, propusti částečně zatopené,
+  hladina po dešti mění výšku.
+- `vodocet` (rysky výšek hladiny) zůstává — nejsou tu peřeje ani vodopád.
 - `hranice-*` (hraniční kámen) zůstává, ale zjištění se mění: **za hranicí Stínadel kanál
   pokračuje**, nejde o slepé rameno řeky.
 - Končící uzly `slepe-rameno` / `castecny-konec` / `mapa-konec` se přemění na **denní
@@ -248,7 +271,7 @@ uvězněný — vždy je tu i „Jít zítra zase“.
 
 | Konec | Podmínka |
 |---|---|
-| **Celá trasa** | `mapa` + `vpust` + `splav` |
+| **Celá trasa** | `mapa` + `vpust` + `splav` a návštěva `k8-7` |
 | **Mapa předaná — po stínadelsku** | `mapa` + `svědctvi-emy` |
 | **Mapa předaná — přes Rozdělovací** | `mapa` + `svědctvi-lukase` |
 | **Vyplavený** | dostane ho při ztrátě ve vodě, ne jako volbu |
@@ -362,7 +385,7 @@ volby a nepatří tam.
 
 ### K2 a K3 (dopsáno)
 
-- **K2 — 7 uzlů** `k2-1` ulice nad kanalem → `k2-2` u vody → (`k2-voda` vplavat do proudu)
+- **K2 — 7 uzlů** `k2-1` ulice nad kanalem → `k2-2` u vody → (`k2-voda` skočit do hluboké vody)
   → `k2-3` splav → `k2-4` rampa a nezastavěná krajina → `k2-5` návrat (hod) →
   (`k2-vytopeny`) → `k2-6` zápis, *grant: `splav`*. Jádrová, vstup z rozcestníku stačí
   `lampa` — ostatní věci nepotřebuje, jde po ulici a po kamenech.
@@ -390,9 +413,9 @@ Graf K7 zůstal stejný (29 uzlů), změnil se text, hrany a to, kam vedou selh�
 
 - „stoka“ → plavební kanál. Soutok pod Barvířským náměstíčkem je teď místo, kde se
   kanály **sbíhají**, ne místo, kde někdo vodu sevřel.
-- Voda **proudí a je v ní zvuk**: krysy u římsy, kamenné stupnice s čárkami výšek, které
-  psal někdo s tužkou při napouštění, a opakované zazdívání, protože „voda tady byla dřív
-  než cihly“.
+- Voda **protéká téměř neznatelně a běžně nehučí**: u římsy s krysami jsou
+  nebezpečné hloubka a kluzký kámen, ve stěnách zůstaly rysky výšek při
+  napouštění; voda tu byla dřív než cihly.
 - Hraniční kámen: místo zjištění „slepé rameno řeky“ nyní říká, že **kanál pokračuje ven
   z čtvrti proti proudu, směrem k řece**, a že nikdo ho nepřestěhoval, někdo jen přestal
   stavět. To je most k K9.
@@ -402,7 +425,7 @@ Graf K7 zůstal stejný (29 uzlů), změnil se text, hrany a to, kam vedou selh�
 - `slepe-rameno` jako zápis objevuje **kamenné ústí s háky a lávkami** — stejné, na které
   Jarek narazil v K2 u hraničního potoka. Dvě kapitoly se potkají na jednom místě.
 - Nově: `vodocet` (čárky výšek, zazdívali dvakrát), `cizi-podzemi` (hnědá čára = bývalá
-  hladina), `ricni-mriz` (hlasitý kanál = cesta zpátky do města).
+  hladina), `ricni-mriz` (kalná městská stoka = cesta zpátky, čistá větev s pískem = cesta k řece).
 - Zákaz rodičů je **stávající**, ne následek. Chycení už není začátek zákazu, ale
   zveřejnění zákazu: „zákaz tu byl dřív, teď má jméno a datum“.
 - `druha-vyprava` používá **slovo** z kánonu světa: podmínka, kterou otec vysloví jednou.
@@ -428,9 +451,9 @@ Graf K7 zůstal stejný (29 uzlů), změnil se text, hrany a to, kam vedou selh�
 
 ### Co se při psaní rozhodlo samo
 
-1. **K9 nevzniklo jako „poslední kapitola“, ale jako odpověď na otázku z K2.** V K2
-   zjistil, že voda u Stínadel odtéká, a tím se otázka posunula proti proudu. K9 je
-   poslední díl, ne hledání začátku.
+1. **K9 je odpověď na otázku z K2 nebo na říční stopu z K7/K8.** V K2 Jarek zjistí,
+   že voda u Stínadel odtéká, a tím se otázka posune proti proudu. Polohu vtoku
+   může potvrdit před dokončením ostatních větví; mapu lze doplnit později.
 2. **K8 má jiná vrata než K5.** K5 se otevírají tahem a potřebují pořadí, K8 se zavírají
    sama při vysoké vodě a potřebují poznat, co je voda a co závora. Dva různí závěsníci.
 3. **Vedlejší cesta má pět uzlů plus pět uzlů s odpověďmi**, ne pět položek v katalogu.

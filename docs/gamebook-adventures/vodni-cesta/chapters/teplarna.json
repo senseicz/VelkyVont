@@ -4,36 +4,36 @@
       "options": [
         {
           "next": "k6-2",
-          "text": "Po koleji dozadu, k tomu, co nakládali"
+          "text": "Jít po kolejích k bývalé vykládce"
         },
         {
           "next": "k6-1b",
-          "text": "Dřív než dovnitř, obejít budovu zvenku"
+          "text": "Nejdřív obejít budovu zvenku"
         }
       ],
-      "text": "Klíč od vrat teplárny je plochý, těžký a má zuby po stranách. Zámek v petlici povolí hladce a bez skřípění – je to zámek, který se pravidelně používá, ne zapomenuté zrezivělé železo.\n\nZa vraty se rozkládá rozlehlý dvůr obklopený vysokými zdmi. Dlažba je z tvrdé tmavé břidlice a jsou v ní zapuštěné úzkokolejné kolejnice, po kterých se sem kdysi sváželo palivo. Mezi pražci se ještě dnes černá uhelný mour.\n\nPanuje tu zvláštní, hluboké ticho, jaké bývá v opuštěných průmyslových areálech. Ticho plné ozvěn ze vzdálených ulic města.\n\nSamotná budova teplárny se tyčí na konci dvora a převyšuje všechny okolní domy. Řady vysokých továrních oken – některá s vytlučenými tabulkami –, ocelové lávky spojující jednotlivé trakty a nad tím vším sedlová střecha s prosklenými světlíky. Na okraji rampy leží starý dřevěný trám, kterým už dávno prorostla tráva.\n\nTady končila stará plavba. Tady se z lodí vykládalo uhlí přímo do kotelen.\n\nKlíč od Vetešníka tě hřeje v kapse."
+      "text": "Klíč od vrat teplárny je plochý, těžký a má zuby po stranách. Zámek na petlici povolí bez skřípění. Někdo ho zřejmě používá i dnes.\n\nZa vraty se rozkládá dvůr obehnaný vysokými zdmi. V tmavé dlažbě jsou zapuštěné úzkokolejné kolejnice, po nichž se sem kdysi vozilo uhlí. Mezi pražci se ještě drží uhelný mour.\n\nNa dvoře je ticho; jen z dálky doléhá ruch města.\n\nNa konci dvora stojí teplárna vyšší než okolní domy. Má řady vysokých továrních oken, z nichž některá přišla o tabulky, ocelové lávky mezi trakty a sedlovou střechu s prosklenými světlíky. Na kraji rampy leží trám prorostlý trávou.\n\nU téhle rampy kdysi zastavovaly pramice. Uhlí se z nich vykládalo přímo do kotelen. Klíč od Vetešníka si schováš do kapsy."
     },
     "k6-1b": {
       "options": [
         {
           "next": "k6-2",
-          "text": "Projít těmi dveřmi, protože jsou otevřené"
+          "text": "Projít pootevřenými dveřmi dovnitř"
         }
       ],
-      "text": "Budova má ze tří stran slepé cihlové zdi a ze čtvrté velká nakládací vrata. Zadní trakt lemuje vysoký plot z vlnitého plechu, na několika místech vysazený z rezavých sloupků.\n\nNa východní straně v přízemí spatříš okno, které není rozbité – je pevně zavřené a zevnitř na něm visí zaprášená plachta. Vlézt dovnitř oknem by bylo nebezpečné a zbytečné.\n\nU postranních železných dveří, do kterých přesně pasuje Vetešníkův klíč, je k ostění přišroubovaná smaltovaná tabulka. Nese číslo, které neodpovídá číslu na hlavní bráně – někdo ho přepsal bílou olejovou barvou.\n\nDveře jsou pootevřené na škvíru. Na prahu je čerstvě odmetený prach. Někdo sem pravidelně dochází a dává si velký pozor, aby za sebou nenechal nápadné stopy."
+      "text": "Obejdeš zadní trakt s cihlovými zdmi a plechovým plotem. Na několika místech se plot vyklání z rezavých sloupků.\n\nV přízemí spatříš zavřené okno, za nímž visí zaprášená plachta. Vlézt dovnitř oknem by bylo zbytečně nebezpečné.\n\nU postranních železných dveří je k ostění přišroubovaná smaltovaná tabulka. Číslo na ní nesouhlasí s číslem na hlavní bráně; někdo je přetřel bílou olejovou barvou.\n\nDveře jsou pootevřené. Na prahu je prach čerstvě smetený stranou. Někdo tudy chodí a dává si pozor, aby po sobě nezanechal nápadné stopy."
     },
     "k6-2": {
       "options": [
         {
           "next": "k6-3",
-          "text": "Sednout si na lavičku, kde někdo seděl loni"
+          "text": "Prohlédnout si hrnek na lavici"
         },
         {
           "next": "k6-4",
-          "text": "Nejdřív najít, kam vede ta značka"
+          "text": "Vydat se za modrou značkou"
         }
       ],
-      "text": "Přízemí tvoří obrovská vykládací hala. Podlaha je z masivních betonových desek s litinovými rošty, pod kterými se temně leskne vodní hladina. Rošty jsou na dvou místech prolomené a do podzemí stéká stružka vody z netěsnící střechy.\n\nKolem dokola stojí ocelové zásobníky na uhlí. Každý má na sobě vybledlé číslo, ale čísla nejdou popořadě – zásobník 14 stojí před číslem 9, trojka za jedenáctkou. Někdo je v minulosti přestavoval.\n\nVe spodní stěně zeje široký otvor klenutý z tesaného kamene: stará krytá vykládka pro čluny. Uhlí se z lodí lopatami přehazovalo přímo do násypek. Hladina kanálu sahá až sem a voda se v nádrži drží po celý rok.\n\nPoblíž otvoru stojí u zdi dřevěná lavice. Na jejím rohu leží plechový hrnek obrácený dnem vzhůru – je suchý a zbavený prachu. Někdo tu nedávno seděl a hrnek po sobě způsobně otočil.\n\nNa omítce nad lavicí svítí čerstvá stopa modré křídy. Není to nahodilé čmárání, ale promyšlená značka pro ty, kdo vědí, co hledat."
+      "text": "Vejdeš do rozlehlé vykládací haly. Mezi betonovými deskami podlahy jsou litinové rošty a pod nimi se leskne voda. Dva rošty jsou prolomené; ze střechy sem po stěně stéká úzká stružka.\n\nKolem stojí ocelové zásobníky na uhlí. Jejich vybledlá čísla nejdou popořadě – čtrnáctka je před devítkou, trojka za jedenáctkou. Zásobníky zřejmě kdysi přestavovali.\n\nVe spodní stěně je široký kamenný oblouk: krytá vykládka pro čluny. Uhlí se z nich lopatami přehazovalo do násypek. Voda z kanálu sahá až sem a mezi rošty je stále vidět hladinu.\n\nU zdi poblíž otvoru stojí dřevěná lavice. Na jejím konci leží plechový hrnek obrácený dnem vzhůru. Není na něm prach: někdo tu byl nedávno.\n\nNad lavicí je na omítce čerstvá modrá křídová značka. Někdo ji udělal úmyslně, aby ji našel ten, kdo ví, co hledat."
     },
     "k6-3": {
       "options": [
@@ -46,7 +46,7 @@
           "text": "Zůstat v hale a podívat se pod mříže"
         }
       ],
-      "text": "Prkna lavice jsou studená, ale uprostřed sedáku je dřevo ohlazené častým sezením. Tady někdo tráví hodně času.\n\nNa stěně za lavicí visí na rezavém hřebíku starý nástěnný kalendář. Je z jiného města a visí přes dva starší ročníky. Ten nejsvrchnější je z letošního roku a u každého pondělí je v něm udělaná drobná tečka obyčejnou tužkou.\n\nKaždé pondělí.\n\nŽádné poznámky, žádná jména – jen tichý záznam přítomnosti. Takhle si značí dny někdo, kdo sem chodí pravidelně jako do služby, i když je teplárna léta mimo provoz.\n\nNěkdo sem přichází vždy na začátku týdne, sedne si na lavici, sleduje hladinu pod rošty a po odchodu obrátí hrnek dnem vzhůru.\n\nV zaprášeném koutě u zdi jsou v podlaze patrné zřetelné stopy. Vedou přímo od jedněch dveří ke druhým a do zatopené části haly vůbec neodbočují. Ten člověk se tu vyzná a přesně ví, kde je podlaha bezpečná."
+      "text": "Prkna lavice jsou studená, uprostřed však dřevo ohladilo časté sezení. Někdo sem chodí pravidelně.\n\nNa hřebíku za lavicí visí nástěnný kalendář přes dva starší ročníky. V tom letošním je tužkou vyznačené každé pondělí. Žádná jména, žádné poznámky, jen drobné tečky.\n\nMožná si tu někdo značí své návštěvy. Hrnek bez prachu nasvědčuje tomu, že přišel i nedávno.\n\nV zaprášeném koutě vede řada šlápot od jedněch dveří ke druhým. K zatopené části haly vůbec neodbočují. Jejich původce zřejmě ví, kudy se dá bezpečně projít."
     },
     "k6-3b": {
       "options": [
@@ -55,7 +55,7 @@
           "text": "Následovat stopy, které neodbočují"
         }
       ],
-      "text": "Litinový rošt je sice zrezivělý, ale drží pevně. Opatrně na něj sestoupíš a nahlédneš pod betonovou podlahu.\n\nDole je vody po kolena. Na kamenném dně leží staré dřevěné nářadí a opodál uvízl malý vozík s vylámanými zuby na vodicím soukolí.\n\nPřímo pod roštem plave na hladině zpráchnivělé prkénko. Zachytíš ho špičkou boty a přitáhneš blíž. Je na něm černou smolou vyvedený starý nápis:\n\n**DOPRAVA UHLÍ – ÚSEK 2**\n\nTenhle nápis tu leží celá léta. Voda ho omývá, ale smůla drží.\n\nTohle není náhodně zatopený sklep. Tady po celá desetiletí fungoval přesně organizovaný provoz, na kterém závisela celá čtvrť. A když se před lety zastavil, zůstaly tu stroje i lodní vybavení přesně tak, jak je dělníci opustili.\n\nVrátíš se opatrně nahoru na suchou podlahu. Ozvěna kroků v prázdné hale zní až příliš hlasitě."
+      "text": "Litinový rošt je zrezivělý, ale drží pevně. Přiklekneš k němu a nahlédneš pod podlahu.\n\nDole je vody po kolena. Na kamenném dně leží dřevěné nářadí a opodál uvízl vozík s poškozeným soukolím.\n\nPřímo pod roštem plave prkénko. Prostrčíš mezi pruty ruku a přitáhneš si je blíž. Smolou je na něm napsáno:\n\n**DOPRAVA UHLÍ – ÚSEK 2**\n\nNápis se ve vodě drží už celá léta. Teplárna tu mívala vykládku s vlastním řádem a vybavením; když se plavba zastavila, nářadí i vozík zůstaly dole.\n\nOdložíš prkénko a zvedneš se od roštu. Kroky na suché podlaze se nesou prázdnou halou."
     },
     "k6-4": {
       "grant": [
@@ -71,7 +71,7 @@
           "text": "Nechat knihu ležet a pokračovat v průzkumu"
         }
       ],
-      "text": "Z ochozu v patře ústí osm dveří do bývalých kanceláří mistrů a dispečerů. Většina z nich je prázdná, v některých zbyly jen převrácené židle a prázdné skříně. Na jedněch dveřích visí plechový štítek s nápisem: **HYDROMETR 7–9**.\n\nUvnitř stojí masivní psací stůl se zásuvkami. Na desce leží tlustá kniha v tuhých plátěných deskách zpevněných kůží.\n\nOtevřeš ji.\n\nNení to obyčejný úřední záznamník. Je to **provozní kniha zdymadla a vykládky**. Sloupce dat, stav hladiny vody v komorách, počet proplavených lodí a podpisy sloužících. Na každé druhé stránce jsou však k úředním záznamům připsány poznámky docela jiného rázu:\n\n*Hladina u třetího pilíře kolísá o dvě stopy. V noci proplul neohlášený šíf. Pečeť na horních vratech drží.*\n\nNěkdo sem léta zapisoval to, co se do oficiálních hlášení nevešlo. Poslední zápis je datován do doby těsně před uzavřením kanálu.\n\nTohle je neocenitelný zdroj informací o celém vodním díle."
+      "text": "Z ochozu v patře vede osm dveří do bývalých kanceláří mistrů. Většina místností je prázdná, v jiných zbyly převrácené židle a skříně. Na jedněch dveřích visí plechový štítek: **HYDROMETR 7–9**.\n\nUvnitř stojí psací stůl se zásuvkami. Na desce leží tlustá kniha v plátěných deskách zpevněných kůží. Otevřeš ji.\n\nJe to **provozní kniha zdymadla a vykládky**: sloupce pro datum, výšku hladiny v komorách, počet proplavených lodí a podpisy obsluhy. Mezi úředními záznamy najdeš i poznámky jiné povahy:\n\n*Hladina u třetího pilíře kolísá o dvě stopy. V noci proplul neohlášený šíf. Pečeť na horních vratech drží.*\n\nNěkdo sem léta zapisoval, co se do hlášení nevešlo. Poslední zápis pochází z doby těsně před koncem plavby. V knize mohou být i další stopy k celé vodní cestě."
     },
     "k6-4b": {
       "options": [
@@ -81,10 +81,10 @@
         },
         {
           "next": "k6-5",
-          "text": "Vrátit se do haly a počkat"
+          "text": "Chvíli počkat a sejít druhým schodištěm"
         }
       ],
-      "text": "Zavřeš za sebou dveře kanceláře a vyjdeš na chodbu. V tu chvíli ztuhneš.\n\nZpoza pootevřených dveří na konci chodby se ozve tichý, nezaměnitelný zvuk: někdo tam pomalu obrací list papíru. Beze spěchu, se soustředěním člověka, který pozorně čte.\n\nNejsi tu sám.\n\nNa podestě schodiště leží na zemi další plechový hrnek obrácený dnem vzhůru. Někdo ho tam položil před malou chvílí. Ten člověk se pohybuje tiše jako stín.\n\nKdyby tě zaslechl, stál bys na otevřené chodbě bez možnosti ústupu. Tady v patře není kam uskočit – zbývá jen projít kolem, nebo se schovat v prázdné kanceláři.\n\nNadechneš se a uděláš neslyšný krok kupředu."
+      "text": "Zavřeš za sebou dveře kanceláře a vyjdeš na chodbu. Na jejím konci jsou další dveře pootevřené. Zpoza nich slyšíš šustění obraceného listu.\n\nNejsi tu sám.\n\nNa podestě schodiště leží další plechový hrnek obrácený dnem vzhůru. Ať ho tam někdo položil kdykoli, prach na něm není.\n\nNa otevřené chodbě se nemáš kam schovat. Můžeš projít kolem těch dveří, nebo počkat a sejít dolů jinudy. Chvíli posloucháš, zda se člověk za dveřmi pohne."
     },
     "k6-5": {
       "options": [
@@ -97,33 +97,33 @@
           "text": "Zatím neotvírat a raději ustoupit"
         }
       ],
-      "text": "Na cihlové zdi u paty schodiště září modrá křídová značka. Není z žádného oficiálního značení, ale není tu náhodou.\n\nJe to stylizovaná vlnovka s ostrým pravoúhlým zlomem – přesně ten typ značky, jakou dělají lidé, kteří chtějí zanechat stopu jen pro zasvěcené. Pod ní je připsáno jediné slovo: **SEM**.\n\nZnačka ukazuje k nízkým plechovým dveřím na konci chodby, odkud vane pach vlhkého zdiva a chladné vody. Někdo tudy musel projít i v zimě za mrazu.\n\nTen, kdo značku nakreslil, nepotřeboval mapu. Znal cestu nazpaměť a značku tu nechal jako vzkaz.\n\nPřistoupíš ke dveřím. Nejsou zamčené na závoru. Zevnitř je slyšet tiché, pravidelné oddechování člověka.\n\nVezmeš za kliku. Teď se ukáže, kdo tu vlastně přebývá."
+      "text": "Na cihlové zdi u paty schodiště je modrá křídová značka: vlnovka s ostrým zlomem. Pod ní stojí jediné slovo: **SEM**.\n\nUkazuje k nízkým plechovým dveřím na konci chodby. Je od nich cítit mokré zdivo a na prahu je setřený prach. Někdo tudy chodí.\n\nPřistoupíš ke dveřím. Nejsou zamčené. Zevnitř slyšíš tichý, pravidelný dech. Natáhneš ruku ke klice."
     },
     "k6-6": {
       "options": [
         {
           "next": "k6-7",
-          "text": "Natáhnout k němu ruku a pomoct mu z vody"
+          "text": "Podat mu ruku a pomoct mu projít vodou"
         },
         {
           "next": "k6-7b",
-          "text": "Uleknout se, zabouchnout dveře a odejít"
+          "text": "Zavřít dveře a odejít"
         }
       ],
-      "text": "Dveře se s tichým vrznutím otevřou. Za nimi neleží suchá místnost, ale zatopená obslužná chodba vykládacího tunelu.\n\nHladina vody je tu vysoká téměř po pás a u stěny se drží ledová krusta. V šeru u kamenné římsy sedí na bobku postava v dlouhém tmavém kabátě. Když zaslechne vrznutí dveří, pomalu zvedne hlavu.\n\n„Tys mě neslyšel,“ pronese chraplavým, klidným hlasem. „Šel jsi přes Ostružnický dvůr, kolem krysí štoly i přes Barvířské náměstíčko... a ani ses neohlédl. To znamená, že jsi tu poprvé. Ale nepřišel jsi pozdě.“\n\nZadívá se na tebe pronikavýma očima: „Tady dál je koryto zanesené naplaveninami a proud táhne pod klenbu. Já sám se přes ten zával nedostanu – zranil jsem si nohu. Buď se otočíš a utečeš, nebo mi pomůžeš vytáhnout vzpříčené trámy.“\n\nChvíli se odmlčí a pak se zeptá: „Umíš plavat v tekoucí vodě?“\n\n„Umím,“ odpovíš pevně."
+      "text": "Dveře se s tichým vrznutím otevřou. Za nimi není suchá místnost, ale zatopená obslužná chodba vykládacího tunelu.\n\nVoda tu sahá téměř po pás. V šeru sedí na kamenné římse muž v dlouhém tmavém kabátě. Při vrznutí dveří zvedne hlavu.\n\n„Slyšel jsem tě už na schodech,“ pronese klidně. „Dál je koryto zanesené a voda sahá skoro ke klenbě. Zranil jsem si nohu. Buď odejdeš, nebo mi pomůžeš uvolnit zavalený odtok.“\n\nChvíli si tě měří pohledem. „Umíš plavat?“\n\n„Umím,“ odpovíš."
     },
     "k6-7": {
       "options": [
         {
           "next": "k6-8",
-          "text": "Zeptat se: „Co je to za věc?“"
+          "text": "Zeptat se, o jakou práci jde"
         },
         {
           "next": "k6-7c",
           "text": "Zastavit se a říct: „Nejdřív mi řekni, kdo vlastně jsi.“"
         }
       ],
-      "text": "Vstoupíš do ledové vody a podáš mu ruku. Voda ti okamžitě promáčí kalhoty až po stehna a z chladu ti vyrazí dech. Muž v tmavém kabátě se o tebe opře celou vahou. Pohybuje se rozvážně, jako člověk zvyklý na podzemí, ale nohu má zjevně pohmožděnou.\n\nSpolečně se prodíráte proti proudu k vyvýšené betonové plošině u odtoku. Krok za krokem, opatrně po kluzkém dně, až se vám podaří dosáhnout suchého schodu.\n\nVyškrábete se nahoru. Muž se posadí na schod, těžce oddychuje a z kabátu mu crčí proudy vody.\n\n„Takže opravdu umíš plavat,“ konstatuje uznale.\n\n„Máme plavání ve škole,“ odvětíš.\n\n„Ve škole,“ pousměje se trpce. Pak se na tebe vážně zadívá: „V tomhle domě je jedna věc, kterou nutně potřebuju dostat ven. Sám ji neodtáhnu a dospělé z venku k tomu přivolat nemůžu. Vědí o mně už víc, než by měli.“"
+      "text": "Vstoupíš do studené vody a podáš mu ruku. Promáčí ti kalhoty až k pasu a chlad ti vyrazí dech. Muž se o tebe opře; nohu má zjevně pohmožděnou.\n\nSpolečně dojdete po kluzkém dně k vyvýšené plošině u odtoku. Muž se posadí na suchý schod a z kabátu mu stéká voda.\n\n„Ve vodě se vyznáš,“ řekne uznale.\n\n„Ve škole máme plavání,“ odvětíš. „Ale tady bych plaval jen v nouzi.“\n\n„Rozumné.“ Muž se rozhlédne, jako by se bál, že vás někdo zaslechne. „Potřebuju odklidit kameny z odtoku. Sám to s tou nohou nezvládnu a cizí dospělé sem přivolat nechci. Už se o mě vyptávali.“"
     },
     "k6-7b": {
       "options": [
@@ -132,16 +132,16 @@
           "text": "Vyjít ven z teplárny, dokud je klid"
         }
       ],
-      "text": "Ruka ti na klice ztuhne. Neotevřeš.\n\nPostojíš několik vteřin na chodbě a v hlavě ti bleskne vzpomínka na Vetešníka: v tomhle městě jsou lidé, kteří o tobě vědí, ale nechtějí se nechat spatřit. A nutit je k rozhovoru může být nebezpečné.\n\nUstoupíš po špičkách o krok zpátky. Příležitost dozvědět se víc je pryč, ale bezpečí má přednost.\n\nVrátíš se chodbou ke schodišti. Na podestě stále leží plechový hrnek obrácený dnem vzhůru – tichý němý svědek, že tu před tebou někdo stál.\n\nVklouzneš do přízemí a zamíříš k východu z teplárny."
+      "text": "Odstoupíš od dveří. Vzpomeneš si na Vetešníka: v tomhle městě jsou lidé, kteří se raději drží stranou, a přemlouvat je k hovoru nemusí být moudré.\n\nVrátíš se chodbou ke schodišti. Na podestě stále leží plechový hrnek obrácený dnem vzhůru. Někdo tu byl, ale dnes už se po něm vyptávat nebudeš.\n\nSejdeš do přízemí a zamíříš k východu z teplárny."
     },
     "k6-7c": {
       "options": [
         {
           "next": "k6-8",
-          "text": "Ustoupit a zeptat se: „Co je to za věc?“"
+          "text": "Neptat se na jméno a zjistit, o jakou práci jde"
         }
       ],
-      "text": "Muž v tmavém kabátě mlčí. Dlouho, upřeně se ti dívá do tváře, až je to ticho nesnesitelné.\n\nNení to mlčení zmateného člověka. Neodpovídá záměrně – dává ti najevo, že na takové otázky se ve Stínadlech neodpovídá.\n\n„Na jméno se mě neptej,“ pronese nakonec klidně. „Kdybys znal moje jméno, musel bys vědět i to, proč se tady schovávám a kdo mě hledá. A to by ti přineslo jen zbytečné starosti. Na ostatní věci ti odpovím, až přijde čas.“\n\nRuku ti nenabídne, ale jeho pohled už není nepřátelský.\n\nPochopíš, že víc z něj v tuhle chvíli nedostaneš. Ve Stínadlech má každé tajemství svou cenu."
+      "text": "Muž v tmavém kabátě se ti dlouho dívá do tváře. Na otázku neodpovídá schválně.\n\n„Na jméno se mě neptej,“ pronese nakonec. „Kdybys ho znal, začal by ses vyptávat, proč se schovávám a kdo mě hledá. A to by ti přineslo jen starosti. Na ostatní věci ti odpovím, až přijde čas.“\n\nJeho pohled už není nepřátelský, ale víc z něj teď nedostaneš."
     },
     "k6-5c": {
       "options": [
@@ -154,20 +154,20 @@
           "text": "Obejít teplárnu zvenčí a vydat se k domovu"
         }
       ],
-      "text": "Venku tě ovanou studený večerní vzduch. Šlápoty v uhelném mouru vedou směrem k zadní vlečkové bráně, ven z areálu.\n\nZastavíš se u kolejí a všimneš si, že vlečka vede přímo k opuštěné bráně v ohradní zdi. Visací zámek na řetězu je otevřený a klíč visí na nenápadném hřebíku v trámoví přístřešku.\n\nZa bránou se otevírá dlážděná ulice vedoucí do města – rovná, tichá, bez lidí. Odtud se dá vyjít ven ze čtvrti, aniž bys musel procházet přes hlídané stínadelské křižovatky.\n\nTen neznámý člověk tudy pravidelně odchází do města a pečlivě dbá na to, aby jeho stopa nikomu nepadla do očí."
+      "text": "Venku tě ovane čerstvý vzduch. Šlápoty v uhelném mouru vedou k zadní vlečkové bráně.\n\nKoleje končí u brány v ohradní zdi. Visací zámek na řetězu je otevřený a klíč visí na hřebíku v trámoví přístřešku.\n\nZa bránou je tichá dlážděná ulice. Odtud se dostaneš domů, aniž bys musel znovu procházet celým dvorem teplárny. Šlápoty naznačují, že tudy někdo chodí častěji."
     },
     "k6-8": {
       "options": [
         {
           "next": "k6-8b",
-          "text": "Pomoci mu uvolnit zával z těžkých kamenů"
+          "text": "Pomoci mu odklidit kameny z odtoku"
         },
         {
           "next": "k6-8b",
-          "text": "Zkusit vypáčit největší balvany pomocí tyče"
+          "text": "Zkusit vypáčit větší kameny tyčí"
         }
       ],
-      "text": "„Bývalo tu pomocné přístaviště pro vykládku člunů,“ vysvětluje muž v tmavém kabátě. „Jenže ledy a jarní vody sem nanesly písek a zřítil se sem kus kamenného překladu. Voda se hromadí a hrozí, že zaplaví spodní štolu, kudy se dá projít dál.“\n\n„A co je potřeba udělat?“ zeptáš se.\n\n„Vyvalit ty kameny z odtoku ven na rampu,“ ukáže muž.\n\nPřejdete k ústí štoly. Ve vodě leží tucet masivních pískovcových kvádrů zříceného ostění, každý dvacet centimetrů tlustý. Vzpříčily se přesně v nejužším hrdle propusti.\n\n„Ty největší sám neunesu,“ řekne muž. „Musíme vzít za jeden konec oba současně.“"
+      "text": "„Tady bývala pomocná vykládka pro čluny,“ vysvětluje muž v tmavém kabátě. „Voda sem postupně nanesla písek a zřítil se kus kamenného ostění. Odtok se ucpává. Jestli voda vystoupá, zaplaví spodní štolu.“\n\n„A co s tím?“ zeptáš se.\n\nMuž ukáže na rampu. „Potřebuju dostat ty kameny z propusti až tam.“\n\nU ústí štoly leží ve vodě pískovcové kvádry zříceného ostění. Některé se vzpříčily v úzkém hrdle odtoku.\n\n„S těmi velkými sám nepohnu,“ řekne muž. „Musíme je nadzvednout společně.“"
     },
     "k6-8b": {
       "options": [
@@ -176,7 +176,7 @@
           "text": "Oddechnout si a zeptat se: „A co teď?“"
         }
       ],
-      "text": "Kameny jsou těžké, nasáklé vodou a namrzlý pískovec v prstech klouže. Každý pohyb vyžaduje soustředění a naprostou souhru.\n\nBěhem hodiny společného úsilí se vám podaří vytahat většinu menších kvádrů na břeh. Zbývají poslední čtyři největší balvany, které zaklínily hlavní odtokovou rouru.\n\nMuž hvízdne na prsty. Zpoza rohu se nečekaně vynoří další postava – urostlý, zamlklý chlap v železničářské blůze. Bez jediného slova se chopí sochoru a společnými silami uvolníte i zbytek závalu. Voda s mohutným zahučením prorazí uvolněným korytem.\n\nMuž v kabátě si otře pot z čela a pohlédne na tebe:\n\n„Dobrá práce. Když jsem byl v tvých letech, zkoušel jsem to sám. Třikrát. A pokaždé jsem skončil ve vodě.“ V jeho hlase zazní směs uznání i staré vzpomínky."
+      "text": "Pískovec je nasáklý vodou a v rukou klouže. Některé kameny nadzvednete společně, jiné si přitáhnete tyčí. Práce jde pomalu.\n\nPo dlouhém úsilí dostanete menší kvádry na rampu. Největší kusy ostění však dál vězí v hrdle odtoku.\n\nMuž hvízdne na prsty. Zpoza rohu přijde urostlý chlap v železničářské blůze. Beze slova vezme sochor a pomůže vám uvolnit zbytek závalu. Voda v propusti se začne znovu pomalu posouvat a hladina u vašich nohou trochu klesne.\n\nMuž v kabátě si otře čelo. „Dobrá práce. Když jsem byl v tvých letech, zkoušel jsem podobné kameny odtáhnout sám. Třikrát jsem skončil ve vodě.“"
     },
     "k6-9": {
       "options": [
@@ -189,7 +189,7 @@
           "text": "Trvat na tom, že chceš vědět víc hned"
         }
       ],
-      "text": "Usednete na suchou lavici u vykládky. Muž sedí se sklopenou hlavou a zprvu se zdá, že usnul únavou. Pak tiše promluví:\n\n„Zatím ještě nevíš všechno. Ale dozvíš se to, až přijde pravý čas.“\n\nPohlédne na tebe: „Já sem chodím dvakrát do týdne už od chvíle, kdy jsem si všiml, že se někdo motá kolem kanálu.“\n\nPřekvapeně na něj pohlédneš. Věděl o tobě celou dobu!\n\n„Máš na mě ještě nějakou otázku, než půjdeš domů?“ zeptá se tiše."
+      "text": "Sednete si na lavici u vykládky. Muž chvíli mlčí a oddechuje, pak promluví:\n\n„Do teplárny chodím už dlouho. A o tom, že se zajímáš o kanál, vím víc, než si myslíš.“\n\nZvedneš oči od mokrých rukou. Kde se o tobě dozvěděl?\n\n„Chceš se na něco zeptat, než půjdeš domů?“ řekne."
     },
     "k6-9b": {
       "options": [
@@ -202,7 +202,7 @@
           "text": "Neptat se na nic a raději v tichosti odejít"
         }
       ],
-      "text": "„Nezapomeň na jednu věc,“ řekne muž a vstane z lavice. „Nesmíš polevit, dokud nevypátráš, kde se kanál napojuje na velkou řeku. To je to hlavní, co ti v mapě chybí. Bez toho tvoje práce nemá smysl.“\n\nObrátí plechový hrnek na lavici dnem vzhůru a zamíří k východu.\n\nPodíváš se na hodinky – je už po osmé večer. Baterka ve svítilně slabě žloutne a před tebou je ještě kus cesty přes potemnělá Stínadla."
+      "text": "„Ještě jednu věc,“ řekne muž a vstane z lavice. „Nezapomeň do mapy zakreslit, kde se kanál napojuje na řeku. To místo se snadno přehlédne.“\n\nObrátí plechový hrnek na lavici dnem vzhůru a zamíří k východu.\n\nPodíváš se na hodinky. V hale jste strávili dost času a domů tě čeká dlouhá cesta."
     },
     "k6-9c": {
       "options": [
@@ -215,7 +215,7 @@
           "text": "Neptat se na nic a raději v tichosti odejít"
         }
       ],
-      "text": "„Netlač na pilu,“ řekne muž přísněji. „Běž domů. Venku už je tma a v podzemí se za tmy snadno stane neštěstí. Trpělivost je to první, co se tady musíš naučit.“\n\nObrátí se a vykročí ke dveřím.\n\nV jeho hlase nebyl hněv, spíš varování zkušeného člověka, který ví, jak snadno se ve stínadelském podzemí udělá osudová chyba."
+      "text": "„Netlač na pilu,“ řekne muž přísněji. „Dnes už ses ve vodě nadělal dost. Běž domů, než uděláš z únavy chybu.“\n\nZamíří ke dveřím. Nezní rozzlobeně, spíš ti připomíná, jak málo stačí k uklouznutí na mokrém kameni."
     },
     "k6-9d": {
       "options": [
@@ -224,7 +224,7 @@
           "text": "Vydat se domů dřív, než si doma všimnou tvé nepřítomnosti"
         }
       ],
-      "text": "Odejdeš z teplárny. Kdybys chtěl jít v jeho stopách, po sto metrech bys je ztratil na mokré dlažbě ulice. Muž zmizel v nočních stínech stejně tiše, jako se objevil.\n\nNa cihlové zídce u vyústění vlečky si všimneš čerstvě vyryté značky: obrácený háček s křížkem. Ve vontské symbolice to znamená otevřenou a bezpečnou cestu pro ty, kdo zachovali mlčenlivost.\n\nV ulicích je klid. Noční Stínadla dýchají chladem a v dálce za komíny svítí lampy Rozdělovací třídy.\n\nDnes jsi získal víc než jen další záznam do mapy: setkal ses s někým, kdo pamatuje staré časy a kdo tě tiše sleduje zpovzdálí."
+      "text": "Vyjdeš z teplárny. Muž zmizí za nárožím dřív, než se rozhodneš, jestli se s ním chceš ještě rozloučit.\n\nNa zídce u vlečky si všimneš čerstvě vyryté značky: obráceného háčku s křížkem. Připomíná staré stínadelské značky pro bezpečný průchod. Kdo ji tu vyryl?\n\nZ Rozdělovací třídy sem doléhá cinknutí tramvaje. Při cestě domů myslíš na muže, který zná vodní cestu lépe než ty a nechce říct své jméno."
     },
     "k6-otazky": {
       "options": [
@@ -242,59 +242,59 @@
         },
         {
           "next": "k6-odp-4",
-          "text": "„Byl závěsník toho zdymadla členem Vontů?“"
+          "text": "„Patřil závěsník od zdymadla k Vontům?“"
         },
         {
           "next": "k6-odp-5",
-          "text": "„Kdo držel plavební řád, když ještě platil?“"
+          "text": "„Kdo měl na starosti plavební řád?“"
         }
       ],
-      "text": "U dveří se muž zastaví a pohlédne na tebe. Nečeká odpověď – čeká, na co se zeptáš ty.\n\nStojí s rukama v kapsách kabátu a v očích má klidný zájem. V hlavě se ti honí pět různých otázek, ale víš jistě, že ti zodpoví jen jednu jedinou. Děti se ptají, kudy se jde. Ti, kdo chtějí pochopit Stínadla, se ptají, kdo tu byl před nimi.\n\nVyber si dobře."
+      "text": "Muž se u dveří zastaví a čeká. Řekl, že se můžeš na něco zeptat.\n\nZajímají tě značky, zdymadla i lidé, kteří tu byli před tebou. Na dlouhé vyptávání však není čas. Kterou z otázek vyslovíš?"
     },
     "k6-odp-1": {
       "options": [
         {
           "next": "k6-9d",
-          "text": "Poděkovat a odejít do tmy"
+          "text": "Poděkovat a vydat se domů"
         }
       ],
-      "text": "„Mohl bych ti říct jeho skutečné jméno,“ pronese muž zvolna. „A bylo by to pravdivé jméno. Ale tobě by v téhle chvíli nic neřeklo.“\n\nChvíli mlčí a pak dodá: „To je víc, než by ses dozvěděl od kohokoli jiného, a přitom méně, než potřebuješ. Zapiš si do paměti, že jméno samo o sobě nic neznamená. Důležité je, co po něm ve Stínadlech zůstalo.“\n\nStojí u dveří a víc už neřekne. Mezi vámi je ticho a šumění vody. Zůstane ti v hlavě jediná jistota: poslední Velký Vont nebyl bájná postava, ale skutečný člověk z masa a kostí."
+      "text": "„Jeho jméno bych ti mohl říct,“ pronese muž zvolna. „Ale teď by ti nic nepovědělo.“\n\nChvíli mlčí a dodá: „Mnohem důležitější je, co po něm ve Stínadlech zůstalo. Po tom se ptej.“\n\nStojí u dveří a víc už neřekne. V tichu mezi vámi občas kápne voda ze stropu. Jeho jméno tedy stále neznáš; víš jen, že muž v kabátě o posledním Velkém Vontovi něco ví."
     },
     "k6-odp-2": {
       "options": [
         {
           "next": "k6-9d",
-          "text": "Poděkovat a odejít do tmy"
+          "text": "Poděkovat a vydat se domů"
         }
       ],
-      "text": "„Kroniky nesoudí odznak podle toho, z jakého kovu je ulitý,“ odpoví muž vážně. „Kroniky soudí podle toho, kdo před truhlou stojí.“\n\nZadívá se do tmy chodby: „Zámek na truhle Kronik má dvě západky. Jedna poslouchá starý odznak, který má svou historii a váhu generací. Ta druhá... druhá se dá otevřít i nově vypilovaným klíčem, ale jen tehdy, když za ním stojí nezlomné slovo a důvěra ostatních. Bez toho je odznak jen kusem plechu.“\n\nPochopíš, že spor mezi starými a novými odznaky není o kovu, ale o cti a důvěře."
+      "text": "„Kroniky nikoho nesoudí,“ odpoví muž. „To lidé se budou ptát, čí odznak má truhlu otevřít.“\n\nZadívá se do chodby. „Zámek má dvě západky. Jedna je stavěná na starý odznak; druhou lze odjistit i nově vypilovaným. K truhle se ale musíš nejdřív dostat a přesvědčit ostatní, že ti mohou věřit. Bez toho je odznak jen kusem plechu.“\n\nPochopíš, že spor o odznaky nebude jen otázkou toho, který kus kovu pasuje do zámku."
     },
     "k6-odp-3": {
       "options": [
         {
           "next": "k6-9d",
-          "text": "Poděkovat a odejít do tmy"
+          "text": "Poděkovat a vydat se domů"
         }
       ],
-      "text": "Muž pohlédne na modrou značku na omítce:\n\n„Ta značka nese dvojí význam. Za prvé: ukazuje směr, kudy přitéká čistá říční voda. Za druhé: označuje bezpečnou podzemní stezku pro ty, kdo znají staré vontské značení. Stejná barva, stejný úhel zlomu, stejná ruka.“\n\nDodá téměř s pohnutím: „Naučil jsem se ty značky číst v Podstínadlí na schodišti pod věží kostela. Trvalo to roky, než jsem porozuměl celému systému. Kdo umí značky číst, nikdy v podzemí nezabloudí.“"
+      "text": "Muž pohlédne na modrou značku na omítce.\n\n„Ukazuje dvě věci: směr, odkud přitéká čistá říční voda, a cestu pro ty, kdo znají staré vontské značky. Ta vlnovka a ostrý zlom tam nejsou náhodou.“\n\n„Naučil jsem se je číst v Podstínadlí, na schodišti pod kostelní věží,“ dodá. „Trvalo mi to roky. Kdo se v nich vyzná, má v podzemí podle čeho hledat cestu zpátky.“"
     },
     "k6-odp-4": {
       "options": [
         {
           "next": "k6-9d",
-          "text": "Poděkovat a odejít do tmy"
+          "text": "Poděkovat a vydat se domů"
         }
       ],
-      "text": "„Závěsník byl kluk ze Stínadel, který obsluhoval stavidla,“ řekne muž s tichým úsměvem. „A to je to nejdůležitější, co o něm potřebuješ vědět.“\n\n„Věděl, že komora se napouští zespodu a ne zbrkle shora. Věděl, jak pracovat s tlakem vody, a nikomu neublížil. A když přišly zlé časy a provoz se zastavil, zamkl stavidla a nikomu cizímu neprozradil, jak je otevřít. V tom je víc odvahy než ve velkých slovech.“\n\nPochopíš, že skutečné vontství nespočívá v bitkách na ulicích, ale v odpovědnosti a věrnosti své věci."
+      "text": "„Závěsník pocházel ze Stínadel,“ řekne muž. „V mládí obsluhoval stavidla a znal je lépe než kdokoli jiný.“\n\n„Věděl, jak pomalu napustit komoru a co udělá tlak vody s vraty. Když plavba skončila, stavidla zamkl. O tom, jak se otevírají, už s cizími nemluvil.“\n\nNa otázku, jestli nosil vontský odznak, ti muž neodpověděl. Je však zřejmé, že si závěsníka váží."
     },
     "k6-odp-5": {
       "options": [
         {
           "next": "k6-9d",
-          "text": "Poděkovat a odejít do tmy"
+          "text": "Poděkovat a vydat se domů"
         }
       ],
-      "text": "„Plavební řád držel ten, kdo znal celou cestu vody od vtoku z řeky až po splav v lukách,“ řekne muž. „A nikdo ho neposlouchal, dokud se nestalo neštěstí a voda se neprovalila do sklepů.“\n\nPohlédne na uvolněné koryto pod vámi: „Každý, kdo dnes dokáže projít celý kanál, pochopit jeho zákonitosti a zakreslit ho do mapy, se stává novým strážcem téhle cesty. Rozdíl je jen v tom, jestli máš klíč od stavidla v kapse, nebo odvahu jít po proudu.“\n\nTahle odpověď ti zůstane v hlavě ještě dlouho po návratu domů."
+      "text": "„Měl ho na starosti člověk, který znal cestu od řeky až po splav za Stínadly,“ řekne muž. „Poslouchat ho začali až ve chvíli, kdy se po velké vodě dostala voda do sklepů.“\n\nPodívá se k propusti, kterou jste právě uvolnili. „Takový řád není jen seznam příkazů. Někdo musí vědět, kudy voda prochází a co se stane, když se o cestu nikdo nestará.“\n\nJméno ti neřekl, ale jeho slova si zapamatuješ."
     }
   }
 }
