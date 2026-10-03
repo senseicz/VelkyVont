@@ -8,7 +8,12 @@
       "options": [
         {
           "text": "Přejít ulici a zkusit se dostat k vodě v cizím dvoře hned teď, bez výbavy",
-          "next": "vstup-po-temu"
+          "next": "vstup-po-temu",
+          "lockedIfOwned": [
+            "baterie",
+            "provaz",
+            "kreda"
+          ]
         },
         {
           "text": "Nejprve si obstarat pořádnou výbavu – provaz, křídu a náhradní baterie",
@@ -90,7 +95,7 @@
         },
         {
           "text": "Přelézt plot zpátky k vám domů a ještě si to v pokoji rozmyslet",
-          "next": "rozcestnik-start"
+          "next": "pokoj-po-pokusu"
         }
       ]
     },
@@ -221,7 +226,7 @@
           "text": "Zkontrolovat, že máš všechny čtyři věci"
         },
         {
-          "next": "rozcestnik-start",
+          "next": "pokoj-po-pokusu",
           "text": "Zatím ne. Radši jít domů, ať doma nemají podezření"
         }
       ],
@@ -486,6 +491,29 @@
         {
           "text": "Raději se ještě vrátit na dvůr",
           "next": "k0-hotovo"
+        }
+      ]
+    },
+    "pokoj-po-pokusu": {
+      "text": "Stojíš v pokoji u okna a z nohavic ti ještě vyprchává chlad ze dvora Novákových.\n\nTeď už víš na vlastní kůži, jaké to dole u vody je. Bez světla, bez provazu a bez křídy na zpáteční cestu je vstup pod tu černou klenbu čisté bláznovství.\n\nMáš v zásuvce starou černou svítilnu, ale bez náhradních baterií, provazu a křídy se dál nepohneš. Zbývá jediné: vyrazit do čtvrti a sehnat všechno potřebné. Nebo to celé zabalit a nechat vodu vodou.",
+      "options": [
+        {
+          "text": "Vyrazit do čtvrti sehnat provaz, křídu a náhradní baterie",
+          "next": "k0-1"
+        },
+        {
+          "text": "S kompletní výbavou přelézt plot a vstoupit k vodě",
+          "requires": [
+            "lampa",
+            "baterie",
+            "provaz",
+            "kreda"
+          ],
+          "next": "k1-1"
+        },
+        {
+          "text": "Nechat to být. Ať si voda teče, kudy chce",
+          "next": "nic-1"
         }
       ]
     }

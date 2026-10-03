@@ -124,7 +124,8 @@ graph TD
 - Jarek v noci přeleze plot do Cizího dvora (Bod 3) k dřevěnému schodu u vody.
 - Zkusí nahlédnout do klenutého ústí tunelu.
 - **Okamžité vystřízlivění:** Voda je hluboká, kamenná římsa po dvou metrech končí, panuje absolutní černá tma, ze stropu kape a každé šplouchnutí dělá rámus. Bez světla, provazu a značkování hrozí pád, utopení svítilny a prozrazení.
-- **Výsledek:** Jarek se dobrovolně vrací do pokoje. Pochopí, že do podzemí smí vstoupit až s kompletní výbavou.
+- **Výsledek:** Jarek se dobrovolně vrací do pokoje (`pokoj-po-pokusu`). Pochopí, že do podzemí smí vstoupit až s kompletní výbavou.
+- **Mechanické zamezení opakování:** Po absolvování tohoto pokusu se v pokoji již volba „jít bez výbavy“ nenabízí (hráč má na výběr pouze obstarat výbavu v K0, jít s výbavou, nebo to vzdát). Navíc má volba v úvodním rozcestníku `lockedIfOwned: ["baterie", "provaz", "kreda"]`, takže po získání jakékoliv části výbavy se volba automaticky skryje.
 
 ### Fáze 2: K0 – Obstarání výbavy
 Hráč musí zkompletovat 4 klíčové předměty z různých částí města přes lidi a malé protislužby:
