@@ -1,5 +1,156 @@
 {
   "nodes": {
+    "k5-1": {
+      "options": [
+        {
+          "next": "k5-2",
+          "text": "Neříkat nic, nadzvednout kámen a nahlédnout dolů"
+        },
+        {
+          "next": "k5-1b",
+          "text": "Klidně odpovědět: „Nikdo. Jen mě zajímá, odkud táhne ten chlad.“"
+        }
+      ],
+      "text": "Pod třetím mlýnem je opuštěný dvůr. Vysoká mlýnská zeď vrhá dlouhý stín, zadní vrata jsou zavřená na petlici a uprostřed dlažby leží velký obdélníkový poklop z tmavého pískovce.\n\nNevypadá jako vchod do sklepa ani jako obyčejná kanálová mříž. Je to těžký kamenný kryt nad plavební komorou.\n\nZe spár stoupá chlad hluboké vody.\n\nUž natahuješ ruku k otvoru pro páčidlo, když se shora ozve hlas: „Kdo ti dovolil na to sahat?“\n\nNa zídce naproti sedí starší kluk v montérkách zaprášených uhelným mourem. Nedívá se na tebe, ale na tvou ruku na kameni. Vypadá, jako by právě přišel z práce v Kotlech. Co tu asi hlídá?"
+    },
+    "k5-1b": {
+      "options": [
+        {
+          "next": "k5-2",
+          "text": "Odsunout kamenný poklop a nahlédnout do šachty"
+        }
+      ],
+      "text": "„Ten chlad táhne ze staré komory,“ odsekne kluk. „Už jsi tam někdy byl?“\n\nSeskočí ze zídky na dlažbu. Nesnaží se tě zastrašit, spíš si tě zvědavě prohlíží.\n\n„Já tam nelezu,“ řekne po chvíli. „Ale o té komoře jsem slyšel dost.“\n\nPotom dodá: „Hladina sahá skoro až k hornímu rámu. A dole nemáš kam uskočit. Nelez tam, dokud nevíš, v jakém pořadí se ovládají vrata.“\n\nOtočí se a beze spěchu zmizí v průjezdu. Teď víš alespoň to, že na pořadí záleží."
+    },
+    "k5-2": {
+      "options": [
+        {
+          "next": "k5-3",
+          "text": "Prozkoumat mechanismus ozubeného kola u stropu"
+        },
+        {
+          "next": "k5-3b",
+          "text": "Zkusit otevřít spodní vrata u dna"
+        }
+      ],
+      "text": "Poklop nejde jen tak odsunout. Zapáčíš za jeho roh, pootočíš ho a posuneš stranou. Pod ním se otevře temná šachta, z níž je cítit mokré cihly a staré železo.\n\nKomora dole je asi čtyři metry dlouhá a dva široká. Cihlové stěny pokrývá vlhký mech. U dna jsou zavřená dvoukřídlá dřevěná vrata okovaná železem. Nahoře visí na silných řetězech druhá vrata s protizávažím.\n\nHladina v komoře stojí zhruba metr pod horní hranou. U stropu se rýsuje ozubené kolo se západkou zanesenou starým mazem a rzí. Ze dna poblíž stěny trčí kamenný sloupek s vyrytými ryskami.\n\nVoda v komoře se téměř nehýbe, stejně jako za vraty. Rysky na sloupku ti však prozrazují, kam až může hladina při napouštění vystoupat. Zdymadlo má svá pravidla."
+    },
+    "k5-3": {
+      "options": [
+        {
+          "next": "k5-4",
+          "text": "Zkontrolovat, zda jsou dolní vrata pevně zavřená"
+        },
+        {
+          "next": "k5-zbytek",
+          "text": "Otevřít dolní stavidlo a vpustit vodu dovnitř"
+        },
+        {
+          "next": "k5-zbytek-tyc",
+          "text": "Zatáhnout tyčí rovnou za horní řetěz"
+        },
+        {
+          "next": "k5-4",
+          "requires": [
+            "vetechnik-balicek"
+          ],
+          "text": "Postupovat přesně podle lístku od Vetešníka"
+        }
+      ],
+      "text": "V rohu komory je nad hladinou dřevěná lávka, bývalé stanoviště závěsníka. Vede k ní rezavý železný žebřík zapuštěný do zdi. Na lávce stojí dřevěný pult se zastavenými hodinami a promočeným úředním sešitem.\n\nNa skobě nad pultem visí ovládací tyč s hákem a okem na konci. Je na ní vyražené číslo stanoviště.\n\nPrkna lávky ti pod nohama vržou a prohýbají se. Dlouho se tu zdržovat nemůžeš.\n\nVezmeš tyč, prohlédneš si řetězy a zamyslíš se, co musíš udělat nejdřív."
+    },
+    "k5-3b": {
+      "options": [
+        {
+          "next": "k5-3",
+          "text": "Vylézt na plošinu pro závěsníkovu tyč"
+        }
+      ],
+      "text": "Spodní vrata jsou ponořená u dna a drží nápor vody za komorou. Zkusíš do nich zatlačit nohou, ale ani se nehnou.\n\nOpřeš se do nich celou vahou. Marně. Dřevo je nasáklé a z netěsné spáry mezi křídly prosakuje voda. Na druhé straně je zřejmě vyšší hladina.\n\nOd vrat vedou řetězy přes kladky u stropu k ozubenému kolu se západkou. Vrata se neotvírají silou paží; musíš najít ovládací tyč nahoře na lávce."
+    },
+    "k5-zbytek": {
+      "options": [
+        {
+          "next": "k5-3",
+          "text": "Vzpomenout si na správné pořadí kroků a začít znovu"
+        }
+      ],
+      "text": "Náhlé napouštění komory tě zaskočí.\n\nVe spodní klapce voda krátce zahučí a hladina během několika vteřin stoupne. Ustoupíš na žebřík; voda se rozstříkne o zeď těsně pod tebou.\n\nPak přestane přitékat. Klapka zapadla zpátky do drážky a další vodu nepustí.\n\nStojíš na žebříku nad hladinou a srdce ti tluče až v krku. Klapka zřejmě funguje jako jednosměrný ventil. Bez uzavření dolních vrat a správného napouštění se k horním nedostaneš."
+    },
+    "k5-zbytek-tyc": {
+      "options": [
+        {
+          "next": "k5-3",
+          "text": "Rozhlédnout se a napustit komoru správným stavidlem"
+        }
+      ],
+      "text": "Nasadíš hák tyče do oka řetězu a zabereš. Řetěz se napne a ozubené kolo poskočí o dva zuby. Pak se se skřípotem zasekne.\n\nZabereš znovu. Marně – vrata jsou příliš těžká a řetěz tě táhne k hladině.\n\nTeprve teď si všimneš, že řetěz vede k masivnímu litinovému protizávaží. Aby se horní vrata dala zvednout, musí je voda v napuštěné komoře nadlehčit. Dokud hladina nevystoupá k vyznačené rysce, vlastní silou je nepřemůžeš.\n\nTeď už zbývá jen postupovat ve správném pořadí."
+    },
+    "k5-4": {
+      "options": [
+        {
+          "dice": {
+            "outcomes": [
+              {
+                "from": 1,
+                "next": "k5-voda",
+                "to": 2
+              },
+              {
+                "from": 3,
+                "next": "k5-5",
+                "success": true,
+                "to": 6
+              }
+            ],
+            "sides": 6
+          },
+          "next": "k5-5",
+          "text": "Pustit tyč a rychle vyšplhat na bezpečný břeh"
+        }
+      ],
+      "text": "Voda v komoře začne stoupat. Z napouštěcího otvoru se krátce ozve tlumené hučení; s rostoucí hladinou se mění i zvuk dopadajících kapek.\n\nRysky na kamenném sloupku mizí pod vodou jedna po druhé: 0, 1, 2, 3. Neoznačují metry, ale polohy hladiny v komoře.\n\nNasadíš tyč do oka horního řetězu. Stoupající voda nadlehčuje vrata, takže kolem jde otáčet snáz. Západka se skřípěním přeskakuje zub po zubu.\n\nKdyž voda dosáhne horní rysky, vrata s tichým šplouchnutím povolí a otevřou se do dalšího úseku kanálu. Lávka se při jejich pohybu zachvěje a hladina pod ní se nakrátko zavlní."
+    },
+    "k5-voda": {
+      "options": [
+        {
+          "next": "k5-5",
+          "text": "Rychle vstát a ustoupit do bezpečí horního kanálu"
+        }
+      ],
+      "text": "Lávka pod tebou povolí a ztrouchnivělé prkno praskne! Tyč ti vyklouzne z ruky a ty spadneš po pás do ledové vody.\n\nHladina se kolem otevřených vrat zavlní, ale voda tě nikam neunáší. Šmátráš nohama po kluzkém dně a chlad ti vyráží dech.\n\nK horní obrubě se musíš dostat vlastními silami, jinak zůstaneš v komoře pod rozlámanou lávkou. Zapřeš se nohama o kámen, zachytíš se obruby a vytáhneš se na suchý horní břeh.\n\nChvíli lapáš po dechu. V komoře se hladina po otevření vrat ještě chvěje, ale dál se vydat můžeš."
+    },
+    "k5-5": {
+      "options": [
+        {
+          "next": "k5-6",
+          "text": "Pokračovat korytem dál proti proudu"
+        }
+      ],
+      "text": "Za otevřenými vraty se koryto rozšiřuje. Stěny z mohutných tesaných kvádrů jsou starší než zdivo komory. Podél břehu stojí v pravidelných rozestupech dřevěné kůly, k nimž se kdysi vyvazovaly nákladní šífy.\n\nU kraje téměř nehybné hladiny uvízlo vrbové listí. Na dně leží světlý říční písek a bílý úlomek sladkovodní škeble.\n\nTo není smetí ze stínadelských ulic. Tyhle stopy sem přinesla voda od velké řeky, která kanál stále napájí."
+    },
+    "k5-6": {
+      "options": [
+        {
+          "next": "k5-6b",
+          "text": "Ještě chvíli postát a pozorovat hladinu"
+        },
+        {
+          "next": "rozcestnik",
+          "text": "Vrátit se domů, dokud svítilna ještě svítí"
+        }
+      ],
+      "text": "V šachtě se těžko odhaduje čas. Hodiny na starém pultu stojí a kužel světla ze svítilny ti jen připomíná, že se odsud budeš muset také vrátit.\n\nVoda sem přichází od řeky, ale pohybuje se tak pomalu, že by tě proud nikam nedonesl. Zpátky půjdeš po lávkách a podle značek.\n\nVrata, kůly pro vyvazování lodí a rysky výšky hladiny dávají smysl dohromady: tudy kdysi vedla plavba. Po stavbě přehrady ustala, voda však zůstala.\n\nVytáhneš svou rozkreslenou mapu a zaznamenáš polohu komory. Kolik podobných míst se pod městem ještě skrývá?"
+    },
+    "k5-6b": {
+      "options": [
+        {
+          "next": "rozcestnik",
+          "text": "Vrátit se domů, dokud svítilna ještě svítí"
+        }
+      ],
+      "text": "Stojíš v šeru a nasloucháš. Tady voda necáká ani nebublá. List u břehu se však po chvíli nepatrně posune: kanál stále protéká.\n\nPřiložíš dlaň na vlhkou kamennou stěnu. Necítíš žádné chvění, jen chlad.\n\nV kuželu světla vidíš staré křídové značky táhnoucí se po pravé stěně za ohyb. Ve vzduchu je cítit říční tráva. Někdo tudy chodil a zanechával si znamení, která ti mohou pomoci při návratu.\n\nZakreslíš si jejich polohu i směr vody. Na mapě přibyl další úsek, ale co všechno ještě zbývá prozkoumat, ukáže až příští výprava."
+    },
     "k6-1": {
       "options": [
         {

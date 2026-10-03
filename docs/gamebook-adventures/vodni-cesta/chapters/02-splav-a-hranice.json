@@ -1,0 +1,123 @@
+{
+  "nodes": {
+    "k2-1": {
+      "options": [
+        {
+          "next": "k2-2",
+          "text": "Přelézt zábradlí a slézt po kamenné stěně, dokud je ještě vidět"
+        },
+        {
+          "next": "rozcestnik",
+          "text": "Raději se otočit a vrátit se do známějších ulic"
+        }
+      ],
+      "text": "Tady je kanál otevřený. Neschovává se ve dvorech ani pod sklepy – zařezává se přímo do ulice.\n\nUlice se tu prudce lomí a klesá kamsi dolů. Kamenná dlažba je starší než okolní domy: šedá, ohlazená léty a vlhkem. Dva metry pod úrovní chodníku leží mezi vysokými kolmými stěnami temná, téměř nehybná hladina. Ze směru za městem sem slabě doléhá hukot výtokového splavu, ale tady v ulici je kanál tichý.\n\nPodél hrany chodníku jsou osazena železná oka a visí v nich zrezivělý vodicí řetěz.\n\nTenhle kout Stínadel je podivně tichý. Tři domy, dva z nich mají zabedněná okna a u třetího visí vybledlý plakát, z něhož už nejde nic přečíst. Nikdo tu nenechává stát kárky, nikdo tudy nechodí. Jen pod nohama tušíš dutou kamennou klenbu a vodu skrytou pod dlažbou."
+    },
+    "k2-2": {
+      "options": [
+        {
+          "next": "k2-3",
+          "text": "Postupovat krok za krokem a přidržovat se železných ok"
+        },
+        {
+          "next": "k2-voda",
+          "text": "Skočit do vody a doplavat k ústí – je to přece jen voda"
+        },
+        {
+          "next": "rozcestnik",
+          "text": "Vylézt zpátky na ulici, než se zvedne hladina"
+        }
+      ],
+      "text": "Dole u vody zní vzdálený splav hlasitěji než z ulice. Přímo u tvých bot je však hladina skoro tichá.\n\nJen drobné vlnky u stěny prozrazují, že voda pomalu míří k výtoku za zatáčkou. Koryto je hlubší, než se zdálo shora, a stěny jsou pokryté slizkým mechem, takže se na nich nedá udržet.\n\nVe výšce ramen se táhne řada černých kovaných ok. Tady nejsou rezavá: jsou hladká a lesklá a mizí kdesi ve stínu za zatáčkou. Pod nimi je napnutý ocelový řetěz.\n\nKdyby ses přidržoval ok, mohl bys postupovat krok za krokem po úzké patce. Kdybys ale spadl do vody, v té hloubce a mezi kluzkými stěnami by ses těžko dostal zpátky na břeh."
+    },
+    "k2-voda": {
+      "options": [
+        {
+          "next": "k2-3",
+          "text": "Vyškrábat se na kamenný břeh u ústí"
+        },
+        {
+          "next": "rozcestnik",
+          "text": "Vyšplhat po zdi zpátky nahoru, než tě přemůže zima"
+        }
+      ],
+      "text": "Voda je ledová a mnohem hlubší, než jsi odhadl. Proud tě nikam neunáší; musíš plavat vlastní silou.\n\nNohama marně hledáš dno. Zakloníš hlavu, abys nelapl vodu, a pomalu míjíš mokré kamenné stěny. Zpoza zatáčky už slyšíš splav; před jeho prahem se rýsuje temný obdélníkový otvor.\n\nZabereš vší silou. Podaří se ti zachytit za vyčnívající kvádr u vjezdu do propusti a s heknutím se vyškrábeš nahoru.\n\nTady dole má voda jiný chlad než ve městě. Cítíš v ní zápach tlejícího listí a písku z volné přírody. Plaval jsi v bazénu i na plovárně, ale tam ses mohl kdykoli zachytit okraje; tady je břeh hladký a daleko.\n\nPřece jen jsi to ale zvládl. Jsi na břehu."
+    },
+    "k2-3": {
+      "options": [
+        {
+          "next": "k2-4",
+          "text": "Projít otvorem ven a prozkoumat koryto potoka"
+        },
+        {
+          "next": "rozcestnik",
+          "text": "Otočit se a vydat se proti proudu zpátky do města"
+        }
+      ],
+      "text": "Kamenná zeď sahá až do výše střech přízemních domků. U její paty zeje klenutý otvor – široký na dvě rozpřažené paže a vysoký sotva na výšku dospělého člověka. Přes kamenný práh z něj voda hlučně přepadá ven. Ne do žádné jímky, ale do otevřeného koryta potoka.\n\nZa tím otvorem začíná úplně jiný svět. Potok je mělký, široký na deset kroků a skáče po ohlazených kamenech. Kolem roste tráva a křoviny, a přímo u ústí je břeh udusaný stopami, jako by tudy někdo pravidelně procházel.\n\nTady kanál končí. Není to začátek, je to vyústění.\n\nVoda, která ti doma protéká pod podlahou, tady definitivně opouští Stínadla. Znamená to jediné: voda ve městě nepramení. Tady se její cesta uzavírá."
+    },
+    "k2-4": {
+      "options": [
+        {
+          "next": "k2-5",
+          "text": "Přebrodit potok a pokračovat po druhém břehu dál po proudu"
+        },
+        {
+          "next": "rozcestnik",
+          "text": "Vrátit se do koryta, než se setmí"
+        }
+      ],
+      "text": "Za druhým břehem potoka už nestojí žádné domy. Nejsou tu ani dlážděné dvorky – jen pole, pásmo nízkého křoví, několik starých vrb a za nimi volný obzor.\n\nStínadla tady nekončí vysokou zdí ani plotem. Končí prostě tím, že zástavba ustoupí a začne volná krajina. Mezi vrbami trčí pozůstatek starého přístaviště: betonová rampa se železnými úchyty a dvě ztrouchnivělé dřevěné lávky, které klesají do vody. Nad rampou visí plechová tabule, ze které voda smyla většinu nápisu – zbyla jen dvě nečitelná písmena.\n\nTady kdysi bývalo překladiště. Nákladní čluny sem připlouvaly ze Stínadel a dál už nepokračovaly.\n\nProud tu teče zleva doprava. Zleva, přímo z nitra Stínadel."
+    },
+    "k2-5": {
+      "options": [
+        {
+          "dice": {
+            "outcomes": [
+              {
+                "from": 1,
+                "next": "k2-vytopeny",
+                "to": 2
+              },
+              {
+                "from": 3,
+                "next": "k2-6",
+                "success": true,
+                "to": 6
+              }
+            ],
+            "sides": 6
+          },
+          "next": "k2-6",
+          "text": "Přejít opatrně po kamenech na druhý břeh"
+        },
+        {
+          "next": "k2-6",
+          "text": "Nechat kameny být a obejít to oklikou svahem přes pole"
+        }
+      ],
+      "text": "Cesta zpátky je mnohem náročnější. Cestou tam jsi šel po pevné zemi, teď musíš překonat boční rameno potoka těsně pod splavem. Po řadě velkých kamenů se dá přeskákat na druhý břeh.\n\nSvítilna začíná povážlivě slábnout. Baterie už má to nejlepší za sebou: světelný kužel bledne a dosvítí sotva na dva kroky před tebe.\n\nZa rampou, mezi lávkami, padá voda přes práh splavu do hluboké tůně. Kdybys uklouzl, můžeš do ní sklouznout ze zrádných mokrých kamenů.\n\nNa břehu se zvedá travnatý svah a nahoře za ním už prosvítají první lampy okrajové ulice."
+    },
+    "k2-vytopeny": {
+      "options": [
+        {
+          "next": "k2-6",
+          "text": "Vydat se pomalu a opatrně na zpáteční cestu"
+        }
+      ],
+      "text": "Noha ti uklouzne po zrádném mechu a vteřinu nato sklouzneš po kamenech do vody pod splavem. Tady už není voda tichá: přes práh padá do tůně a pod nohama ti mizí dno.\n\nZkoušíš zabrat, ale dno ti uniká pod nohama. Voda pod splavem tě odnese k mělčině, kde se konečně zachytíš kořenů staré vrby.\n\nS námahou vylezeš na břeh. Jsi promočený až po krk, v botách máš štěrk a bahno, a z kapes ti vytekla voda.\n\nSvítilna v kapse naštěstí přežila, i když v ní slabě chrastí.\n\nVytřepeš z bot vodu a pomalu, krok za krokem, se vydáš k domovu. Tentokrát už bez zbytečného spěchu a opatrně."
+    },
+    "k2-6": {
+      "grant": [
+        "splav"
+      ],
+      "options": [
+        {
+          "next": "rozcestnik",
+          "text": "Schovat mapu a jít domů dřív, než začnou padat nepříjemné otázky"
+        }
+      ],
+      "text": "K večeru dorazíš domů. Boty máš plné písku a na oblečení stopy po cestě kolem vody.\n\nNa mapě dnes přibude pořádný kus trasy. Zaznamenal jsi dolní konec kanálu: vyústění ve staré zdi, potok mizející v polích, starou rampu s polorozpadlými lávkami i mělčinu pod jezem.\n\nPředevším máš v ruce důkaz toho, co jsi dosud jen tušil: voda ve Stínadlech nepramení. Ve Stínadlech její pouť končí.\n\nJestli chceš vypátrat, kudy sem přitéká, musíš se vydat opačným směrem. Zdymadlo i starý vtok leží proti proudu. Další odpovědi leží proti proudu.\n\nNa mapě už to není jen obyčejná čára. Je to šipka mířící zpátky do středu města. Je to zvláštní pocit: odpověď na hádanku leží přímo tam, odkud jsi vyšel."
+    }
+  }
+}

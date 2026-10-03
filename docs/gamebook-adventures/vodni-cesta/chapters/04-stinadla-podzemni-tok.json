@@ -1,24 +1,17 @@
 {
   "nodes": {
     "start": {
-      "grant": [
-        "mapa"
-      ],
+      "text": "Přelezeš plot do Cizího dvora Novákových (Bod 3). V kapse tě hřeje svítilna, provaz a modrá křída.\n\nSeběhneš k dřevěnému schodu u vody. Tentokrát se neotáčíš doleva proti proudu k závalu, ale vydáváš se **doprava po proudu**.\n\nPřed tebou se otevírá široký klenutý oblouk mizející pod základy stínadelských obytných domů. Hladina se téměř nehýbe, ale jemný posun drobných smítek na vodě neomylně ukazuje směr: voda plyne do nitra čtvrti.\n\nPodél pravé stěny vede úzká suchá patka z opracovaných pískovcových kvádrů.",
       "options": [
         {
-          "next": "prulom",
-          "text": "Sestoupit do propadliny, dokud je otevřená"
+          "text": "Vykročit po suché kamenné patce pod základy domů",
+          "next": "u3-domy"
         },
         {
-          "next": "povrch",
-          "text": "Nejprve sledovat vodu na povrchu"
-        },
-        {
-          "next": "priprava",
-          "text": "Radši domů, než se zeptají"
+          "text": "Raději se ještě vrátit přes plot domů",
+          "next": "rozcestnik"
         }
-      ],
-      "text": "Dlažební kostka ti ujede pod nohou. Uskočíš a narazíš zády do vlhké zdi dvora U Tří komínů. Tam, kde jsi ještě před chvílí stál, zeje po nočním lijáku propadlina. Pod vyvrácenou dlažbou se rýsuje starý cihlový oblouk a z hloubky slyšíš slabé kapání do vody. Na krajním pískovcovém kvádru jsou vytesané tři vlnovky.\n\nJe to stejný kanál, jehož hladinu jsi sledoval z okna i v cizím dvoře. Zbývá zjistit, kudy protéká pod základy domů, kde se k němu připojují další větve a jak se k němu bezpečně dostat.\n\nPodzemí se ti už dlouho připomíná kapáním pod pumpami a ve sklepích. Teď z domovnického bytu spěchá domovník se svazkem prken a brumlá, že díru zakryje, než do ní někdo spadne. Dokud je volná, můžeš tudy snadno dolů.\n\nDoma se budou vyptávat na každý tvůj krok."
+      ]
     },
     "prulom": {
       "grant": [
@@ -227,39 +220,16 @@
     },
     "ema": {
       "grant": [
-        "kreda"
+        "svědctvi-emy",
+        "pruchody"
       ],
+      "text": "Vykoukneš ven. Ocitáš se ve **Dvoře Sedmi klik** – uzavřeném, stinném dvorku obklopeném vysokými pavlačovými domy, sklady a dílnami.\n\nPřímo u pumpy uprostřed dvora stojí dívka v tmavém pleteném svetru a s krátkými černými vlasy. V ruce drží těžký plechový kbelík.\n\nKdyž zaslechne skřípnutí vrátek od vody, trhne sebou a kbelík s rachotem dopadne na dlažbu. Zůstane na tebe zírat s otevřenou pusou:\n\n„Co tam dole děláš?! Odtamtud přece nikdo nechodí... Ty jsi přišel podzemím po vodě?!“\n\nJe to **Ema „Špunt“** z rohového bytu v přízemí. Její rodina se do Stínadel přistěhovala teprve před rokem – a právě proto se Ema nestraní cizích věcí a neopakuje prázdné povídačky dospělých.\n\n„Hledám starou vodní cestu,“ řekneš tiše a vystoupíš na dvůr.\n\nEma si tě chvíli měří pronikavým pohledem, pak se na její tváři objeví uznání:\n„Takže ten kanál pod naším sklepem vážně někam vede... Všichni sousedé tvrdí, že je to jen smrdutá stoka, ale já věděla, že ne.“\n\nPřistoupí k vrátkům na náplavku a ukáže ti skrytý železný trn ve zdi:\n„Tadyhle je tajná západka. Když ji zaklapneš, vrátka se dají otevřít i zvenku ze dvora. Hlavní brána na ulici bývá odemčená až do desíti večer. Kdykoliv budeš potřebovat jít k vodě, můžeš chodit tudy přes náš dvůr. A kdyby tě doma hledali, řeknu, že jsi mi pomáhal s uhlím.“",
       "options": [
         {
-          "next": "soutok-pripraveny",
-          "text": "Vstoupit sklepním průlezem"
-        },
-        {
-          "next": "povrchova-mapa",
-          "text": "Nejprve společně zmapovat povrchové vpusti"
-        },
-        {
-          "dice": {
-            "outcomes": [
-              {
-                "from": 1,
-                "next": "zakaz-ema",
-                "to": 2
-              },
-              {
-                "from": 3,
-                "next": "soutok-pripraveny",
-                "success": true,
-                "to": 6
-              }
-            ],
-            "sides": 6
-          },
-          "next": "soutok-pripraveny",
-          "text": "Spustit se starým poklopem"
+          "text": "Poděkovat Emě, projít bránou dvora na ulici a vrátit se domů",
+          "next": "u3-navrat"
         }
-      ],
-      "text": "Ukážeš Emě náčrtek. Sáhne do kapsy pro kousek modré křídy a odvede tě do sklepa jejich domu. Klíč od zadních dvířek má u sebe. Mezi policemi s uhlím odvalí těžkou bednu. Za ní zeje ve zdi otvor, z něhož vane chlad a občas se ozve kapnutí do vody. „Táta říká, že je to větrací šachta,“ zašeptá Ema. „Ale poslouchej.“\n\nDo podzemí můžete vstoupit suchým průlezem, nejprve společně zmapovat povrchové vpusti nebo slézt starým revizním poklopem nad hladinou. Ten ušetří čas, ale jeho železné příčky jsou prorezavělé. Teď neseš odpovědnost i za Emu."
+      ]
     },
     "soutok-nepripraveny": {
       "options": [
@@ -619,6 +589,133 @@
     "zakaz-konec": {
       "ending": true,
       "text": "Vrátíš se promrzlý na kost, bez svítilny a s rozmočeným papírem, ze kterého už nikdo nic nevyčte. Domovník tě přivede za límec až k vašim dveřím a dospělí tentokrát neztrácejí čas vyptáváním.\n\nHned ráno je otvor U Tří komínů zakryt silnými fošnami a zedník díru definitivně zabetonuje. Stojíš na dvoře a sleduješ, jak zednická lžíce zahlazuje poslední stopu po vchodu do podzemí.\n\nOtec položí ruku na čerstvou maltu a řekne tiše: „Tady se už nikdo z vás prohánět nebude.“ V jeho hlase není hněv, jen neoblomná jistota dospělých, kteří chtějí mít klid.\n\nV noci pod podlahou občas zaslechneš kapnutí do vody. Víš, co se tam dole skrývá, a víš, že to není obyčejná stoka. Nemáš ale v ruce jediný důkaz, který bys mohl ukázat ostatním.\n\nKanál zůstane pohřben pod dlažbou Stínadel. Možná jeho tajemství jednou odhalí někdo jiný.\n\n**Konec — Zatopená chodba.**"
+    },
+    "u3-domy": {
+      "text": "Kráčíš po úzké římse hlouběji pod obytný blok. Klenba z tmavých pálených cihel je tu nízká – chvílemi musíš sklonit hlavu, aby sis neotřel čepici o vlhký strop.\n\nPřímo ze stropu klenby ústí staré litinové shozy na popel a světlíky chráněné kovanými mřížemi.\n\nZezhora z vnitřních dvorů doléhají tlumené zvuky běžného dne: vrzání staré pumpy na Ostružnickém dvoře, klapání dřeváků po pavlačích, hádka o prádlo a vzdálený štěkot psa. Každé kovové cinknutí nebo hlasitý krok by se světlíkem donesl rovnou do kuchyní nájemníků.\n\nPohybuješ se neslyšně jako stín. Vlevo ve zdi míjíš nízký zamřížovaný otvor do jakéhosi starého skladiště, zatímco hlavní patka pokračuje dál k rozšířenému podzemnímu výklenku.",
+      "options": [
+        {
+          "text": "Pokračovat neslyšně po hlavní římse k podzemnímu výklenku",
+          "next": "u3-vyklenek"
+        },
+        {
+          "text": "Posvítit si do zamřížovaného bočního otvoru",
+          "next": "u3-sklep"
+        }
+      ]
+    },
+    "u3-sklep": {
+      "text": "Přikrčíš se a posvítíš mříží do boční prostory. Je to starý uhelný sklep se zatopenou podlahou.\n\nVe světle svítilny zahlédneš hromadu zčernalého mouru, dvě rozpadlé dřevěné bedny a starou zrezavělou uhelnou lopatu opřenou o zeď. Na zdi je stará křídová čára označující někdejší stav vody při jarním tání.\n\nŽádný průchod dál odsud nevede, ale je to dobré místo k zapamatování, kdyby ses potřeboval před někým ukrýt. Označíš roh zdiva drobnou modrou křížovou značkou.",
+      "options": [
+        {
+          "text": "Vrátit se na hlavní římsu a pokračovat k výklenku",
+          "next": "u3-vyklenek"
+        }
+      ]
+    },
+    "u3-vyklenek": {
+      "text": "Klenba se náhle rozšiřuje do prostorného bočního výklenku. Kdysi tu zřejmě bývalo malé soukromé přístaviště pro vykládku zboží pod domy.\n\nA přímo u kamenného břehu tě čeká neuvěřitelný nález.\n\nVe slepé zátočině je ke zrezivělému železnému kruhu uvázaná **stará dřevěná pramice s plochým dnem**.\n\nDřevo je zčernalé, popraskané a ztrouchnivělé léty vlhka. Na dně lodi stojí několik centimetrů kalné vody a uvazovací lano je napůl zpráchnivělé, ale trup na první pohled ještě drží pohromadě. Přes lavičky leží položené těžké dubové bidlo se železnou botkou.\n\nHned za výklenkem klenba náhle končí a kanál se otevírá do nebezpečného úseku.",
+      "options": [
+        {
+          "text": "Nahlédnout za roh výklenku a prozkoumat otevřený úsek",
+          "next": "u3-soutka"
+        }
+      ]
+    },
+    "u3-soutka": {
+      "text": "Vystoupíš na samý okraj klenby. Před tebou se otevírá **otevřená soutka** – úzký skalnatý kaňon zaříznutý mezi vysokými slepými štíty uličky Za Prádelnou.\n\nVysoko nad tebou, dobré čtyři metry nad hladinou, je vidět pruh šedého nebe, rezavé pouliční zábradlí a matná plynová lucerna. Z ulice je sem dobře vidět, ale z chodníku dolů nevede žádná cesta.\n\nA co je nejhorší: **zde zcela končí jakákoliv suchá římsa či kamenná patka!**\n\nHladké kamenné zdi padají naprosto kolmo přímo do hluboké, černé vody. Přebrodit se to nedá – voda je tu hluboká přes hlavu a plavání by znamenalo jisté promáčení šatů, zničení sešitu i ztrátu svítilny.\n\nJak soutku překonat a dostat se k dalšímu kamennému oblouku na protější straně?",
+      "options": [
+        {
+          "text": "Odvázat ztrouchnivělou pramici, nasednout a opatrně se odpichovat bidlem",
+          "next": "u3-pramice"
+        },
+        {
+          "text": "Využít staré kované kramle ve stěně a zkusit traverz se zajištěním provazem",
+          "requires": [
+            "provaz"
+          ],
+          "next": "u3-traverz"
+        },
+        {
+          "text": "Netroufat si na to a vrátit se do pokoje",
+          "next": "rozcestnik"
+        }
+      ]
+    },
+    "u3-pramice": {
+      "text": "Opatrně přeřízneš zpráchnivělé lano kapesním nožem a nastoupíš do lodi. Dřevo pod tvou vahou hrozivě zapraští a ztrouchnivělá žebra zasténají.\n\nPramice se však udrží na hladině! Škvírami v prknech sice pomalu prýští tenké pramínky vody, ale dřevo zatím drží.\n\nChytíš do dlaní dubové bidlo. Opatrně se zapřeš o kamenné dno a pomalým, plynulým pohybem loď posuneš vpřed. Vyjedeš ze stínu klenby do otevřené soutky mezi vysoké zdi.\n\nHladina je černá a tichá. Nahoře na ulici někdo projde – slyšíš kroky na dlažbě a klepání hole. Zadržíš dech a nehnutě se tiskneš ke stěně, dokud kroky neutichnou.\n\nDo cíle zbývá dvacet metrů, ale voda v lodi ti už sahá po kotníky a prkna začínají povážlivě měknout.",
+      "options": [
+        {
+          "text": "Zachovat klid, plynule a jemně se odpichovat bidlem ke kamennému oblouku",
+          "next": "u3-naplavka-pramice"
+        },
+        {
+          "text": "Zpanikařit a zkusit se prudce a silou odrazit ke břehu",
+          "next": "u3-pramice-hazard"
+        }
+      ]
+    },
+    "u3-pramice-hazard": {
+      "text": "Zpanikaříš, zapřeš se do bidla celou vahou a prudce zabereš.\n\nOzve se hlasité **KŘUP!** Ztrouchnivělé dno pod nohama povolí. Shnilá prkna prasknou a do lodi se v mžiku nahrne ledová černá voda. Pramice se během dvou vteřin začne potápět jako kámen!\n\nNemáš na výběr – musíš skočit!",
+      "options": [
+        {
+          "text": "Vší silou se odrazit a vrhnout se dopředu k další klenbě",
+          "next": "u3-voda-unik"
+        }
+      ]
+    },
+    "u3-traverz": {
+      "text": "Rozhodneš se neriskovat život na rozpadlé lodi. Vytáhneš z kapsy čtyři metry provazu z Provaznické.\n\nVe stěně nad hladinou jsou v nepravidelných rozestupech zatlučené staré kované kramle a skoby, po nichž kdysi lezli dělníci při opravách zdiva. Provaz protáhneš první skobou a uvážeš si jej kolem pasu jako pojistku.\n\nStoupneš na úzký železný trn a prsty se zaklesneš do spáry mezi kvádry.\n\nTraverz je nesmírně namáhavý. Hladina pod tebou je temná a hluboká, kameny jsou slizké a svaly na rukou tě pálí námahou. Krok za krokem, skobu po skobě se posouváš podél kolmé stěny kaňonu.\n\nProvaz tě drží a dává ti jistotu. Poslední kramle je na dosah.",
+      "options": [
+        {
+          "text": "Soustředit se na poslední krok a přehoupnout se pod kamenný oblouk",
+          "next": "u3-naplavka-traverz"
+        }
+      ]
+    },
+    "u3-voda-unik": {
+      "text": "Dopadneš do ledové vody! Chlad ti okamžitě vyrazí dech z plic a těžké šaty tě táhnou ke dnu.\n\nZoufale zabíráš nohama. Svítilnu a brašnu s mapou držíš v jedné ruce křečovitě vysoko nad hladinou, zatímco druhou rukou hrabeš dopředu. Tma kolem tebe je děsivá a ozvěna tvého šplíchání zní jako hromobití.\n\nPo třech zoufalých tempech naráží tvoje koleno na tvrdý kámen.\n\nPřed tebou z vody stoupají žulové schody! Vrhneš se na ně, vyškrábeš se z vody a padneš na břicho na suchý kámen. Voda z tebe crčí proudem, třepeš se zimou, ale batoh a svítilna to přežily.",
+      "options": [
+        {
+          "text": "Vydechnout si a prohlédnout si místo, kde jsi přistál",
+          "next": "u3-naplavka-vratka"
+        }
+      ]
+    },
+    "u3-naplavka-pramice": {
+      "text": "Zachováš chladnou hlavu. Žádné trhavé pohyby – bidlo kladeš do vody lehce a odpichuješ se jen silou paží.\n\nPramice tichounce klouže po hladině. Voda na dně sice stoupá, ale ztrouchnivělý trup drží pohromadě přesně tak dlouho, jak potřebuješ.\n\nPříď lodi měkce vpluje pod další klenutý kamenný oblouk na konci soutky a narazí na kamennou mělčinu.\n\nVystoupíš na suchou zem dřív, než vrak dosedne na dno. Šaty máš suché, svítilna i sešit jsou v naprostém bezpečí!",
+      "options": [
+        {
+          "text": "Rozhlédnout se po klenutém prostoru",
+          "next": "u3-naplavka-vratka"
+        }
+      ]
+    },
+    "u3-naplavka-traverz": {
+      "text": "Poslední pevný stisk prstů, zhoupnutí na provaze a dopad na pevný kamenný sokl pod dalším klenutým obloukem!\n\nOdvazuješ provaz ze skoby a rychle jej smotáš zpět do kapsy. Srdce ti divoce buší, ale dokázal jsi to – překonal jsi otevřený kaňon soutky čistě, tiše a bez jediné kapky vody na šatech.\n\nPosvítíš před sebe a zjišťuješ, kde ses to ocitl.",
+      "options": [
+        {
+          "text": "Prozkoumat kamenné schodiště před sebou",
+          "next": "u3-naplavka-vratka"
+        }
+      ]
+    },
+    "u3-naplavka-vratka": {
+      "text": "Za soutkou se koryto rozšiřuje do tichého kamenného přístavu.\n\nPřímo před tebou stoupá z vody **šest masivních žulových schodů**. Na zdi vedle nich visí těžký uvazovací kruh a nad nejvyšším schodem jsou vsazena nízká dřevěná vrátka s kovanou petlicí.\n\nTohle je stará náplavka! Místo, kudy se z podzemního kanálu dalo vyjít přímo na povrch čtvrti.\n\nŠkvírou pode dveřmi prosvítá teplé žluté světlo a je slyšet pravidelné vrzání železné pumpy. Přistoupíš k vrátkům a opatrně zvedneš petlici. Dřevo tiše skřípne a vrátka se pootevřou.",
+      "options": [
+        {
+          "text": "Vyhlédnout pootevřenými vrátky ven",
+          "next": "ema"
+        }
+      ]
+    },
+    "u3-navrat": {
+      "text": "Projdeš průjezdem Dvora Sedmi klik volně na stínadelskou ulici. Žádné přelézání cizích plotů, žádné schovávání před sousedy!\n\nDoma v pokoji si sedneš ke stolu a otevřeš sešit s mapou.\n\nDnešní výprava přinesla obrovský průlom:\n- Zmapoval jsi celý **Úsek 3**: klenby pod obytnými domy se shozy na popel i nebezpečnou Otevřenou soutku bez říms.\n- Získal jsi na svou stranu Emu a znáš tajné průchody kolem Dvora Sedmi klik.\n- A především: na mapě ti přibyl stálý, bezpečný přístupový bod: **Bod 4 – Stará náplavka (Dvůr Sedmi klik)**!\n\nOdtud můžeš příště pokračovat přímo dál po proudu, aniž bys musel znovu riskovat plavbu soutkou.",
+      "options": [
+        {
+          "text": "Sednout si k rozkreslené mapě a naplánovat další krok",
+          "next": "rozcestnik"
+        }
+      ]
     }
   }
 }

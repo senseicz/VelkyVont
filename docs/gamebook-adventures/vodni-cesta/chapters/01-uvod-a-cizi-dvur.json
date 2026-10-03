@@ -1,0 +1,493 @@
+{
+  "nodes": {
+    "rozcestnik-start": {
+      "text": "Stojíš v pokoji u okna. Do večera zbývá ještě pár hodin. Na druhé straně ulice leží za dřevěným plotem cizí dvůr Novákových a v něm tichá, hluboká hladina.\n\nMáš v zásuvce starou černou svítilnu se spraveným vypínačem a v hlavě spoustu nezodpovězených otázek. Z okna vidíš dřevěný schod u vody a kamennou římsu mizející pod temnou klenbou.\n\nMůžeš tam vklouznout hned teď, tak jak jsi. Nebo si nejprve sehnat pořádnou výbavu, abys v podzemí neriskoval krk. A nebo se na celou věc vykašlat a jít s kluky ven.",
+      "grant": [
+        "lampa"
+      ],
+      "options": [
+        {
+          "text": "Přejít ulici a zkusit se dostat k vodě v cizím dvoře hned teď, bez výbavy",
+          "next": "vstup-po-temu"
+        },
+        {
+          "text": "Nejprve si obstarat pořádnou výbavu – provaz, křídu a náhradní baterie",
+          "next": "k0-1"
+        },
+        {
+          "text": "S kompletní výbavou přelézt plot a vstoupit k vodě",
+          "requires": [
+            "lampa",
+            "baterie",
+            "provaz",
+            "kreda"
+          ],
+          "next": "k1-1"
+        },
+        {
+          "text": "Nechat to být. Ať si voda teče, kudy chce",
+          "next": "nic-1"
+        }
+      ]
+    },
+    "nic-1": {
+      "options": [
+        {
+          "next": "k0-1",
+          "text": "Přece jen sehnat provaz a podívat se dolů"
+        },
+        {
+          "next": "k0-1",
+          "text": "Začít až po vyučování, kdy můžeš sehnat i baterie"
+        },
+        {
+          "next": "nic-2",
+          "text": "Zůstat doma. Voda nikam neuteče"
+        }
+      ],
+      "text": "Necháš to být – ale ne tak docela, jak sis namlouval.\n\nŘekl sis „dneska ne“, ne „nikdy“. A v tom je rozdíl, o kterém doma za celý večer nepadne ani slovo, ale který ti pořád vrtá hlavou. Přemýšlíš o té větě, kterou jsi rodičům neřekl: že by ses tam dolů podíval hned, kdyby ti v tom nebránil ten jejich zákaz.\n\nZe dvora občas slabě šplouchne voda o kámen. Ne hlasitěji než včera. Kdybys na ni nedával pozor, přeslechl bys ji. Jako by o tobě ani nevěděla."
+    },
+    "nic-2": {
+      "options": [
+        {
+          "next": "k0-1",
+          "text": "Vyrazit hned, než padne šero"
+        },
+        {
+          "next": "rozcestnik-start",
+          "text": "Vrátit se k plánům, až budeš připravený"
+        },
+        {
+          "next": "nic-3",
+          "text": "Nechat to plavat. Kdybys chtěl, dokázal bys to"
+        }
+      ],
+      "text": "Příštího dne vypadá všechno jinak, i když se vlastně nic nezměnilo.\n\nDnes je v ulicích méně lidí. A právě v tu chvíli, kdy v ulicích nikdo není, je nejlákavější nikam nechodit a nic neřešit. To ví každý kluk odmalička. Nevypadá to jako zbabělost – vypadá to jako obyčejné rozhodnutí, které nikomu nemusíš vysvětlovat.\n\nKolo od Nováků stojí na dvoře s prázdnou duší, protože ji nikdo nikdy nenapumpuje. Kdybys chtěl, mohl bys na něj sednout a jet. Jenže ty jen stojíš.\n\nKdybys chtěl. V tom slově vězí úplně všechno."
+    },
+    "nic-3": {
+      "options": [
+        {
+          "next": "rozcestnik-start",
+          "text": "Ještě si to rozmyslet a počkat do zítřka"
+        },
+        {
+          "next": "kino",
+          "text": "Koupit lístek a jít do sálu"
+        }
+      ],
+      "text": "Kino je na druhé straně Rozdělovací třídy a odpolední představení začíná ve čtyři. Přesně v tu chvíli, kdy už by mělo být rozhodnuto.\n\nVlastně už ses rozhodl. To je na tom to nejzvláštnější: neřekneš si přímo „ne“, řekneš si jen „vždyť to nespěchá“. Přesně takhle to dělají dospělí, když odsouvají věci, do kterých se jim nechce.\n\nV kapse máš pár drobných na lístek. V druhé kapse kapesní nůž. V kině je zakázáno kouřit a před plátnem všichni způsobně ztichnou.\n\nBiograf má dva sály a v tom menším je ještě pár volných sedadel."
+    },
+    "kino": {
+      "ending": true,
+      "text": "Na plátně běží film o vlacích. Lidé v něm také nevědí, kam jedou – prostě jedou, protože souprava jede. Když v sále zhasnou světla, přestaneš na podzemí myslet.\n\nDomů se nevracíš nejratší cestou, ale přes nábřeží. U říční zdi se na dvě minuty zastavíš a díváš se na pomalou hladinu. Nic nemusíš. Dnes večer nemusíš vůbec nic.\n\nDo své ulice dorazíš za tmy. V protějším okně už je zhasnuto, ačkoli předtím se tam svítilo. Někdo v tom dvoře byl. Někdo tam bude i zítra ráno a potom zase, a ty se nikdy nedozvíš, kdo to byl, protože ti to nikdo nepoví.\n\nV pokoji na stole leží čistý sešit s bílými stránkami. Můžeš ho zastrčit do zásuvky pod postel, kde odpočívá svítilna, nebo ho nechat ležet.\n\nNecháš ho ležet. To je celé rozhodnutí: ne dnes a ne tady.\n\nPach kouře z kina tě provází celou cestu domů. Na hranici Stínadel vyprchá.\n\nA pak už chodíš do kina pravidelně. V pátek, v sobotu, s kluky ze třídy, se kterými se mluví o úplně jiných věcech než o vodě pod podlahou. Jen občas, když udeří mráz a ulice ztichne, zaslechneš u sklepní mříže tiché kapnutí. Přichází z úplně jiného směru, než bys čekal. V duchu si řekneš „to asi teče ta voda“ a jdeš dál.\n\nŽiješ ve Stínadlech dál. A voda pod domem má pořád stejnou hladinu, stejnou šířku a stejný směr. A v celé čtvrti nikdo neví, že ses na ni kdy chtěl zeptat.\n\n**Konec — Běžný chlapec.**"
+    },
+    "vstup-po-temu": {
+      "text": "Rozhodneš se nečekat. Přelezeš nízký dřevěný plot a vklouzneš do cizího dvora Novákových úplně bez výbavy – jen ve svých běžných šatech a s prázdnými kapsami.\n\nSeběhneš po udusané hlíně k vodě a stoupneš si na dřevěný schod. Hladina je temná, téměř nehybná a vyzařuje z ní pronikavý chlad. Zkusíš udělat krok vpřed na kamennou patku pod klenbou.\n\nJenže kamenná římsa po dvou krocích náhle končí a padá strmě do hloubky. Dál už je jen černá, ledová voda a absolutní tma.\n\nNatažená ruka nenahmatá nic než kluzkou, mechem obrostlou zeď. Ze stropu kape a sebemenší šplouchnutí tvé boty se pod kamennou klenbou rozléhá s děsivou ozvěnou, která by mohla vzbudit půlku domu. Bez světla nevidíš ani na krok, bez provazu by tě pád do vody uvěznil mezi kolmými stěnami a bez křídy bys po pár metrech ztratil pojem o tom, kde je východ.\n\nPo zádech ti přeběhne mráz. Vystřízlivíš během několika vteřin. Srdce ti buší v krku, když se opatrně vydrápeš zpátky na schod a přelezeš plot zpátky k vašemu domu.\n\nByla to klukovská pošetilost. Do podzemí k vodě se v žádném případě nedá lézt bez pořádné výbavy – potřebuješ spolehlivé světlo, náhradní baterie, provaz pro jištění a křídu na značení cesty.",
+      "options": [
+        {
+          "text": "Vrátit se domů a sehnat potřebnou výbavu",
+          "next": "k0-1"
+        },
+        {
+          "text": "Zatím zůstat v pokoji a promyslet to",
+          "next": "rozcestnik-start"
+        }
+      ]
+    },
+    "rozcestnik": {
+      "text": "Sedíš u stolu ve svém pokoji a před tebou leží rozkreslený plán v sešitě.\n\nNa mapě máš zanesené první výchozí místo: **Bod 3 – Cizí dvůr Novákových**.\n\nZnáš už úsek proti proudu, který končí závalem pod Rozdělovací třídou. Teď se nabízí vydat se opačným směrem – **po proudu pod stínadelské domy**. Nebo se nejprve porozhlédnout na povrchu a zjistit, co o staré plavbě vědí lidé ve městě.\n\nKam povede tvůj další krok?",
+      "options": [
+        {
+          "text": "Bod 3 (Cizí dvůr) – po proudu pod obytné domy k soutce",
+          "showAfterAny": [
+            "k1-4"
+          ],
+          "next": "start",
+          "lockedIfOwned": [
+            "svědctvi-emy"
+          ]
+        },
+        {
+          "text": "Bod 4 (Stará náplavka u Dvora Sedmi klik) – po proudu do Cechovní síně",
+          "showAfterAny": [
+            "u3-navrat"
+          ],
+          "next": "sedm-klik"
+        },
+        {
+          "text": "Zajít do školy za Lukášem – vyptat se na řeku a přehradu za Rozdělovací třídou",
+          "showAfterAny": [
+            "k1-4"
+          ],
+          "next": "k3-1"
+        },
+        {
+          "text": "Zajít do Lampářské ulice za Vetešníkem – v cizím dvoře ses doslechl, že vykupuje věci ze staré plavby",
+          "showAfterAny": [
+            "k1-rozhovor",
+            "ema"
+          ],
+          "next": "k4-1"
+        },
+        {
+          "text": "Ke splavu na okraji města, kde voda opouští Stínadla",
+          "requires": [
+            "lampa"
+          ],
+          "showAfterAny": [
+            "k1-4"
+          ],
+          "next": "k2-1"
+        },
+        {
+          "text": "Do Kotlů k dolnímu zdymadlu a staré slévárně",
+          "requires": [
+            "lampa"
+          ],
+          "showAfterAny": [
+            "k2-6",
+            "k4-4"
+          ],
+          "next": "k5-1"
+        },
+        {
+          "text": "Do zatopeného doku Staré slévárny v Kotlech",
+          "requires": [
+            "vetechnik-balicek"
+          ],
+          "showAfterAny": [
+            "k4-4"
+          ],
+          "next": "k6-1"
+        },
+        {
+          "text": "Vzhůru proti proudu k hornímu zdymadlu za Rozdělovací třídou",
+          "requires": [
+            "lampa"
+          ],
+          "showAfterAny": [
+            "k5-6"
+          ],
+          "next": "k8-1"
+        },
+        {
+          "text": "Na nábřeží k místu, kde voda vtéká do podzemí z řeky",
+          "showAfterAny": [
+            "k8-7",
+            "ricni-mriz"
+          ],
+          "next": "k9-1"
+        },
+        {
+          "text": "Rozložit mapu a zhodnotit dosavadní nálezy",
+          "showAfterAny": [
+            "k9-4"
+          ],
+          "next": "bilance"
+        }
+      ]
+    },
+    "k0-1": {
+      "options": [
+        {
+          "next": "k0-provaz",
+          "lockedIfOwned": [
+            "provaz"
+          ],
+          "text": "Zajít na Provaznickou pro kus lana"
+        },
+        {
+          "next": "k0-kreda",
+          "lockedIfOwned": [
+            "kreda"
+          ],
+          "text": "Zaběhnout do Kotlů pro křídu"
+        },
+        {
+          "next": "k0-baterie",
+          "lockedIfOwned": [
+            "baterie"
+          ],
+          "text": "Stavit se ve škole pro baterie"
+        },
+        {
+          "next": "k0-hotovo",
+          "requires": [
+            "lampa",
+            "baterie",
+            "provaz",
+            "kreda"
+          ],
+          "text": "Zkontrolovat, že máš všechny čtyři věci"
+        },
+        {
+          "next": "rozcestnik-start",
+          "text": "Zatím ne. Radši jít domů, ať doma nemají podezření"
+        }
+      ],
+      "text": "Svítilnu už máš doma. Zbývá sehnat tři věci – provaz, křídu a náhradní baterie.\n\nProvaz musí mít aspoň čtyři metry a musí být pevný a tenký, jaké pletou na Provaznické. Křída musí být modrá, protože její značka vynikne na mokrém šedém kameni i ve světle svítilny – a v Kotlech jí leží na lavici celá hromada pro každého, kdo přijde. Baterie do svítilny v obchodě nekoupíš, ale ve školním kabinetě jich v krabici leží víc, než kolik jich škola kdy spotřebuje.\n\nTo je celý seznam. Není složitý ani dlouhý. Jen jsou ty věci rozeseté po čtvrti – dvě ulice odsud, u Rozdělovací třídy a v kotelně s hučící pecí.\n\nVšechna ta místa znáš. A na dvou z nich už na tebe někdo čeká."
+    },
+    "k0-provaz": {
+      "options": [
+        {
+          "next": "k0-provaz-rovina",
+          "text": "Slušně pozdravit a říct na rovinu: „Paní Havlíčková, potřeboval bych čtyři metry pevné šňůry.“"
+        },
+        {
+          "next": "k0-provaz-pomoc",
+          "text": "Nabídnout pomoc: „Kdybyste měla kousek provazu, pomůžu vám nanosit uhlí.“"
+        },
+        {
+          "next": "k0-provaz-plot",
+          "text": "Zkusit provaz z plotu rychle strhnout a vzít nohy na ramena"
+        }
+      ],
+      "text": "Provaznická ulice leží dvě křižovatky od vašeho domu a vypadá stejně jako zbytek Stínadel: úzké průchody, sušící se prádlo, temné pavlače. Jen tu na každém druhém zábradlí visí provazy, motouzy a zbytky lan, která nikdo neschovává, protože se tu odjakživa pletou.\n\nU domku paní Havlíčkové visí na dřevěném plotě klubko starého, tenkého provazu a za plaňkami je slyšet tiché šustění.\n\nPřijdeš k brance a zatáhneš za starý drátěný zvonek. Za dveřmi na pavlači zašoupou pantofle, klapne petlice a ve škvíře se objeví vrásčitá tvář staré ženy.\n\n„Kdo je tam a co tu chceš?“ změří si tě podezíravým pohledem."
+    },
+    "k0-provaz-plot": {
+      "options": [
+        {
+          "next": "k0-1",
+          "text": "Vrátit se s nepořízenou zpět"
+        }
+      ],
+      "text": "Než stačí otevřít víc, natáhneš ruku k plotu a pokusíš se klubko provazu prostě strhnout z hřebíku a zmizet.\n\nJenže provaz je pevně zaklesnutý a zatáhnutí za plot rozcinká zavěšené plechovky.\n\n„Koukej ty spratku mazat!“ vyrazí stará žena nečekaně zvonivým hlasem a z protějšího okna v přízemí okamžitě vykoukne soused v zástěře: „Kdo to tam sahá na cizí plot?!“\n\nV tu ránu ti dojde, jakou hloupost jsi udělal. Na cizí se ve Stínadlech nesahá – tady o tobě všichni vědí dřív, než stačíš zahnout za roh.\n\nPustíš provaz a vezmeš nohy na ramena. Pro provaz se sem budeš muset vrátit a zkusit to poctivě."
+    },
+    "k0-provaz-pomoc": {
+      "options": [
+        {
+          "grant": [
+            "provaz"
+          ],
+          "next": "k0-1",
+          "text": "Vzít provaz a spěchat zpět"
+        }
+      ],
+      "text": "Paní Havlíčková se chytí za kříž a v očích jí blýskne: „Nanosit uhlí? To by se mi věru hodilo, chlapče. Ty strmé schody do sklepa už mi dávno nedělají dobře.“\n\nUkáže ti na těžké dřevěné uhláky u kůlny. Než stačíš cokoliv namítnout, strávíš dvacet minut taháním černého mouru ze sklepa až nahoru na pavlač. Prsty máš černé a paže tě bolí, ale práce je hotová.\n\nStará žena ti podá hrnek vody a pak ze skříně vytáhne poctivý kus pevného tenkého lana: „Tady máš. Odvedl jsi kus práce, tak si ho zasloužíš. Ale pamatuj – příští neděli večer mi přijdeš pomoct ještě se dřevem, platí?“\n\nPřikývneš. Slovo ve Stínadlech platí, ať se děje cokoliv."
+    },
+    "k0-provaz-rovina": {
+      "options": [
+        {
+          "grant": [
+            "provaz"
+          ],
+          "next": "k0-1",
+          "text": "Schovat provaz do kapsy a jít"
+        }
+      ],
+      "text": "Paní Havlíčková se na tebe upřeně zadívá. Chvíli tě zkoumá, jako by v tvém obličeji hledala známé rysy, pak její pohled trochu změkne.\n\n„Ty jsi přece od sousedů,“ pokývne hlavou. „Můj muž míval v dílně celá klubka. Většina sice shořela při požáru na dvoře, ale v truhle ještě něco zbylo.“\n\nNa chvíli zmizí v chodbě a v tom tichu za zadní zdí domu zaslechneš slabé šplouchnutí vody o kámen.\n\nKdyž se vrátí, drží v ruce čtyři metry tenké, neobyčejně pevné pletené šňůry. Ustřihne ji těžkými krejčovskými nůžkami: „Tenhle provaz ti postačí. Ale ten na plotě nikdy neber; na něm suším těžké kabáty.“\n\nPak se na tebe upřeně podívá a dodá přísným tónem: „A ať se s ním nedostaneš do žádné šlamastyky.“"
+    },
+    "k0-kreda": {
+      "options": [
+        {
+          "next": "k0-kreda-rovina",
+          "text": "Říct na rovinu: „Hledám kousek modré křídy z ponku.“"
+        },
+        {
+          "next": "k0-kreda-pomoc",
+          "text": "Nabídnout okamžitou pomoc: „Potřebuju křídu – pomůžu ti zatím přihodit uhlí.“"
+        },
+        {
+          "next": "k0-kreda-tajne",
+          "text": "Zkusit se nepozorovaně protáhnout k ponku a vzít křídu bez ptaní"
+        }
+      ],
+      "text": "Kotly nejsou obyčejný dvůr, ale stará kotelna – mohutná cihlová budova s vysokým kouřícím komínem, která zásobuje vroucí vodou a párou velkou stínadelskou prádelnu a sousední dílny v bloku. Hukot pecí a syčení ventilů spolehlivě přehluší každý krok. U vchodu stojí hrubá ponková lavice a na ní leží hromádka modré křídy nalámané na špalíčky, vedle rýsovacích jehel a montážních klíčů.\n\nU otevřených dvířek jedné z pecí stojí v zaprášené vestě starší kluk a opírá se o velkou uhelnou lopatu. Tátu tu nevidíš – ten má dneska noční směnu.\n\nKluk si tě změří pohledem přes sálající žár: „Co se tu motáš? Jestli hledáš tátu, ten přijde až na desátou.“"
+    },
+    "k0-kreda-pomoc": {
+      "options": [
+        {
+          "grant": [
+            "kreda"
+          ],
+          "next": "k0-1",
+          "text": "Vzít křídu a vyrazit zpět"
+        }
+      ],
+      "text": "Kluk se zazubí: „To beru. Zrovna mi dohořívá rošt a záda mám jak z ocele.“\n\nPodá ti menší plechovou lopatu a ukáže na hromadu černého mouru. Deset minut se oháníš před sálajícím jícnem pece, až tě pálí tváře a po zádech ti stéká pot. Vházíš dovnitř půl vozíku, než kluk zkontroluje tlakoměr a spokojeně přikývne.\n\n„Dobrý, to udrží tah. Tady máš za odměnu.“ Odběhne k ponku a vybere ti z krabičky dva nejdelší a nejtvrdší kousky modré křídy.\n\n„Zasloužil sis je poctivě. Takhle se na tebe nikdo nemůže křivě podívat.“\n\nOtřeš si černé dlaně do kalhot. Křídu máš poctivě odpracovanou a nikdo ti nemůže vyčíst ani slovo."
+    },
+    "k0-kreda-rovina": {
+      "options": [
+        {
+          "grant": [
+            "kreda"
+          ],
+          "next": "k0-1",
+          "text": "Schovat křídu a vyrazit zpět"
+        }
+      ],
+      "text": "Kluk se ušklíbne, utře si čelo zaprášeným předloktím a kývne k lavici:\n\n„Modrou? To lezeš někde po značkách, co? Bílá je na nic, ta hned oprší, ale modrá na vlhkém kameni drží jako přibitá.“\n\nSáhne na ponk a podá ti dva pevné špalíčky.\n\n„Ber, dokud tu není mistr. A hlavně s tím nečmárej po domovních vratech, ať sem nechodí lidi z ulice nadávat.“\n\nSchováš křídu hluboko do kapsy. Drží na kameni i na vlhké římse a ve tmě se dá nahmatat i prsty. Máš přesně to, pro co jsi přišel."
+    },
+    "k0-kreda-tajne": {
+      "options": [
+        {
+          "next": "k0-1",
+          "text": "Vrátit se s nepořízenou zpět"
+        }
+      ],
+      "text": "Využiješ toho, že se kluk otočil k uhláku, a zkusíš proklouznout kolem stěny přímo k ponku.\n\nUž už natahuješ ruku po modrém špalíčku, když vtom z bočních dveří od dílny vyjde starý směnmistr s plechovým hrnkem v ruce – parťák tvého táty z noční směny.\n\nOkamžitě tě zmerčí: „Hele! Ty jsi přece Jarek, syn našeho topiče! Co tady šmejdíš kolem nářadí? Mazej odsud na vzduch, než to řeknu tvýmu tátovi! Víš moc dobře, že cizí kluci do kotelny nesmí!“\n\nNež stihne položit hrnek a vyjít k tobě, otočíš se a bleskově vyrazíš otevřenými vraty ven na dvůr.\n\nKapsy máš prázdné a srdce ti tluče až v krku. Takhle to nepůjde – pro křídu se budeš muset vrátit a domluvit se s klukem u pece otevřeně."
+    },
+    "k0-baterie": {
+      "options": [
+        {
+          "next": "k0-baterie-rovina",
+          "text": "Říct mu na rovinu: „Potřebuju dvě baterie do svítilny.“"
+        },
+        {
+          "next": "k0-baterie-pomoc",
+          "text": "Nabídnout mu za baterie pomoc s třídním výkazem"
+        },
+        {
+          "next": "k0-baterie-cekani",
+          "text": "Počkat za rohem, až odejde, a vzít si baterie z police potom"
+        }
+      ],
+      "text": "Kabinet pomůcek ve škole je malá místnost za tělocvičnou. Je v něm naskládáno všechno, co ještě nikdo nevyhodil: vypsané sešity, dřevěné špalíky, švihadla – a také krabice s plochými bateriemi, které tam leží bez užitku.\n\nPo vyučování se sem dá nepozorovaně vklouznout, jakmile učitelé odejdou.\n\nU dveří kabinetu však dnes stojí Lukáš – zrovna na něj vyšla řada s odnášením třídní knihy. Když tě spatří, překvapeně povytáhne obočí: „Co tady ještě děláš?“\n\nKrabice s bateriemi leží přímo za ním na polici. Projít kolem něj jen tak nepůjde – budeš s ním muset promluvit, nebo vymyslet něco jiného."
+    },
+    "k0-baterie-cekani": {
+      "options": [
+        {
+          "next": "k0-1",
+          "text": "Vrátit se s nepořízenou zpět"
+        }
+      ],
+      "text": "Ucouvneš za roh chodby a čekáš, až Lukáš zamkne a zmizí. Jenže Lukáš nikam nespěchá – sedne si na dřevěnou lavičku u šaten, otevře desky a začne se pomalu probírat papíry.\n\nO minutu později navíc z přízemí zazní známé zachrastění svazku klíčů a těžké kroky školníka, který zahajuje odpolední obchůzku.\n\nTady už nic nevymyslíš. Než tě školník načapá a bude se vyptávat, co pohledáváš u zamčených kabinetů, musíš rychle vyklouznout bočním vchodem na školní dvůr.\n\nBez baterek a s prázdnýma rukama. Budeš to muset zkusit znovu a tentokrát s Lukášem raději rovnou promluvit."
+    },
+    "k0-baterie-pomoc": {
+      "options": [
+        {
+          "grant": [
+            "baterie"
+          ],
+          "next": "k0-1",
+          "text": "Vrátit se s bateriemi zpět"
+        }
+      ],
+      "text": "Lukáš se podívá na tlustou třídní knihu v podpaží a v obličeji se mu mihne úleva. Počítání zameškaných hodin a přepisování výkazů je ta nejotravnější služba v celém pololetí.\n\n„Platí,“ kývne bez váhání. Otočí se, hrábne do krabice na polici a podá ti dvě těžké ploché baterie. „Ale před příštím vyučováním na tebe spoléhám. A bacha – leží tu už dlouho, moc nevydrží.“\n\nRychle je schováš do kapsy kabátu, než by se na chodbě mohl někdo objevit.\n\nDomluveno. Baterie máš v kapse a dluh splatíš před příštím vyučováním."
+    },
+    "k0-baterie-rovina": {
+      "options": [
+        {
+          "grant": [
+            "baterie"
+          ],
+          "next": "k0-1",
+          "text": "Vrátit se s bateriemi zpět"
+        }
+      ],
+      "text": "Lukáš tě chvíli zkoumavě pozoruje, pak bez dlouhých řečí sáhne za sebe do police a vytáhne z krabice dva ploché články.\n\n„Máš doma baterku, viď?“ zeptá se tiše. Přikývneš. „Tak bacha, tyhle staré články vydrží tak dva večery a zhasnou zrovna ve chvíli, kdy to nejmíň potřebuješ.“\n\nChvíli mlčí a pak se zvědavě ušklíbne: „Snad nelezeš do nějakých sklepů?“\n\n„Kdepak,“ zalžeš rychle.\n\n„Jasně,“ mávne rukou, ale v očích mu blýskne. „Tady nahoře to stejně nikoho nezajímá.“ Přivře dveře kabinetu a tím je celá věc vyřízená.\n\nV kapse tě hřejí dvě baterie a můžeš se vrátit k dalším přípravám."
+    },
+    "k0-hotovo": {
+      "text": "Na stole v pokoji leží všechny čtyři věci pohromadě:\n- Černá svítilna s opraveným vypínačem.\n- Krabička se dvěma náhradními bateriemi od Lukáše.\n- Čtyři metry tenkého, pevného provazu z Provaznické.\n- Špalíček modré kotelnické křídy, která drží na mokrém kameni.\n\nV kapse tě příjemně tíží. Teď už to není bezhlavý skok do tmy, ale skutečná, připravená výprava.\n\nZbývá jediné: počkat na vhodnou chvíli, překonat plot do cizího dvora a vstoupit k vodě.",
+      "options": [
+        {
+          "text": "Vyrazit s výbavou do cizího dvora k vodě",
+          "next": "k1-1"
+        },
+        {
+          "text": "Odložit výpravu na zítřek a zatím zůstat doma",
+          "next": "rozcestnik-start"
+        }
+      ]
+    },
+    "k1-1": {
+      "text": "Přelezeš dřevěný plot Novákových. Na dvoře visí prádlo, ale u pootevřených dveří zadní kůlny se svítí a zevnitř se ozývají tlumené hlasy dvou dospělých.\n\nPřímo před tebou leží dřevěný schod vedoucí dolů k vodě, kde se v šeru tiše leskne hladina.\n\nMůžeš tiše proklouznout rovnou k vodě, nebo se na chvíli přikrčit za sudem a zjistit, kdo to v kůlně mluví.",
+      "options": [
+        {
+          "text": "Přikrčit se za sudem na dešťovou vodu a poslechnout si rozhovor",
+          "next": "k1-rozhovor"
+        },
+        {
+          "text": "Nevšímat si jich, tiše seběhnout k dřevěnému schodu a vstoupit k vodě",
+          "next": "k1-1b"
+        },
+        {
+          "text": "Raději se ještě vrátit přes plot zpátky",
+          "next": "k0-hotovo"
+        }
+      ]
+    },
+    "k1-voda": {
+      "text": "Sestoupíš ze schodu přímo do vody. Chlad ti okamžitě sevře nohy a nohavice ztěžknou. Voda ti sahá nad kolena, dno je však překvapivě pevné – nejsou tu žádné nánosy bahna, ale vyskládané kamenné kvádry.\n\nSvítilnu držíš pevně v suché ruce vysoko nad hladinou. Postupuješ krok za krokem proti mírnému tahu vody, až narazíš na vyvýšenou suchou patku zdiva, na kterou se s námahou vytáhneš.\n\nOtřepeš se z chladu a posvítíš před sebe do klenutého tunelu.",
+      "options": [
+        {
+          "text": "Pokračovat dál podél stěny proti proudu",
+          "next": "k1-2b"
+        },
+        {
+          "text": "Vylézt ven, než ti prochladnou nohy",
+          "next": "k0-hotovo"
+        }
+      ]
+    },
+    "k1-2b": {
+      "text": "Kráčíš po úzké kamenné patce hlouběji pod klenuté základy domů. Světelný kužel svítilny kmitá po vlhkých stěnách.\n\nPak se světlo zastaví na něčem, co by v žádné obyčejné stoce být nemělo.\n\nVe zdi, ve výšce prsou dospělého člověka, jsou v masivních pískovcových kvádrech zapuštěná těžká litinová oka. Zrezavělé kruhy tlusté jako palec, volně visící na kovaných trnech.\n\nA kousek pod nimi, přesně v úrovni hladiny, jsou ke zdi přibité zčernalé dubové trámy okované železnými pásy. Jsou ohlazené a na několika místech hluboce odřené.\n\nPřejedeš po nich prsty. V tu chvíli ti to dojde: tohle jsou lodní odrazníky! Ty trámy chránily boky lodí před nárazy do kamenné zdi a masivní kruhy sloužily k uvazování lodních lan!\n\nTady nikdy netekla pouhá odpadní voda. Tudy musely plout lodě!",
+      "options": [
+        {
+          "text": "Posvítit si dál do klenby a pokračovat v průzkumu",
+          "next": "k1-3"
+        },
+        {
+          "text": "Vrátit se s tímto zjištěním nahoru",
+          "next": "k0-hotovo"
+        }
+      ]
+    },
+    "k1-3": {
+      "text": "Postoupíš o dalších dvacet metrů proti proudu. Klenba se mírně rozšiřuje a strop je tu vyšší.\n\nVe stěně nad uvazovacím kruhem narazíš na opracovanou pískovcovou desku zasazenou do cihelného zdiva. Je pokrytá černým mourním prachem a vlhkem.\n\nVytáhneš rukáv a opatrně z desky setřeš nánosy špíny.\n\nPod tvými prsty vystoupí plastický reliéf: **tři vodorovné vlnovky nad sebou** – starý úřední znak říční plavební správy. A pod nimi hluboko vysekaný letopočet a nápis: *PLAVEBNÍ KANÁL MĚSTSKÝ*.\n\nZůstaneš stát jako opařený. Všechno, co ti rodiče celé roky říkali – že je to jen „voda ve sklepě“, starý zákaz, o kterém se nemluví – byla jen polopravda nebo zapomnění.\n\nTohle není náhodná spodní voda ani stoka. **Tohle je starý plavební kanál!** Skutečná vodní cesta, po které kdysi přímo pod Stínadly pluly nákladní čluny!",
+      "options": [
+        {
+          "text": "Postoupit ještě o kus dál k temnému zúžení pod klenbou",
+          "next": "k1-4"
+        }
+      ]
+    },
+    "k1-4": {
+      "text": "Poháněn vzrušením z objevu spěcháš ještě dál proti proudu. Klenba se však náhle zužuje a koryto je zatarasené.\n\nPřed tebou leží hromada zřícených shnilých fošen, starého trámového bednění a těžkých kamenů, které se uvolnily z narušeného stropu. Přes zával voda sice stále pomalu prosakuje, ale člověk se tudy neprotáhne.\n\nZvedneš hlavu. Zezhora z klenby se ozývá hluboké, těžké dunění, které ti rozvibruje kosti v těle. Zvuk ocelových kol na kolejích: přímo nad tebou projíždí tramvaj!\n\nJsi na samé hranici čtvrti – přímo pod Rozdělovací třídou. Kanál pokračuje dál ven ze Stínadel, směrem k velkým Bílým domům a k řece, ale tudy cesta dál nevede.\n\nVytáhneš z kapsy modrou kotelnickou křídu a na suchý pískovcový kvádr vedle závalu nakreslíš pevnou rukou svou první orientační značku: šipku ukazující cestu ven. Modrá barva na šedém kameni jasně svítí.\n\nDnes jsi zjistil to nejdůležitější. Obrátíš se a vydáš se na cestu zpět.",
+      "options": [
+        {
+          "text": "Vrátit se přes dvůr do svého pokoje",
+          "next": "k1-5"
+        }
+      ]
+    },
+    "k1-5": {
+      "grant": [
+        "mapa"
+      ],
+      "text": "Vklouzneš oknem zpátky do svého pokoje. Setřeš si z nohou bláto a na stůl vyrovnáš svítilnu, zbytek modré křídy a klubko provazu.\n\nCítíš obrovské vzrušení. Celé roky jsi kolem té vody chodil a nevěděl. Teď to víš: pod Stínadly leží zapomenutý plavební kanál! A nikdo z dospělých se o něj nestará, nikdo se neptá, odkud přitéká ani kam teče.\n\nVytáhneš ze šuplíku čistý sešit s tvrdými deskami a ořezanou tužku.\n\nUprostřed čisté stránky načrtneš první bod: **Bod 3 – Cizí dvůr Novákových**.\n\nK němu přikreslíš úsek proti proudu, polohu uvazovacích kruhů, desku s vlnovkami a zával pod Rozdělovací třídou.\n\nDáš si pevné předsevzetí: **tuhle vodní cestu celou vypátráš a zmapuješ!** Každý metr, každé stavidlo a každý výtok.\n\nOd této chvíle má každá tvá výprava jasný cíl a plán.",
+      "options": [
+        {
+          "text": "Sednout si k rozkreslené mapě a naplánovat další výpravu",
+          "next": "rozcestnik"
+        }
+      ]
+    },
+    "k1-rozhovor": {
+      "text": "Zadržíš dech a přikrčíš se do stínu za těžkým dubovým sudem na dešťovou vodu. Škvírou mezi prkny kůlny vidíš starého souseda Nováka a muže v tmavém klobouku a dlouhém kabátě s koženou brašnou přes rameno – Vetešníka z Lampářské ulice.\n\nNovák ukazuje na hromadu rezavého železa v rohu dílny:\n„Tohle harampádí táta vytáhl ze dna kanálu, než lodní dopravu před lety zastavili. Zbytečně mi to tu leží a rezaví. Chtěl jsem to naházet do šrotu.“\n\nVetešník vezme do ruky těžký kovaný díl a přejede po něm palcem:\n„Byla by to škoda, pane Novák. Tohle jsou součástky z plavebních komor. Dnešní kluci už ani nevědí, co je to závěsníkova tyč nebo vyvažovací závaží ke stavidlu. Ale v mém krámu v Lampářské se pro takové věci kupec najde. Kdybyste na půdě našel ještě starý plavební řád nebo klíče od vrat, všechno vezmu. Já vím, jakou to má cenu.“\n\nNovák přikývne a plácnou si. Vetešník si přehodí brašnu, rozloučí se a brankou vyjde do ulice.\n\nV duchu si to rychle zopakuješ: **Vetešník v Lampářské ulici sbírá věci ze starého kanálu a ví, jak fungovala zdymadla!**\n\nKdyž je vzduch čistý, vyklouzneš ze stínu.",
+      "options": [
+        {
+          "text": "Tiše seběhnout k dřevěnému schodu u vody",
+          "next": "k1-1b"
+        }
+      ]
+    },
+    "k1-1b": {
+      "text": "Stojíš u dřevěného schodu u vody. Vyndáš z kapsy černou svítilnu a posuneš drátkem spravený vypínač. Žlutý kužel světla prořízne šero a opře se o temnou hladinu.\n\nVoda je hluboká a studená, ale ve světle svítilny už nepůsobí jako bezedná propast. Všímáš si, že na hladině plave několik suchých listů – a všechny se velmi pomalu, téměř neznatelně pohybují zprava doleva. Voda tedy odněkud přitéká.\n\nMísto abys bezhlavě plaval po proudu do neznáma, rozhodneš se postupovat **proti proudu**, směrem k místu, odkud voda do dvora vtéká.\n\nPodél stěny se pod klenbu táhne úzká kamenná hrana. Než na ni vkročíš, vytáhneš z kapsy klubko tenkého provazu z Provaznické. Jeden konec pevně uvážeš k rezavému železnému zábradlí u schodu a volný konec si omotáš kolem zápěstí jako vodicí lano. Kdyby ti bota na kluzkém mechu sjela, provaz tě udrží nad bezednou hloubkou.",
+      "options": [
+        {
+          "text": "Vykročit opatrně po kamenné římse podél stěny proti proudu",
+          "next": "k1-2b"
+        },
+        {
+          "text": "Sestoupit přímo do vody a brodit se při kamenné zdi",
+          "next": "k1-voda"
+        },
+        {
+          "text": "Raději se ještě vrátit na dvůr",
+          "next": "k0-hotovo"
+        }
+      ]
+    }
+  }
+}
