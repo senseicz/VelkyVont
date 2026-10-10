@@ -189,21 +189,21 @@
           "text": "Stavit se ve škole pro baterie"
         },
         {
-          "next": "k0-hotovo",
+          "text": "Vyrazit do cizího dvora",
           "requires": [
             "lampa",
             "baterie",
             "provaz",
             "kreda"
           ],
-          "text": "Zkontrolovat, že máš všechny čtyři věci"
+          "next": "k1-1"
         },
         {
           "next": "pokoj-po-pokusu",
           "text": "Zatím ne. Radši jít domů, ať doma nemají podezření"
         }
       ],
-      "text": "Svítilnu už máš doma. Zbývá sehnat tři věci – provaz, křídu a náhradní baterie.\n\nProvaz musí mít aspoň čtyři metry a musí být pevný a tenký, jaké pletou na Provaznické. Křída musí být modrá, protože její značka vynikne na mokrém šedém kameni i ve světle svítilny – a v Kotlech jí leží na lavici celá hromada pro každého, kdo přijde. Baterie do svítilny v obchodě nekoupíš, ale ve školním kabinetě jich v krabici leží víc, než kolik jich škola kdy spotřebuje.\n\nTo je celý seznam. Není složitý ani dlouhý. Jen jsou ty věci rozeseté po čtvrti – dvě ulice odsud, u Rozdělovací třídy a v kotelně s hučící pecí.\n\nVšechna ta místa znáš. A na dvou z nich už na tebe někdo čeká."
+      "text": "Ve čtvrti sháníš, co na výpravu potřebuješ. Co ještě chybí, uvidíš mezi volbami.\n\nProvaz musí mít aspoň čtyři metry a musí být pevný a tenký, jaké pletou na Provaznické. Křída musí být modrá, protože její značka vynikne na mokrém šedém kameni i ve světle svítilny – a v Kotlech jí leží na lavici celá hromada pro každého, kdo přijde. Baterie do svítilny v obchodě nekoupíš, ale ve školním kabinetě jich v krabici leží víc, než kolik jich škola kdy spotřebuje.\n\nTo je celý seznam. Není složitý ani dlouhý. Jen jsou ty věci rozeseté po čtvrti – dvě ulice odsud, u Rozdělovací třídy a v kotelně s hučící pecí.\n\nVšechna ta místa znáš. A na dvou z nich už na tebe někdo čeká."
     },
     "k0-provaz": {
       "options": [
