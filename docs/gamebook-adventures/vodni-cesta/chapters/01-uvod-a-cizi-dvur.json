@@ -12,13 +12,21 @@
           "lockedIfOwned": [
             "baterie",
             "provaz",
-            "kreda",
-            "zkusenost-bez-vybavy"
+            "kreda"
+          ],
+          "hideAfterAny": [
+            "vstup-po-temu"
           ]
         },
         {
           "text": "Nejprve si obstarat pořádnou výbavu – provaz, křídu a náhradní baterie",
-          "next": "k0-1"
+          "next": "k0-1",
+          "lockedIfAllOwned": [
+            "lampa",
+            "baterie",
+            "provaz",
+            "kreda"
+          ]
         },
         {
           "text": "S kompletní výbavou přelézt plot a vstoupit k vodě",
@@ -40,11 +48,23 @@
       "options": [
         {
           "next": "k0-1",
-          "text": "Přece jen sehnat provaz a podívat se dolů"
+          "text": "Přece jen sehnat provaz a podívat se dolů",
+          "lockedIfAllOwned": [
+            "lampa",
+            "baterie",
+            "provaz",
+            "kreda"
+          ]
         },
         {
           "next": "k0-1",
-          "text": "Začít až po vyučování, kdy můžeš sehnat i baterie"
+          "text": "Začít až po vyučování, kdy můžeš sehnat i baterie",
+          "lockedIfAllOwned": [
+            "lampa",
+            "baterie",
+            "provaz",
+            "kreda"
+          ]
         },
         {
           "next": "nic-2",
@@ -98,9 +118,6 @@
           "text": "Přelézt plot zpátky k vám domů a ještě si to v pokoji rozmyslet",
           "next": "pokoj-po-pokusu"
         }
-      ],
-      "grant": [
-        "zkusenost-bez-vybavy"
       ]
     },
     "rozcestnik": {
@@ -130,47 +147,6 @@
             "ema"
           ],
           "next": "k4-1"
-        },
-        {
-          "text": "Ke splavu na okraji města, kde voda opouští Stínadla",
-          "requires": [
-            "lampa"
-          ],
-          "showAfterAny": [
-            "k1-4"
-          ],
-          "next": "k2-1"
-        },
-        {
-          "text": "Do Kotlů k dolnímu zdymadlu a staré slévárně",
-          "requires": [
-            "lampa"
-          ],
-          "showAfterAny": [
-            "k2-6",
-            "k4-4"
-          ],
-          "next": "k5-1"
-        },
-        {
-          "text": "Do zatopeného doku Staré slévárny v Kotlech",
-          "requires": [
-            "vetechnik-balicek"
-          ],
-          "showAfterAny": [
-            "k4-4"
-          ],
-          "next": "k6-1"
-        },
-        {
-          "text": "Vzhůru proti proudu k hornímu zdymadlu za Rozdělovací třídou",
-          "requires": [
-            "lampa"
-          ],
-          "showAfterAny": [
-            "k5-6"
-          ],
-          "next": "k8-1"
         },
         {
           "text": "Na nábřeží k místu, kde voda vtéká do podzemí z řeky",
@@ -496,7 +472,13 @@
       "options": [
         {
           "text": "Vyrazit do čtvrti sehnat provaz, křídu a náhradní baterie",
-          "next": "k0-1"
+          "next": "k0-1",
+          "lockedIfAllOwned": [
+            "lampa",
+            "baterie",
+            "provaz",
+            "kreda"
+          ]
         },
         {
           "text": "S kompletní výbavou přelézt plot a vstoupit k vodě",

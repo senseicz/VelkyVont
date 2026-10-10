@@ -64,7 +64,7 @@ Zásadním designovým pravidlem je, že **každý dokončený úsek končí nov
 | **Bod 4** | **Stará náplavka (Dvůr Sedmi klik)** | Dřevěná vrátka a žulové schody do vody | Po zdolání Úseku 3 (soutka bez říms). Volba se v rozcestníku zatím neobjeví, dokud nebude napsán Úsek 4. |
 | **Bod 5** | **Barvířské náměstíčko** | Litinový poklop vedle vyschlé studny | Po vyřešení soutoku v Cechovní síni (Úsek 4). |
 | **Bod 6** | **Stará slévárna v Kotlech** | Železný žebřík z uhelné rampy do zatopeného doku | Po zprovoznění Dolního zdymadla (Úsek 5). |
-| **Bod 7** | **Výtokový splav** | Volně přístupná louka a břeh u hraničního potoka | Průzkum okraje města (K2) – uzavírá dolní směr. |
+| **Bod 7** | **Výtokový splav** | Volně přístupná louka a břeh u hraničního potoka | Po zdolání Úseku 6 (za slévárnou). Zatím skryto, dokud není napsán Úsek 6. |
 
 ---
 
@@ -125,7 +125,7 @@ graph TD
 - Zkusí nahlédnout do klenutého ústí tunelu.
 - **Okamžité vystřízlivění:** Voda je hluboká, kamenná římsa po dvou metrech končí, panuje absolutní černá tma, ze stropu kape a každé šplouchnutí dělá rámus. Bez světla, provazu a značkování hrozí pád, utopení svítilny a prozrazení.
 - **Výsledek:** Jarek se dobrovolně vrací do pokoje (`pokoj-po-pokusu`). Pochopí, že do podzemí smí vstoupit až s kompletní výbavou.
-- **Mechanické zamezení opakování:** Po absolvování tohoto pokusu se v pokoji již volba „jít bez výbavy“ nenabízí (hráč má na výběr pouze obstarat výbavu v K0, jít s výbavou, nebo to vzdát). Pokus zanechá znalostní položku `zkusenost-bez-vybavy` a úvodní volba má `lockedIfOwned: ["baterie", "provaz", "kreda", "zkusenost-bez-vybavy"]`, takže se skryje i tehdy, když hráč výbavu zatím nemá. Schéma nemá podmínku „už jsem to zkusil“, proto je to řešeno položkou.
+- **Mechanické zamezení opakování:** Po absolvování tohoto pokusu se v pokoji již volba „jít bez výbavy“ nenabízí (hráč má na výběr pouze obstarat výbavu v K0, jít s výbavou, nebo to vzdát). Volba v úvodním rozcestníku má `hideAfterAny: ["vstup-po-temu"]`, takže po pokusu zmizí i tehdy, když hráč výbavu zatím nemá. Obstarávací volby v rozcestníku, pokoji a uzlu `nic-1` mají `lockedIfAllOwned: ["lampa", "baterie", "provaz", "kreda"]`, takže zmizí až s kompletní výbavou.
 
 ### Fáze 2: K0 – Obstarání výbavy
 Hráč musí zkompletovat 4 klíčové předměty z různých částí města přes lidi a malé protislužby:
@@ -242,7 +242,7 @@ Aby kapitoly nebyly jen jednosměrným tunelem, klíčové uzly nabízejí volbu
 
 ---
 
-## 6. Inventář a poznatky (16 položek)
+## 6. Inventář a poznatky (15 položek)
 
 | Klíč | Název | Typ | Účel a význam |
 |---|---|---|---|
@@ -253,7 +253,6 @@ Aby kapitoly nebyly jen jednosměrným tunelem, klíčové uzly nabízejí volbu
 | `mapa` | Rozkreslená mapa | Poznatek | Jarkův rostoucí plán kanálu; hlavní ukazatel postupu. |
 | `pruchody` | Utajené průchody | Poznatek | Znalost sklepních obchvatů a suchých spojek (od Emy). |
 | `doklady` | Důkazy o trase | Předmět | Opis nápisu z kamene, vzorek říčního písku a nákres značek. |
-| `zkusenost-bez-vybavy` | Zkušenost z první noci | Zkušenost | Vklouznutí k vodě bez výbavy a návrat. Bez světla a provazu tam nejde; skrývá volbu „jít bez výbavy“ v úvodním rozcestníku. |
 | `denik-zavesnika` | Závěsníkův deník | Předmět | Staré záznamy manipulací se zdymadly a stavu vody. |
 | `kredova-znacka` | Cizí modrá značka | Poznatek | Zjištění, že někdo tudy procházel už dříve. |
 | `vetechnik-balicek` | Balíček od Vetešníka | Předmět | Závěsníkova tyč se závažím a lístek s pořadím kroků. |
@@ -307,3 +306,13 @@ Pro GamebookRuntime je dobrodružství rozděleno do číslovaných kapitol v ad
 | `chapters/06-horni-zdymadlo-a-vtok.json` | 18 | Úsek proti proudu: K8 Horní zdymadlo (protipovodňová tlaková vrata) a K9 Vtok u řeky (zapomenutá vpusť pod nábřežím). |
 | `chapters/07-bilance-a-konce.json` | 6 | Závěrečný uzel `bilance` u stolu nad mapou a 5 finálních rozuzlení příběhu. |
 
+## 9. Odložené volby rozcestníku
+
+Tyto volby jsou z rozcestníku dočasně odebrané, protože jejich předpoklady (navazující úseky) ještě nejsou napsané. Uzly zůstávají v souborech kapitol, takže je lze jednoduše vrátit.
+
+| Volba v rozcestníku | Uzel | Vrátit až po |
+|---|---|---|
+| Ke splavu na okraji města, kde voda opouští Stínadla | `k2-1` | Úsek 6 (dolní konec za slévárnou, Bod 7) |
+| Do Kotlů k dolnímu zdymadlu a staré slévárně | `k5-1` | Úsek 4 (Cechovní síň, Bod 5) |
+| Do zatopeného doku Staré slévárny v Kotlech | `k6-1` | Úsek 5 (dolní zdymadlo, Bod 6) |
+| Vzhůru proti proudu k hornímu zdymadlu | `k8-1` | Úsek 2 (odstranění závalu pod Rozdělovací třídou) |
