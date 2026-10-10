@@ -11,7 +11,7 @@ Tento dokument slouží jako hlavní architektonický a narativní design dokume
 - **Původ a bydliště:** Narodil se a žije ve Stínadlech. V jeho ulici vyrůstá málo dětí, proto dochází do školy za Rozdělovací třídu do novější zástavby. Patří ke generaci, která zažila odchod starších Vontů a přerušení kontinuity vědění.
 - **Dovednosti a limity:** Chodí na plavecké hodiny a umí plavat. Z plovárny však zná jen klidnou, teplou a osvětlenou vodu – ne temný, ledový, stísněný kanál s kluzkými kamennými stěnami a neznámým dnem.
 - **Cíl hrdiny:** Nechce se stát Velkým Vontem ani spasit Stínadla. Má klukovskou touhu a posedlost **zmapovat věc, na kterou se zapomnělo** – zjistit, kudy voda pod městem teče, kde se větví a kam odtéká.
-- **Překážky a obavy:** Rodiče berou kanál jako běžnou součást života a nezakazují mu přibližovat se k vodě. Varují před skutečným nebezpečím (kluzké schody, hluboká studená voda, kanál se nepoužívá a nikdo tam nehlídá). Otec navíc pracuje v Kotlech na směny. Pokud se něco stane, budou dohlížet přísněji a sešit s mapou ti mohou zabavit. Tma, chlad, strach z výšek a stísněných prostor jsou reálné limity.
+- **Překážky a obavy:** Rodiče berou kanál jako běžnou součást života a nezakazují mu přibližovat se k vodě. Varují před skutečným nebezpečím (kluzké schody, hluboká studená voda, nikdo tam nehlídá). Otec navíc pracuje v Kotlech na směny. Pokud se něco stane, budou dohlížet přísněji a sešit s mapou ti mohou zabavit. Tma, chlad, strach z výšek a stísněných prostor jsou reálné limity.
 
 ### Mantinely příběhu
 - Žádná magie, nadpřirozeno ani fantastické stroje.

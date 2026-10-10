@@ -124,7 +124,7 @@
           "next": "k3-1"
         },
         {
-          "text": "Zajít do Lampářské ulice za Vetešníkem – v cizím dvoře ses doslechl, že vykupuje věci ze staré plavby",
+          "text": "Zajít do Lampářské ulice za Vetešníkem – v cizím dvoře ses doslechl, že vykupuje staré železo a papíry",
           "showAfterAny": [
             "k1-rozhovor",
             "ema"
@@ -466,7 +466,7 @@
       ]
     },
     "k1-rozhovor": {
-      "text": "Zadržíš dech a přikrčíš se do stínu za těžkým dubovým sudem na dešťovou vodu. Škvírou mezi prkny kůlny vidíš starého souseda Nováka a muže v tmavém klobouku a dlouhém kabátě s koženou brašnou přes rameno – Vetešníka z Lampářské ulice.\n\nNovák ukazuje na hromadu rezavého železa v rohu dílny:\n„Tohle harampádí táta vytáhl ze dna kanálu, než lodní dopravu před lety zastavili. Zbytečně mi to tu leží a rezaví. Chtěl jsem to naházet do šrotu.“\n\nVetešník vezme do ruky těžký kovaný díl a přejede po něm palcem:\n„Byla by to škoda, pane Novák. Tohle jsou součástky z plavebních komor. Dnešní kluci už ani nevědí, co je to závěsníkova tyč nebo vyvažovací závaží ke stavidlu. Ale v mém krámu v Lampářské se pro takové věci kupec najde. Kdybyste na půdě našel ještě starý plavební řád nebo klíče od vrat, všechno vezmu. Já vím, jakou to má cenu.“\n\nNovák přikývne a plácnou si. Vetešník si přehodí brašnu, rozloučí se a brankou vyjde do ulice.\n\nV duchu si to rychle zopakuješ: **Vetešník v Lampářské ulici sbírá věci ze starého kanálu a ví, jak fungovala zdymadla!**\n\nKdyž je vzduch čistý, vyklouzneš ze stínu.",
+      "text": "Zadržíš dech a přikrčíš se do stínu za těžkým dubovým sudem na dešťovou vodu. Škvírou mezi prkny kůlny vidíš starého souseda Nováka a muže v tmavém klobouku a dlouhém kabátě s koženou brašnou přes rameno – Vetešníka z Lampářské ulice.\n\nNovák ukazuje na hromadu rezavého železa v rohu dílny:\n„Tohle harampádí táta vytáhl z vody pod domem, když se tu ještě něco dělalo. Zbytečně mi to tu leží a rezaví. Chtěl jsem to naházet do šrotu.“\n\nVetešník vezme do ruky těžký kovaný díl a přejede po něm palcem:\n„Byla by to škoda, pane Novák. Tohle jsou kusy nějakého mechanismu, z kterého se dnes sotva kdo vyzná. Dnešní kluci ani nevědí, k čemu to kdysi sloužilo. Ale v mém krámu v Lampářské se pro takové věci kupec najde. Kdybyste na půdě našel ještě staré papíry nebo klíče, všechno vezmu. Já vím, jakou to má cenu.“\n\nNovák přikývne a plácnou si. Vetešník si přehodí brašnu, rozloučí se a brankou vyjde do ulice.\n\nV duchu si to rychle zopakuješ: **Vetešník v Lampářské ulici vykupuje staré železo a papíry a sám ví, k čemu kdysi sloužily!**\n\nKdyž je vzduch čistý, vyklouzneš ze stínu.",
       "options": [
         {
           "text": "Tiše seběhnout k dřevěnému schodu u vody",
