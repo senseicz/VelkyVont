@@ -138,7 +138,10 @@
           "showAfterAny": [
             "k1-4"
           ],
-          "next": "k3-1"
+          "next": "k3-1",
+          "lockedIfOwned": [
+            "svědctvi-lukase"
+          ]
         },
         {
           "text": "Zajít do Lampářské ulice za Vetešníkem – v cizím dvoře ses doslechl, že vykupuje staré železo a papíry",
@@ -146,7 +149,10 @@
             "k1-rozhovor",
             "ema"
           ],
-          "next": "k4-1"
+          "next": "k4-1",
+          "lockedIfOwned": [
+            "vetechnik-balicek"
+          ]
         },
         {
           "text": "Na nábřeží k místu, kde voda vtéká do podzemí z řeky",

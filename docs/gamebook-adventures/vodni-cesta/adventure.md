@@ -316,3 +316,39 @@ Tyto volby jsou z rozcestníku dočasně odebrané, protože jejich předpoklady
 | Do Kotlů k dolnímu zdymadlu a staré slévárně | `k5-1` | Úsek 4 (Cechovní síň, Bod 5) |
 | Do zatopeného doku Staré slévárny v Kotlech | `k6-1` | Úsek 5 (dolní zdymadlo, Bod 6) |
 | Vzhůru proti proudu k hornímu zdymadlu | `k8-1` | Úsek 2 (odstranění závalu pod Rozdělovací třídou) |
+
+## 10. Seznam k dořešení
+
+Průběžný seznam otevřených věcí, seřazený podle druhu. Hotové položky odškrtávat.
+
+### A. Rozhodnutí
+- [ ] **Balíček od Vetešníka při odmítnutí práce** (`k4-2c` → `k4-4`). Dnes se uděluje i při odmítnutí, což nedává smysl. Návrh: uděluje se jen při přijetí; odmítnutí skončí nápovědou a volba Vetešníka se skryje přes `hideAfterAny`.
+- [ ] **Půjčka balíčku.** Inventář říká „půjčí na tři dny“, ale text `k4-4` to nezmiňuje. Není jasné, zda se bude vracet.
+- [ ] **Nápovědy k dolnímu zdymadlu** v balíčku a v `k4-2c`: zkratka pro K5, nebo jen existence komory?
+- [ ] **Muž v tmavém kabátě** už v `k4-3b`: je to příliš brzy?
+- [ ] **Emino svědectví** se uděluje hned v `ema`. Původně až při společném zákazu, který jsme zrušili. Kdy se má udělit?
+- [ ] **Úsek 3 bez následků:** pád z pramice nic nestojí. Zvážit trvalý dopad (například `remove: baterie`).
+- [ ] **Hra se po Úseku 3 zasekne:** smyčka škola ↔ Vetešník, `bilance` až po `k9-4`. Možnosti: odemknout `bilance` už po `u3-navrat` s provizorními konci, nebo počkat na Úsek 4.
+- [ ] **Osiřelé uzly** v `04`: 82 nedosažitelných uzlů celkem, z toho 27 ze starého konceptu. Archivovat mimo `chapters/`, nebo smazat.
+- [ ] **Konec `zakaz-konec`** je v § 7, ale v dosažitelné hře se nedá získat. Zrušit?
+
+### B. Texty
+- [x] **Uzel `k4-1`:** přepsán (zápach nahrazen chladem a tichem).
+- [ ] **Vstup přes Emu:** volba v rozcestníku říká „v cizím dvoře ses doslechl“, ale Vetešník se otevře i po `ema`. Doplnit větu do `ema`, nebo text volby zobecnit.
+- [ ] **„Teplárna“** v `k4-2` a v lístku `k4-4` → „slévárna v Kotlech“.
+- [ ] **„Pod třetím mlýnem“** (`k4-2c`) neodpovídá topologii. Upravit podle Bodu 5 (poklop u studny na Barvířském náměstíčku).
+- [ ] **Metakomentář** v `k4-2c` („Bez Vetešníka by ses o komoře nejspíš nedozvěděl“): odstranit.
+- [ ] **Úseky 2, 4, 5 a 6** nejsou napsané. Skryté volby se vrátí podle § 9.
+
+### C. Struktura a mechanika
+- [ ] **Položky bez zdroje** v dosažitelné části: `splav`, `denik-zavesnika`, `kredova-znacka`, `vysoky`, `doklady`. Důsledek: `konec-castecny` (vyžaduje `doklady`) a `konec-cela-trasa` (vyžaduje `splav`) jsou prakticky nedosažitelné. Doplnit zdroje v dosud nenapsaných úsecích, nebo položky odebrat.
+- [ ] **Návrat k Vetešníkovi** po `k4-4`: ověřit, že vede jen přes volbu v `k4-4` (`k4-4b`).
+- [ ] **Skryté volby z rozcestníku** (§ 9) vrátit až s napsáním příslušných úseků.
+
+### D. Dokumentace a nástroje
+- [ ] **Authoring skill:** v runtime (`.opencode/skill/adventure-builder/SKILL.md`) i ve VelkyVont (`.agents/skills/adventure-builder/SKILL.md`) doplnit `lockedIfAllOwned`, `hideAfterAny` a pravidlo o neznámých polích.
+- [ ] **Runtime:** větev `feature/hide-when-done` (commit 26d66d5) zatím není sloučená do `main`. Nasadit runtime dřív než adventuru.
+- [ ] **Runtime nemá testy.** Logika skrývání a validace je ověřená jen ad hoc.
+- [ ] **Mermaid schéma** v § 3 neodpovídá současnému rozcestníku. Ověřit také počty uzlů v § 8.
+- [ ] **Commit:** změny ve VelkyVont jsou nezapsané. Udělat checkpoint.
+- [ ] **Průchod v prohlížeči:** Běžný chlapec, pokus bez výbavy, výbava a dvůr, Lukáš, Vetešník, Úsek 3 s Emou.
