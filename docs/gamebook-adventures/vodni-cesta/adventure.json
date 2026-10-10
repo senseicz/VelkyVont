@@ -102,6 +102,10 @@
       "doklady": {
         "name": "Důkazy o trase",
         "description": "Opis nápisu z hraničního kamene, vzorek říčního písku, náčrtek vlnovek. Věci, které můžeš položit na stůl jako nezvratný důkaz."
+      },
+      "zkusenost-bez-vybavy": {
+        "name": "Zkušenost z první noci",
+        "description": "Vklouzl jsi k vodě bez výbavy a vrátil ses dřív, než se stalo něco horšího. Bez světla a provazu tam nemáš co dělat."
       }
     }
   },

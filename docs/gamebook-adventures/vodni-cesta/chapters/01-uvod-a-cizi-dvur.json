@@ -1,7 +1,7 @@
 {
   "nodes": {
     "rozcestnik-start": {
-      "text": "Stojíš v pokoji u okna. Do večera zbývá ještě pár hodin. Na druhé straně ulice leží za dřevěným plotem cizí dvůr Novákových a v něm tichá, hluboká hladina.\n\nMáš v zásuvce starou černou svítilnu se spraveným vypínačem a v hlavě spoustu nezodpovězených otázek. Z okna vidíš dřevěný schod u vody a kamennou římsu mizející pod temnou klenbou.\n\nMůžeš tam vklouznout hned teď, tak jak jsi. Nebo si nejprve sehnat pořádnou výbavu, abys v podzemí neriskoval krk. A nebo se na celou věc vykašlat a jít s kluky ven.",
+      "text": "Stojíš v pokoji u okna. Do večera zbývá ještě pár hodin. Na druhé straně ulice leží za dřevěným plotem cizí dvůr Novákových a v něm tichá, hluboká hladina.\n\nMáš v zásuvce starou černou svítilnu se spraveným vypínačem a v hlavě spoustu nezodpovězených otázek. Z okna vidíš dřevěný schod u vody a kamennou římsu mizející pod temnou klenbou.\n\nOtázka zní: s čím se tam vydáš? Nebo se na celou věc vykašlat a jít s kluky ven.",
       "grant": [
         "lampa"
       ],
@@ -12,7 +12,8 @@
           "lockedIfOwned": [
             "baterie",
             "provaz",
-            "kreda"
+            "kreda",
+            "zkusenost-bez-vybavy"
           ]
         },
         {
@@ -97,6 +98,9 @@
           "text": "Přelézt plot zpátky k vám domů a ještě si to v pokoji rozmyslet",
           "next": "pokoj-po-pokusu"
         }
+      ],
+      "grant": [
+        "zkusenost-bez-vybavy"
       ]
     },
     "rozcestnik": {
@@ -111,13 +115,6 @@
           "lockedIfOwned": [
             "svědctvi-emy"
           ]
-        },
-        {
-          "text": "Bod 4 (Stará náplavka u Dvora Sedmi klik) – po proudu do Cechovní síně",
-          "showAfterAny": [
-            "u3-navrat"
-          ],
-          "next": "sedm-klik"
         },
         {
           "text": "Zajít do školy za Lukášem – vyptat se na řeku a přehradu za Rozdělovací třídou",
@@ -408,7 +405,7 @@
         },
         {
           "text": "Raději se ještě vrátit přes plot zpátky",
-          "next": "k0-hotovo"
+          "next": "k1-zpet-na-dvur"
         }
       ]
     },
@@ -421,7 +418,7 @@
         },
         {
           "text": "Vylézt ven, než ti prochladnou nohy",
-          "next": "k0-hotovo"
+          "next": "k1-zpet-na-dvur"
         }
       ]
     },
@@ -434,7 +431,7 @@
         },
         {
           "text": "Vrátit se s tímto zjištěním nahoru",
-          "next": "k0-hotovo"
+          "next": "k1-zpet-na-dvur"
         }
       ]
     },
@@ -490,7 +487,7 @@
         },
         {
           "text": "Raději se ještě vrátit na dvůr",
-          "next": "k0-hotovo"
+          "next": "k1-zpet-na-dvur"
         }
       ]
     },
@@ -514,6 +511,15 @@
         {
           "text": "Nechat to být. Ať si voda teče, kudy chce",
           "next": "nic-1"
+        }
+      ]
+    },
+    "k1-zpet-na-dvur": {
+      "text": "Vracíš se na dvůr Novákových. Na šatech máš bláto nebo vlhko od kamenné zdi, podle toho, kam až jsi zalezl.\n\nNa dvoře je ticho. Prádlo se pohupuje ve větru a v kůlně už nikdo nemluví.\n\nPřelezeš dřevěný plot a vrátíš se ke svému domu.",
+      "options": [
+        {
+          "text": "Vrátit se do pokoje a rozmyslet si, co dál",
+          "next": "k0-hotovo"
         }
       ]
     }

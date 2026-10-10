@@ -61,7 +61,7 @@ Zásadním designovým pravidlem je, že **každý dokončený úsek končí nov
 | **Bod 1** | **Vtok u řeky** | Sestup z nábřeží pod převislé vrby | Závěr pátrání proti proudu (K9). |
 | **Bod 2** | **Šachta u Rozdělovací** | Servisní průlez u tramvajové trati | Po překonání Horního zdymadla (K8). |
 | **Bod 3** | **Cizí dvůr Novákových** | Přelezení plotu vedle Jarkova domu | K dispozici od začátku hry (K1). |
-| **Bod 4** | **Stará náplavka (Dvůr Sedmi klik)** | Dřevěná vrátka a žulové schody do vody | Po zdolání Úseku 3 (soutka bez říms). |
+| **Bod 4** | **Stará náplavka (Dvůr Sedmi klik)** | Dřevěná vrátka a žulové schody do vody | Po zdolání Úseku 3 (soutka bez říms). Volba se v rozcestníku zatím neobjeví, dokud nebude napsán Úsek 4. |
 | **Bod 5** | **Barvířské náměstíčko** | Litinový poklop vedle vyschlé studny | Po vyřešení soutoku v Cechovní síni (Úsek 4). |
 | **Bod 6** | **Stará slévárna v Kotlech** | Železný žebřík z uhelné rampy do zatopeného doku | Po zprovoznění Dolního zdymadla (Úsek 5). |
 | **Bod 7** | **Výtokový splav** | Volně přístupná louka a břeh u hraničního potoka | Průzkum okraje města (K2) – uzavírá dolní směr. |
@@ -125,7 +125,7 @@ graph TD
 - Zkusí nahlédnout do klenutého ústí tunelu.
 - **Okamžité vystřízlivění:** Voda je hluboká, kamenná římsa po dvou metrech končí, panuje absolutní černá tma, ze stropu kape a každé šplouchnutí dělá rámus. Bez světla, provazu a značkování hrozí pád, utopení svítilny a prozrazení.
 - **Výsledek:** Jarek se dobrovolně vrací do pokoje (`pokoj-po-pokusu`). Pochopí, že do podzemí smí vstoupit až s kompletní výbavou.
-- **Mechanické zamezení opakování:** Po absolvování tohoto pokusu se v pokoji již volba „jít bez výbavy“ nenabízí (hráč má na výběr pouze obstarat výbavu v K0, jít s výbavou, nebo to vzdát). Navíc má volba v úvodním rozcestníku `lockedIfOwned: ["baterie", "provaz", "kreda"]`, takže po získání jakékoliv části výbavy se volba automaticky skryje.
+- **Mechanické zamezení opakování:** Po absolvování tohoto pokusu se v pokoji již volba „jít bez výbavy“ nenabízí (hráč má na výběr pouze obstarat výbavu v K0, jít s výbavou, nebo to vzdát). Pokus zanechá znalostní položku `zkusenost-bez-vybavy` a úvodní volba má `lockedIfOwned: ["baterie", "provaz", "kreda", "zkusenost-bez-vybavy"]`, takže se skryje i tehdy, když hráč výbavu zatím nemá. Schéma nemá podmínku „už jsem to zkusil“, proto je to řešeno položkou.
 
 ### Fáze 2: K0 – Obstarání výbavy
 Hráč musí zkompletovat 4 klíčové předměty z různých částí města přes lidi a malé protislužby:
@@ -167,7 +167,7 @@ Hráč musí zkompletovat 4 klíčové předměty z různých částí města p�
     2. *Traverz s provazem podél kramlí:* Šplhání podél kolmé stěny s využitím starých kovaných kramlí a zajištěním provazem. Fyzicky náročné na sílu paží a odvahu nad hloubkou.
   - *Neúspěch / pád:* Znamená okamžité promáčení, ledovou vodu a zoufalý boj o záchranu svítilny a mapy při doplavání ke schodům.
 - **Cíl výpravy:** Nález šesti žulových schodů stoupajících z vody na **Starou náplavku (Bod 4)** u Dvora Sedmi klik.
-- **Odemčení:** Jarek zevnitř uvolní závoru dřevěných vrátek a setká se s Emou „Špunt“. Ema mu ukáže tajnou západku vrátek a otevře mu bezpečný průchod do stínadelských ulic. V rozcestníku přibývá **Bod 4: Stará náplavka**.
+- **Odemčení:** Jarek zevnitř uvolní závoru dřevěných vrátek a setká se s Emou „Špunt“. Ema mu ukáže tajnou západku vrátek a otevře mu bezpečný průchod do stínadelských ulic. Bod 4 je zakreslen na mapě, ale v rozcestníku se zatím neobjeví, dokud nebude napsán Úsek 4.
 
 #### Úsek 4: Ze Staré náplavky do Cechovní síně (Soutok pod Barvířským náměstím)
 - **Vstup:** Bod 4 (Stará náplavka u Dvora Sedmi klik – žádné přelézání plotu u Novákových!).
@@ -242,7 +242,7 @@ Aby kapitoly nebyly jen jednosměrným tunelem, klíčové uzly nabízejí volbu
 
 ---
 
-## 6. Inventář a poznatky (15 položek)
+## 6. Inventář a poznatky (16 položek)
 
 | Klíč | Název | Typ | Účel a význam |
 |---|---|---|---|
@@ -253,6 +253,7 @@ Aby kapitoly nebyly jen jednosměrným tunelem, klíčové uzly nabízejí volbu
 | `mapa` | Rozkreslená mapa | Poznatek | Jarkův rostoucí plán kanálu; hlavní ukazatel postupu. |
 | `pruchody` | Utajené průchody | Poznatek | Znalost sklepních obchvatů a suchých spojek (od Emy). |
 | `doklady` | Důkazy o trase | Předmět | Opis nápisu z kamene, vzorek říčního písku a nákres značek. |
+| `zkusenost-bez-vybavy` | Zkušenost z první noci | Zkušenost | Vklouznutí k vodě bez výbavy a návrat. Bez světla a provazu tam nejde; skrývá volbu „jít bez výbavy“ v úvodním rozcestníku. |
 | `denik-zavesnika` | Závěsníkův deník | Předmět | Staré záznamy manipulací se zdymadly a stavu vody. |
 | `kredova-znacka` | Cizí modrá značka | Poznatek | Zjištění, že někdo tudy procházel už dříve. |
 | `vetechnik-balicek` | Balíček od Vetešníka | Předmět | Závěsníkova tyč se závažím a lístek s pořadím kroků. |
@@ -298,10 +299,10 @@ Pro GamebookRuntime je dobrodružství rozděleno do číslovaných kapitol v ad
 
 | Soubor | Počet uzlů | Obsah a herní význam |
 |---|---|---|
-| `chapters/01-uvod-a-cizi-dvur.json` | 29 | Prolog, Běžný chlapec, K0 Výbava (Kotly, Provaznická, škola), K1 Cizí dvůr & objev plavebního kanálu, Večerní rozcestník. |
+| `chapters/01-uvod-a-cizi-dvur.json` | 31 | Prolog, Běžný chlapec, K0 Výbava (Kotly, Provaznická, škola), K1 Cizí dvůr & objev plavebního kanálu, Večerní rozcestník. |
 | `chapters/02-splav-a-hranice.json` | 8 | Průzkum výtokového splavu na okraji města a hraničního potoka v polích (konec dolního toku). |
 | `chapters/03-povrch-a-spojenci.json` | 12 | Povrchové linky: K3 Škola (Lukáš) a K4 Lampářská ulice (obchod a informace u Vetešníka). |
-| `chapters/04-stinadla-podzemni-tok.json` | 29 | Stínadelské podzemí: Soutka bez říms, Stará náplavka u Dvora Sedmi klik (Ema), Barvířské náměstíčko, Cechovní síň. |
+| `chapters/04-stinadla-podzemni-tok.json` | 41 | Stínadelské podzemí: Soutka bez říms, pramice, Stará náplavka u Dvora Sedmi klik (Ema), Barvířské náměstíčko, Cechovní síň (zatím nenapsáno). Osiřelé uzly původního konceptu (prulom, krysy, soutok-…, 27 uzlů) čekají na rozhodnutí o archivaci. |
 | `chapters/05-kotly-a-slevarna.json` | 37 | Průmyslový úsek: K5 Dolní zdymadlo (hádanka vyrovnání hladin), dok Staré slévárny v Kotlech, setkání s mužem v kabátě. |
 | `chapters/06-horni-zdymadlo-a-vtok.json` | 18 | Úsek proti proudu: K8 Horní zdymadlo (protipovodňová tlaková vrata) a K9 Vtok u řeky (zapomenutá vpusť pod nábřežím). |
 | `chapters/07-bilance-a-konce.json` | 6 | Závěrečný uzel `bilance` u stolu nad mapou a 5 finálních rozuzlení příběhu. |
